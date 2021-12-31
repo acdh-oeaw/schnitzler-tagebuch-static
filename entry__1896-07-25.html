@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -67,6 +68,99 @@
                         Im Tivoli.― Russinnen. ― Die unbeleuchteten Straßen;― sehr seltsam.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_5ff826b5b16c6ba9227e2018b980f68a.html"></a></li>
+                                 <li><a href="place_242142650aae599b5a8db4bad3a75ba7.html"></a></li>
+                                 <li><a href="place_dfdae05f91568e589b701ebd6fb50d61.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([55.67346, 12.59765]).addTo(mymap)
+                                                .bindPopup("<b>Christiania</b>").openPopup();
+                                            
+                                                L.marker([59.96107, 10.66824]).addTo(mymap)
+                                                .bindPopup("<b>Holmenkollen</b>").openPopup();
+                                            
+                                                L.marker([59.97795, 10.67931]).addTo(mymap)
+                                                .bindPopup("<b>FrognersaeterFrognerseteren</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13336.html">
+                                 Baade
+                                 Knud Andreassen
+                                 </a></li>
+                           <li><a href="person_13913.html">
+                                 Brahm
+                                 Otto
+                                 </a></li>
+                           <li><a href="person_14065.html">
+                                 Burckhard
+                                 Max Eugen
+                                 </a></li>
+                           <li><a href="person_15661.html">
+                                 Grillparzer
+                                 Franz
+                                 </a></li>
+                           <li><a href="person_16432.html">
+                                 Ibsen
+                                 Henrik
+                                 </a></li>
+                           <li><a href="person_18727.html">
+                                 Petersen
+                                 Eilif
+                                 </a></li>
+                           <li><a href="person_19115.html">
+                                 Reich
+                                 Emil
+                                 </a></li>
+                           <li><a href="person_20128.html">
+                                 Sinding
+                                 Stephan Abel
+                                 </a></li>
+                           <li><a href="person_19032.html">
+                                 Raffaelli
+                                 Jean François
+                                 </a></li>
+                           <li><a href="person_20862.html">
+                                 Ulfsten
+                                 Nicolai Martin
+                                 </a></li>
+                           <li><a href="person_14727.html">
+                                 Ellstätter
+                                 Otto David
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_29917.html">Liebelei</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13336">
@@ -276,7 +370,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2623186/">http://www.geonames.org/2623186/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 55.67346 12.59765
+                        </ul><small>Koordinaten:</small> 55.67346 12.59765
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -297,7 +391,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3152136/">http://www.geonames.org/3152136/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 59.96107 10.66824
+                        </ul><small>Koordinaten:</small> 59.96107 10.66824
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -321,7 +415,7 @@
                            <li>Frognerseteren</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3156467/">http://www.geonames.org/3156467/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 59.97795 10.67931
+                        </ul><small>Koordinaten:</small> 59.97795 10.67931
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

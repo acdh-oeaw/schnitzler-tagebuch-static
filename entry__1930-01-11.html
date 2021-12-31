@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -81,6 +82,119 @@
                      <p id="p__14">mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19832">O.</a></strong>, Weinstube Lanzsch wo <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19822">Heini</a></strong> und <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17958">Paul M.</a></strong>―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_ee1611b61f5688e70c12b40684dbb395.html"></a></li>
+                                 <li><a href="place_e20d37a5d7fcc4c35be6fc18a8e71bfa.html"></a></li>
+                                 <li><a href="place_803c75d03daa4f9fa41718551d1f79b8.html"></a></li>
+                                 <li><a href="place_46bebbb34a0464036f16a73ab72e5026.html"></a></li>
+                                 <li><a href="place_db4a42a192c3c97a2871005a8ccd6439.html"></a></li>
+                                 <li><a href="place_2e6507f70a9cc26fb50f5fd82a83c7ef.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([52.52437, 13.41053]).addTo(mymap)
+                                                .bindPopup("<b>Berlin</b>").openPopup();
+                                            
+                                                L.marker([48.85341, 2.3488]).addTo(mymap)
+                                                .bindPopup("<b>Paris</b>").openPopup();
+                                            
+                                                L.marker([48.209920, 16.370061]).addTo(mymap)
+                                                .bindPopup("<b>Milchgasse</b>").openPopup();
+                                            
+                                                L.marker([52.51784, 13.38736]).addTo(mymap)
+                                                .bindPopup("<b>unter den LindenUnter den Linden</b>").openPopup();
+                                            
+                                                L.marker([52.48338, 13.26586]).addTo(mymap)
+                                                .bindPopup("<b>Grunewald</b>").openPopup();
+                                            
+                                                L.marker([-30, -71]).addTo(mymap)
+                                                .bindPopup("<b>Chile</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13659.html">
+                                 Bermann Fischer
+                                 Gottfried
+                                 </a></li>
+                           <li><a href="person_14234.html">
+                                 Clauser
+                                 Suzanne
+                                 </a></li>
+                           <li><a href="person_15854.html">
+                                 Hajek
+                                 Gisela
+                                 </a></li>
+                           <li><a href="person_16819.html">
+                                 Kerr
+                                 Alfred
+                                 </a></li>
+                           <li><a href="person_17958.html">
+                                 Mosé
+                                 Paul
+                                 </a></li>
+                           <li><a href="person_18674.html">
+                                 Patry
+                                 Albert
+                                 </a></li>
+                           <li><a href="person_18956.html">
+                                 Presber
+                                 Rudolf
+                                 </a></li>
+                           <li><a href="person_19756.html">
+                                 Schmidl
+                                 Paula
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_19831.html">
+                                 Schnitzler
+                                 Louise
+                                 </a></li>
+                           <li><a href="person_19824.html">
+                                 Schnitzler
+                                 Johann
+                                 </a></li>
+                           <li><a href="person_15987.html">
+                                 Hauser
+                                 Anna Luise
+                                 </a></li>
+                           <li><a href="person_19832.html">
+                                 Schnitzler
+                                 Olga
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_5323.html">Es tut sich was beim Film</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13659">
@@ -326,7 +440,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.52437 13.41053
+                        </ul><small>Koordinaten:</small> 52.52437 13.41053
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -347,7 +461,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2988507/">http://www.geonames.org/2988507/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.85341 2.3488
+                        </ul><small>Koordinaten:</small> 48.85341 2.3488
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -366,7 +480,7 @@
                      <h5 class="modal-title">Milchgasse <a href="place_803c75d03daa4f9fa41718551d1f79b8.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 48.209920 16.370061
+                     <div class="card-body"><small>Koordinaten:</small> 48.209920 16.370061
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -390,7 +504,7 @@
                            <li>Unter den Linden</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/6691054/">http://www.geonames.org/6691054/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.51784 13.38736
+                        </ul><small>Koordinaten:</small> 52.51784 13.38736
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -411,7 +525,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2914210/">http://www.geonames.org/2914210/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.48338 13.26586
+                        </ul><small>Koordinaten:</small> 52.48338 13.26586
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -432,7 +546,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3895114/">http://www.geonames.org/3895114/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> -30 -71
+                        </ul><small>Koordinaten:</small> -30 -71
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

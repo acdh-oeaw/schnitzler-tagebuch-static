@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -111,6 +112,150 @@
                         trotzig um es (sich selbst) einzugestehn.</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_82109b1e661086ac882d02fa24e8b774.html"></a></li>
+                                 <li><a href="place_d49e9d9024dcb230ecdc2b7b011e1d8a.html"></a></li>
+                                 <li><a href="place_ff6b92568f199b01f10dd417db89f87d.html"></a></li>
+                                 <li><a href="place_5a7580f9d505a451f306bea1f3db2b37.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([48.24354, 16.3062]).addTo(mymap)
+                                                .bindPopup("<b>Pötzleinsdorf</b>").openPopup();
+                                            
+                                                L.marker([48.245451, 16.301361]).addTo(mymap)
+                                                .bindPopup("<b>JulienstraßeDr.-Heinrich-Maier-Straße</b>").openPopup();
+                                            
+                                                L.marker([50.12033, 12.35174]).addTo(mymap)
+                                                .bindPopup("<b>FranzensbadFrantiškovy Lázně</b>").openPopup();
+                                            
+                                                L.marker([47.17274, 13.09871]).addTo(mymap)
+                                                .bindPopup("<b>HofgasteinBad Hofgastein</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_14130.html">
+                                 Schnitzler
+                                 Lili
+                                 </a></li>
+                           <li><a href="person_15499.html">
+                                 Goethe
+                                 Johann Wolfgang von
+                                 </a></li>
+                           <li><a href="person_15529.html">
+                                 Goldmann
+                                 Paul
+                                 </a></li>
+                           <li><a href="person_16767.html">
+                                 Kauders
+                                 Felix?
+                                 </a></li>
+                           <li><a href="person_17507.html">
+                                 Lichtenstern
+                                 Franz Josef
+                                 </a></li>
+                           <li><a href="person_17509.html">
+                                 Lichtenstern
+                                 Robert
+                                 </a></li>
+                           <li><a href="person_17510.html">
+                                 Lichtenstern
+                                 Vilma
+                                 </a></li>
+                           <li><a href="person_17678.html">
+                                 Loos
+                                 Lina
+                                 </a></li>
+                           <li><a href="person_18218.html">
+                                 Moll
+                                 Carl
+                                 </a></li>
+                           <li><a href="person_18916.html">
+                                 Popper-Lynkeus
+                                 Josef
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_20194.html">
+                                 Sommer
+                                 Helene
+                                 </a></li>
+                           <li><a href="person_21584.html">
+                                 Zsolnay
+                                 Anna von
+                                 </a></li>
+                           <li><a href="person_21594.html">
+                                 Zuckerkandl
+                                 Berta
+                                 </a></li>
+                           <li><a href="person_21597.html">
+                                 Zuckerkandl
+                                 Fritz
+                                 </a></li>
+                           <li><a href="person_21598.html">
+                                 Zuckerkandl
+                                 Gertrude
+                                 </a></li>
+                           <li><a href="person_19824.html">
+                                 Schnitzler
+                                 Johann
+                                 </a></li>
+                           <li><a href="person_21170.html">
+                                 Weingarten
+                                 Albert
+                                 </a></li>
+                           <li><a href="person_15210.html">
+                                 Friedell
+                                 Egon
+                                 </a></li>
+                           <li><a href="person_19694.html">
+                                 Schiller
+                                 Friedrich von
+                                 </a></li>
+                           <li><a href="person_19832.html">
+                                 Schnitzler
+                                 Olga
+                                 </a></li>
+                           <li><a href="person_20288.html">
+                                 Spörr
+                                 Martin
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_31447.html">Stunde des Erkennens</a></li>
+                           <li><a href="work_29905.html">Der Ruf des Lebens</a></li>
+                           <li><a href="work_35996.html">Der Ruf des Lebens</a></li>
+                           <li><a href="work_2825.html">Weh dem, der lügt!</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14130">
@@ -518,7 +663,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2768462/">http://www.geonames.org/2768462/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.24354 16.3062
+                        </ul><small>Koordinaten:</small> 48.24354 16.3062
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -540,7 +685,7 @@
                      <div class="card-body"><small>Namensvarianten:</small><ul>
                            <li>Julienstraße</li>
                            <li>Dr.-Heinrich-Maier-Straße</li>
-                        </ul><br></br><small>Koordinaten:</small> 48.245451 16.301361
+                        </ul><small>Koordinaten:</small> 48.245451 16.301361
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -564,7 +709,7 @@
                            <li>Františkovy Lázně</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3076136/">http://www.geonames.org/3076136/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 50.12033 12.35174
+                        </ul><small>Koordinaten:</small> 50.12033 12.35174
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -588,7 +733,7 @@
                            <li>Bad Hofgastein</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2782053/">http://www.geonames.org/2782053/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.17274 13.09871
+                        </ul><small>Koordinaten:</small> 47.17274 13.09871
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

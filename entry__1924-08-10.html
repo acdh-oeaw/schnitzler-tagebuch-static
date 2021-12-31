@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -90,6 +91,124 @@
                         <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_63da02947d9e51e4ddd4504712bc71c0">Celerina</a></strong>.― Er weiter nach <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_74ae29dac83aff5c33d144c0dba54c18">Zuoz</a></strong>.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_f21f28d17a7afd4754bc40ec6764fa7d.html"></a></li>
+                                 <li><a href="place_61f407ddde813da2482868b31eab013d.html"></a></li>
+                                 <li><a href="place_burgtheater.html"></a></li>
+                                 <li><a href="place_ee1611b61f5688e70c12b40684dbb395.html"></a></li>
+                                 <li><a href="place_51c7c0e8bc877f41a415a8e7efedd068.html"></a></li>
+                                 <li><a href="place_b6f4fbbfbfd954a60d79636b9f1730e5.html"></a></li>
+                                 <li><a href="place_63da02947d9e51e4ddd4504712bc71c0.html"></a></li>
+                                 <li><a href="place_74ae29dac83aff5c33d144c0dba54c18.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([46.42886, 9.76364]).addTo(mymap)
+                                                .bindPopup("<b>Sils MariaSils-Segl Maria</b>").openPopup();
+                                            
+                                                L.marker([48.231107, 16.340539]).addTo(mymap)
+                                                .bindPopup("<b>Sternwartestraße</b>").openPopup();
+                                            
+                                                L.marker([48.210333, 16.361139]).addTo(mymap)
+                                                .bindPopup("<b>Burgtheater</b>").openPopup();
+                                            
+                                                L.marker([52.52437, 13.41053]).addTo(mymap)
+                                                .bindPopup("<b>Berlin</b>").openPopup();
+                                            
+                                                L.marker([46.49937, 9.84327]).addTo(mymap)
+                                                .bindPopup("<b>St. Moritz</b>").openPopup();
+                                            
+                                                L.marker([46.506997, 9.860075]).addTo(mymap)
+                                                .bindPopup("<b>Innschlucht</b>").openPopup();
+                                            
+                                                L.marker([46.51217, 9.85794]).addTo(mymap)
+                                                .bindPopup("<b>Celerina</b>").openPopup();
+                                            
+                                                L.marker([46.60206, 9.95965]).addTo(mymap)
+                                                .bindPopup("<b>Zuoz</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_14130.html">
+                                 Schnitzler
+                                 Lili
+                                 </a></li>
+                           <li><a href="person_14609.html">
+                                 Eckmann
+                                 Alfred
+                                 </a></li>
+                           <li><a href="person_15124.html">
+                                 Frank
+                                 Karl?
+                                 </a></li>
+                           <li><a href="person_16505.html">
+                                 Janowitzer
+                                 Bernhard
+                                 </a></li>
+                           <li><a href="person_16506.html">
+                                 Janowitzer
+                                 Bertha
+                                 </a></li>
+                           <li><a href="person_18137.html">
+                                 Michaelis
+                                 Dora
+                                 </a></li>
+                           <li><a href="person_18140.html">
+                                 Michaelis
+                                 Karl
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_14412.html">
+                                 Dernburg
+                                 Ilse
+                                 </a></li>
+                           <li><a href="person_17413.html">
+                                 Leicht
+                                 Wilhelm
+                                 </a></li>
+                           <li><a href="person_19824.html">
+                                 Schnitzler
+                                 Johann
+                                 </a></li>
+                           <li><a href="person_19832.html">
+                                 Schnitzler
+                                 Olga
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_30033.html">Anatols Hochzeitsmorgen</a></li>
+                           <li><a href="work_30881.html">Fink und Fliederbusch</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14130">
@@ -320,7 +439,7 @@
                            <li>Sils-Segl Maria</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2658641/">http://www.geonames.org/2658641/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.42886 9.76364
+                        </ul><small>Koordinaten:</small> 46.42886 9.76364
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -339,7 +458,7 @@
                      <h5 class="modal-title">Sternwartestraße <a href="place_61f407ddde813da2482868b31eab013d.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 48.231107 16.340539
+                     <div class="card-body"><small>Koordinaten:</small> 48.231107 16.340539
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -358,7 +477,7 @@
                      <h5 class="modal-title">Burgtheater <a href="place_burgtheater.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 48.210333 16.361139
+                     <div class="card-body"><small>Koordinaten:</small> 48.210333 16.361139
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -379,7 +498,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.52437 13.41053
+                        </ul><small>Koordinaten:</small> 52.52437 13.41053
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -400,7 +519,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2658813/">http://www.geonames.org/2658813/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.49937 9.84327
+                        </ul><small>Koordinaten:</small> 46.49937 9.84327
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -419,7 +538,7 @@
                      <h5 class="modal-title">Innschlucht <a href="place_b6f4fbbfbfd954a60d79636b9f1730e5.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 46.506997 9.860075
+                     <div class="card-body"><small>Koordinaten:</small> 46.506997 9.860075
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -440,7 +559,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2661241/">http://www.geonames.org/2661241/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.51217 9.85794
+                        </ul><small>Koordinaten:</small> 46.51217 9.85794
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -461,7 +580,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2657898/">http://www.geonames.org/2657898/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.60206 9.95965
+                        </ul><small>Koordinaten:</small> 46.60206 9.95965
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

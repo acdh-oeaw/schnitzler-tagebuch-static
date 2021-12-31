@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -69,6 +70,108 @@
                         widerstrebt die Geste des Zorns, wo ich eigentlich gleichgiltig bin.</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_8ac85cc83788186b74cc9ca468d300c5.html"></a></li>
+                                 <li><a href="place_71b72121b65dce738f9915db6d2d3b7d.html"></a></li>
+                                 <li><a href="place_4e92f9d2cdf0b8eb493ae3a19709d121.html"></a></li>
+                                 <li><a href="place_b472f5868425ac2bc44e693fc3267e87.html"></a></li>
+                                 <li><a href="place_2f8cfc13edee95175f630a54177679cf.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([44.91417, 13.76222]).addTo(mymap)
+                                                .bindPopup("<b>BrioniBrijuni</b>").openPopup();
+                                            
+                                                L.marker([43.43729, 17.75191]).addTo(mymap)
+                                                .bindPopup("<b>Skutari Škutari</b>").openPopup();
+                                            
+                                                L.marker([42.75, 19.25]).addTo(mymap)
+                                                .bindPopup("<b>Montenegro</b>").openPopup();
+                                            
+                                                L.marker([47.33333, 13.33333]).addTo(mymap)
+                                                .bindPopup("<b>Österreich</b>").openPopup();
+                                            
+                                                L.marker([48.14816, 17.10674]).addTo(mymap)
+                                                .bindPopup("<b>PreßburgBratislava</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13355.html">
+                                 Bachrach
+                                 Eugenie
+                                 </a></li>
+                           <li><a href="person_13359.html">
+                                 Bachrach
+                                 Stefanie
+                                 </a></li>
+                           <li><a href="person_13551.html">
+                                 Beer-Hofmann
+                                 Richard
+                                 </a></li>
+                           <li><a href="person_16069.html">
+                                 Heller
+                                 Hugo
+                                 </a></li>
+                           <li><a href="person_20796.html">
+                                 Trebitsch
+                                 Siegfried
+                                 </a></li>
+                           <li><a href="person_21593.html">
+                                 Zuckerkandl
+                                 Amalie
+                                 </a></li>
+                           <li><a href="person_21600.html">
+                                 Giustiniani
+                                 Marianne
+                                 </a></li>
+                           <li><a href="person_13428.html">
+                                 Barnowsky
+                                 Victor
+                                 </a></li>
+                           <li><a href="person_20383.html">
+                                 Steinrück
+                                 Albert
+                                 </a></li>
+                           <li><a href="person_13550.html">
+                                 Beer-Hofmann
+                                 Paula
+                                 </a></li>
+                           <li><a href="person_18009.html">
+                                 Mayer
+                                 
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_30863.html">Flucht in die Finsternis</a></li>
+                           <li><a href="work_30203.html">Professor Bernhardi</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13355">
@@ -281,7 +384,7 @@
                            <li>Brijuni</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3203301/">http://www.geonames.org/3203301/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 44.91417 13.76222
+                        </ul><small>Koordinaten:</small> 44.91417 13.76222
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -305,7 +408,7 @@
                            <li> Škutari</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3264999/">http://www.geonames.org/3264999/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 43.43729 17.75191
+                        </ul><small>Koordinaten:</small> 43.43729 17.75191
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -326,7 +429,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3194884/">http://www.geonames.org/3194884/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 42.75 19.25
+                        </ul><small>Koordinaten:</small> 42.75 19.25
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -347,7 +450,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2782113/">http://www.geonames.org/2782113/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.33333 13.33333
+                        </ul><small>Koordinaten:</small> 47.33333 13.33333
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -371,7 +474,7 @@
                            <li>Bratislava</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3060972/">http://www.geonames.org/3060972/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.14816 17.10674
+                        </ul><small>Koordinaten:</small> 48.14816 17.10674
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

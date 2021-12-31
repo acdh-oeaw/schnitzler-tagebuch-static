@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -76,6 +77,85 @@
                      <p id="p__8">Mit <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19822">Heini</a></strong> ein <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13914">Brahms</a></strong> Quint.</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_d1bbe5c82af588aa9fd6e5f65d6acab3.html"></a></li>
+                                 <li><a href="place_c38ad36647aca0261d667c432a4866bd.html"></a></li>
+                                 <li><a href="place_5ea5f4002712b1a9a4e292d3c83736b9.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([48.45704, 14.34875]).addTo(mymap)
+                                                .bindPopup("<b>ReichenauReichenau an der Rax</b>").openPopup();
+                                            
+                                                L.marker([47.79941, 13.04399]).addTo(mymap)
+                                                .bindPopup("<b>Salzburg</b>").openPopup();
+                                            
+                                                L.marker([40, -4]).addTo(mymap)
+                                                .bindPopup("<b>Spanien</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13914.html">
+                                 Brahms
+                                 Johannes
+                                 </a></li>
+                           <li><a href="person_15294.html">
+                                 Fürstenberg
+                                 Maximilian Egon von
+                                 </a></li>
+                           <li><a href="person_15855.html">
+                                 Hajek
+                                 Markus
+                                 </a></li>
+                           <li><a href="person_18817.html">
+                                 Pitter
+                                 Karl
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_20386.html">
+                                 Steinrück
+                                 Elisabeth
+                                 </a></li>
+                           <li><a href="person_20238.html">
+                                 Specht
+                                 Richard
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_31377.html">Leben und Nachklang — Werk und Widerhall</a></li>
+                           <li><a href="work_29857.html">Der Schleier der Beatrice</a></li>
+                           <li><a href="work_33243.html">Tagebuch</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13914">
@@ -216,7 +296,7 @@
                            <li>Reichenau an der Rax</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2767773/">http://www.geonames.org/2767773/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.45704 14.34875
+                        </ul><small>Koordinaten:</small> 48.45704 14.34875
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -237,7 +317,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2766824/">http://www.geonames.org/2766824/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.79941 13.04399
+                        </ul><small>Koordinaten:</small> 47.79941 13.04399
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -258,7 +338,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2510769/">http://www.geonames.org/2510769/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 40 -4
+                        </ul><small>Koordinaten:</small> 40 -4
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

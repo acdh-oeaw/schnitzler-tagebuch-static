@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -97,6 +98,105 @@
                         den Jahren steigern müsse.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_103a821a3a6a0b923c9f74a39662bb51.html"></a></li>
+                                 <li><a href="place_7a0be5a1ed9675975e678b517f07573c.html"></a></li>
+                                 <li><a href="place_07fdc7327879d3bffe6fe858b9c6c054.html"></a></li>
+                                 <li><a href="place_74ae29dac83aff5c33d144c0dba54c18.html"></a></li>
+                                 <li><a href="place_581df48b4c75f9e166eb77e67725cbd3.html"></a></li>
+                                 <li><a href="place_05e302e5aab8a6fdaa8f3d9a573b8c1b.html"></a></li>
+                                 <li><a href="place_058d4f9fe48b8920d409f2ebb88e0247.html"></a></li>
+                                 <li><a href="place_8f61af40dd309a47715653b41ebae948.html"></a></li>
+                                 <li><a href="place_63714a562352ef3ae472da20ed0384c0.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([47.36667, 8.55]).addTo(mymap)
+                                                .bindPopup("<b>Zürich</b>").openPopup();
+                                            
+                                                L.marker([47.00016, 8.01427]).addTo(mymap)
+                                                .bindPopup("<b>Schweiz</b>").openPopup();
+                                            
+                                                L.marker([46.5, 10]).addTo(mymap)
+                                                .bindPopup("<b>Engadin</b>").openPopup();
+                                            
+                                                L.marker([46.60206, 9.95965]).addTo(mymap)
+                                                .bindPopup("<b>Zuoz</b>").openPopup();
+                                            
+                                                L.marker([46.01008, 8.96004]).addTo(mymap)
+                                                .bindPopup("<b>Lugano</b>").openPopup();
+                                            
+                                                L.marker([46.84986, 9.53287]).addTo(mymap)
+                                                .bindPopup("<b>Chur</b>").openPopup();
+                                            
+                                                L.marker([53.86893, 10.68729]).addTo(mymap)
+                                                .bindPopup("<b>Lübeck</b>").openPopup();
+                                            
+                                                L.marker([54.16348, 10.54822]).addTo(mymap)
+                                                .bindPopup("<b>Gremsmühlen</b>").openPopup();
+                                            
+                                                L.marker([48.7606, 8.23975]).addTo(mymap)
+                                                .bindPopup("<b>Baden-Baden</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13824.html">
+                                 Bodmer
+                                 Hans
+                                 </a></li>
+                           <li><a href="person_14130.html">
+                                 Schnitzler
+                                 Lili
+                                 </a></li>
+                           <li><a href="person_18863.html">
+                                 Pollaczek
+                                 Clara Katharina
+                                 </a></li>
+                           <li><a href="person_15009.html">
+                                 Fischer
+                                 Samuel
+                                 </a></li>
+                           <li><a href="person_15685.html">
+                                 Gross
+                                 Wilhelm
+                                 </a></li>
+                           <li><a href="person_17037.html">
+                                 Koppel
+                                 Louise
+                                 </a></li>
+                           <li><a href="person_19832.html">
+                                 Schnitzler
+                                 Olga
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul></ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13824">
@@ -234,7 +334,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2657896/">http://www.geonames.org/2657896/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.36667 8.55
+                        </ul><small>Koordinaten:</small> 47.36667 8.55
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -255,7 +355,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2658434/">http://www.geonames.org/2658434/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.00016 8.01427
+                        </ul><small>Koordinaten:</small> 47.00016 8.01427
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -276,7 +376,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2660904/">http://www.geonames.org/2660904/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.5 10
+                        </ul><small>Koordinaten:</small> 46.5 10
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -297,7 +397,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2657898/">http://www.geonames.org/2657898/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.60206 9.95965
+                        </ul><small>Koordinaten:</small> 46.60206 9.95965
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -318,7 +418,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2659836/">http://www.geonames.org/2659836/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.01008 8.96004
+                        </ul><small>Koordinaten:</small> 46.01008 8.96004
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -339,7 +439,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2661169/">http://www.geonames.org/2661169/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.84986 9.53287
+                        </ul><small>Koordinaten:</small> 46.84986 9.53287
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -360,7 +460,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2875601/">http://www.geonames.org/2875601/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 53.86893 10.68729
+                        </ul><small>Koordinaten:</small> 53.86893 10.68729
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -381,7 +481,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2917712/">http://www.geonames.org/2917712/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 54.16348 10.54822
+                        </ul><small>Koordinaten:</small> 54.16348 10.54822
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -402,7 +502,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2953504/">http://www.geonames.org/2953504/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.7606 8.23975
+                        </ul><small>Koordinaten:</small> 48.7606 8.23975
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

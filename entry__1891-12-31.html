@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -122,6 +123,136 @@
                         Jänner</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_9bb22d10ddb7b8bf50eee0a23648e1fe.html"></a></li>
+                                 <li><a href="place_a9a988302086229505c21f885134919d.html"></a></li>
+                                 <li><a href="place_1b388e3352c32b76b8d975c4d3625070.html"></a></li>
+                                 <li><a href="place_ce573fb3b837e6d0517b8fa5011ed041.html"></a></li>
+                                 <li><a href="place_e20d37a5d7fcc4c35be6fc18a8e71bfa.html"></a></li>
+                                 <li><a href="place_c38ad36647aca0261d667c432a4866bd.html"></a></li>
+                                 <li><a href="place_9a43e84f6e1d406076f2372205804f6d.html"></a></li>
+                                 <li><a href="place_volkstheater.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([48.19625, 16.32749]).addTo(mymap)
+                                                .bindPopup("<b>RudolfsheimRudolfsheim-Fünfhaus</b>").openPopup();
+                                            
+                                                L.marker([48.21126, 16.34706]).addTo(mymap)
+                                                .bindPopup("<b>Josefstadt</b>").openPopup();
+                                            
+                                                L.marker([48.20849, 16.37208]).addTo(mymap)
+                                                .bindPopup("<b>Wien</b>").openPopup();
+                                            
+                                                L.marker([50.85045, 4.34878]).addTo(mymap)
+                                                .bindPopup("<b>Brüssel</b>").openPopup();
+                                            
+                                                L.marker([48.85341, 2.3488]).addTo(mymap)
+                                                .bindPopup("<b>Paris</b>").openPopup();
+                                            
+                                                L.marker([47.79941, 13.04399]).addTo(mymap)
+                                                .bindPopup("<b>Salzburg</b>").openPopup();
+                                            
+                                                L.marker([48.00543, 16.23264]).addTo(mymap)
+                                                .bindPopup("<b>Baden</b>").openPopup();
+                                            
+                                                L.marker([48.205142, 16.3566]).addTo(mymap)
+                                                .bindPopup("<b>Deutsches VolkstheaterVolkstheater</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13095.html">
+                                 Adler
+                                 Emma
+                                 </a></li>
+                           <li><a href="person_13551.html">
+                                 Beer-Hofmann
+                                 Richard
+                                 </a></li>
+                           <li><a href="person_14434.html">
+                                 Devrient
+                                 Max
+                                 </a></li>
+                           <li><a href="person_15485.html">
+                                 Glümer
+                                 Marie
+                                 </a></li>
+                           <li><a href="person_15529.html">
+                                 Goldmann
+                                 Paul
+                                 </a></li>
+                           <li><a href="person_17826.html">
+                                 Mandl
+                                 Ludwig
+                                 </a></li>
+                           <li><a href="person_19542.html">
+                                 Salten
+                                 Felix
+                                 </a></li>
+                           <li><a href="person_19986.html">
+                                 Schwarzkopf
+                                 Gustav
+                                 </a></li>
+                           <li><a href="person_21047.html">
+                                 Waissnix
+                                 Olga
+                                 </a></li>
+                           <li><a href="person_14942.html">
+                                 Fels
+                                 Friedrich M.
+                                 </a></li>
+                           <li><a href="person_13374.html">
+                                 Bahr
+                                 Hermann
+                                 </a></li>
+                           <li><a href="person_13611.html">
+                                 Bératon
+                                 Ferry
+                                 </a></li>
+                           <li><a href="person_16293.html">
+                                 Hofmannsthal
+                                 Hugo von
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_30143.html">Das Abenteuer seines Lebens</a></li>
+                           <li><a href="work_30163.html">Weihnachtseinkäufe</a></li>
+                           <li><a href="work_30145.html">Denksteine</a></li>
+                           <li><a href="work_30005.html">Abschiedssouper</a></li>
+                           <li><a href="work_30159.html">Agonie</a></li>
+                           <li><a href="work_30165.html">Die Braut</a></li>
+                           <li><a href="work_36095.html">Gedichte</a></li>
+                           <li><a href="work_30169.html">Das Himmelbett</a></li>
+                           <li><a href="work_31975.html">Die kleine Komödie</a></li>
+                           <li><a href="work_29823.html">Das Märchen</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13095">
@@ -370,7 +501,7 @@
                            <li>Rudolfsheim-Fünfhaus</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2779138/">http://www.geonames.org/2779138/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.19625 16.32749
+                        </ul><small>Koordinaten:</small> 48.19625 16.32749
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -391,7 +522,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2775027/">http://www.geonames.org/2775027/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.21126 16.34706
+                        </ul><small>Koordinaten:</small> 48.21126 16.34706
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -412,7 +543,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2761369/">http://www.geonames.org/2761369/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.20849 16.37208
+                        </ul><small>Koordinaten:</small> 48.20849 16.37208
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -433,7 +564,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2800866/">http://www.geonames.org/2800866/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 50.85045 4.34878
+                        </ul><small>Koordinaten:</small> 50.85045 4.34878
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -454,7 +585,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2988507/">http://www.geonames.org/2988507/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.85341 2.3488
+                        </ul><small>Koordinaten:</small> 48.85341 2.3488
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -475,7 +606,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2766824/">http://www.geonames.org/2766824/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.79941 13.04399
+                        </ul><small>Koordinaten:</small> 47.79941 13.04399
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -496,7 +627,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2782067/">http://www.geonames.org/2782067/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.00543 16.23264
+                        </ul><small>Koordinaten:</small> 48.00543 16.23264
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -518,7 +649,7 @@
                      <div class="card-body"><small>Namensvarianten:</small><ul>
                            <li>Deutsches Volkstheater</li>
                            <li>Volkstheater</li>
-                        </ul><br></br><small>Koordinaten:</small> 48.205142 16.3566
+                        </ul><small>Koordinaten:</small> 48.205142 16.3566
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

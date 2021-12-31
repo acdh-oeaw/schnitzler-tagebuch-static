@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -70,6 +71,97 @@
                         Function.</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_2384804448a53e420c3707bdfb9fb295.html"></a></li>
+                                 <li><a href="place_87809c954948d8a20507bee3648281b3.html"></a></li>
+                                 <li><a href="place_1b388e3352c32b76b8d975c4d3625070.html"></a></li>
+                                 <li><a href="place_59ead8d1e124ccfb79f3ace06f43e703.html"></a></li>
+                                 <li><a href="place_sacher.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([47.63844, 13.76278]).addTo(mymap)
+                                                .bindPopup("<b>Altaussee</b>").openPopup();
+                                            
+                                                L.marker([40.71427, -74.00597]).addTo(mymap)
+                                                .bindPopup("<b>New York</b>").openPopup();
+                                            
+                                                L.marker([48.20849, 16.37208]).addTo(mymap)
+                                                .bindPopup("<b>Wien</b>").openPopup();
+                                            
+                                                L.marker([51.50853, -0.12574]).addTo(mymap)
+                                                .bindPopup("<b>London</b>").openPopup();
+                                            
+                                                L.marker([48.203889, 16.369444]).addTo(mymap)
+                                                .bindPopup("<b>Sacher</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13355.html">
+                                 Bachrach
+                                 Eugenie
+                                 </a></li>
+                           <li><a href="person_18137.html">
+                                 Michaelis
+                                 Dora
+                                 </a></li>
+                           <li><a href="person_18257.html">
+                                 Mortimer
+                                 Raymond
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_20692.html">
+                                 Thayer
+                                 Scofield
+                                 </a></li>
+                           <li><a href="person_21525.html">
+                                 Zeisler
+                                 Paul
+                                 </a></li>
+                           <li><a href="person_21600.html">
+                                 Giustiniani
+                                 Marianne
+                                 </a></li>
+                           <li><a href="person_21602.html">
+                                 Zuckerkandl
+                                 Victor
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_30201.html">Doktor Gräsler, Badearzt</a></li>
+                           <li><a href="work_30851.html">Traumnovelle</a></li>
+                           <li><a href="work_5056.html">Salome op. 54</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13355">
@@ -225,7 +317,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2782724/">http://www.geonames.org/2782724/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.63844 13.76278
+                        </ul><small>Koordinaten:</small> 47.63844 13.76278
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -246,7 +338,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/5128581/">http://www.geonames.org/5128581/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 40.71427 -74.00597
+                        </ul><small>Koordinaten:</small> 40.71427 -74.00597
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -267,7 +359,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2761369/">http://www.geonames.org/2761369/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.20849 16.37208
+                        </ul><small>Koordinaten:</small> 48.20849 16.37208
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -288,7 +380,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2643743/">http://www.geonames.org/2643743/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 51.50853 -0.12574
+                        </ul><small>Koordinaten:</small> 51.50853 -0.12574
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -307,7 +399,7 @@
                      <h5 class="modal-title">Sacher <a href="place_sacher.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 48.203889 16.369444
+                     <div class="card-body"><small>Koordinaten:</small> 48.203889 16.369444
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

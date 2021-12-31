@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -94,6 +95,100 @@
                         Vorbedingungen gegeben sind, dauert das Glück oft nicht lang.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_6630b5aaa6d7cf0c597b381d921f2ebc.html"></a></li>
+                                 <li><a href="place_23d113a2eb6e4cfa14cc931feb629e02.html"></a></li>
+                                 <li><a href="place_65f7b8e17e93bc2a87843d99e82c08a5.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([60, 100]).addTo(mymap)
+                                                .bindPopup("<b>Sibirien</b>").openPopup();
+                                            
+                                                L.marker([56.32867, 44.00205]).addTo(mymap)
+                                                .bindPopup("<b>Nischni NowgorodNizhniy Novgorod</b>").openPopup();
+                                            
+                                                L.marker([60, 100]).addTo(mymap)
+                                                .bindPopup("<b>Russland</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_14130.html">
+                                 Schnitzler
+                                 Lili
+                                 </a></li>
+                           <li><a href="person_15374.html">
+                                 Gelbard
+                                 Margarete
+                                 </a></li>
+                           <li><a href="person_18546.html">
+                                 Olden
+                                 Marie Christine
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_19874.html">
+                                 Schott
+                                 Werner
+                                 </a></li>
+                           <li><a href="person_20372.html">
+                                 Steiner
+                                 Franz
+                                 </a></li>
+                           <li><a href="person_21089.html">
+                                 Walzel
+                                 Oskar
+                                 </a></li>
+                           <li><a href="person_21593.html">
+                                 Zuckerkandl
+                                 Amalie
+                                 </a></li>
+                           <li><a href="person_21600.html">
+                                 Giustiniani
+                                 Marianne
+                                 </a></li>
+                           <li><a href="person_21601.html">
+                                 Zuckerkandl
+                                 Otto
+                                 </a></li>
+                           <li><a href="person_21602.html">
+                                 Zuckerkandl
+                                 Victor
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_29843.html">Der grüne Kakadu</a></li>
+                           <li><a href="work_29855.html">Reigen</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14130">
@@ -303,7 +398,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2016590/">http://www.geonames.org/2016590/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 60 100
+                        </ul><small>Koordinaten:</small> 60 100
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -327,7 +422,7 @@
                            <li>Nizhniy Novgorod</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/520555/">http://www.geonames.org/520555/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 56.32867 44.00205
+                        </ul><small>Koordinaten:</small> 56.32867 44.00205
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -348,7 +443,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2017370/">http://www.geonames.org/2017370/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 60 100
+                        </ul><small>Koordinaten:</small> 60 100
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

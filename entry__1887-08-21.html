@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -143,6 +144,263 @@
                      <p id="p__24">October</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_9a43e84f6e1d406076f2372205804f6d.html"></a></li>
+                                 <li><a href="place_94256245a9790073774ed15caa0f021c.html"></a></li>
+                                 <li><a href="place_1b388e3352c32b76b8d975c4d3625070.html"></a></li>
+                                 <li><a href="place_f5af0e4beb99b2ded62ac5ff72643954.html"></a></li>
+                                 <li><a href="place_d533f22e7175d6063cb4c4286fb92c0c.html"></a></li>
+                                 <li><a href="place_8d39ba5a7ce316c832ce717d4c26b95f.html"></a></li>
+                                 <li><a href="place_d1bbe5c82af588aa9fd6e5f65d6acab3.html"></a></li>
+                                 <li><a href="place_9c457f4107132ccb2d87ebf5e13f0b74.html"></a></li>
+                                 <li><a href="place_d0a6343a081a7335baa965ce4fd0845c.html"></a></li>
+                                 <li><a href="place_8be4faaae218289562dc0a8c0e2e0ff1.html"></a></li>
+                                 <li><a href="place_7af648bdb537c8e802b17da1c2304d2e.html"></a></li>
+                                 <li><a href="place_c2ad928214981e457405589604924059.html"></a></li>
+                                 <li><a href="place_4ab32e393c02cb9d2110b47f3deb73b4.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([48.00543, 16.23264]).addTo(mymap)
+                                                .bindPopup("<b>Baden</b>").openPopup();
+                                            
+                                                L.marker([47.711163, 13.612446]).addTo(mymap)
+                                                .bindPopup("<b>Grillgasse</b>").openPopup();
+                                            
+                                                L.marker([48.20849, 16.37208]).addTo(mymap)
+                                                .bindPopup("<b>Wien</b>").openPopup();
+                                            
+                                                L.marker([48.23123, 16.29337]).addTo(mymap)
+                                                .bindPopup("<b>Dornbach</b>").openPopup();
+                                            
+                                                L.marker([47.91839, 13.79933]).addTo(mymap)
+                                                .bindPopup("<b>Gmunden</b>").openPopup();
+                                            
+                                                L.marker([47.73932, 13.44666]).addTo(mymap)
+                                                .bindPopup("<b>St. WolfgangSankt Wolfgang im Salzkammergut</b>").openPopup();
+                                            
+                                                L.marker([48.45704, 14.34875]).addTo(mymap)
+                                                .bindPopup("<b>ReichenauReichenau an der Rax</b>").openPopup();
+                                            
+                                                L.marker([47.77614, 13.43439]).addTo(mymap)
+                                                .bindPopup("<b>Schafberg</b>").openPopup();
+                                            
+                                                L.marker([48.13743, 11.57549]).addTo(mymap)
+                                                .bindPopup("<b>München</b>").openPopup();
+                                            
+                                                L.marker([45.64953, 13.77678]).addTo(mymap)
+                                                .bindPopup("<b>TriestTrieste</b>").openPopup();
+                                            
+                                                L.marker([47.8, 13.48333]).addTo(mymap)
+                                                .bindPopup("<b>Unterach</b>").openPopup();
+                                            
+                                                L.marker([47.71109, 13.61893]).addTo(mymap)
+                                                .bindPopup("<b>IschlBad Ischl</b>").openPopup();
+                                            
+                                                L.marker([47.84462, 13.78939]).addTo(mymap)
+                                                .bindPopup("<b>Traunkirchen</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13733.html">
+                                 Binder
+                                 Helene
+                                 </a></li>
+                           <li><a href="person_14060.html">
+                                 Bum
+                                 
+                                 </a></li>
+                           <li><a href="person_14109.html">
+                                 Cahn
+                                 Cora
+                                 </a></li>
+                           <li><a href="person_14761.html">
+                                 Engländer
+                                 Marie
+                                 </a></li>
+                           <li><a href="person_15203.html">
+                                 Fried
+                                 Gustav
+                                 </a></li>
+                           <li><a href="person_15229.html">
+                                 Friedmann
+                                 Louis Philipp
+                                 </a></li>
+                           <li><a href="person_15317.html">
+                                 G.
+                                 Nelly
+                                 </a></li>
+                           <li><a href="person_15538.html">
+                                 Goldschmid
+                                 Josef
+                                 </a></li>
+                           <li><a href="person_15602.html">
+                                 Gr.
+                                 
+                                 </a></li>
+                           <li><a href="person_16124.html">
+                                 Herschb.
+                                 
+                                 </a></li>
+                           <li><a href="person_16212.html">
+                                 Hirsch
+                                 
+                                 </a></li>
+                           <li><a href="person_16391.html">
+                                 Horwitz
+                                 Willibald
+                                 </a></li>
+                           <li><a href="person_16706.html">
+                                 Kapper
+                                 Adele
+                                 </a></li>
+                           <li><a href="person_16709.html">
+                                 Kapper
+                                 Friedrich
+                                 </a></li>
+                           <li><a href="person_16995.html">
+                                 Kohnberger
+                                 Dorothea
+                                 </a></li>
+                           <li><a href="person_17050.html">
+                                 Koritschoner
+                                 Moritz
+                                 </a></li>
+                           <li><a href="person_17630.html">
+                                 Löv
+                                 B.
+                                 </a></li>
+                           <li><a href="person_17647.html">
+                                 Löwenfeld
+                                 
+                                 </a></li>
+                           <li><a href="person_17899.html">
+                                 Markbreiter
+                                 Edmund
+                                 </a></li>
+                           <li><a href="person_18578.html">
+                                 Ornstein
+                                 
+                                 </a></li>
+                           <li><a href="person_18628.html">
+                                 P.
+                                 Jenny
+                                 </a></li>
+                           <li><a href="person_18663.html">
+                                 Parlaghy
+                                 Vilma
+                                 </a></li>
+                           <li><a href="person_20226.html">
+                                 Sp.
+                                 
+                                 </a></li>
+                           <li><a href="person_20643.html">
+                                 Tausenau
+                                 Richard
+                                 </a></li>
+                           <li><a href="person_20982.html">
+                                 Vogl
+                                 Albert
+                                 </a></li>
+                           <li><a href="person_21047.html">
+                                 Waissnix
+                                 Olga
+                                 </a></li>
+                           <li><a href="person_21601.html">
+                                 Zuckerkandl
+                                 Otto
+                                 </a></li>
+                           <li><a href="person_14251.html">
+                                 Cohn
+                                 Hermann
+                                 </a></li>
+                           <li><a href="person_16945.html">
+                                 Knorr
+                                 Thomas
+                                 </a></li>
+                           <li><a href="person_17114.html">
+                                 Kraus
+                                 Oscar
+                                 </a></li>
+                           <li><a href="person_17511.html">
+                                 Lichtst.
+                                 
+                                 </a></li>
+                           <li><a href="person_17822.html">
+                                 Mandl
+                                 Irene
+                                 </a></li>
+                           <li><a href="person_18870.html">
+                                 Pollak
+                                 
+                                 </a></li>
+                           <li><a href="person_19004.html">
+                                 R.
+                                 
+                                 </a></li>
+                           <li><a href="person_19824.html">
+                                 Schnitzler
+                                 Johann
+                                 </a></li>
+                           <li><a href="person_20203.html">
+                                 Sonnenthal
+                                 Adele von
+                                 </a></li>
+                           <li><a href="person_21380.html">
+                                 Wintern.
+                                 
+                                 </a></li>
+                           <li><a href="person_15473.html">
+                                 Glogau
+                                 Stefanie
+                                 </a></li>
+                           <li><a href="person_17070.html">
+                                 Kr.
+                                 
+                                 </a></li>
+                           <li><a href="person_17590.html">
+                                 List
+                                 
+                                 </a></li>
+                           <li><a href="person_18478.html">
+                                 Nossal
+                                 Leonore
+                                 </a></li>
+                           <li><a href="person_19876.html">
+                                 Schrammel
+                                 Johann
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_33824.html">Gabrielens Reue</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13733">
@@ -910,7 +1168,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2782067/">http://www.geonames.org/2782067/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.00543 16.23264
+                        </ul><small>Koordinaten:</small> 48.00543 16.23264
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -929,7 +1187,7 @@
                      <h5 class="modal-title">Grillgasse <a href="place_94256245a9790073774ed15caa0f021c.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 47.711163 13.612446
+                     <div class="card-body"><small>Koordinaten:</small> 47.711163 13.612446
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -950,7 +1208,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2761369/">http://www.geonames.org/2761369/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.20849 16.37208
+                        </ul><small>Koordinaten:</small> 48.20849 16.37208
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -971,7 +1229,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2780745/">http://www.geonames.org/2780745/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.23123 16.29337
+                        </ul><small>Koordinaten:</small> 48.23123 16.29337
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -992,7 +1250,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2778436/">http://www.geonames.org/2778436/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.91839 13.79933
+                        </ul><small>Koordinaten:</small> 47.91839 13.79933
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1016,7 +1274,7 @@
                            <li>Sankt Wolfgang im Salzkammergut</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2766340/">http://www.geonames.org/2766340/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.73932 13.44666
+                        </ul><small>Koordinaten:</small> 47.73932 13.44666
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1040,7 +1298,7 @@
                            <li>Reichenau an der Rax</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2767773/">http://www.geonames.org/2767773/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.45704 14.34875
+                        </ul><small>Koordinaten:</small> 48.45704 14.34875
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1061,7 +1319,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2766218/">http://www.geonames.org/2766218/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.77614 13.43439
+                        </ul><small>Koordinaten:</small> 47.77614 13.43439
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1082,7 +1340,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2867714/">http://www.geonames.org/2867714/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.13743 11.57549
+                        </ul><small>Koordinaten:</small> 48.13743 11.57549
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1106,7 +1364,7 @@
                            <li>Trieste</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3165185/">http://www.geonames.org/3165185/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 45.64953 13.77678
+                        </ul><small>Koordinaten:</small> 45.64953 13.77678
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1127,7 +1385,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2763144/">http://www.geonames.org/2763144/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.8 13.48333
+                        </ul><small>Koordinaten:</small> 47.8 13.48333
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1151,7 +1409,7 @@
                            <li>Bad Ischl</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2782052/">http://www.geonames.org/2782052/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.71109 13.61893
+                        </ul><small>Koordinaten:</small> 47.71109 13.61893
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -1172,7 +1430,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2763414/">http://www.geonames.org/2763414/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.84462 13.78939
+                        </ul><small>Koordinaten:</small> 47.84462 13.78939
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

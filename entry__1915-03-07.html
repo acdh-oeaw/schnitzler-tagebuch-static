@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -67,6 +68,98 @@
                               Fehling</a></strong>, sowie <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_17573">Lindner</a></strong> aus <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</a></strong> waren anwesend.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_ee1611b61f5688e70c12b40684dbb395.html"></a></li>
+                                 <li><a href="place_d0a6343a081a7335baa965ce4fd0845c.html"></a></li>
+                                 <li><a href="place_a6b1694c64918f9e8fbeabbc16d599a4.html"></a></li>
+                                 <li><a href="place_3d647a65f30aa5a383d2536850e9ce0e.html"></a></li>
+                                 <li><a href="place_35d7df6ed3d93be2927d14acc5f1fc9a.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([52.52437, 13.41053]).addTo(mymap)
+                                                .bindPopup("<b>Berlin</b>").openPopup();
+                                            
+                                                L.marker([48.13743, 11.57549]).addTo(mymap)
+                                                .bindPopup("<b>München</b>").openPopup();
+                                            
+                                                L.marker([49.87167, 8.65027]).addTo(mymap)
+                                                .bindPopup("<b>Darmstadt</b>").openPopup();
+                                            
+                                                L.marker([48.195523, 16.349711]).addTo(mymap)
+                                                .bindPopup("<b>Königseggasse</b>").openPopup();
+                                            
+                                                L.marker([53.57532, 10.01534]).addTo(mymap)
+                                                .bindPopup("<b>Hamburg</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13359.html">
+                                 Bachrach
+                                 Stefanie
+                                 </a></li>
+                           <li><a href="person_14130.html">
+                                 Schnitzler
+                                 Lili
+                                 </a></li>
+                           <li><a href="person_19625.html">
+                                 Schapira
+                                 Vera
+                                 </a></li>
+                           <li><a href="person_21597.html">
+                                 Zuckerkandl
+                                 Fritz
+                                 </a></li>
+                           <li><a href="person_21600.html">
+                                 Giustiniani
+                                 Marianne
+                                 </a></li>
+                           <li><a href="person_17573.html">
+                                 Lindner
+                                 Anton
+                                 </a></li>
+                           <li><a href="person_14908.html">
+                                 Fehling
+                                 Jürgen
+                                 </a></li>
+                           <li><a href="person_21602.html">
+                                 Zuckerkandl
+                                 Victor
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_30863.html">Flucht in die Finsternis</a></li>
+                           <li><a href="work_30649.html">Der blinde Geronimo und sein Bruder</a></li>
+                           <li><a href="work_29857.html">Der Schleier der Beatrice</a></li>
+                           <li><a href="work_29877.html">Die letzten Masken</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13359">
@@ -222,7 +315,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.52437 13.41053
+                        </ul><small>Koordinaten:</small> 52.52437 13.41053
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -243,7 +336,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2867714/">http://www.geonames.org/2867714/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.13743 11.57549
+                        </ul><small>Koordinaten:</small> 48.13743 11.57549
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -264,7 +357,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2938913/">http://www.geonames.org/2938913/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 49.87167 8.65027
+                        </ul><small>Koordinaten:</small> 49.87167 8.65027
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -283,7 +376,7 @@
                      <h5 class="modal-title">Königseggasse <a href="place_3d647a65f30aa5a383d2536850e9ce0e.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 48.195523 16.349711
+                     <div class="card-body"><small>Koordinaten:</small> 48.195523 16.349711
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -304,7 +397,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2911298/">http://www.geonames.org/2911298/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 53.57532 10.01534
+                        </ul><small>Koordinaten:</small> 53.57532 10.01534
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

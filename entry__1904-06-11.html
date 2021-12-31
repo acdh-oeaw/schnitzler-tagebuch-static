@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -89,6 +90,115 @@
                      <p id="p__10">Abd. <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13169">Frau Altmann</a></strong>, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13175">Paul A.</a></strong> <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19827">Jul.</a></strong> <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_19823">Helene</a></strong> bei uns.</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_51150b7b6309d23b7d292c0be9fd3f21.html"></a></li>
+                                 <li><a href="place_e01585f07dba8bd0e6a1e3c2e14bf208.html"></a></li>
+                                 <li><a href="place_a6323892ff6bb3b42d9ed4dcfbfd47a5.html"></a></li>
+                                 <li><a href="place_9974545279455eb03bf50b1b1b4d7fea.html"></a></li>
+                                 <li><a href="place_2dffa8869b4ca4f921a119f75b4adc9e.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([49, 11.5]).addTo(mymap)
+                                                .bindPopup("<b>Bayern</b>").openPopup();
+                                            
+                                                L.marker([37.85358, 15.28851]).addTo(mymap)
+                                                .bindPopup("<b>Taormina</b>").openPopup();
+                                            
+                                                L.marker([48.199478, 16.364351]).addTo(mymap)
+                                                .bindPopup("<b>WiednertheaterTheater an der Wien</b>").openPopup();
+                                            
+                                                L.marker([50.08258, 8.24932]).addTo(mymap)
+                                                .bindPopup("<b>Wiesbaden</b>").openPopup();
+                                            
+                                                L.marker([48.231829, 16.333683]).addTo(mymap)
+                                                .bindPopup("<b>Sternwartepark</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13169.html">
+                                 Altmann
+                                 Emma
+                                 </a></li>
+                           <li><a href="person_13175.html">
+                                 Altmann
+                                 Paul
+                                 </a></li>
+                           <li><a href="person_13913.html">
+                                 Brahm
+                                 Otto
+                                 </a></li>
+                           <li><a href="person_14473.html">
+                                 Dohnányi
+                                 Ernst von
+                                 </a></li>
+                           <li><a href="person_15854.html">
+                                 Hajek
+                                 Gisela
+                                 </a></li>
+                           <li><a href="person_19154.html">
+                                 Reinhardt
+                                 Max
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_19823.html">
+                                 Schnitzler
+                                 Helene
+                                 </a></li>
+                           <li><a href="person_19827.html">
+                                 Schnitzler
+                                 Julius
+                                 </a></li>
+                           <li><a href="person_20219.html">
+                                 Sorma
+                                 Agnes
+                                 </a></li>
+                           <li><a href="person_21537.html">
+                                 Zemlinsky
+                                 Alexander von
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_30881.html">Fink und Fliederbusch</a></li>
+                           <li><a href="work_30486.html">Frau Berta Garlan</a></li>
+                           <li><a href="work_46124.html">Der tapfere Kassian</a></li>
+                           <li><a href="work_29937.html">Der junge Medardus</a></li>
+                           <li><a href="work_30287.html">Ritterlichkeit</a></li>
+                           <li><a href="work_29857.html">Der Schleier der Beatrice</a></li>
+                           <li><a href="work_30215.html">Der Schleier der Pierrette</a></li>
+                           <li><a href="work_29923.html">Der Weg ins Freie</a></li>
+                           <li><a href="work_29985.html">Der einsame Weg</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13169">
@@ -298,7 +408,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2951839/">http://www.geonames.org/2951839/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 49 11.5
+                        </ul><small>Koordinaten:</small> 49 11.5
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -319,7 +429,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2522975/">http://www.geonames.org/2522975/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 37.85358 15.28851
+                        </ul><small>Koordinaten:</small> 37.85358 15.28851
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -341,7 +451,7 @@
                      <div class="card-body"><small>Namensvarianten:</small><ul>
                            <li>Wiednertheater</li>
                            <li>Theater an der Wien</li>
-                        </ul><br></br><small>Koordinaten:</small> 48.199478 16.364351
+                        </ul><small>Koordinaten:</small> 48.199478 16.364351
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -362,7 +472,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2809346/">http://www.geonames.org/2809346/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 50.08258 8.24932
+                        </ul><small>Koordinaten:</small> 50.08258 8.24932
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -381,7 +491,7 @@
                      <h5 class="modal-title">Sternwartepark <a href="place_2dffa8869b4ca4f921a119f75b4adc9e.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><br></br><small>Koordinaten:</small> 48.231829 16.333683
+                     <div class="card-body"><small>Koordinaten:</small> 48.231829 16.333683
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

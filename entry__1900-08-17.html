@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -55,6 +56,69 @@
                      <p id="p__6">(<strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_13551">Richard</a></strong>, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_20925">Leo</a></strong>, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_15529">Paul</a></strong>, <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#person_16819">Kerr</a></strong>, ich.)</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_1ff97f22292e3d91119e867aadcf511b.html"></a></li>
+                                 <li><a href="place_ec08efbb9d64017d21a832c59e2ee823.html"></a></li>
+                                 <li><a href="place_9ccee5afdbf91c3d1cd3c9ff9dc10421.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([47.26266, 11.39454]).addTo(mymap)
+                                                .bindPopup("<b>Innsbruck</b>").openPopup();
+                                            
+                                                L.marker([47.15476, 9.82255]).addTo(mymap)
+                                                .bindPopup("<b>Bludenz</b>").openPopup();
+                                            
+                                                L.marker([47.07092, 9.94746]).addTo(mymap)
+                                                .bindPopup("<b>Schruns</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13551.html">
+                                 Beer-Hofmann
+                                 Richard
+                                 </a></li>
+                           <li><a href="person_15529.html">
+                                 Goldmann
+                                 Paul
+                                 </a></li>
+                           <li><a href="person_16819.html">
+                                 Kerr
+                                 Alfred
+                                 </a></li>
+                           <li><a href="person_20925.html">
+                                 Van-Jung
+                                 Leo
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul></ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13551">
@@ -138,7 +202,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2775220/">http://www.geonames.org/2775220/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.26266 11.39454
+                        </ul><small>Koordinaten:</small> 47.26266 11.39454
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -159,7 +223,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2781680/">http://www.geonames.org/2781680/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.15476 9.82255
+                        </ul><small>Koordinaten:</small> 47.15476 9.82255
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -180,7 +244,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/7873725/">http://www.geonames.org/7873725/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.07092 9.94746
+                        </ul><small>Koordinaten:</small> 47.07092 9.94746
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -88,6 +89,119 @@
                         da zu sein.</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_volkstheater.html"></a></li>
+                                 <li><a href="place_c38ad36647aca0261d667c432a4866bd.html"></a></li>
+                                 <li><a href="place_012af12d2fd02ba02ce3baaffcac49e7.html"></a></li>
+                                 <li><a href="place_579eab5c8b8db892cc12d4905841a277.html"></a></li>
+                                 <li><a href="place_7eae4e7c5f444294d02f17f98633af8e.html"></a></li>
+                                 <li><a href="place_8be4faaae218289562dc0a8c0e2e0ff1.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([48.205142, 16.3566]).addTo(mymap)
+                                                .bindPopup("<b>Deutsches VolkstheaterVolkstheater</b>").openPopup();
+                                            
+                                                L.marker([47.79941, 13.04399]).addTo(mymap)
+                                                .bindPopup("<b>Salzburg</b>").openPopup();
+                                            
+                                                L.marker([48.33246, 14.17425]).addTo(mymap)
+                                                .bindPopup("<b>Ottensheim</b>").openPopup();
+                                            
+                                                L.marker([46.47747, 30.73262]).addTo(mymap)
+                                                .bindPopup("<b>Odessa</b>").openPopup();
+                                            
+                                                L.marker([41.01384, 28.94966]).addTo(mymap)
+                                                .bindPopup("<b>KonstantinopelIstanbul</b>").openPopup();
+                                            
+                                                L.marker([45.64953, 13.77678]).addTo(mymap)
+                                                .bindPopup("<b>TriestTrieste</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_15368.html">
+                                 Geiringer
+                                 Anton
+                                 </a></li>
+                           <li><a href="person_18420.html">
+                                 Neumann
+                                 Moriz
+                                 </a></li>
+                           <li><a href="person_18691.html">
+                                 Paulsen
+                                 Max
+                                 </a></li>
+                           <li><a href="person_19625.html">
+                                 Schapira
+                                 Vera
+                                 </a></li>
+                           <li><a href="person_20925.html">
+                                 Van-Jung
+                                 Leo
+                                 </a></li>
+                           <li><a href="person_21207.html">
+                                 Weiss
+                                 Theodor
+                                 </a></li>
+                           <li><a href="person_21594.html">
+                                 Zuckerkandl
+                                 Berta
+                                 </a></li>
+                           <li><a href="person_16046.html">
+                                 Heine
+                                 Albert
+                                 </a></li>
+                           <li><a href="person_17870.html">
+                                 Marfeld-Neumann
+                                 Karl
+                                 </a></li>
+                           <li><a href="person_20238.html">
+                                 Specht
+                                 Richard
+                                 </a></li>
+                           <li><a href="person_13996.html">
+                                 Bronner
+                                 Ferdinand
+                                 </a></li>
+                           <li><a href="person_16770.html">
+                                 Kaufmann
+                                 Arthur
+                                 </a></li>
+                           <li><a href="person_17916.html">
+                                 Markus
+                                 Elisabeth
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_29863.html">Lebendige Stunden-Zyklus</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_15368">
@@ -334,7 +448,7 @@
                      <div class="card-body"><small>Namensvarianten:</small><ul>
                            <li>Deutsches Volkstheater</li>
                            <li>Volkstheater</li>
-                        </ul><br></br><small>Koordinaten:</small> 48.205142 16.3566
+                        </ul><small>Koordinaten:</small> 48.205142 16.3566
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -355,7 +469,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2766824/">http://www.geonames.org/2766824/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 47.79941 13.04399
+                        </ul><small>Koordinaten:</small> 47.79941 13.04399
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -376,7 +490,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2769342/">http://www.geonames.org/2769342/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.33246 14.17425
+                        </ul><small>Koordinaten:</small> 48.33246 14.17425
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -397,7 +511,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/698740/">http://www.geonames.org/698740/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.47747 30.73262
+                        </ul><small>Koordinaten:</small> 46.47747 30.73262
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -421,7 +535,7 @@
                            <li>Istanbul</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/745044/">http://www.geonames.org/745044/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 41.01384 28.94966
+                        </ul><small>Koordinaten:</small> 41.01384 28.94966
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -445,7 +559,7 @@
                            <li>Trieste</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3165185/">http://www.geonames.org/3165185/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 45.64953 13.77678
+                        </ul><small>Koordinaten:</small> 45.64953 13.77678
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

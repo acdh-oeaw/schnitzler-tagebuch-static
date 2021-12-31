@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -81,6 +82,160 @@
                         dasselbe.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_318e051b87a18bd62b48dc49a3318206.html"></a></li>
+                                 <li><a href="place_3962fe91966640892c61d1838300ed1a.html"></a></li>
+                                 <li><a href="place_6fc6f10422bfe80ddcba23b4f7f080dc.html"></a></li>
+                                 <li><a href="place_0a5ed43ab1e290a2356aaa745e7d7196.html"></a></li>
+                                 <li><a href="place_ee1611b61f5688e70c12b40684dbb395.html"></a></li>
+                                 <li><a href="place_1b388e3352c32b76b8d975c4d3625070.html"></a></li>
+                                 <li><a href="place_e20d37a5d7fcc4c35be6fc18a8e71bfa.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([48.2, 16.26667]).addTo(mymap)
+                                                .bindPopup("<b>Hütteldorf</b>").openPopup();
+                                            
+                                                L.marker([48.19035, 16.26552]).addTo(mymap)
+                                                .bindPopup("<b>Ober Sankt Veit</b>").openPopup();
+                                            
+                                                L.marker([48.17547, 16.29101]).addTo(mymap)
+                                                .bindPopup("<b>Hietzing</b>").openPopup();
+                                            
+                                                L.marker([31.76904, 35.21633]).addTo(mymap)
+                                                .bindPopup("<b>Jerusalem</b>").openPopup();
+                                            
+                                                L.marker([52.52437, 13.41053]).addTo(mymap)
+                                                .bindPopup("<b>Berlin</b>").openPopup();
+                                            
+                                                L.marker([48.20849, 16.37208]).addTo(mymap)
+                                                .bindPopup("<b>Wien</b>").openPopup();
+                                            
+                                                L.marker([48.85341, 2.3488]).addTo(mymap)
+                                                .bindPopup("<b>Paris</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_13305.html">
+                                 Auernheimer
+                                 Raoul
+                                 </a></li>
+                           <li><a href="person_13618.html">
+                                 Berg
+                                 Alban
+                                 </a></li>
+                           <li><a href="person_13721.html">
+                                 Bienenfeld
+                                 Elsa
+                                 </a></li>
+                           <li><a href="person_14371.html">
+                                 Debussy
+                                 Claude
+                                 </a></li>
+                           <li><a href="person_14816.html">
+                                 Ettlinger
+                                 Karl
+                                 </a></li>
+                           <li><a href="person_15185.html">
+                                 Freund
+                                 Marya
+                                 </a></li>
+                           <li><a href="person_15702.html">
+                                 Grünfeld
+                                 Alfred
+                                 </a></li>
+                           <li><a href="person_17058.html">
+                                 Korngold
+                                 Erich Wolfgang
+                                 </a></li>
+                           <li><a href="person_17401.html">
+                                 Lehár
+                                 Franz
+                                 </a></li>
+                           <li><a href="person_18913.html">
+                                 Popper
+                                 Anna
+                                 </a></li>
+                           <li><a href="person_18916.html">
+                                 Popper-Lynkeus
+                                 Josef
+                                 </a></li>
+                           <li><a href="person_19055.html">
+                                 Rapoport-Porada
+                                 Käthe von
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_20986.html">
+                                 Vollmoeller
+                                 Karl Gustav
+                                 </a></li>
+                           <li><a href="person_21124.html">
+                                 Webern
+                                 Anton von
+                                 </a></li>
+                           <li><a href="person_21594.html">
+                                 Zuckerkandl
+                                 Berta
+                                 </a></li>
+                           <li><a href="person_14148.html">
+                                 Casella
+                                 Alfredo
+                                 </a></li>
+                           <li><a href="person_14551.html">
+                                 Dunan
+                                 Marcel
+                                 </a></li>
+                           <li><a href="person_15375.html">
+                                 Gelber
+                                 Adolf
+                                 </a></li>
+                           <li><a href="person_16547.html">
+                                 Jerusalem
+                                 Katharina
+                                 </a></li>
+                           <li><a href="person_19076.html">
+                                 Ravel
+                                 Maurice
+                                 </a></li>
+                           <li><a href="person_19832.html">
+                                 Schnitzler
+                                 Olga
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_2100.html">Chansons de Bilitis</a></li>
+                           <li><a href="work_3477.html">Schauspielouvertüre op. 4</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_13305">
@@ -488,7 +643,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2775371/">http://www.geonames.org/2775371/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.2 16.26667
+                        </ul><small>Koordinaten:</small> 48.2 16.26667
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -509,7 +664,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2601120/">http://www.geonames.org/2601120/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.19035 16.26552
+                        </ul><small>Koordinaten:</small> 48.19035 16.26552
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -530,7 +685,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2776420/">http://www.geonames.org/2776420/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.17547 16.29101
+                        </ul><small>Koordinaten:</small> 48.17547 16.29101
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -551,7 +706,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/281184/">http://www.geonames.org/281184/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 31.76904 35.21633
+                        </ul><small>Koordinaten:</small> 31.76904 35.21633
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -572,7 +727,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.52437 13.41053
+                        </ul><small>Koordinaten:</small> 52.52437 13.41053
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -593,7 +748,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2761369/">http://www.geonames.org/2761369/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.20849 16.37208
+                        </ul><small>Koordinaten:</small> 48.20849 16.37208
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -614,7 +769,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2988507/">http://www.geonames.org/2988507/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48.85341 2.3488
+                        </ul><small>Koordinaten:</small> 48.85341 2.3488
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -55,6 +56,77 @@
                         Hotel) ― <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_cc8cdaff24dc681b3b9c1c7c8021df6f">Edolo</a></strong> ― <strong xmlns:tei="http://www.tei-c.org/ns/1.0"><a data-toggle="modal" data-target="#place_494b6e03d05330763f2bd7c8de0c9cd0">Tirano</a></strong> (½8).</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_3859ff9074d497ed0cb3c08be85996ad.html"></a></li>
+                                 <li><a href="place_f530c768051b3c2051eb29262102f61b.html"></a></li>
+                                 <li><a href="place_8fff1c32b468ddb7ab0c8a88fc824124.html"></a></li>
+                                 <li><a href="place_4d1f1791f73372dd8fbd956eba48e83b.html"></a></li>
+                                 <li><a href="place_20ca0708673130cb120085476799920a.html"></a></li>
+                                 <li><a href="place_9904dd1e82acbba846acd4985dd5c8c9.html"></a></li>
+                                 <li><a href="place_cc8cdaff24dc681b3b9c1c7c8021df6f.html"></a></li>
+                                 <li><a href="place_494b6e03d05330763f2bd7c8de0c9cd0.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([46.49067, 11.33982]).addTo(mymap)
+                                                .bindPopup("<b>Bozen</b>").openPopup();
+                                            
+                                                L.marker([46.41667, 11.2]).addTo(mymap)
+                                                .bindPopup("<b>MendelPasso della Mendola</b>").openPopup();
+                                            
+                                                L.marker([46.4388, 11.13723]).addTo(mymap)
+                                                .bindPopup("<b>Fondo</b>").openPopup();
+                                            
+                                                L.marker([46.35356, 10.91246]).addTo(mymap)
+                                                .bindPopup("<b>Malè</b>").openPopup();
+                                            
+                                                L.marker([46.25834, 10.58189]).addTo(mymap)
+                                                .bindPopup("<b>TonalepassPasso del Tonale</b>").openPopup();
+                                            
+                                                L.marker([46.25896, 10.51048]).addTo(mymap)
+                                                .bindPopup("<b>Ponte di Legno</b>").openPopup();
+                                            
+                                                L.marker([46.17799, 10.33322]).addTo(mymap)
+                                                .bindPopup("<b>Edolo</b>").openPopup();
+                                            
+                                                L.marker([46.21482, 10.16335]).addTo(mymap)
+                                                .bindPopup("<b>Tirano</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_18863.html">
+                                 Pollaczek
+                                 Clara Katharina
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul></ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_18863">
@@ -84,7 +156,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3181913/">http://www.geonames.org/3181913/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.49067 11.33982
+                        </ul><small>Koordinaten:</small> 46.49067 11.33982
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -108,7 +180,7 @@
                            <li>Passo della Mendola</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3173592/">http://www.geonames.org/3173592/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.41667 11.2
+                        </ul><small>Koordinaten:</small> 46.41667 11.2
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -129,7 +201,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3176836/">http://www.geonames.org/3176836/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.4388 11.13723
+                        </ul><small>Koordinaten:</small> 46.4388 11.13723
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -150,7 +222,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3174186/">http://www.geonames.org/3174186/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.35356 10.91246
+                        </ul><small>Koordinaten:</small> 46.35356 10.91246
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -174,7 +246,7 @@
                            <li>Passo del Tonale</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3165566/">http://www.geonames.org/3165566/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.25834 10.58189
+                        </ul><small>Koordinaten:</small> 46.25834 10.58189
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -195,7 +267,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3170269/">http://www.geonames.org/3170269/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.25896 10.51048
+                        </ul><small>Koordinaten:</small> 46.25896 10.51048
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -216,7 +288,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3177435/">http://www.geonames.org/3177435/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.17799 10.33322
+                        </ul><small>Koordinaten:</small> 46.17799 10.33322
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -237,7 +309,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3165647/">http://www.geonames.org/3165647/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.21482 10.16335
+                        </ul><small>Koordinaten:</small> 46.21482 10.16335
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>

@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
                         <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                      </ul>
                      <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
@@ -82,6 +83,111 @@
                         das Theater neu eröffnen will, einfältig und Phrasen schwätzend.―</p>
                      </div>
                   </div>
+               <div class="card-footer">
+                  <nav>
+                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <legend>Orte</legend>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <ul>
+                                 <li><a href="place_a89d7e4e24c37b18add1ddba6cc4f827.html"></a></li>
+                                 <li><a href="place_389962c9dec540ab28d04517e82c3996.html"></a></li>
+                                 <li><a href="place_ee1611b61f5688e70c12b40684dbb395.html"></a></li>
+                              </ul>
+                           </div>
+                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                        </div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                            
+                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
+                                            
+                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                            maxZoom: 18,
+                                            zIndex: 1
+                                            }).addTo(mymap);
+                                            
+                                                L.marker([46.26667, 11.8]).addTo(mymap)
+                                                .bindPopup("<b>MartinoSan Martino di Castrozza</b>").openPopup();
+                                            
+                                                L.marker([42.83333, 12.83333]).addTo(mymap)
+                                                .bindPopup("<b>Italien</b>").openPopup();
+                                            
+                                                L.marker([52.52437, 13.41053]).addTo(mymap)
+                                                .bindPopup("<b>Berlin</b>").openPopup();
+                                            </script></div>
+                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <legend>Personen</legend>
+                        <ul>
+                           <li><a href="person_14129.html">
+                                 Cappellini
+                                 Arnoldo
+                                 </a></li>
+                           <li><a href="person_14926.html">
+                                 Feldhammer
+                                 Jakob
+                                 </a></li>
+                           <li><a href="person_16788.html">
+                                 Keaton
+                                 Buster
+                                 </a></li>
+                           <li><a href="person_18137.html">
+                                 Michaelis
+                                 Dora
+                                 </a></li>
+                           <li><a href="person_18846.html">
+                                 Pohl
+                                 Josef
+                                 </a></li>
+                           <li><a href="person_18863.html">
+                                 Pollaczek
+                                 Clara Katharina
+                                 </a></li>
+                           <li><a href="person_19822.html">
+                                 Schnitzler
+                                 Heinrich
+                                 </a></li>
+                           <li><a href="person_13953.html">
+                                 Breitner
+                                 Hugo
+                                 </a></li>
+                           <li><a href="person_19738.html">
+                                 Schlesinger
+                                 Viola Gabriele
+                                 </a></li>
+                           <li><a href="person_13139.html">
+                                 Schnitzler
+                                 Ruth
+                                 </a></li>
+                           <li><a href="person_18881.html">
+                                 Pollak
+                                 Frieda
+                                 </a></li>
+                           <li><a href="person_19704.html">
+                                 Schinnerer
+                                 Otto Paul
+                                 </a></li>
+                           <li><a href="person_19832.html">
+                                 Schnitzler
+                                 Olga
+                                 </a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <legend>Werke</legend>
+                        <ul>
+                           <li><a href="work_33784.html">Die Gouvernante</a></li>
+                           <li><a href="work_31547.html">Das Haus Delorme</a></li>
+                           <li><a href="work_30625.html">Die Quellen des Nil</a></li>
+                           <li><a href="work_30945.html">Im Spiel der Sommerlüfte</a></li>
+                           <li><a href="work_2051.html">Der Seefahrer</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="person_14129">
@@ -330,7 +436,7 @@
                            <li>San Martino di Castrozza</li>
                         </ul><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3168019/">http://www.geonames.org/3168019/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 46.26667 11.8
+                        </ul><small>Koordinaten:</small> 46.26667 11.8
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -351,7 +457,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/3175395/">http://www.geonames.org/3175395/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 42.83333 12.83333
+                        </ul><small>Koordinaten:</small> 42.83333 12.83333
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
@@ -372,7 +478,7 @@
                   <div class="modal-body">
                      <div class="card-body"><small>Normdaten IDs</small><ul>
                            <li><small>geonames:</small> <a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 52.52437 13.41053
+                        </ul><small>Koordinaten:</small> 52.52437 13.41053
                         <hr></hr>
                         <div id="mentions">
                            <legend>erwähnt in</legend>
