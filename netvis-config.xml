@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netvisConfig>
+    <Nodes>
+        <Entity type="Tagebucheintrag">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:editions||'/'||$entity-id)//tei:TEI</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">$node//tei:titleStmt/tei:title[@type="main"]/text()</label>
+                <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Tagebucheintrag')</as_graph>
+                <type type="literal">Tagebucheintrag</type>
+                <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
+            </mandatoryProps>
+            <relations>
+                <target>
+                    <xpath>$node//tei:back//tei:person</xpath>
+                    <relationType>erwähnt</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">data($node/@xml:id)</id>
+                        <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Person')</as_graph>
+                        <type type="literal">Person</type>
+                        <relationType type="literal">erwähnt Person</relationType>
+                    </mandatoryProps>
+                </target>
+                <target>
+                    <xpath>$node//tei:back//tei:place</xpath>
+                    <relationType>erwähnt</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">data($node/@xml:id)</id>
+                        <label type="xpath">normalize-space(string-join($node//tei:placeName//text(), ' '))</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Place')</as_graph>
+                        <type type="literal">Place</type>
+                        <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
+                    </mandatoryProps>
+                </target>
+                <target>
+                    <xpath>$node//tei:back//tei:bibl</xpath>
+                    <relationType>erwähnt</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">'bibl_'||data($node/@xml:id)</id>
+                        <label type="xpath">normalize-space(string-join($node/tei:title/text(), ' '))</label>
+                        <detail_view type="xpath">concat('../pages/work-search.html?searchkey=', data($node/@xml:id))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url('bibl_'||data($node/@xml:id), 'Werk')</as_graph>
+                        <type type="literal">Werk</type>
+                        <relationType type="literal">erwähnt Werk</relationType>
+                    </mandatoryProps>
+                </target>
+            </relations>
+        </Entity>
+        <Entity type="Werk">
+            <getId type="xpath">substring-after($entity-id, 'bibl_')</getId>
+            <getEntity type="xpath">doc($app:workIndex)//tei:title[@key=$id]/ancestor::tei:item</getEntity>
+            <mandatoryProps>
+                <id type="xpath">'bibl_'||data($node//tei:title/@key)</id>
+                <label type="xpath">$node//tei:title/text()</label>
+                <detail_view type="xpath">'../pages/work-search.html?searchkey='||data($node//tei:title/@key)</detail_view>
+                <as_graph type="xpath">netvis:graph-url('bibl_'||data($node//tei:title/@key), 'Werk')</as_graph>
+                <type type="literal">Werk</type>
+            </mandatoryProps>
+            <target>
+                <xpath>$node//tei:date</xpath>
+                <relationType>wird erwähnt in Tagebucheintrag</relationType>
+                <mandatoryProps>
+                    <id type="xpath">'entry__'||data($node/@when)||'.xml'</id>
+                    <label type="xpath">'Eintrag vom'||$node/text()</label>
+                    <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
+                    <as_graph type="xpath">netvis:graph-url('entry__'||data($node/@when)||'.xml', 'Tagebucheintrag')</as_graph>
+                    <type type="literal">Tagebucheintrag</type>
+                    <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
+                </mandatoryProps>
+            </target>
+        </Entity>
+        <Entity type="Person">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:personIndex)//id($id)</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Person')</as_graph>
+                <type type="literal">Person</type>
+                <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
+            </mandatoryProps>
+            <target>
+                <xpath>collection($app:editions)/id($node/@xml:id)/ancestor::tei:TEI</xpath>
+                <relationType>wird erwähnt in Tagebucheintrag</relationType>
+                <mandatoryProps>
+                    <id type="xpath">data($node/@xml:id)</id>
+                    <label type="xpath">$node//tei:titleStmt/tei:title[@type="main"]/text()</label>
+                    <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                    <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Tagebucheintrag')</as_graph>
+                    <type type="literal">Tagebucheintrag</type>
+                    <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
+                    <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
+                </mandatoryProps>
+            </target>
+        </Entity>
+        <Entity type="Place">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:placeIndex)//id($id)</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">normalize-space(string-join($node//tei:placeName//text(), ' '))</label>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', data($node/@xml:id))</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Place')</as_graph>
+                <type type="literal">Place</type>
+                <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
+            </mandatoryProps>
+            <target>
+                <xpath>collection($app:editions)/id($node/@xml:id)/ancestor::tei:TEI</xpath>
+                <relationType>wird erwähnt in Tagebucheintrag</relationType>
+                <mandatoryProps>
+                    <id type="xpath">data($node/@xml:id)</id>
+                    <label type="xpath">$node//tei:titleStmt/tei:title[@type="main"]/text()</label>
+                    <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                    <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Tagebucheintrag')</as_graph>
+                    <type type="literal">Tagebucheintrag</type>
+                    <relationType type="literal">wird erwähnt in Tagebucheintrag</relationType>
+                    <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
+                </mandatoryProps>
+            </target>
+        </Entity>
+    </Nodes>
+    <NodeTypes>
+        <node>
+            <id>Tagebucheintrag</id>
+            <color>#6b5b95</color>
+            <label>Tagebucheintrag</label>
+        </node>
+        <node>
+            <id>Person</id>
+            <color>#feb236</color>
+            <label>Person</label>
+        </node>
+        <node>
+            <id>Place</id>
+            <color>#d64161</color>
+            <label>Place</label>
+        </node>
+        <node>
+            <id>Werk</id>
+            <color>#ff7b25</color>
+            <label>Werk</label>
+        </node>
+    </NodeTypes>
+</netvisConfig>
