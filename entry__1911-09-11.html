@@ -40,7 +40,6 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Montag, 11. September 1911</h1>
-                        <h3 align="center"><a href="entry__1911-09-11.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="entry__1911-09-12.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
@@ -70,6 +69,15 @@
                      </div>
                   </div>
                <div class="card-footer">
+                  <div id="srcbuttons">
+                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri=""><span id="copy-url-button"><i class="fas fa-quote-right"></i> ZITIEREN
+                           </span><span id="copyLinkTextfield-wrapper"><span type="text" name="copyLinkInputBtn" id="copyLinkInputBtn" data-copyuri="Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 11. September 1911,  (Stand 2022-1-3) PID: http://hdl.handle.net/21.11115/0000-000C-0036-7"><i class="far fa-copy"></i></span><textarea rows="3" name="copyLinkTextfield" id="copyLinkTextfield" value="">Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 11. September 1911,  (Stand 2022-1-3) PID: http://hdl.handle.net/21.11115/0000-000C-0036-7</textarea></span><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> Faksimile
+                           </a><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_1909_1912sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                           </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="entry__1911-09-11.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                           </a><a class="ml-3" data-toggle="tooltip" title="Zeige Register"><i class="fas fa-map-marked-alt"></i> Zeige Register
+                           </a><span class="nav-link">
+                           <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1911-09-11" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  </div>
                   <nav>
                      <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
                   </nav>
@@ -79,8 +87,8 @@
                         <div class="row">
                            <div class="col-md-4">
                               <ul>
-                                 <li><a href="place_c38ad36647aca0261d667c432a4866bd.html"></a></li>
-                                 <li><a href="place_volkstheater.html"></a></li>
+                                 <li><a href="place_c38ad36647aca0261d667c432a4866bd.html">Salzburg</a></li>
+                                 <li><a href="place_volkstheater.html">Deutsches Volkstheater</a></li>
                               </ul>
                            </div>
                            <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -99,7 +107,7 @@
                                                 .bindPopup("<b>Salzburg</b>").openPopup();
                                             
                                                 L.marker([48.205142, 16.3566]).addTo(mymap)
-                                                .bindPopup("<b>Deutsches VolkstheaterVolkstheater</b>").openPopup();
+                                                .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
                                             </script></div>
                      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         <legend>Personen</legend>
@@ -152,6 +160,36 @@
                            <li><a href="work_29937.html">Der junge Medardus</a></li>
                         </ul>
                      </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h3>Faksimile</h3>
+                  </div>
+                  <div class="modal-body">
+                     <div id="openseadragon-photo" style="height: 350px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            {
+                                                type: 'image',
+                                                url: 'https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3220.tif?format=iiif'
+                                             }
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;">
+                        <li><a href="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3220.tif?format=gui">https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3220.tif</a></li>
+                     </ul>
                   </div>
                </div>
             </div>
