@@ -11,8 +11,9 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/bootstrap-year-calendar-bs4/bootstrap-year-calendar.min.js"></script></head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/project-logo.svg" class="img-fluid" alt="Schnitzler Tagebuch" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -32,7 +33,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -46,7 +47,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
                   <div id="div__26">
                      
@@ -68,91 +69,105 @@
                         des W. L. noch weiter in Schwebe.―</p>
                      </div>
                   </div>
-               <div class="card-footer">
-                  <div id="srcbuttons">
-                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri=""><span id="copy-url-button"><i class="fas fa-quote-right"></i> ZITIEREN
-                           </span><span id="copyLinkTextfield-wrapper"><span type="text" name="copyLinkInputBtn" id="copyLinkInputBtn" data-copyuri="Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 8. August 1910,  (Stand 2022-1-3) PID: http://hdl.handle.net/21.11115/0000-000B-FEA7-B"><i class="far fa-copy"></i></span><textarea rows="3" name="copyLinkTextfield" id="copyLinkTextfield" value="">Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 8. August 1910,  (Stand 2022-1-3) PID: http://hdl.handle.net/21.11115/0000-000B-FEA7-B</textarea></span><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> Faksimile
-                           </a><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_1909_1912sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
-                           </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="entry__1910-08-08.xml"><i class="fa-lg far fa-file-code"></i> TEI 
-                           </a><a class="ml-3" data-toggle="tooltip" title="Zeige Register"><i class="fas fa-map-marked-alt"></i> Zeige Register
-                           </a><span class="nav-link">
-                           <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1910-08-08" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
-                  </div>
-                  <nav>
-                     <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
-                  </nav>
-                  <div class="tab-content" id="nav-tabContent">
-                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                        <legend>Orte</legend>
-                        <div class="row">
-                           <div class="col-md-4">
-                              <ul>
-                                 <li><a href="place_e20d37a5d7fcc4c35be6fc18a8e71bfa.html">Paris</a></li>
-                                 <li><a href="place_70badd7ef7036249b2048516efb8b9aa.html">Türkenschanzpark</a></li>
-                                 <li><a href="place_8627b9def9e6e2fd2353f5f3822fba9c.html">Semmering</a></li>
-                              </ul>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center">
+                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> ZITIEREN
+                           </span></div><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> Faksimile
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_1909_1912sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="entry__1910-08-08.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()"><i class="fas fa-map-marked-alt"></i> Verstecke/Zeige Register
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1910-08-08" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="place_e20d37a5d7fcc4c35be6fc18a8e71bfa.html">Paris</a></li>
+                                    <li><a href="place_70badd7ef7036249b2048516efb8b9aa.html">Türkenschanzpark</a></li>
+                                    <li><a href="place_8627b9def9e6e2fd2353f5f3822fba9c.html">Semmering</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
                            </div>
-                           <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([48.85341, 2.3488]).addTo(mymap)
+                                                    .bindPopup("<b>Paris</b>").openPopup();
+                                                
+                                                    L.marker([48.235429, 16.334063]).addTo(mymap)
+                                                    .bindPopup("<b>Türkenschanzpark</b>").openPopup();
+                                                
+                                                    L.marker([47.63333, 15.81667]).addTo(mymap)
+                                                    .bindPopup("<b>Semmering</b>").openPopup();
+                                                </script></div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="person_13478.html">
+                                    Bauer
+                                    Wilhelm
+                                    </a></li>
+                              <li><a href="person_13913.html">
+                                    Brahm
+                                    Otto
+                                    </a></li>
+                              <li><a href="person_16646.html">
+                                    Kainz
+                                    Josef
+                                    </a></li>
+                              <li><a href="person_18753.html">
+                                    Philippi
+                                    Felix
+                                    </a></li>
+                              <li><a href="person_19182.html">
+                                    Rémon
+                                    Maurice
+                                    </a></li>
+                              <li><a href="person_16572.html">
+                                    Jonas
+                                    Clara
+                                    </a></li>
+                           </ul>
                         </div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                            
-                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
-                                            
-                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                            maxZoom: 18,
-                                            zIndex: 1
-                                            }).addTo(mymap);
-                                            
-                                                L.marker([48.85341, 2.3488]).addTo(mymap)
-                                                .bindPopup("<b>Paris</b>").openPopup();
-                                            
-                                                L.marker([48.235429, 16.334063]).addTo(mymap)
-                                                .bindPopup("<b>Türkenschanzpark</b>").openPopup();
-                                            
-                                                L.marker([47.63333, 15.81667]).addTo(mymap)
-                                                .bindPopup("<b>Semmering</b>").openPopup();
-                                            </script></div>
-                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <legend>Personen</legend>
-                        <ul>
-                           <li><a href="person_13478.html">
-                                 Bauer
-                                 Wilhelm
-                                 </a></li>
-                           <li><a href="person_13913.html">
-                                 Brahm
-                                 Otto
-                                 </a></li>
-                           <li><a href="person_16646.html">
-                                 Kainz
-                                 Josef
-                                 </a></li>
-                           <li><a href="person_18753.html">
-                                 Philippi
-                                 Felix
-                                 </a></li>
-                           <li><a href="person_19182.html">
-                                 Rémon
-                                 Maurice
-                                 </a></li>
-                           <li><a href="person_16572.html">
-                                 Jonas
-                                 Clara
-                                 </a></li>
-                        </ul>
-                     </div>
-                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        <legend>Werke</legend>
-                        <ul>
-                           <li><a href="work_30207.html">Das weite Land</a></li>
-                           <li><a href="work_33754.html">Der Mörder</a></li>
-                           <li><a href="work_33792.html">Die Mörderin</a></li>
-                           <li><a href="work_4257.html">Pariser Schattenspiel</a></li>
-                           <li><a href="work_4993.html">Götz Krafft</a></li>
-                        </ul>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="work_30207.html">Das weite Land</a></li>
+                              <li><a href="work_33754.html">Der Mörder</a></li>
+                              <li><a href="work_33792.html">Die Mörderin</a></li>
+                              <li><a href="work_4257.html">Pariser Schattenspiel</a></li>
+                              <li><a href="work_4993.html">Götz Krafft</a></li>
+                           </ul>
+                        </div>
                      </div>
                   </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
+                  </div>
+                  <div class="modal-body">
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 8. August 1910, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-1-3), PID: http://hdl.handle.net/21.11115/0000-000B-FEA7-B. 
+                     </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
@@ -399,6 +414,15 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html" style="color: #037a33">Impressum</a><br /><a href="https://github.com/acdh-oeaw/schnitzler-tagebuch-static"><small><i class="fab fa-github-square fa-2x" style="color: #037a33"></i></small></a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function myFunction() {
+                        var x = document.getElementById("registerDiv");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        } 
+                    </script></div>
    </body>
 </html>
