@@ -9,9 +9,9 @@
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <title>Sonntag, 2. September 1928</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
-      <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
+      <link rel="stylesheet" href="css/style.css" type="text/css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
    <body class="page">
       <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
@@ -76,15 +76,14 @@
                      </div>
                   </div>
                <div class="card-footer text-muted">
-                  <div id="srcbuttons" style="text-align:center">
-                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> ZITIEREN
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> ZITIEREN
                            </span></div><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> Faksimile
                         </a><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_1927_1930s187.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
                         </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="entry__1928-09-02.xml"><i class="fa-lg far fa-file-code"></i> TEI 
-                        </a><a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()"><i class="fas fa-map-marked-alt"></i> Verstecke/Zeige Register
                         </a><span class="nav-link">
                         <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1928-09-02" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
-                  <div id="registerDiv">
+                  <div id="registerDiv" class="d-none">
                      <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
                      </nav>
@@ -207,7 +206,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 2. September 1928, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-01-07), PID: http://hdl.handle.net/21.11115/0000-000C-1869-4. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 2. September 1928, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-01-12), PID: http://hdl.handle.net/21.11115/0000-000C-1869-4. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -255,10 +254,12 @@
                      <h5 class="modal-title">Cappellini Arnoldo <a href="person_14129.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Arnoldo<br></br><small>Nachname</small>: Cappellini<br></br><small>geboren</small>:  10. 8. 1889<br></br><small>gestorben</small>: 8. 5. 1954
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Arnoldo</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Cappellini</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>10. 8. 1889</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>8. 5. 1954</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -273,10 +274,12 @@
                      <h5 class="modal-title">Schnitzler Lili <a href="person_14130.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Lili<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  13. 9. 1909<br></br><small>gestorben</small>: 26. 7. 1928
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Lili</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Schnitzler</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>13. 9. 1909</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>26. 7. 1928</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -291,10 +294,12 @@
                      <h5 class="modal-title">Edschmid Kasimir <a href="person_14619.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Kasimir<br></br><small>Nachname</small>: Edschmid<br></br><small>geboren</small>:  5. 10. 1890<br></br><small>gestorben</small>: 31. 8. 1966
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Kasimir</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Edschmid</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>5. 10. 1890</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>31. 8. 1966</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -309,10 +314,12 @@
                      <h5 class="modal-title">Frank Bruno <a href="person_15120.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Bruno<br></br><small>Nachname</small>: Frank<br></br><small>geboren</small>:  13. 6. 1887<br></br><small>gestorben</small>: 20. 6. 1945
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Bruno</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Frank</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>13. 6. 1887</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>20. 6. 1945</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -327,10 +334,12 @@
                      <h5 class="modal-title">Frank Elisabeth <a href="person_15121.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Elisabeth<br></br><small>Nachname</small>: Frank<br></br><small>geboren</small>:  1903<br></br><small>gestorben</small>: 1979
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Elisabeth</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Frank</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>1903</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>1979</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -345,10 +354,12 @@
                      <h5 class="modal-title">Hamsun Knut <a href="person_15894.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Knut<br></br><small>Nachname</small>: Hamsun<br></br><small>geboren</small>:  4. 8. 1859<br></br><small>gestorben</small>: 19. 2. 1952
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Knut</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Hamsun</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>4. 8. 1859</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>19. 2. 1952</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -363,10 +374,12 @@
                      <h5 class="modal-title">Pallenberg Max <a href="person_18643.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Max<br></br><small>Nachname</small>: Pallenberg<br></br><small>geboren</small>:  18. 12. 1877<br></br><small>gestorben</small>: 26. 6. 1934
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Max</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Pallenberg</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>18. 12. 1877</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>26. 6. 1934</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -381,10 +394,12 @@
                      <h5 class="modal-title">Pinner Erna <a href="person_18802.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Erna<br></br><small>Nachname</small>: Pinner<br></br><small>geboren</small>:  27. 1. 1896<br></br><small>gestorben</small>: 5. 3. 1987
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Erna</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Pinner</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>27. 1. 1896</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>5. 3. 1987</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -399,10 +414,12 @@
                      <h5 class="modal-title">Beyle Henri <a href="person_20397.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Henri<br></br><small>Nachname</small>: Beyle<br></br><small>geboren</small>:  23. 1. 1783<br></br><small>gestorben</small>: 23. 3. 1842
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Henri</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Beyle</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>23. 1. 1783</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>23. 3. 1842</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -417,10 +434,12 @@
                      <h5 class="modal-title">Schnitzler Olga <a href="person_19832.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Olga<br></br><small>Nachname</small>: Schnitzler<br></br><small>geboren</small>:  17. 1. 1882<br></br><small>gestorben</small>: 13. 1. 1970
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Olga</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Schnitzler</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>17. 1. 1882</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>13. 1. 1970</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -435,10 +454,12 @@
                      <h5 class="modal-title">Schurig Arthur <a href="person_19946.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Arthur<br></br><small>Nachname</small>: Schurig<br></br><small>geboren</small>:  24. 4. 1870<br></br><small>gestorben</small>: 16. 2. 1929
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Arthur</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Schurig</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>24. 4. 1870</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>16. 2. 1929</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -453,13 +474,9 @@
                      <h5 class="modal-title">München <a href="place_d0a6343a081a7335baa965ce4fd0845c.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Normdaten IDs</small><ul>
-                           <li><small>geonames:</small> <a href="http://www.geonames.org/2867714/">http://www.geonames.org/2867714/</a></li>
-                        </ul><small>Koordinaten:</small> 48.13743 11.57549
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                           <li><a href="http://www.geonames.org/2867714/">http://www.geonames.org/2867714/</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.13743 11.57549</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -474,11 +491,7 @@
                      <h5 class="modal-title">Mauerkircherstraße <a href="place_39344b50d01d5c0b81fc222c8104470d.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Koordinaten:</small> 48.158948 11.611977
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc mr-2">Koordinaten</span><span>48.158948 11.611977</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -493,16 +506,12 @@
                      <h5 class="modal-title">Kaufingerstr. <a href="place_c51059eb0a858e80be9e0499d170fff2.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                     <div class="card-body-tagebuch w-75"><small>Namensvarianten:</small><ul>
                            <li>Kaufingerstr.</li>
                            <li>Kaufingerstraße</li>
-                        </ul><small>Normdaten IDs</small><ul>
-                           <li><small>geonames:</small> <a href="http://www.geonames.org/6946186/">http://www.geonames.org/6946186/</a></li>
-                        </ul><small>Koordinaten:</small> 48.1379 11.5728
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                        </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                           <li><a href="http://www.geonames.org/6946186/">http://www.geonames.org/6946186/</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.1379 11.5728</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -517,13 +526,9 @@
                      <h5 class="modal-title">Nymphenburg <a href="place_7fffac901919754631a1fbb20dce208c.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Normdaten IDs</small><ul>
-                           <li><small>geonames:</small> <a href="http://www.geonames.org/2861525/">http://www.geonames.org/2861525/</a></li>
-                        </ul><small>Koordinaten:</small> 48.15853 11.49857
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                           <li><a href="http://www.geonames.org/2861525/">http://www.geonames.org/2861525/</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.15853 11.49857</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -538,11 +543,7 @@
                      <h5 class="modal-title">Pschorrbräu <a href="place_pschorrbraeu.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Koordinaten:</small> 48.1358 11.5711
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc mr-2">Koordinaten</span><span>48.1358 11.5711</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -557,13 +558,9 @@
                      <h5 class="modal-title">Lido <a href="place_9b5c2555a01778bd31e0cd1c675164b2.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Normdaten IDs</small><ul>
-                           <li><small>geonames:</small> <a href="http://www.geonames.org/3174748/">http://www.geonames.org/3174748/</a></li>
-                        </ul><small>Koordinaten:</small> 45.4105 12.36649
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                           <li><a href="http://www.geonames.org/3174748/">http://www.geonames.org/3174748/</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>45.4105 12.36649</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -578,13 +575,9 @@
                      <h5 class="modal-title">Venedig <a href="place_e4d4b19346747823e5636ed1238a7521.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Normdaten IDs</small><ul>
-                           <li><small>geonames:</small> <a href="http://www.geonames.org/3164603/">http://www.geonames.org/3164603/</a></li>
-                        </ul><small>Koordinaten:</small> 45.43713 12.33265
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                           <li><a href="http://www.geonames.org/3164603/">http://www.geonames.org/3164603/</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>45.43713 12.33265</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -599,13 +592,9 @@
                      <h5 class="modal-title">Berlin <a href="place_ee1611b61f5688e70c12b40684dbb395.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Normdaten IDs</small><ul>
-                           <li><small>geonames:</small> <a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
-                        </ul><small>Koordinaten:</small> 52.52437 13.41053
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                           <li><a href="http://www.geonames.org/2950159/">http://www.geonames.org/2950159/</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>52.52437 13.41053</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -653,13 +642,10 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html" style="color: #037a33">Impressum</a><br /><a href="https://github.com/acdh-oeaw/schnitzler-tagebuch-static"><small><i class="fab fa-github-square fa-2x" style="color: #037a33"></i></small></a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
-                        function myFunction() {
-                        var x = document.getElementById("registerDiv");
-                            if (x.style.display === "none") {
-                                x.style.display = "block";
-                            } else {
-                                x.style.display = "none";
-                            }
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
                         } 
                     </script></div>
    </body>

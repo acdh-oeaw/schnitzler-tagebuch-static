@@ -9,9 +9,9 @@
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <title>Gersthof</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
-      <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
+      <link rel="stylesheet" href="css/style.css" type="text/css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
@@ -37,101 +37,97 @@
                   <h1 align="center">Gersthof</h1>
                </div>
                <div class="card-body">
-                  <div class="card-body"><small>Normdaten IDs</small><ul>
-                        <li><small>geonames:</small> <a href="http://www.geonames.org/2778633/">http://www.geonames.org/2778633/</a></li>
-                     </ul><small>Koordinaten:</small> 48.23333 16.31667
-                     <hr></hr>
-                     <div id="mentions">
-                        <legend>erwähnt in</legend>
-                        <ul>
-                           <li>
-                              erwähnt am 1923-01-01 <a href="entry__1923-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1922-07-03 <a href="entry__1922-07-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1925-09-26 <a href="entry__1925-09-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1923-02-16 <a href="entry__1923-02-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1927-07-18 <a href="entry__1927-07-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1918-06-02 <a href="entry__1918-06-02.html"><i class="fas fa-external-link-alt"></i></a></li>
+                  <div class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled ml-2">
+                        <li><a href="http://www.geonames.org/2778633/">http://www.geonames.org/2778633/</a></li>
+                     </ul><span class="infodesc mr-2">Koordinaten</span><span>48.23333 16.31667</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2">
                            <li>
                               erwähnt am 1922-03-19 <a href="entry__1922-03-19.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1921-06-08 <a href="entry__1921-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1903-10-11 <a href="entry__1903-10-11.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1922-06-29 <a href="entry__1922-06-29.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1903-09-07 <a href="entry__1903-09-07.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1923-07-28 <a href="entry__1923-07-28.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1922-07-17 <a href="entry__1922-07-17.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1922-10-08 <a href="entry__1922-10-08.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1918-06-02 <a href="entry__1918-06-02.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1925-09-26 <a href="entry__1925-09-26.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1923-03-23 <a href="entry__1923-03-23.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1913-03-13 <a href="entry__1913-03-13.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1931-06-07 <a href="entry__1931-06-07.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1913-06-21 <a href="entry__1913-06-21.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1920-11-02 <a href="entry__1920-11-02.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1911-06-05 <a href="entry__1911-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1920-03-22 <a href="entry__1920-03-22.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1906-12-12 <a href="entry__1906-12-12.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1921-10-02 <a href="entry__1921-10-02.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1921-06-08 <a href="entry__1921-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1930-09-28 <a href="entry__1930-09-28.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1926-01-01 <a href="entry__1926-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1924-05-25 <a href="entry__1924-05-25.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1923-02-16 <a href="entry__1923-02-16.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1904-01-17 <a href="entry__1904-01-17.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1917-01-01 <a href="entry__1917-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1923-01-01 <a href="entry__1923-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1900-03-12 <a href="entry__1900-03-12.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1922-07-03 <a href="entry__1922-07-03.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1903-12-26 <a href="entry__1903-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1929-12-08 <a href="entry__1929-12-08.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1924-12-26 <a href="entry__1924-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1927-07-18 <a href="entry__1927-07-18.html"><i class="fas fa-external-link-alt"></i></a></li>
+                           <li>
+                              erwähnt am 1903-09-04 <a href="entry__1903-09-04.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1905-04-02 <a href="entry__1905-04-02.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1905-04-14 <a href="entry__1905-04-14.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1920-03-22 <a href="entry__1920-03-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1913-03-13 <a href="entry__1913-03-13.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1922-06-29 <a href="entry__1922-06-29.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1925-07-05 <a href="entry__1925-07-05.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1922-10-08 <a href="entry__1922-10-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1926-01-01 <a href="entry__1926-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1924-01-20 <a href="entry__1924-01-20.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1927-03-06 <a href="entry__1927-03-06.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1917-01-01 <a href="entry__1917-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1924-12-16 <a href="entry__1924-12-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1929-12-08 <a href="entry__1929-12-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1930-09-28 <a href="entry__1930-09-28.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1930-04-27 <a href="entry__1930-04-27.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1925-05-10 <a href="entry__1925-05-10.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1906-12-12 <a href="entry__1906-12-12.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1904-04-12 <a href="entry__1904-04-12.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1930-04-27 <a href="entry__1930-04-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1903-09-04 <a href="entry__1903-09-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1900-03-12 <a href="entry__1900-03-12.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1924-12-16 <a href="entry__1924-12-16.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
                               erwähnt am 1931-09-09 <a href="entry__1931-09-09.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1924-12-26 <a href="entry__1924-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1903-09-07 <a href="entry__1903-09-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1903-12-26 <a href="entry__1903-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1920-11-02 <a href="entry__1920-11-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1931-06-07 <a href="entry__1931-06-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1903-10-11 <a href="entry__1903-10-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1911-06-05 <a href="entry__1911-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1922-07-17 <a href="entry__1922-07-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1921-10-02 <a href="entry__1921-10-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
                               erwähnt am 1924-01-12 <a href="entry__1924-01-12.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>
-                              erwähnt am 1924-01-20 <a href="entry__1924-01-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1924-05-25 <a href="entry__1924-05-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1904-01-17 <a href="entry__1904-01-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1923-03-23 <a href="entry__1923-03-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>
-                              erwähnt am 1904-04-12 <a href="entry__1904-04-12.html"><i class="fas fa-external-link-alt"></i></a></li>
+                              erwähnt am 1923-07-28 <a href="entry__1923-07-28.html"><i class="fas fa-external-link-alt"></i></a></li>
                         </ul>
                      </div>
                   </div>

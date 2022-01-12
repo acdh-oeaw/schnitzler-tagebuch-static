@@ -9,9 +9,9 @@
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <title>Mittwoch, 18. März 1914</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
-      <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
+      <link rel="stylesheet" href="css/style.css" type="text/css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
    <body class="page">
       <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
@@ -72,15 +72,14 @@
                      </div>
                   </div>
                <div class="card-footer text-muted">
-                  <div id="srcbuttons" style="text-align:center">
-                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> ZITIEREN
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> ZITIEREN
                            </span></div><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> Faksimile
                         </a><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_1913_1916s104.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
                         </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="entry__1914-03-18.xml"><i class="fa-lg far fa-file-code"></i> TEI 
-                        </a><a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()"><i class="fas fa-map-marked-alt"></i> Verstecke/Zeige Register
                         </a><span class="nav-link">
                         <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1914-03-18" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
-                  <div id="registerDiv">
+                  <div id="registerDiv" class="d-none">
                      <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a><a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a></div>
                      </nav>
@@ -181,7 +180,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 18. März 1914, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-01-07), PID: http://hdl.handle.net/21.11115/0000-000C-03CD-A. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 18. März 1914, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-01-12), PID: http://hdl.handle.net/21.11115/0000-000C-03CD-A. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -229,10 +228,12 @@
                      <h5 class="modal-title">Auernheimer Raoul <a href="person_13305.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Raoul<br></br><small>Nachname</small>: Auernheimer<br></br><small>geboren</small>:  15. 4. 1876<br></br><small>gestorben</small>: 6. 1. 1948
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Raoul</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Auernheimer</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>15. 4. 1876</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>6. 1. 1948</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -247,10 +248,12 @@
                      <h5 class="modal-title">Fournier Dora <a href="person_15087.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Dora<br></br><small>Nachname</small>: Fournier<br></br><small>geboren</small>:  25. 11. 1862<br></br><small>gestorben</small>: 5. 1. 1910
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Dora</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Fournier</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>25. 11. 1862</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>5. 1. 1910</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -265,10 +268,12 @@
                      <h5 class="modal-title">Guttmann Leonie <a href="person_15781.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Leonie<br></br><small>Nachname</small>: Guttmann<br></br><small>geboren</small>:  <br></br><small>gestorben</small>: 
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Leonie</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Guttmann</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span></span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -283,10 +288,12 @@
                      <h5 class="modal-title">Knöpfmacher Ernst? <a href="person_16942.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Ernst?<br></br><small>Nachname</small>: Knöpfmacher<br></br><small>geboren</small>:  14. 10. 1887<br></br><small>gestorben</small>: 
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Ernst?</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Knöpfmacher</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>14. 10. 1887</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -301,10 +308,12 @@
                      <h5 class="modal-title">Mercereau Alexandre <a href="person_18083.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Alexandre<br></br><small>Nachname</small>: Mercereau<br></br><small>geboren</small>:  1884<br></br><small>gestorben</small>: 
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Alexandre</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Mercereau</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>1884</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -319,10 +328,12 @@
                      <h5 class="modal-title">Samuely Arthur Ernst <a href="person_19557.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Arthur Ernst<br></br><small>Nachname</small>: Samuely<br></br><small>geboren</small>:  18. 9. 1892<br></br><small>gestorben</small>: 1942
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Arthur Ernst</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Samuely</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>18. 9. 1892</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>1942</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -337,10 +348,12 @@
                      <h5 class="modal-title">Stringa Alberto <a href="person_20532.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Alberto<br></br><small>Nachname</small>: Stringa<br></br><small>geboren</small>:  12. 1. 1880<br></br><small>gestorben</small>: 9. 11. 1931
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Alberto</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Stringa</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>12. 1. 1880</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>9. 11. 1931</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -355,10 +368,12 @@
                      <h5 class="modal-title">Weisse Adolf <a href="person_21211.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Adolf<br></br><small>Nachname</small>: Weisse<br></br><small>geboren</small>:  4. 4. 1855<br></br><small>gestorben</small>: 17. 7. 1933
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Adolf</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Weisse</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>4. 4. 1855</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>17. 7. 1933</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -373,10 +388,12 @@
                      <h5 class="modal-title">Giustiniani Marianne <a href="person_21600.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Marianne<br></br><small>Nachname</small>: Giustiniani<br></br><small>geboren</small>:  6. 8. 1882<br></br><small>gestorben</small>: 1964
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Marianne</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Giustiniani</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>6. 8. 1882</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>1964</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -391,10 +408,12 @@
                      <h5 class="modal-title">Reinhard Marie <a href="person_19150.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Marie<br></br><small>Nachname</small>: Reinhard<br></br><small>geboren</small>:  13. 3. 1871<br></br><small>gestorben</small>: 18. 3. 1899
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Marie</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Reinhard</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>13. 3. 1871</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>18. 3. 1899</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -409,10 +428,12 @@
                      <h5 class="modal-title">Feld Leo <a href="person_14923.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Leo<br></br><small>Nachname</small>: Feld<br></br><small>geboren</small>:  14. 2. 1869<br></br><small>gestorben</small>: 5. 9. 1924
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Leo</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Feld</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>14. 2. 1869</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>5. 9. 1924</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -427,10 +448,12 @@
                      <h5 class="modal-title">Gabillon Ludwig <a href="person_15319.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Ludwig<br></br><small>Nachname</small>: Gabillon<br></br><small>geboren</small>:  16. 7. 1825<br></br><small>gestorben</small>: 13. 2. 1896
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="card-body-tagebuch w-75">
+                        <div><span class="infodesc mr-2">Vorname</span><span>Ludwig</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Gabillon</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>16. 7. 1825</span></div>
+                        <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>13. 2. 1896</span></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -445,14 +468,10 @@
                      <h5 class="modal-title">Deutsches Volkstheater <a href="place_volkstheater.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Namensvarianten:</small><ul>
+                     <div class="card-body-tagebuch w-75"><small>Namensvarianten:</small><ul>
                            <li>Deutsches Volkstheater</li>
                            <li>Volkstheater</li>
-                        </ul><small>Koordinaten:</small> 48.205142 16.3566
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.205142 16.3566</span><div id="mentions" class="mt-2"><span class="infodesc">Erwähnt in</span><ul class="list-unstyled ml-2"></ul>
                         </div>
                      </div>
                   </div>
@@ -500,13 +519,10 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="imprint.html" style="color: #037a33">Impressum</a><br /><a href="https://github.com/acdh-oeaw/schnitzler-tagebuch-static"><small><i class="fab fa-github-square fa-2x" style="color: #037a33"></i></small></a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
-                        function myFunction() {
-                        var x = document.getElementById("registerDiv");
-                            if (x.style.display === "none") {
-                                x.style.display = "block";
-                            } else {
-                                x.style.display = "none";
-                            }
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
                         } 
                     </script></div>
    </body>
