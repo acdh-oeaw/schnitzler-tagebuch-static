@@ -6,6 +6,7 @@
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-title" content="Personen" />
+      <meta name="docTitle" class="staticSearch_docTitle" content="Personen" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <title>Personen</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,7 +39,10 @@
                   <h3><a><i class="fas fa-info" title="Info zu diesem Personenregister" data-toggle="modal" data-target="#exampleModal"></i></a> | <a href="listperson.xml"><i class="fas fa-download" title="Download XML/TEI"></i></a></h3>
                </div>
                <div class="card-body">
-                  <table class="table table-striped display" id="tocTable" style="width:100%">
+                  <div class="w-100 text-center">
+                     <div class="spinner-grow table-loader" role="status"><span class="sr-only">Loading...</span></div>
+                  </div>
+                  <table class="table table-striped display d-none" id="tocTable" style="width:100%">
                      <thead>
                         <tr>
                            <th scope="col">Nachname</th>
