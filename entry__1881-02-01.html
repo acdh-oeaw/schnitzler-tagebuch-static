@@ -13,7 +13,26 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
-      <link rel="stylesheet" href="css/style.css" type="text/css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="js/copytoclipboard.js"></script></head>
+      <link rel="stylesheet" href="css/style.css" type="text/css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript">
+                window.cookieconsent_options = {
+                "message":"This website uses cookies to ensure you get the best experience on our website",
+                "dismiss":"Got it!",
+                "learnMore":"More info",
+                "link":"imprint.html",
+                "theme":"dark-bottom"};
+            </script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script><script type="text/javascript">
+                var _paq = _paq || [];
+                /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+                _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                (function() {
+                var u="https://matomo.acdh.oeaw.ac.at/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '101']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+                })();
+            </script></head>
    <body class="page">
       <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
@@ -94,9 +113,9 @@
                      </div>
                   </div>
                <div class="card-footer text-muted">
-                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> REGISTER
-                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> ZITIEREN
-                           </span></div><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> FAKSIMILE
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal"><i class="fa-lg far fa-file-image"></i> Faksimile
                         </a><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_1879_1892sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
                         </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="entry__1881-02-01.xml"><i class="fa-lg far fa-file-code"></i> TEI 
                         </a><span class="nav-link">
@@ -204,7 +223,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 1. Februar 1881, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-01-28), PID: http://hdl.handle.net/21.11115/0000-000B-DDEB-4. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 1. Februar 1881, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-02-01), PID: http://hdl.handle.net/21.11115/0000-000B-DDEB-4. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -257,8 +276,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Barasch</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>20. 9. 1861</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>1947</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -277,8 +294,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Jacobson</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span></span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -297,8 +312,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Löbel</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>1859?</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -317,8 +330,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Lorm</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span></span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -337,8 +348,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Pichler</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>18. 4. 1862</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -357,8 +366,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Reich</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>1863?</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>24. 9. 1884</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -377,8 +384,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Schneider</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>4. 1. 1861</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -397,8 +402,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Tausenau</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>1861</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>1893</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -417,8 +420,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Weichsel</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span></span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -437,8 +438,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Zeisler</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>7. 10. 1858</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>31. 8. 1919</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -457,8 +456,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Zucker</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span></span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -477,8 +474,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Mütter</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>1. 3. 1860</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>1913</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -497,8 +492,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Kahane</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>20. 7. 1862</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>18. 8. 1924</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -517,8 +510,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Mütter</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>25. 5. 1858</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span>23. 2. 1919</span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
@@ -537,8 +528,6 @@
                         <div class="mt-2"><span class="infodesc mr-2">Nachname</span><span>Pallester</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">geboren</span><span>2. 5. 1861</span></div>
                         <div class="mt-2"><span class="infodesc mr-2">gestorben</span><span></span></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled ml-2"></ul>
-                        </div>
                      </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
