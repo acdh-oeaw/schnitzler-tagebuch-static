@@ -28,11 +28,16 @@ div.dataTables_filter {
   text-align: center;
 }
 
+.filters th {
+    padding-left:0.55rem;
+}
+
 .filters input {
   width:100%;
   padding: 3px;
   box-sizing: border-box;
 }
+ 
 
 .dataTables_wrapper table {
   width:100%;
@@ -301,6 +306,11 @@ a:not([href]):not([tabindex]) {
     padding-bottom: 0rem;
     padding-top: 0rem;
 }
+
+.meta.container-fluid {
+    max-width: 750px;
+}
+
   .container-fluid-start {
     padding: 0 15px;
     max-width:1200px;
@@ -406,7 +416,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .table td {
-    padding:0.3rem;
+    padding:0.3rem 0.3rem 0.3rem 0.75rem;
 }
 
 td li {
@@ -511,6 +521,7 @@ td p {
 
 #srcbuttons a {
     cursor: pointer;
+    display:inline-block;
 }
 
 .infodesc {
