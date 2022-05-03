@@ -99,14 +99,11 @@
               Note that if you want to debug a problem with the JavaScript, you can
               change "ssSearch.js" to "ssSearch-debug.js" to link the uncompressed, 
               unminified code instead.
-            --><script>
-                var Sch;
-                window.addEventListener('load', function(){Sch = new StaticSearch();});
-            </script><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery"/><button id="ssDoSearch">Search</button></span></form>
-                     <div id="ssSearching">Searching...</div>
+            --><script src="static-search/ssInitialize.js"></script><noscript>Diese Seite benötigt JavaScript.</noscript><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery" aria-label="Suche"/><button id="ssDoSearch">Suche</button></span></form>
+                     <div id="ssSearching">Suche…</div>
                      <div id="ssResults"></div>
                      <div id="ssPoweredBy">
-                        <p>Powered by</p><a href="https://github.com/projectEndings/staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
+                        <p>Bereitgestellt von</p><a href="https://github.com/projectEndings/staticSearch" aria-label="Bereitgestellt von staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
                               
                               
                               
