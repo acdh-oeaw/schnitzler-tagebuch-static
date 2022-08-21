@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1526-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,16 +177,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6667.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1926-05-20">
-            <p xml:space="preserve"><date when="1926-05-20">20/5</date> Ankunft <rs type="place" xml:id="pl_16668" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>, nach mäßiger Nacht. Haus in bester Ordnung. 
-Blumen von <rs type="person" xml:id="pNt_77894" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; <rs type="person" xml:id="pNt_77895" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; Frl. <rs type="person" xml:id="pNt_77896" ref="#person_13888"><surname>Peritz</surname></rs> (<rs type="place" xml:id="pl_16669" ref="#place_60960432acfa4972c8f13dd89a872920">Breslau</rs>), <rs type="person" xml:id="pNt_77897" ref="#person_18914"><forename>Dor.</forename> <surname>Popper</surname></rs> (unbekannt), 
+            <p xml:space="preserve"><date when="1926-05-20">20/5</date> Ankunft <rs type="place" xml:id="pl_16668" ref="#pmb50">Wien</rs>, nach mäßiger Nacht. Haus in bester Ordnung. 
+Blumen von <rs type="person" xml:id="pNt_77894" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>; <rs type="person" xml:id="pNt_77895" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs>; Frl. <rs type="person" xml:id="pNt_77896" ref="#person_13888"><surname>Peritz</surname></rs> (<rs type="place" xml:id="pl_16669" ref="#pmb90392">Breslau</rs>), <rs type="person" xml:id="pNt_77897" ref="#person_18914"><forename>Dor.</forename> <surname>Popper</surname></rs> (unbekannt), 
 <rs type="person" xml:id="pNt_77898" ref="#person_18881"><forename>Frieda</forename> <surname>P.</surname></rs>,― von <rs type="person" xml:id="pNt_77899" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> eine herrliche Clavierdecke.―</p>
             <p xml:space="preserve" rend="indent">Ordnung gemacht, Corresp. durchgesehen, wie auch Nachmittag.―</p>
             <p xml:space="preserve" rend="indent">Abds. zu <rs type="person" xml:id="pNt_77900" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, die mit Bedacht alle Kränkung unterdrückt, so dass es ein guter Abend wurde.</p>
             <p xml:space="preserve" rend="indent">Befinden mäßig, ischiasartige Schmerzen.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13888">
+      </body>
+   <back><listPerson><person xml:id="person_13888">
                   <persName>
                      <surname>Boss</surname>
                      <forename>Herta</forename>
@@ -304,20 +305,24 @@ Blumen von <rs type="person" xml:id="pNt_77894" ref="#person_18863"><forename>C.
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb22728</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/22728</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         <place xml:id="place_60960432acfa4972c8f13dd89a872920">
-            <placeName type="city">Breslau</placeName>
-            <placeName type="alt">Wrocław</placeName>
-            <location>
-               <geo decls="#LatLng">51.1 17.03333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3081368/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            <place xml:id="pmb90392">
+               <placeName type="city">Breslau</placeName>
+               <placeName type="alt">Wrocław</placeName>
+               <location>
+                  <geo decls="#LatLng">51.1 17.03333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3081368/</idno>
+               <idno type="obsolete-schnitzler-diary">place_60960432acfa4972c8f13dd89a872920</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90392</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

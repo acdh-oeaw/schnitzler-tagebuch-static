@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDF2-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,15 +177,17 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2850.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-02-08">
-            <p xml:space="preserve"><date when="1910-02-08">8/2</date> Vm. auf den <rs type="place" xml:id="pl_06945" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs> (ohne O.) mit <rs type="person" xml:id="pNt_32028" ref="#person_16770"><surname>Kaufmann</surname></rs> und <rs type="person" xml:id="pNt_32029" ref="#person_21107"><surname>Wassermann</surname></rs>. 
+            <p xml:space="preserve"><date when="1910-02-08">8/2</date> Vm. auf den <rs type="place" xml:id="pl_06945" ref="#pmb91735">Semmering</rs> (ohne O.) mit <rs type="person" xml:id="pNt_32028" ref="#person_16770"><surname>Kaufmann</surname></rs> und <rs type="person" xml:id="pNt_32029" ref="#person_21107"><surname>Wassermann</surname></rs>. 
 Oben <rs type="person" xml:id="pNt_32030" ref="#person_21614"><surname>Zweig</surname></rs>.― Nm. zu viert Meierei, dann Billard.―</p>
             <p xml:space="preserve" rend="indent">Durchgesehen die neue Novellette „<rs type="work" subtype="self" xml:id="bibl_11531">Tagebuch</rs>“, den „<rs type="work" subtype="self" xml:id="bibl_11532">Leuchtkäfer</rs>“, 
 die „<rs type="work" subtype="self" xml:id="bibl_11533">beiden Künstler</rs>“ (angelegter Einakter) alles nichts.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl Billardkegel.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_21614">
+      </body>
+   <back><listPerson><person xml:id="person_21614">
                   <persName>
                      <surname>Zweig</surname>
                      <forename>Stefan</forename>
@@ -327,13 +328,15 @@ die „<rs type="work" subtype="self" xml:id="bibl_11533">beiden Künstler</rs>�
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30349.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30349</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_8627b9def9e6e2fd2353f5f3822fba9c">
-            <placeName type="mountain">Semmering</placeName>
-            <location>
-               <geo decls="#LatLng">47.63333 15.81667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2765171/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91735">
+               <placeName type="mountain">Semmering</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63333 15.81667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2765171/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8627b9def9e6e2fd2353f5f3822fba9c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

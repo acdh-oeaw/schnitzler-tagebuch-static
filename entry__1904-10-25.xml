@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F68B-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,8 +179,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1904-10-25">
-            <p xml:space="preserve"><date when="1904-10-25">25/10</date> Vm. <rs type="place" ref="#place_volkstheater">Volkstheater</rs>, mit <rs type="person" xml:id="pNt_21766" ref="#person_16621"><surname>Kadelburg</surname></rs> über <rs type="work" subtype="self" xml:id="bibl_17386">Freiwild</rs> Termin etc.</p>
-            <p xml:space="preserve" rend="indent">― Panorama (<rs type="place" xml:id="pl_04954" ref="#place_160eacc14c860636fca7889ceed09d08">Port Arthur</rs>, <rs type="place" xml:id="pl_04955" ref="#place_a8f809c99c4a996780c3046b9b594195">Korea</rs>) ― bei <rs type="person" xml:id="pNt_21767" ref="#person_16245"><roleName>Frau</roleName> <surname>Hochsinger</surname></rs>; 
+            <p xml:space="preserve"><date when="1904-10-25">25/10</date> Vm. <rs type="place" ref="#pmb92202">Volkstheater</rs>, mit <rs type="person" xml:id="pNt_21766" ref="#person_16621"><surname>Kadelburg</surname></rs> über <rs type="work" subtype="self" xml:id="bibl_17386">Freiwild</rs> Termin etc.</p>
+            <p xml:space="preserve" rend="indent">― Panorama (<rs type="place" xml:id="pl_04954" ref="#pmb91510">Port Arthur</rs>, <rs type="place" xml:id="pl_04955" ref="#pmb91056">Korea</rs>) ― bei <rs type="person" xml:id="pNt_21767" ref="#person_16245"><roleName>Frau</roleName> <surname>Hochsinger</surname></rs>; 
 über die Aufführung der <rs type="work" subtype="self" xml:id="bibl_17387">3 Einakter</rs>.― <rs type="person" xml:id="pNt_21768" ref="#person_16046"><surname>Heine</surname></rs> dort.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00475">Mama</rs> zu Tisch.― Nm. mit ihr <rs type="work" xml:id="bibl_17388">F moll Quintett</rs> <rs type="person" xml:id="pNt_21769" ref="#person_13914"><surname>Brahms</surname></rs>; 
 mit O. zu <rs type="person" xml:id="pNt_21770" ref="#person_20096"><forename>Ellyn</forename></rs>, mit diesen nach Haus ―</p>
@@ -190,8 +189,7 @@ mit O. zu <rs type="person" xml:id="pNt_21770" ref="#person_20096"><forename>Ell
 <rs type="allusively" xml:id="rst_00476">Mama</rs>, <rs type="person" xml:id="pNt_21775"><forename>Louis</forename> <surname>M.</surname></rs> und Frau.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13914">
+   <back><listPerson><person xml:id="person_13914">
                   <persName>
                      <surname>Brahms</surname>
                      <forename>Johannes</forename>
@@ -597,28 +595,34 @@ mit O. zu <rs type="person" xml:id="pNt_21770" ref="#person_20096"><forename>Ell
                      134</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78205.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         <place xml:id="place_160eacc14c860636fca7889ceed09d08">
-            <placeName type="city">Port Arthur</placeName>
-            <location>
-               <geo decls="#LatLng">-43.1458 147.84366</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2152685/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_a8f809c99c4a996780c3046b9b594195">
-            <placeName type="country">Korea</placeName>
-            <location>
-               <geo decls="#LatLng">36.5 127.75</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/1835841/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            <place xml:id="pmb91510">
+               <placeName type="city">Port Arthur</placeName>
+               <location>
+                  <geo decls="#LatLng">-43.1458 147.84366</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2152685/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_160eacc14c860636fca7889ceed09d08</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91510</idno>
+            </place>
+            <place xml:id="pmb91056">
+               <placeName type="country">Korea</placeName>
+               <location>
+                  <geo decls="#LatLng">36.5 127.75</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/1835841/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_a8f809c99c4a996780c3046b9b594195</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91056</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

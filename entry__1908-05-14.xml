@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB77-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,15 +179,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-05-14">
-            <p xml:space="preserve"><date when="1908-05-14">14/5</date> Ankunft <rs type="place" xml:id="pl_06311" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1908-05-14">14/5</date> Ankunft <rs type="place" xml:id="pl_06311" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Die neue Veranda. Noch Unordnung.―</p>
             <p xml:space="preserve" rend="indent">Ordnen etc.―</p>
             <p xml:space="preserve" rend="indent">Nm. dictirt Briefe.― <rs type="allusively" xml:id="rst_00926">Mama</rs>, und <rs type="person" xml:id="pNt_28249" ref="#person_15854"><forename>Gisa</forename></rs> da.―</p>
-            <p xml:space="preserve" rend="indent">Abd. zu <rs type="person" xml:id="pNt_28250" ref="#person_13551"><forename>Richard</forename></rs> mit O. Mit ihm <rs type="person" xml:id="pNt_28251" ref="#person_13550"><forename>Paula</forename></rs> im <rs type="place" xml:id="pl_06312" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> genachtmahlt.―</p>
+            <p xml:space="preserve" rend="indent">Abd. zu <rs type="person" xml:id="pNt_28250" ref="#person_13551"><forename>Richard</forename></rs> mit O. Mit ihm <rs type="person" xml:id="pNt_28251" ref="#person_13550"><forename>Paula</forename></rs> im <rs type="place" xml:id="pl_06312" ref="#pmb113">Türkenschanzpark</rs> genachtmahlt.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13551">
+   <back><listPerson><person xml:id="person_13551">
                   <persName>
                      <surname>Beer-Hofmann</surname>
                      <forename>Richard</forename>
@@ -302,18 +300,22 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10860</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10860</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         <place xml:id="place_70badd7ef7036249b2048516efb8b9aa">
-            <placeName type="park">Türkenschanzpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.235429 16.334063</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            <place xml:id="pmb113">
+               <placeName type="park">Türkenschanzpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.235429 16.334063</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_70badd7ef7036249b2048516efb8b9aa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/113</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E82A-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0836.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-05-12">
             <p xml:space="preserve"><date when="1894-05-12">12/5</date> <rs type="person" xml:id="pNt_08749" ref="#person_19564"><forename>Dilly</forename></rs> läßt nichts von sich hören.― Ich fuhr Bic. 
-<rs type="place" xml:id="pl_01689" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>.―</p>
+<rs type="place" xml:id="pl_01689" ref="#pmb865">Klosterneuburg</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_08750" ref="#person_15485"><forename>Mz.</forename></rs> Gedenken.― An ferne Abende, Orte, wo wir einmal waren ― z. B. 
-das kleine Stationshaus von <rs type="place" xml:id="pl_01690" ref="#place_b6967657419796470f5d5a74db894161">Kottingbrunn</rs>.</p>
+das kleine Stationshaus von <rs type="place" xml:id="pl_01690" ref="#pmb91061">Kottingbrunn</rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15485">
+      </body>
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -242,20 +243,24 @@ das kleine Stationshaus von <rs type="place" xml:id="pl_01690" ref="#place_b6967
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12618</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_a3c879a4f19e7987aa5aa1f1b929b0da">
-            <placeName type="city">Klosterneuburg</placeName>
-            <location>
-               <geo decls="#LatLng">48.30521 16.32522</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2773913/</idno>
-         </place>
-         <place xml:id="place_b6967657419796470f5d5a74db894161">
-            <placeName type="city">Kottingbrunn</placeName>
-            <location>
-               <geo decls="#LatLng">47.95096 16.22715</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2773653/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb865">
+               <placeName type="city">Klosterneuburg</placeName>
+               <location>
+                  <geo decls="#LatLng">48.30521 16.32522</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2773913/</idno>
+               <idno type="obsolete-schnitzler-diary">place_a3c879a4f19e7987aa5aa1f1b929b0da</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/865</idno>
+            </place>
+            <place xml:id="pmb91061">
+               <placeName type="city">Kottingbrunn</placeName>
+               <location>
+                  <geo decls="#LatLng">47.95096 16.22715</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2773653/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_b6967657419796470f5d5a74db894161</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91061</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

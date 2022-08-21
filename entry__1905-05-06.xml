@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F74B-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,14 +179,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-05-06">
-            <p xml:space="preserve"><date when="1905-05-06">6/5</date> Vm. allein auf den <rs type="place" xml:id="pl_05167" ref="#place_d40f3d44ca3730684f5399bd2fa25826">Sonnwendstein</rs>.</p>
-            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_05168" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> gefahren.―</p>
-            <p xml:space="preserve" rend="indent">Las auf dem <rs type="place" xml:id="pl_05169" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>: <rs type="person" xml:id="pNt_22808" ref="#person_17834"><surname>Mann’s</surname></rs> <rs type="work" xml:id="bibl_15683">Prof. Unrath</rs>, <rs type="work" xml:id="bibl_15684">Liaisons dangereuses</rs> ― 
+            <p xml:space="preserve"><date when="1905-05-06">6/5</date> Vm. allein auf den <rs type="place" xml:id="pl_05167" ref="#pmb91776">Sonnwendstein</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. nach <rs type="place" xml:id="pl_05168" ref="#pmb50">Wien</rs> gefahren.―</p>
+            <p xml:space="preserve" rend="indent">Las auf dem <rs type="place" xml:id="pl_05169" ref="#pmb91735">Semmering</rs>: <rs type="person" xml:id="pNt_22808" ref="#person_17834"><surname>Mann’s</surname></rs> <rs type="work" xml:id="bibl_15683">Prof. Unrath</rs>, <rs type="work" xml:id="bibl_15684">Liaisons dangereuses</rs> ― 
 <rs type="person" xml:id="pNt_22809" ref="#person_13403"><surname>Bang</surname></rs>, <rs type="work" xml:id="bibl_15685">weißes Haus</rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13403">
+   <back><listPerson><person xml:id="person_13403">
                   <persName>
                      <surname>Bang</surname>
                      <forename>Herman</forename>
@@ -299,28 +297,34 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76567.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb76567.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_d40f3d44ca3730684f5399bd2fa25826">
-            <placeName type="mountain">Sonnwendstein</placeName>
-            <location>
-               <geo decls="#LatLng">47.61667 15.85</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2764871/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         <place xml:id="place_8627b9def9e6e2fd2353f5f3822fba9c">
-            <placeName type="mountain">Semmering</placeName>
-            <location>
-               <geo decls="#LatLng">47.63333 15.81667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2765171/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91776">
+               <placeName type="mountain">Sonnwendstein</placeName>
+               <location>
+                  <geo decls="#LatLng">47.61667 15.85</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2764871/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d40f3d44ca3730684f5399bd2fa25826</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91776</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            <place xml:id="pmb91735">
+               <placeName type="mountain">Semmering</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63333 15.81667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2765171/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8627b9def9e6e2fd2353f5f3822fba9c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

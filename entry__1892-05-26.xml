@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E562-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1892-05-26">
-            <p xml:space="preserve"><date when="1892-05-26">26/5</date> Vm. mit <rs type="person" xml:id="pNt_06316" ref="#person_15485"><forename>Mz.</forename></rs> ― Mittags <rs type="person" xml:id="pNt_06317" ref="#person_17901"><forename>Felix</forename></rs> und <rs type="person" xml:id="pNt_06318" ref="#person_17904"><forename>Julie</forename></rs> aus <rs type="place" xml:id="pl_01266" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs> da.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_06319" ref="#person_15485"><forename>Mz.</forename></rs> Abd. nach <rs type="place" xml:id="pl_01267" ref="#place_dd264a4bfc9858a490d260f2cc8abb10">Währing</rs> Brauhaus.</p>
+            <p xml:space="preserve"><date when="1892-05-26">26/5</date> Vm. mit <rs type="person" xml:id="pNt_06316" ref="#person_15485"><forename>Mz.</forename></rs> ― Mittags <rs type="person" xml:id="pNt_06317" ref="#person_17901"><forename>Felix</forename></rs> und <rs type="person" xml:id="pNt_06318" ref="#person_17904"><forename>Julie</forename></rs> aus <rs type="place" xml:id="pl_01266" ref="#pmb224">London</rs> da.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_06319" ref="#person_15485"><forename>Mz.</forename></rs> Abd. nach <rs type="place" xml:id="pl_01267" ref="#pmb68">Währing</rs> Brauhaus.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15485">
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -269,21 +267,25 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb21037</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21037</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_59ead8d1e124ccfb79f3ace06f43e703">
-            <placeName type="city">London</placeName>
-            <location>
-               <geo decls="#LatLng">51.50853 -0.12574</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2643743/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_dd264a4bfc9858a490d260f2cc8abb10">
-            <placeName type="district">Währing</placeName>
-            <location>
-               <geo decls="#LatLng">48.23333 16.31667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2762091/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb224">
+               <placeName type="city">London</placeName>
+               <location>
+                  <geo decls="#LatLng">51.50853 -0.12574</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2643743/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_59ead8d1e124ccfb79f3ace06f43e703</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/224</idno>
+            </place>
+            <place xml:id="pmb68">
+               <placeName type="district">Währing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.23333 16.31667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2762091/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_dd264a4bfc9858a490d260f2cc8abb10</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/68</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

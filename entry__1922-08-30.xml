@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0FD8-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,17 +177,19 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5817.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1922-08-30">
-            <p xml:space="preserve"><date when="1922-08-30">30/8</date> <rs type="place" xml:id="pl_14220" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesgaden</rs>. Nach <rs type="place" xml:id="pl_14221" ref="#place_515322af1eb924f2a4cee609d1f39bfax">Au</rs> (das ganze zu Fuß) ― oberer <rs type="place" xml:id="pl_14222" ref="#place_16f8bed3c52bf873fb6bab75c2c654f9">Salzberg</rs> ― 
-<rs type="place" xml:id="pl_14223" ref="#place_10610ec60fcdfbccb325e1eec16a82ad">Berchtesg.</rs>―</p>
+            <p xml:space="preserve"><date when="1922-08-30">30/8</date> <rs type="place" xml:id="pl_14220" ref="#pmb797">Berchtesgaden</rs>. Nach <rs type="place" xml:id="pl_14221" ref="#pmb90276">Au</rs> (das ganze zu Fuß) ― oberer <rs type="place" xml:id="pl_14222" ref="#pmb91653">Salzberg</rs> ― 
+<rs type="place" xml:id="pl_14223" ref="#pmb797">Berchtesg.</rs>―</p>
             <p xml:space="preserve" rend="indent">Alle im Hotel gegessen.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_2734">Verf.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Zur Bahn alle. <rs type="person" xml:id="pNt_67104" ref="#person_19822"><forename>Heinis</forename></rs> Abreise nach <rs type="place" xml:id="pl_14224" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Zur Bahn alle. <rs type="person" xml:id="pNt_67104" ref="#person_19822"><forename>Heinis</forename></rs> Abreise nach <rs type="place" xml:id="pl_14224" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent">Meine Fingerschmerzen, am stärksten am Ballen der Mittelhand ― stören ganz 
 empfindlich ― wie z. B. jetzt beim Schreiben dieser Zeilen.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19822">
+      </body>
+   <back><listPerson><person xml:id="person_19822">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Heinrich</forename>
@@ -239,34 +240,42 @@ empfindlich ― wie z. B. jetzt beim Schreiben dieser Zeilen.―</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30205</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30205</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_515322af1eb924f2a4cee609d1f39bfax">
-            <placeName type="region">Au</placeName>
-            <placeName type="alt">Oberau</placeName>
-            <location>
-               <geo decls="#LatLng">47.66004 13.07446</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2861383</idno>
-         </place>
-         <place xml:id="place_16f8bed3c52bf873fb6bab75c2c654f9">
-            <placeName type="mountain">Sandling</placeName>
-            <location>
-               <geo decls="#LatLng">47.65 13.71667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766781/</idno>
-         </place>
-         <place xml:id="place_10610ec60fcdfbccb325e1eec16a82ad">
-            <placeName type="city">Berchtesgaden</placeName>
-            <location>
-               <geo decls="#LatLng">47.63236 13.00187</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2950881/</idno>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb90276">
+               <placeName type="region">Au</placeName>
+               <placeName type="alt">Oberau</placeName>
+               <location>
+                  <geo decls="#LatLng">47.66004 13.07446</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2861383</idno>
+               <idno type="obsolete-schnitzler-diary">place_515322af1eb924f2a4cee609d1f39bfax</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90276</idno>
+            </place>
+            <place xml:id="pmb91653">
+               <placeName type="mountain">Sandling</placeName>
+               <location>
+                  <geo decls="#LatLng">47.65 13.71667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766781/</idno>
+               <idno type="obsolete-schnitzler-diary">place_16f8bed3c52bf873fb6bab75c2c654f9</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91653</idno>
+            </place>
+            <place xml:id="pmb797">
+               <placeName type="city">Berchtesgaden</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63236 13.00187</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2950881/</idno>
+               <idno type="obsolete-schnitzler-diary">place_10610ec60fcdfbccb325e1eec16a82ad</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/797</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

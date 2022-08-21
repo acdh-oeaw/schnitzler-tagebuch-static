@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FEF1-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,16 +177,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3009.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1910-10-21">
             <p xml:space="preserve"><date when="1910-10-21">21/10</date> Vm. mit O. Besorgungen Stadt.―</p>
-            <p xml:space="preserve" rend="indent">Nm. in den <rs type="place" xml:id="pl_07266" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>, dort mit <rs type="person" xml:id="pNt_33723" ref="#person_14065"><surname>Burckhard</surname></rs> (zufällig) 
+            <p xml:space="preserve" rend="indent">Nm. in den <rs type="place" xml:id="pl_07266" ref="#pmb113">Türkenschanzpark</rs>, dort mit <rs type="person" xml:id="pNt_33723" ref="#person_14065"><surname>Burckhard</surname></rs> (zufällig) 
 spazieren.</p>
             <p xml:space="preserve" rend="indent"><rs ref="#person_15833" type="person" xml:id="pNt_33724"><forename>Else</forename> <surname>Speidel</surname></rs> kam; O. sang <rs type="person" xml:id="pNt_33725" ref="#person_13914"><surname>Brahms</surname></rs> Lieder, sehr schön; vorher 
 spielte ich Clavier und improvisirte, da eben meine kleine <rs type="allusively" xml:id="rst_01149">Tochter</rs> 
 zuhörte, einen wirklich nicht übeln „<rs type="person" xml:id="pNt_33726" ref="#person_14130"><forename>Lili</forename></rs> Walzer“.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13914">
+      </body>
+   <back><listPerson><person xml:id="person_13914">
                   <persName>
                      <surname>Brahms</surname>
                      <forename>Johannes</forename>
@@ -302,11 +303,13 @@ zuhörte, einen wirklich nicht übeln „<rs type="person" xml:id="pNt_33726" re
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2642</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2642</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_70badd7ef7036249b2048516efb8b9aa">
-            <placeName type="park">Türkenschanzpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.235429 16.334063</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb113">
+               <placeName type="park">Türkenschanzpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.235429 16.334063</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_70badd7ef7036249b2048516efb8b9aa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/113</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

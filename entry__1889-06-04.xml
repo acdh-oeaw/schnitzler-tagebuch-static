@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E182-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0386.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1889-06-04">
-            <p xml:space="preserve"><date when="1889-06-04">4. 6.</date> in <rs type="place" xml:id="pl_00761" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> mit <rs type="person" xml:id="pNt_03699" ref="#person_15529"><surname>Goldmann</surname></rs> bei <rs type="person" xml:id="pNt_03700" ref="#person_17696"><surname>Lothar</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1889-06-04">4. 6.</date> in <rs type="place" xml:id="pl_00761" ref="#pmb662">Baden</rs> mit <rs type="person" xml:id="pNt_03699" ref="#person_15529"><surname>Goldmann</surname></rs> bei <rs type="person" xml:id="pNt_03700" ref="#person_17696"><surname>Lothar</surname></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15529">
+      </body>
+   <back><listPerson><person xml:id="person_15529">
                   <persName>
                      <surname>Goldmann</surname>
                      <forename>Paul</forename>
@@ -245,12 +246,14 @@
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2570.html</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2570</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_9a43e84f6e1d406076f2372205804f6d">
-            <placeName type="city">Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.00543 16.23264</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782067/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb662">
+               <placeName type="city">Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00543 16.23264</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782067/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9a43e84f6e1d406076f2372205804f6d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E868-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,24 +180,27 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-07-13">
-            <p xml:space="preserve"><date when="1894-07-13">13/7</date> <rs type="place" xml:id="pl_01753" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― <rs type="place" xml:id="pl_01754" ref="#place_443befbacdaa99c161dd11495b82b99b">Linz</rs>.</p>
+            <p xml:space="preserve"><date when="1894-07-13">13/7</date> <rs type="place" xml:id="pl_01753" ref="#pmb50">Wien</rs> ― <rs type="place" xml:id="pl_01754" ref="#pmb91153">Linz</rs>.</p>
          </div>
       </body>
-   
-    <back><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         <place xml:id="place_443befbacdaa99c161dd11495b82b99b">
-            <placeName type="city">Linz</placeName>
-            <location>
-               <geo decls="#LatLng">48.30639 14.28611</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2772400/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+   <back><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            <place xml:id="pmb91153">
+               <placeName type="city">Linz</placeName>
+               <location>
+                  <geo decls="#LatLng">48.30639 14.28611</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2772400/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_443befbacdaa99c161dd11495b82b99b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91153</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

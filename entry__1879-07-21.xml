@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DCCB-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,17 +177,19 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0003.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1879-07-21">
-            <p xml:space="preserve"><date when="1879-07-21">21/7</date> Besuch bei <rs type="person" xml:id="pNt_00055" ref="#person_16963"><forename>Ida</forename></rs> in <rs type="place" xml:id="pl_00002" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs>.</p>
+            <p xml:space="preserve"><date when="1879-07-21">21/7</date> Besuch bei <rs type="person" xml:id="pNt_00055" ref="#person_16963"><forename>Ida</forename></rs> in <rs type="place" xml:id="pl_00002" ref="#pmb992">Vöslau</rs>.</p>
             <p xml:space="preserve" rend="indent">Auch in den Maturaferien wiederholen sich die Reibereien zu Hause.―</p>
             <p xml:space="preserve" rend="indent">Werde auf <rs type="person" xml:id="pNt_00056" ref="#person_18320"><forename>Fanny</forename> <surname>M.</surname></rs> aufmerksam ―</p>
             <p xml:space="preserve" rend="indent">Im August eine erfolglose Augencur mit <rs type="person" xml:id="pNt_00057"><surname>Duboisin</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">„<rs type="person" xml:id="pNt_00058" ref="#person_18320"><forename>F.</forename> <surname>Mütter</surname></rs> entzückt mich.“</p>
             <p xml:space="preserve" rend="indent">Das Verhältnis mit <rs type="person" xml:id="pNt_00059" ref="#person_17368"><forename>Fännchen</forename></rs> etwas kühl; Spazirgang mit ihr und ihrer 
-Familie in den <rs type="place" xml:id="pl_00003" ref="#place_8fbb5ad1eece300cc636ce72c126d8e1">Stadtpark</rs>. <rs type="person" xml:id="pNt_00060" ref="#person_17370"><forename>Jacques</forename> <surname>L.</surname></rs> mit. Vieles löst sich, klärt sich.</p>
+Familie in den <rs type="place" xml:id="pl_00003" ref="#pmb575">Stadtpark</rs>. <rs type="person" xml:id="pNt_00060" ref="#person_17370"><forename>Jacques</forename> <surname>L.</surname></rs> mit. Vieles löst sich, klärt sich.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16963">
+      </body>
+   <back><listPerson><person xml:id="person_16963">
                   <persName>
                      <surname>König</surname>
                      <forename>Ida</forename>
@@ -277,18 +278,22 @@ Familie in den <rs type="place" xml:id="pl_00003" ref="#place_8fbb5ad1eece300cc6
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb21766</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21766</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_0e891dbd1b1814a0cddd64e270c6ffac">
-            <placeName type="city">Bad Vöslau</placeName>
-            <location>
-               <geo decls="#LatLng">47.96533 16.21359</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782043/</idno>
-         </place>
-         <place xml:id="place_8fbb5ad1eece300cc636ce72c126d8e1">
-            <placeName type="park">Stadtpark</placeName>
-            <location>
-               <geo decls="#LatLng">47.074504 15.444440</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb992">
+               <placeName type="city">Bad Vöslau</placeName>
+               <location>
+                  <geo decls="#LatLng">47.96533 16.21359</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782043/</idno>
+               <idno type="obsolete-schnitzler-diary">place_0e891dbd1b1814a0cddd64e270c6ffac</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/992</idno>
+            </place>
+            <place xml:id="pmb575">
+               <placeName type="park">Stadtpark</placeName>
+               <location>
+                  <geo decls="#LatLng">47.074504 15.444440</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_8fbb5ad1eece300cc636ce72c126d8e1</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/575</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

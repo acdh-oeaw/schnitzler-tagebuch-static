@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B0D-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,8 +181,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1919-04-20">
-            <p xml:space="preserve"><date when="1919-04-20">20/4</date> Ostersonntag.― Von O. [Allasch] und Veilchen.― Spazierg. <rs type="place" xml:id="pl_11594" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― 
-<rs type="place" xml:id="pl_11595" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs> ― Hameau ― Dreimarkstein ― <rs type="place" xml:id="pl_11596" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>.― 
+            <p xml:space="preserve"><date when="1919-04-20">20/4</date> Ostersonntag.― Von O. [Allasch] und Veilchen.― Spazierg. <rs type="place" xml:id="pl_11594" ref="#pmb169">Pötzleinsdorf</rs> ― 
+<rs type="place" xml:id="pl_11595" ref="#pmb176">Dornbacher Park</rs> ― Hameau ― Dreimarkstein ― <rs type="place" xml:id="pl_11596" ref="#pmb91641">Salmannsdorf</rs>.― 
 In der früh <rs type="person" xml:id="pNt_55849" ref="#person_20242"><surname>Speidel</surname></rs> begegnet, der eben in die Burg geht, sein Stück 
 einreichen.</p>
             <p xml:space="preserve" rend="indent">― Im Wald <rs type="person" xml:id="pNt_55850" ref="#person_13080"><roleName>Dr.</roleName> <surname>Abels</surname></rs>. Polit. Gespräch;― anlässlich der heute verfügten 
@@ -199,8 +198,7 @@ enthalten. „Wie viel muß er sich selbst mir gegenüber gut zu machen
 gehabt haben!―“</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13080">
+   <back><listPerson><person xml:id="person_13080">
                   <persName>
                      <surname>Abels</surname>
                      <forename>Hans</forename>
@@ -466,27 +464,33 @@ gehabt haben!―“</p>
                   <gloss type="w1209">Buchausgabe</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59042.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_82109b1e661086ac882d02fa24e8b774">
-            <placeName type="district">Pötzleinsdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.24354 16.3062</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2768462/</idno>
-         </place>
-         <place xml:id="place_75f2e194839d6ba0e5d4080c211a449a">
-            <placeName type="park">Dornbacher Park</placeName>
-            <placeName type="today">Schwarzenbergpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.249997 16.283563</geo>
-            </location>
-         </place>
-         <place xml:id="place_a513bae177c89d12226f343ac5ff1ee3">
-            <placeName type="district">Salmannsdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.25 16.3</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766841/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb169">
+               <placeName type="district">Pötzleinsdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.24354 16.3062</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2768462/</idno>
+               <idno type="obsolete-schnitzler-diary">place_82109b1e661086ac882d02fa24e8b774</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/169</idno>
+            </place>
+            <place xml:id="pmb176">
+               <placeName type="park">Dornbacher Park</placeName>
+               <placeName type="today">Schwarzenbergpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.249997 16.283563</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_75f2e194839d6ba0e5d4080c211a449a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/176</idno>
+            </place>
+            <place xml:id="pmb91641">
+               <placeName type="district">Salmannsdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.25 16.3</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766841/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_a513bae177c89d12226f343ac5ff1ee3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91641</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

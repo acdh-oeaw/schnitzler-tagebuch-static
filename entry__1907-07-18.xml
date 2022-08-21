@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA6E-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,12 +176,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2400.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1907-07-18">
             <p xml:space="preserve"><date when="1907-07-18">18/7</date> Wald gearb.</p>
-            <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_14371">Roman</rs>.― Alle <rs type="place" xml:id="pl_06043" ref="#place_d638cd7d14166fe5189912d158fd557b">Bruneck</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_14371">Roman</rs>.― Alle <rs type="place" xml:id="pl_06043" ref="#pmb1236">Bruneck</rs>.</p>
          </div>
-      </body><back><listBibl><bibl xml:id="pmb29923">
+      </body>
+   <back><listBibl><bibl xml:id="pmb29923">
                   <author role="author">
                      <persName>
                         <surname>Schnitzler</surname>
@@ -203,13 +204,15 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29923</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29923</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_d638cd7d14166fe5189912d158fd557b">
-            <placeName type="city">Bruneck</placeName>
-            <location>
-               <geo decls="#LatLng">46.79942 11.93429</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3181480/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb1236">
+               <placeName type="city">Bruneck</placeName>
+               <location>
+                  <geo decls="#LatLng">46.79942 11.93429</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3181480/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d638cd7d14166fe5189912d158fd557b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1236</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

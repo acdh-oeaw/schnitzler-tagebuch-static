@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1354-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,16 +178,18 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6446.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6447.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-02-08">
-            <p xml:space="preserve"><date when="1925-02-08">8/2</date> S. <rs type="person" xml:id="pNt_74405" ref="#person_20509"><forename>Richard</forename></rs> kam Vm.;― erzählt mir von den <rs type="place" ref="#place_volkstheater">Volkstheater</rs>proben <rs type="work" xml:id="bibl_16241">Charolais</rs>. 
+            <p xml:space="preserve"><date when="1925-02-08">8/2</date> S. <rs type="person" xml:id="pNt_74405" ref="#person_20509"><forename>Richard</forename></rs> kam Vm.;― erzählt mir von den <rs type="place" ref="#pmb92202">Volkstheater</rs>proben <rs type="work" xml:id="bibl_16241">Charolais</rs>. 
 Über seine Pantomime; die er <rs type="person" xml:id="pNt_74406"><forename>Richard</forename> <surname>Strauß</surname></rs> nicht geben will, in der 
 Befürchtung, der würde sich nicht genug sagen lassen;― ich rede ihm zu.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74407" ref="#person_17509"><surname>Lichtensterns</surname></rs> holen mich im Auto ab; wir holen <rs type="person" xml:id="pNt_74408" ref="#person_14130"><forename>Lili</forename></rs> von <rs type="place" xml:id="pl_15942" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs> ab, fahren 
-<rs type="place" xml:id="pl_15943" ref="#place_a25ff6cb521df1cd0272d03eee7efd32">Brühl</rs>, <rs type="place" ref="#place_radetzky">Radetzky</rs>; gehen oben spazieren; zurück.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_74407" ref="#person_17509"><surname>Lichtensterns</surname></rs> holen mich im Auto ab; wir holen <rs type="person" xml:id="pNt_74408" ref="#person_14130"><forename>Lili</forename></rs> von <rs type="place" xml:id="pl_15942" ref="#pmb90771">Grinzing</rs> ab, fahren 
+<rs type="place" xml:id="pl_15943" ref="#pmb44413">Brühl</rs>, <rs type="place" ref="#pmb92471">Radetzky</rs>; gehen oben spazieren; zurück.</p>
             <p xml:space="preserve" rend="indent">― Zum Nachtm. kommen <rs type="person" xml:id="pNt_74410"><surname>L.s</surname></rs> wieder.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13551">
+      </body>
+   <back><listPerson><person xml:id="person_13551">
                   <persName>
                      <surname>Beer-Hofmann</surname>
                      <forename>Richard</forename>
@@ -322,33 +323,41 @@ Befürchtung, der würde sich nicht genug sagen lassen;― ich rede ihm zu.</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30233</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30233.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         <place xml:id="place_431168489e6885d4e91ebc5edec7dfb4">
-            <placeName type="district">Grinzing</placeName>
-            <location>
-               <geo decls="#LatLng">48.25 16.33333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2777937/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_a25ff6cb521df1cd0272d03eee7efd32">
-            <placeName type="region">Brühl</placeName>
-            <location>
-               <geo decls="#LatLng">48.082800 16.250657</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_radetzky">
-            <placeName>Radetzky</placeName>
-            <location>
-               <geo decls="#LatLng">48.0816 16.2399</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            <place xml:id="pmb90771">
+               <placeName type="district">Grinzing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.25 16.33333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2777937/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_431168489e6885d4e91ebc5edec7dfb4</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90771</idno>
+            </place>
+            <place xml:id="pmb44413">
+               <placeName type="region">Brühl</placeName>
+               <location>
+                  <geo decls="#LatLng">48.082800 16.250657</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_a25ff6cb521df1cd0272d03eee7efd32</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44413</idno>
+            </place>
+            <place xml:id="pmb92471">
+               <placeName>Radetzky</placeName>
+               <location>
+                  <geo decls="#LatLng">48.0816 16.2399</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_radetzky</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92471</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

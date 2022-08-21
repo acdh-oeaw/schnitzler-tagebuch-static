@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E645-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0668.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-01-10">
             <p xml:space="preserve"><date when="1893-01-10">10/1</date> <rs type="person" xml:id="pNt_06965" ref="#person_21214"><forename>Fifi</forename></rs> Nm. bei mir; beleidigt, daß ich sie Vormittag nicht begleitet, 
 sich nach „Zärtlichkeit“ sehnend.―</p>
-            <p xml:space="preserve" rend="indent">Bei „<rs type="work" xml:id="bibl_22632">Fürstin Ninetta</rs>“ Première.― Im <rs type="place" ref="#place_pfob">Pfob</rs> <rs type="person" xml:id="pNt_06967" ref="#person_19542"><surname>Salten</surname></rs>, Bruder <rs type="person" xml:id="pNt_06968"><surname>S.’s</surname></rs> 
+            <p xml:space="preserve" rend="indent">Bei „<rs type="work" xml:id="bibl_22632">Fürstin Ninetta</rs>“ Première.― Im <rs type="place" ref="#pmb92444">Pfob</rs> <rs type="person" xml:id="pNt_06967" ref="#person_19542"><surname>Salten</surname></rs>, Bruder <rs type="person" xml:id="pNt_06968"><surname>S.’s</surname></rs> 
 und <rs type="person" xml:id="pNt_06969" ref="#person_19685"><surname>Schik</surname></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19542">
+      </body>
+   <back><listPerson><person xml:id="person_19542">
                   <persName>
                      <surname>Salten</surname>
                      <forename>Felix</forename>
@@ -271,11 +272,13 @@ und <rs type="person" xml:id="pNt_06969" ref="#person_19685"><surname>Schik</sur
                   <gloss type="w1070">Operette</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77669.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_pfob">
-            <placeName>Pfob</placeName>
-            <location>
-               <geo decls="#LatLng">48.20858 16.37029</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92444">
+               <placeName>Pfob</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20858 16.37029</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_pfob</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92444</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

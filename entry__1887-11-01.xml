@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DF78-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,13 +177,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0333.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1887-11-01">
-            <p xml:space="preserve"><date when="1887-11-01">1/11</date> Dinstag. Nachmittagsvorstellung <rs type="place" xml:id="pl_00632" ref="#place_a6323892ff6bb3b42d9ed4dcfbfd47a5">Wiednerth.</rs> <rs type="work" xml:id="bibl_18971">Robert und 
+            <p xml:space="preserve"><date when="1887-11-01">1/11</date> Dinstag. Nachmittagsvorstellung <rs type="place" xml:id="pl_00632" ref="#pmb92603">Wiednerth.</rs> <rs type="work" xml:id="bibl_18971">Robert und 
 Bertram</rs> mit <rs type="person" xml:id="pNt_02902" ref="#person_20428"><surname>Sternlichts</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Abds. zu Hause mit <rs type="person" xml:id="pNt_02903" ref="#person_16022"><forename>Jeanette</forename></rs>. Nacht. 4.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16022">
+      </body>
+   <back><listPerson><person xml:id="person_16022">
                   <persName>
                      <surname>Heeger</surname>
                      <forename>Jeanette</forename>
@@ -236,16 +237,18 @@ Bertram</rs> mit <rs type="person" xml:id="pNt_02902" ref="#person_20428"><surna
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32474.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32474</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_a6323892ff6bb3b42d9ed4dcfbfd47a5">
-            <placeName type="district" subtype="derivationNounInstitution">Wiednertheater</placeName>
-            <placeName type="alt">Theater an der Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.199478 16.364351</geo>
-            </location>
-            <note type="desc">error: district, Theater (vermutlich Theater an der Wien, das
+               </listBibl><listPlace><place xml:id="pmb92603">
+               <placeName type="district" subtype="derivationNounInstitution">Wiednertheater</placeName>
+               <placeName type="alt">Theater an der Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.199478 16.364351</geo>
+               </location>
+               <note type="desc">error: district, Theater (vermutlich Theater an der Wien, das
                         Wiedner Theater im 4. Bezirk hieß auch Freihaustheater, das kann aber nicht
                         gemeint sein, weil es 1801 geschlossen wurde, die Truppe übersiedelte danach
                         ins neu gebaute Theater an der Wien im 6. Bezirk)</note>
-         </place>
-         </listPlace></back></text>
+               <idno type="obsolete-schnitzler-diary">place_a6323892ff6bb3b42d9ed4dcfbfd47a5</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92603</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

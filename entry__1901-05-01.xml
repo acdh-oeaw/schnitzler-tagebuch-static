@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F1D3-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-05-01">
-            <p xml:space="preserve"><date when="1901-05-01">1/5</date> Vm. bei <rs type="person" xml:id="pNt_17923" ref="#person_19832"><forename>Olga</forename></rs>. Nm. mit ihr <rs type="place" xml:id="pl_03658" ref="#place_82a9503bdaec6072b31faf9d301678cf">Kritzendorf</rs>; Spazierg. 
-<rs type="place" xml:id="pl_03659" ref="#place_a3c879a4f19e7987aa5aa1f1b929b0da">Klosterneuburg</rs>. Trüb, kalt. Ich quäle und liebe sie ― und bin wie krank vor 
+            <p xml:space="preserve"><date when="1901-05-01">1/5</date> Vm. bei <rs type="person" xml:id="pNt_17923" ref="#person_19832"><forename>Olga</forename></rs>. Nm. mit ihr <rs type="place" xml:id="pl_03658" ref="#pmb91077">Kritzendorf</rs>; Spazierg. 
+<rs type="place" xml:id="pl_03659" ref="#pmb865">Klosterneuburg</rs>. Trüb, kalt. Ich quäle und liebe sie ― und bin wie krank vor 
 Liebe.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_19832">
+   <back><listPerson><person xml:id="person_19832">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Olga</forename>
@@ -217,20 +215,24 @@ Liebe.</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_82a9503bdaec6072b31faf9d301678cf">
-            <placeName type="city">Kritzendorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.32932 16.30011</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2773420/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_a3c879a4f19e7987aa5aa1f1b929b0da">
-            <placeName type="city">Klosterneuburg</placeName>
-            <location>
-               <geo decls="#LatLng">48.30521 16.32522</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2773913/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91077">
+               <placeName type="city">Kritzendorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.32932 16.30011</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2773420/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_82a9503bdaec6072b31faf9d301678cf</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91077</idno>
+            </place>
+            <place xml:id="pmb865">
+               <placeName type="city">Klosterneuburg</placeName>
+               <location>
+                  <geo decls="#LatLng">48.30521 16.32522</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2773913/</idno>
+               <idno type="obsolete-schnitzler-diary">place_a3c879a4f19e7987aa5aa1f1b929b0da</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/865</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5CF-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,13 +177,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0636.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-09-14">
             <p xml:space="preserve"><date when="1892-09-14">14. 9.</date> Riva.― Vm. nach Torbole.― 
-Nm. nach dem <rs type="place" xml:id="pl_01358" ref="#place_e289c4af1bed4ee0a7ae698dd11165de">Ledrosee</rs> und zurück ― Unter den Arkaden <rs type="person" xml:id="pNt_06548" ref="#person_15338"><surname>Ludaßy’s</surname></rs> 
+Nm. nach dem <rs type="place" xml:id="pl_01358" ref="#pmb91125">Ledrosee</rs> und zurück ― Unter den Arkaden <rs type="person" xml:id="pNt_06548" ref="#person_15338"><surname>Ludaßy’s</surname></rs> 
 getroffen.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15338">
+      </body>
+   <back><listPerson><person xml:id="person_15338">
                   <persName>
                      <surname>Gans-Ludassy</surname>
                      <forename>Julius von</forename>
@@ -214,14 +215,16 @@ getroffen.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11406</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11406</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_e289c4af1bed4ee0a7ae698dd11165de">
-            <placeName type="lake">Ledrosee</placeName>
-            <placeName type="alt">Lago die Ledro</placeName>
-            <location>
-               <geo decls="#LatLng">45.87686 10.75081</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3174931/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91125">
+               <placeName type="lake">Ledrosee</placeName>
+               <placeName type="alt">Lago die Ledro</placeName>
+               <location>
+                  <geo decls="#LatLng">45.87686 10.75081</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3174931/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_e289c4af1bed4ee0a7ae698dd11165de</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91125</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F49A-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,27 +179,30 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-06-11">
-            <p xml:space="preserve"><date when="1903-06-11">11/6</date> <rs type="place" xml:id="pl_04315" ref="#place_581df48b4c75f9e166eb77e67725cbd3">Lugano</rs>. <rs type="place" xml:id="pl_04316" ref="#place_d63c5c44780b78ab6e4eaf1d40797765">Generoso</rs>. Nebel. Zu Fuss bis Bellavista. Gewitter. Zurück. 
+            <p xml:space="preserve"><date when="1903-06-11">11/6</date> <rs type="place" xml:id="pl_04315" ref="#pmb885">Lugano</rs>. <rs type="place" xml:id="pl_04316" ref="#pmb548">Generoso</rs>. Nebel. Zu Fuss bis Bellavista. Gewitter. Zurück. 
 Gespräch.</p>
          </div>
       </body>
-   
-    <back><listPlace><place xml:id="place_581df48b4c75f9e166eb77e67725cbd3">
-            <placeName type="city">Lugano</placeName>
-            <location>
-               <geo decls="#LatLng">46.01008 8.96004</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2659836/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_d63c5c44780b78ab6e4eaf1d40797765">
-            <placeName type="mountain">Generoso</placeName>
-            <placeName type="alt">Monte Generoso</placeName>
-            <location>
-               <geo decls="#LatLng">45.93142 9.01999</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2660649/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+   <back><listPlace><place xml:id="pmb885">
+               <placeName type="city">Lugano</placeName>
+               <location>
+                  <geo decls="#LatLng">46.01008 8.96004</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2659836/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_581df48b4c75f9e166eb77e67725cbd3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/885</idno>
+            </place>
+            <place xml:id="pmb548">
+               <placeName type="mountain">Generoso</placeName>
+               <placeName type="alt">Monte Generoso</placeName>
+               <location>
+                  <geo decls="#LatLng">45.93142 9.01999</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2660649/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d63c5c44780b78ab6e4eaf1d40797765</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/548</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

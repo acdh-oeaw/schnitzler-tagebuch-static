@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19C2-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,7 +180,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-08-13">
-            <p xml:space="preserve"><date when="1929-08-13">13/8</date> Ankunft <rs type="person" xml:id="pNt_87499" ref="#person_19822"><forename>Heinis</forename></rs> (vom <rs type="place" xml:id="pl_18813" ref="#place_3c0f5f938a70c47b5f56542799548e9d">Groedner Joch</rs>) (nach vielen Kletterpartien), sehr 
+            <p xml:space="preserve"><date when="1929-08-13">13/8</date> Ankunft <rs type="person" xml:id="pNt_87499" ref="#person_19822"><forename>Heinis</forename></rs> (vom <rs type="place" xml:id="pl_18813" ref="#pmb90773">Groedner Joch</rs>) (nach vielen Kletterpartien), sehr 
 gut aussehend und wohlgestimmt.―</p>
             <p xml:space="preserve" rend="indent">― Besorgungen Stadt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87500" ref="#person_19822"><forename>Heini</forename></rs> zu Mittag.―</p>
@@ -189,8 +188,7 @@ gut aussehend und wohlgestimmt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_87501" ref="#person_19822"><forename>Heini</forename></rs> genachtm.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_19822">
+   <back><listPerson><person xml:id="person_19822">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Heinrich</forename>
@@ -220,14 +218,16 @@ gut aussehend und wohlgestimmt.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12692</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12692</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_3c0f5f938a70c47b5f56542799548e9d">
-            <placeName type="mountain">Groedner Joch</placeName>
-            <placeName type="alt">Passo di Gardena</placeName>
-            <location>
-               <geo decls="#LatLng">46.54961 11.8061</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3176315/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb90773">
+               <placeName type="mountain">Groedner Joch</placeName>
+               <placeName type="alt">Passo di Gardena</placeName>
+               <location>
+                  <geo decls="#LatLng">46.54961 11.8061</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3176315/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_3c0f5f938a70c47b5f56542799548e9d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90773</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

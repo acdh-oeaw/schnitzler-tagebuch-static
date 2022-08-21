@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0B02-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,13 +181,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1919-04-09">
             <p xml:space="preserve"><date when="1919-04-09">9/4</date> Dict. <rs type="work" subtype="self" xml:id="bibl_4721">autob.</rs>―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_55795" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" ref="#place_volkstheater">Volksth.</rs> <rs type="work" xml:id="bibl_4722">Othello</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_55795" ref="#person_19822"><forename>Heini</forename></rs> <rs type="place" ref="#pmb92202">Volksth.</rs> <rs type="work" xml:id="bibl_4722">Othello</rs>.―</p>
             <p xml:space="preserve" rend="indent">Las ein Erinnerungbüchlein für <rs type="person" xml:id="pNt_55796"><surname>Verhaeren</surname></rs>, vom Verf. <rs type="person" xml:id="pNt_55797" ref="#person_21614"><surname>Zweig</surname></rs> (aus der 
-<rs type="place" xml:id="pl_11581" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs> zurück) übersandt.―</p>
+<rs type="place" xml:id="pl_11581" ref="#pmb43435">Schweiz</rs> zurück) übersandt.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_19822">
+   <back><listPerson><person xml:id="person_19822">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Heinrich</forename>
@@ -305,20 +303,24 @@
                   <gloss type="w1804"/>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76768.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         <place xml:id="place_7a0be5a1ed9675975e678b517f07573c">
-            <placeName type="country">Schweiz</placeName>
-            <location>
-               <geo decls="#LatLng">47.00016 8.01427</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2658434/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            <place xml:id="pmb43435">
+               <placeName type="country">Schweiz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.00016 8.01427</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2658434/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_7a0be5a1ed9675975e678b517f07573c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43435</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

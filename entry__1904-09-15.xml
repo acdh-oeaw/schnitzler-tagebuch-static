@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F663-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,13 +176,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1965.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-09-15">
-            <p xml:space="preserve"><date when="1904-09-15">15/9</date> <rs type="place" xml:id="pl_04904" ref="#place_1f8c82592620c6015573491c32824424">Lueg</rs>.― Regen. Vm. <rs type="person" xml:id="pNt_21541" ref="#person_14065"><surname>Burckhard</surname></rs> da, über allerlei.</p>
+            <p xml:space="preserve"><date when="1904-09-15">15/9</date> <rs type="place" xml:id="pl_04904" ref="#pmb91173">Lueg</rs>.― Regen. Vm. <rs type="person" xml:id="pNt_21541" ref="#person_14065"><surname>Burckhard</surname></rs> da, über allerlei.</p>
             <p xml:space="preserve" rend="indent">Nm. „<rs type="work" subtype="self" xml:id="bibl_17236">Neue Ehe</rs>“ durchgesehn ― unzufrieden ― aber nicht 
 hoffnunglos.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14065">
+      </body>
+   <back><listPerson><person xml:id="person_14065">
                   <persName>
                      <surname>Burckhard</surname>
                      <forename>Max Eugen</forename>
@@ -240,14 +241,16 @@ hoffnunglos.</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29903</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29903</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_1f8c82592620c6015573491c32824424">
-            <placeName type="city">Lueg</placeName>
-            <placeName type="alt">Pass Lueg</placeName>
-            <location>
-               <geo decls="#LatLng">47.56667 13.2</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2772215/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91173">
+               <placeName type="city">Lueg</placeName>
+               <placeName type="alt">Pass Lueg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.56667 13.2</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2772215/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_1f8c82592620c6015573491c32824424</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91173</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

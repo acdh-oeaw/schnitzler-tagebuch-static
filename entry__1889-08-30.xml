@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E1A6-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,11 +180,10 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1889-08-30">
-            <p xml:space="preserve"><date when="1889-08-30">30.</date> <rs type="place" ref="#place_ronacher">Ronacher</rs>, <rs type="person" xml:id="pNt_03821" ref="#person_19374"><forename>Max</forename> <surname>Rosenberg</surname></rs> und <rs type="person" xml:id="pNt_03822" ref="#person_15529"><surname>Goldmann</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1889-08-30">30.</date> <rs type="place" ref="#pmb92490">Ronacher</rs>, <rs type="person" xml:id="pNt_03821" ref="#person_19374"><forename>Max</forename> <surname>Rosenberg</surname></rs> und <rs type="person" xml:id="pNt_03822" ref="#person_15529"><surname>Goldmann</surname></rs>.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15529">
+   <back><listPerson><person xml:id="person_15529">
                   <persName>
                      <surname>Goldmann</surname>
                      <forename>Paul</forename>
@@ -242,11 +240,13 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19374</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/23575</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_ronacher">
-            <placeName>Ronacher</placeName>
-            <location>
-               <geo decls="#LatLng">48.205139 16.375</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92490">
+               <placeName>Ronacher</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205139 16.375</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_ronacher</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92490</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B81-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7584.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7585.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-11-03">
             <p xml:space="preserve"><date when="1930-11-03">3/11</date> Telegr. von <rs type="person" xml:id="pNt_91137" ref="#person_19688"><surname>Schildkraut</surname></rs> ― wegen <rs type="place" xml:id="pl_19605" ref="#place_adf2880be62591ae963cd302c69f330d" ana="#exclude">Amerikareise</rs> zur ― <rs type="work" subtype="self" xml:id="bibl_1384">Anatol</rs> Première 
 (etwa das 6. in der Sache).</p>
@@ -193,10 +193,11 @@ bereit wäre. Beides schwer ― ich sagte, das eine enthalte zu wenig,
 das andre zu viel Musik.―</p>
             <p xml:space="preserve" rend="indent">― „<rs type="work" subtype="self" xml:id="bibl_1389">Wahn</rs>“ weiter gefeilt.</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_91142" ref="#person_13657"><roleName>Dr.</roleName> <surname>Bermann</surname></rs>; von seinem (noch nicht erschienenen) <rs type="work" xml:id="bibl_1390">Mahdi-Buch</rs>; 
-seine <rs type="person" xml:id="pNt_91143" ref="#person_18356"><forename>Napoleon</forename></rs> <rs type="place" xml:id="pl_19607" ref="#place_8f5696351d40139b803a68a8cef76cea">Helena</rs> Novelle (geplant),― filmrechtliches, ich allerlei 
+seine <rs type="person" xml:id="pNt_91143" ref="#person_18356"><forename>Napoleon</forename></rs> <rs type="place" xml:id="pl_19607" ref="#pmb49155">Helena</rs> Novelle (geplant),― filmrechtliches, ich allerlei 
 <rs type="work" subtype="self" xml:id="bibl_1391">autobiographisches</rs>;― über <rs type="person" xml:id="pNt_91144" ref="#person_13643"><surname>Bergner</surname></rs> <rs type="person" xml:id="pNt_91145" ref="#person_14335"><surname>Czinner</surname></rs> u. dgl.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13498">
+      </body>
+   <back><listPerson><person xml:id="person_13498">
                   <persName>
                      <surname>Bayer</surname>
                      <forename>Friedrich</forename>
@@ -603,14 +604,16 @@ seine <rs type="person" xml:id="pNt_91143" ref="#person_18356"><forename>Napoleo
                   <gloss type="w1060">Roman</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78525.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_8f5696351d40139b803a68a8cef76cea">
-            <placeName type="island">St. Helena</placeName>
-            <placeName type="alt">Saint Helena, Ascension, and Tristan da Cunha</placeName>
-            <location>
-               <geo decls="#LatLng">-15.95 -5.7</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3370751/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb49155">
+               <placeName type="island">St. Helena</placeName>
+               <placeName type="alt">Saint Helena, Ascension, and Tristan da Cunha</placeName>
+               <location>
+                  <geo decls="#LatLng">-15.95 -5.7</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3370751/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8f5696351d40139b803a68a8cef76cea</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49155</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

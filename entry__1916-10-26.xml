@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0784-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,15 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4344.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-10-26">
             <p xml:space="preserve"><date when="1916-10-26">26/10</date> Generalprobe <rs type="person" xml:id="pNt_49029" ref="#person_19290"><surname>Rittner</surname></rs>, <rs type="work" xml:id="bibl_7666">Wölfe in der Nacht</rs>. Hörte (in der 6. Reihe) 
 so gut wie nichts, immerhin stärkre Wirkung als aus dem Buch. 
 Mißverhältnis zwischen dem bizarren Einfall und der nüchtern 
 stimmungslosen Durchführung.―</p>
             <p xml:space="preserve" rend="indent">Nm. an „<rs type="work" subtype="self" xml:id="bibl_7667">Wiederkehr</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_49030" ref="#person_17726"><forename>Emil</forename> <surname>Ludwig</surname></rs>, erzählt etliches von seinen Kriegsfahrten (<rs type="place" xml:id="pl_10254" ref="#place_2c094f7afcff96e3381df9a8d595ef39">Saloniki</rs> etc.); 
-über <rs type="person" xml:id="pNt_49031" ref="#person_18297"><surname>Müller</surname></rs> (<rs type="work" xml:id="bibl_7668">Könige</rs>), <rs type="place" xml:id="pl_10255" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― (Er ist für die <rs type="work" subtype="newspaper" xml:id="bibl_7669">Vossische</rs> hier.) ―</p>
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_49030" ref="#person_17726"><forename>Emil</forename> <surname>Ludwig</surname></rs>, erzählt etliches von seinen Kriegsfahrten (<rs type="place" xml:id="pl_10254" ref="#pmb49254">Saloniki</rs> etc.); 
+über <rs type="person" xml:id="pNt_49031" ref="#person_18297"><surname>Müller</surname></rs> (<rs type="work" xml:id="bibl_7668">Könige</rs>), <rs type="place" xml:id="pl_10255" ref="#pmb50">Wien</rs> ― (Er ist für die <rs type="work" subtype="newspaper" xml:id="bibl_7669">Vossische</rs> hier.) ―</p>
             <p xml:space="preserve" rend="indent">Las den „<rs type="work" xml:id="bibl_7670">Rubin</rs>“ von <rs type="person" xml:id="pNt_49032" ref="#person_16009"><surname>Hebbel</surname></rs>. Begann „<rs type="work" xml:id="bibl_7671">Vierzig Jahr aus dem Leben 
 eines Todten</rs>“.</p>
             <pb n="324"/>
@@ -197,7 +197,8 @@ eines Todten</rs>“.</p>
                </fw>
             </tei:fw>
          </div>
-      </body><back><listPerson><person xml:id="person_16009">
+      </body>
+   <back><listPerson><person xml:id="person_16009">
                   <persName>
                      <surname>Hebbel</surname>
                      <forename>Friedrich</forename>
@@ -408,21 +409,25 @@ eines Todten</rs>“.</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77459.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77459.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_2c094f7afcff96e3381df9a8d595ef39">
-            <placeName type="city">Saloniki</placeName>
-            <placeName type="alt">Thessaloníki</placeName>
-            <location>
-               <geo decls="#LatLng">40.64361 22.93086</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/734077/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb49254">
+               <placeName type="city">Saloniki</placeName>
+               <placeName type="alt">Thessaloníki</placeName>
+               <location>
+                  <geo decls="#LatLng">40.64361 22.93086</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/734077/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_2c094f7afcff96e3381df9a8d595ef39</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49254</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

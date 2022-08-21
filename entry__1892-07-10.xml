@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E58F-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0623.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-07-10">
-            <p xml:space="preserve"><date when="1892-07-10">10. 7.</date> Sonntag.― Vorm. mit <rs type="person" xml:id="pNt_06411" ref="#person_15485"><forename>Mz.</forename></rs> <rs type="place" xml:id="pl_01287" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Schwarzenberggarten</rs>.― Abd. <rs type="person" xml:id="pNt_06412" ref="#person_15485"><forename>Mz.</forename></rs> bei mir 3.</p>
+            <p xml:space="preserve"><date when="1892-07-10">10. 7.</date> Sonntag.― Vorm. mit <rs type="person" xml:id="pNt_06411" ref="#person_15485"><forename>Mz.</forename></rs> <rs type="place" xml:id="pl_01287" ref="#pmb176">Schwarzenberggarten</rs>.― Abd. <rs type="person" xml:id="pNt_06412" ref="#person_15485"><forename>Mz.</forename></rs> bei mir 3.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15485">
+      </body>
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -210,12 +211,14 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_75f2e194839d6ba0e5d4080c211a449a">
-            <placeName type="park">Dornbacher Park</placeName>
-            <placeName type="today">Schwarzenbergpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.249997 16.283563</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb176">
+               <placeName type="park">Dornbacher Park</placeName>
+               <placeName type="today">Schwarzenbergpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.249997 16.283563</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_75f2e194839d6ba0e5d4080c211a449a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/176</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

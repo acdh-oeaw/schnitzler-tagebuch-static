@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-045A-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,15 +177,17 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3864.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-08-07">
-            <p xml:space="preserve"><date when="1914-08-07">7/8</date> Traum: Brand, <rs type="place" xml:id="pl_08867" ref="#place_9ae90ea21d3e063c02809f046183f123">Ringstraße</rs>,― fliegendes Dach des Hotel Imperial ― 
+            <p xml:space="preserve"><date when="1914-08-07">7/8</date> Traum: Brand, <rs type="place" xml:id="pl_08867" ref="#pmb91600">Ringstraße</rs>,― fliegendes Dach des Hotel Imperial ― 
 jemand sagt mir, der sich auf der Fahrbahn duckt ungefähr: das hätte Sie bald getroffen.―</p>
             <p xml:space="preserve" rend="indent">Herrlicher Tag.― Packen. Mit O. im Wald.</p>
-            <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_8960">Ormin</rs>“.― Mit <rs type="allusively" xml:id="rst_01356">Kindern</rs> etc. <rs type="org">Frizzoni</rs> in <rs type="place" xml:id="pl_08868" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs>; <rs type="person" xml:id="pNt_43875" ref="#person_19468"><roleName>Dr.</roleName> 
+            <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_8960">Ormin</rs>“.― Mit <rs type="allusively" xml:id="rst_01356">Kindern</rs> etc. <rs type="org">Frizzoni</rs> in <rs type="place" xml:id="pl_08868" ref="#pmb44374">St. Moritz</rs>; <rs type="person" xml:id="pNt_43875" ref="#person_19468"><roleName>Dr.</roleName> 
 <surname>Rundt</surname></rs>. Ereignisse, Gerüchte.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14130">
+      </body>
+   <back><listPerson><person xml:id="person_14130">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Lili</forename>
@@ -292,19 +293,23 @@ jemand sagt mir, der sich auf der Fahrbahn duckt ungefähr: das hätte Sie bald 
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31447</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31447</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_9ae90ea21d3e063c02809f046183f123">
-            <placeName type="street">Ringstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.20493 16.36244</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/8181703/</idno>
-         </place>
-         <place xml:id="place_51c7c0e8bc877f41a415a8e7efedd068">
-            <placeName type="city">St. Moritz</placeName>
-            <location>
-               <geo decls="#LatLng">46.49937 9.84327</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2658813/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91600">
+               <placeName type="street">Ringstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20493 16.36244</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/8181703/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9ae90ea21d3e063c02809f046183f123</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91600</idno>
+            </place>
+            <place xml:id="pmb44374">
+               <placeName type="city">St. Moritz</placeName>
+               <location>
+                  <geo decls="#LatLng">46.49937 9.84327</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2658813/</idno>
+               <idno type="obsolete-schnitzler-diary">place_51c7c0e8bc877f41a415a8e7efedd068</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44374</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

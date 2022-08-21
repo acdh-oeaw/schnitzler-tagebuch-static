@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0102-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,16 +177,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3369.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1912-04-02">
-            <p xml:space="preserve"><date when="1912-04-02">2/4</date> <rs type="place" xml:id="pl_07805" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>. Schlechtes Wetter.―</p>
+            <p xml:space="preserve"><date when="1912-04-02">2/4</date> <rs type="place" xml:id="pl_07805" ref="#pmb91649">Salzburg</rs>. Schlechtes Wetter.―</p>
             <p xml:space="preserve" rend="indent">Nm. im Zimmer bei uns <rs type="person" xml:id="pNt_37647" ref="#person_16465"><surname>Jacobis</surname></rs> und Frau v. <rs type="person" xml:id="pNt_37648" ref="#person_15842"><surname>Hagen</surname></rs>.</p>
             <p xml:space="preserve" rend="indent">Im Theater. „<rs type="work" xml:id="bibl_10106">Was Ihr wollt</rs>.“ (<rs type="person" xml:id="pNt_37649"><forename>Albert</forename></rs> der Narr, <rs type="person" xml:id="pNt_37650" ref="#person_15842"><roleName>Fr.</roleName> <surname>v. Hagen</surname></rs> <rs type="person" xml:id="pNt_37651"><forename>Olivia</forename></rs>.) ―</p>
             <p xml:space="preserve" rend="indent">Nachtmahl mit allen im Hotel.―.</p>
-            <p xml:space="preserve" rend="indent">Die <rs type="person" xml:id="pNt_37652" ref="#person_20240"><surname>Speidel</surname></rs> Hetze in <rs type="place" xml:id="pl_07806" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>. Angriffe gegen <rs type="person" xml:id="pNt_37653"><forename>Albert</forename></rs>, den „allmächtigen“ 
+            <p xml:space="preserve" rend="indent">Die <rs type="person" xml:id="pNt_37652" ref="#person_20240"><surname>Speidel</surname></rs> Hetze in <rs type="place" xml:id="pl_07806" ref="#pmb45258">München</rs>. Angriffe gegen <rs type="person" xml:id="pNt_37653"><forename>Albert</forename></rs>, den „allmächtigen“ 
 Regisseur.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15842">
+      </body>
+   <back><listPerson><person xml:id="person_15842">
                   <persName>
                      <surname>Hagen</surname>
                      <forename>Herta von</forename>
@@ -317,20 +318,24 @@ Regisseur.―</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31613.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31613</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_c38ad36647aca0261d667c432a4866bd">
-            <placeName type="city">Salzburg</placeName>
-            <location>
-               <geo decls="#LatLng">47.79941 13.04399</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766824/</idno>
-         </place>
-         <place xml:id="place_d0a6343a081a7335baa965ce4fd0845c">
-            <placeName type="city">München</placeName>
-            <location>
-               <geo decls="#LatLng">48.13743 11.57549</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2867714/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91649">
+               <placeName type="city">Salzburg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.79941 13.04399</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766824/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c38ad36647aca0261d667c432a4866bd</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91649</idno>
+            </place>
+            <place xml:id="pmb45258">
+               <placeName type="city">München</placeName>
+               <location>
+                  <geo decls="#LatLng">48.13743 11.57549</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2867714/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d0a6343a081a7335baa965ce4fd0845c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

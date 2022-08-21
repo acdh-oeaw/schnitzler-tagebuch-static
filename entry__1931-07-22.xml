@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1C85-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1931-07-22">
-            <p xml:space="preserve"><date when="1931-07-22">22/7</date> <rs type="place" xml:id="pl_20022" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Meiereiweg.―</p>
+            <p xml:space="preserve"><date when="1931-07-22">22/7</date> <rs type="place" xml:id="pl_20022" ref="#pmb91735">Semmering</rs>. Meiereiweg.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_23876">Sekundant</rs> weitergeschrieben.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93459" ref="#person_19704"><surname>Schinnerer</surname></rs> fährt für 2 Tage nach <rs type="place" xml:id="pl_20023" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_93459" ref="#person_19704"><surname>Schinnerer</surname></rs> fährt für 2 Tage nach <rs type="place" xml:id="pl_20023" ref="#pmb50">Wien</rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_19704">
+   <back><listPerson><person xml:id="person_19704">
                   <persName>
                      <surname>Schinnerer</surname>
                      <forename>Otto Paul</forename>
@@ -235,20 +233,24 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30953.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30953</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_8627b9def9e6e2fd2353f5f3822fba9c">
-            <placeName type="mountain">Semmering</placeName>
-            <location>
-               <geo decls="#LatLng">47.63333 15.81667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2765171/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91735">
+               <placeName type="mountain">Semmering</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63333 15.81667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2765171/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8627b9def9e6e2fd2353f5f3822fba9c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

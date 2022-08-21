@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0DD2-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5365.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5366.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-03-30">
             <p xml:space="preserve"><date when="1921-03-30">30/3</date> Vm. bei <rs type="person" xml:id="pNt_61922" ref="#person_15854"><forename>Gisa</forename></rs>.― Über den neuesten Brief. Telegramm an <rs type="person" xml:id="pNt_61923" ref="#person_19832"><forename>O.</forename></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. Hr. <rs type="person" xml:id="pNt_61924" ref="#person_15465"><forename>Hans Maria</forename> <surname>Glatz</surname></rs>, Maler, mit einigen nicht ganz übeln 
@@ -191,19 +191,20 @@ Hölle Redoute „Höllenreigen“, in einem andern Cabaret ein „Reigen“ von
             <p xml:space="preserve" rend="indent">Sitzung Autorenverband (<rs type="work" subtype="newspaper" xml:id="bibl_3239">Merkerlocal</rs>).</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_61925" ref="#person_13404"><roleName>Hrn.</roleName> <surname>Bangert</surname></rs>, Hotel <rs type="person" xml:id="pNt_61926"><surname>Krantz</surname></rs>, der mich über allerlei fragte, eigentlich 
 interviewte (<rs type="work" subtype="self" xml:id="bibl_3240">Reigen</rs>, <rs type="work" subtype="self" xml:id="bibl_3241">Bernhardi</rs>, <rs type="work" subtype="self" xml:id="bibl_3242">Weg ins freie</rs>, Antisemitismus u. a.).</p>
-            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_61927" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_12871" ref="#place_8fbb5ad1eece300cc636ce72c126d8e1">Stadtpark</rs> spazieren. Sie war in der <rs type="place" xml:id="pl_12872" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs>. (Keineswegs 
+            <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_61927" ref="#person_16807"><forename>H.</forename> <surname>K.</surname></rs> <rs type="place" xml:id="pl_12871" ref="#pmb575">Stadtpark</rs> spazieren. Sie war in der <rs type="place" xml:id="pl_12872" ref="#pmb43435">Schweiz</rs>. (Keineswegs 
 wegen desjenigen, der sie voriges Jahr heiraten wollte, oder des andren, 
 den sie ein bischen liebte, sondern wegen eines dritten, mit dem sie im 
-Herbst nach <rs type="place" xml:id="pl_12873" ref="#place_389962c9dec540ab28d04517e82c3996">Italien</rs> fährt. Sie ist „glücklich“ … glaubt aber doch nicht 
+Herbst nach <rs type="place" xml:id="pl_12873" ref="#pmb40306">Italien</rs> fährt. Sie ist „glücklich“ … glaubt aber doch nicht 
 recht dran;― und ist zu Untreue bereiter als je.―)</p>
             <p xml:space="preserve" rend="indent">N. d. N. kam <rs type="person" xml:id="pNt_61928" ref="#person_13551"><forename>Richard</forename></rs> <rs type="person" xml:id="pNt_61929" ref="#person_13550"><forename>Paula</forename></rs>, mit einem netten <rs type="person" xml:id="pNt_61930" ref="#person_18539"><roleName>Prof.</roleName> <surname>Oko</surname></rs> aus 
-<rs type="place" xml:id="pl_12874" ref="#place_cc8d66016f145d18ca43f658cf893ec8">Cincinnati</rs>, der mich wenigstens „von Angesicht zu Angesicht sehen 
+<rs type="place" xml:id="pl_12874" ref="#pmb45709">Cincinnati</rs>, der mich wenigstens „von Angesicht zu Angesicht sehen 
 wollte …“.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_61931" ref="#person_19542"><surname>Saltens</surname></rs> „<rs type="work" xml:id="bibl_3243">Hund von Florenz</rs>“ aus, stellenweise gut erzählt;― auch 
 sozusagen ein Einfall;― da und dort ist man fast geblufft;― und im ganzen ist 
 es ein Schwindel. Undenkbar ihm die Wahrheit zu sagen, und nutzlos.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13404">
+      </body>
+   <back><listPerson><person xml:id="person_13404">
                   <persName>
                      <surname>Bangert</surname>
                      <forename>Julius</forename>
@@ -533,33 +534,42 @@ es ein Schwindel. Undenkbar ihm die Wahrheit zu sagen, und nutzlos.―</p>
                   <title>Der Hund von Florenz</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76509.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_8fbb5ad1eece300cc636ce72c126d8e1">
-            <placeName type="park">Stadtpark</placeName>
-            <location>
-               <geo decls="#LatLng">47.074504 15.444440</geo>
-            </location>
-         </place>
-         <place xml:id="place_7a0be5a1ed9675975e678b517f07573c">
-            <placeName type="country">Schweiz</placeName>
-            <location>
-               <geo decls="#LatLng">47.00016 8.01427</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2658434/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_389962c9dec540ab28d04517e82c3996">
-            <placeName type="country">Italien</placeName>
-            <location>
-               <geo decls="#LatLng">42.83333 12.83333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3175395/</idno>
-         </place>
-         <place xml:id="place_cc8d66016f145d18ca43f658cf893ec8">
-            <placeName type="city">Cincinnati</placeName>
-            <location>
-               <geo decls="#LatLng">39.162 -84.45689</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/4508722/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb575">
+               <placeName type="park">Stadtpark</placeName>
+               <location>
+                  <geo decls="#LatLng">47.074504 15.444440</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_8fbb5ad1eece300cc636ce72c126d8e1</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/575</idno>
+            </place>
+            <place xml:id="pmb43435">
+               <placeName type="country">Schweiz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.00016 8.01427</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2658434/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_7a0be5a1ed9675975e678b517f07573c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43435</idno>
+            </place>
+            <place xml:id="pmb40306">
+               <placeName type="country">Italien</placeName>
+               <location>
+                  <geo decls="#LatLng">42.83333 12.83333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3175395/</idno>
+               <idno type="obsolete-schnitzler-diary">place_389962c9dec540ab28d04517e82c3996</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40306</idno>
+            </place>
+            
+            <place xml:id="pmb45709">
+               <placeName type="city">Cincinnati</placeName>
+               <location>
+                  <geo decls="#LatLng">39.162 -84.45689</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/4508722/</idno>
+               <idno type="obsolete-schnitzler-diary">place_cc8d66016f145d18ca43f658cf893ec8</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45709</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E6EC-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,15 +178,17 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0742.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0743.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-06-27">
             <p xml:space="preserve"><date when="1893-06-27">27/6</date> Sehr müd und zerschlagen vom Bic.fahren.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_07513" ref="#person_14199"><forename>Gusti</forename></rs> da, die mir unter Thränen sagt, sie gehe weg, nach 
-<rs type="place" xml:id="pl_01512" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs>, und habe das Gefühl, als lasse sie eine Leiche zurück.― <rs type="person" xml:id="pNt_07514" ref="#person_15485"><forename>Mz.</forename></rs> 
-habe nicht nach <rs type="place" xml:id="pl_01513" ref="#place_00f8780e567ba1b5689c43337d826371">Weimar</rs> können, sei an jenem Tag (von mir also) hin 
+<rs type="place" xml:id="pl_01512" ref="#pmb842">Karlsbad</rs>, und habe das Gefühl, als lasse sie eine Leiche zurück.― <rs type="person" xml:id="pNt_07514" ref="#person_15485"><forename>Mz.</forename></rs> 
+habe nicht nach <rs type="place" xml:id="pl_01513" ref="#pmb92063">Weimar</rs> können, sei an jenem Tag (von mir also) hin 
 und verweint nach Hause gekommen.― Das that mir ziemlich wohl.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14199">
+      </body>
+   <back><listPerson><person xml:id="person_14199">
                   <persName>
                      <surname>Chlum</surname>
                      <forename>Auguste</forename>
@@ -237,21 +238,25 @@ und verweint nach Hause gekommen.― Das that mir ziemlich wohl.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_84bb7a44667327c91eade4b980a38a6f">
-            <placeName type="city">Karlsbad</placeName>
-            <placeName type="alt">Karlovy Vary</placeName>
-            <location>
-               <geo decls="#LatLng">50.23271 12.87117</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3073803/</idno>
-         </place>
-         <place xml:id="place_00f8780e567ba1b5689c43337d826371">
-            <placeName type="city">Weimar</placeName>
-            <location>
-               <geo decls="#LatLng">50.9803 11.32903</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2812482/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb842">
+               <placeName type="city">Karlsbad</placeName>
+               <placeName type="alt">Karlovy Vary</placeName>
+               <location>
+                  <geo decls="#LatLng">50.23271 12.87117</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3073803/</idno>
+               <idno type="obsolete-schnitzler-diary">place_84bb7a44667327c91eade4b980a38a6f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/842</idno>
+            </place>
+            <place xml:id="pmb92063">
+               <placeName type="city">Weimar</placeName>
+               <location>
+                  <geo decls="#LatLng">50.9803 11.32903</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2812482/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_00f8780e567ba1b5689c43337d826371</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92063</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

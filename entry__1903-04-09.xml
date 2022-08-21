@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F45B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,12 +179,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-04-09">
-            <p xml:space="preserve"><date when="1903-04-09">9/4</date> <rs type="place" xml:id="pl_04224" ref="#place_443befbacdaa99c161dd11495b82b99b">Linz</rs>. Spazierg. an der <rs type="place" xml:id="pl_04225" ref="#place_ec5faf5c37e55de32672b04a90a59b20">Donau</rs>.― Verändert.― Abreise. Gelesen <rs type="person" xml:id="pNt_19738" ref="#person_14147"><surname>Casanova</surname></rs>, 
-letzter Band, der alternde; préocc. durch „<rs type="work" subtype="self" xml:id="bibl_17672">Reigen</rs>“.― <rs type="place" xml:id="pl_04226" ref="#place_d533f22e7175d6063cb4c4286fb92c0c">Gmunden</rs>.― </p>
+            <p xml:space="preserve"><date when="1903-04-09">9/4</date> <rs type="place" xml:id="pl_04224" ref="#pmb91153">Linz</rs>. Spazierg. an der <rs type="place" xml:id="pl_04225" ref="#pmb90538">Donau</rs>.― Verändert.― Abreise. Gelesen <rs type="person" xml:id="pNt_19738" ref="#person_14147"><surname>Casanova</surname></rs>, 
+letzter Band, der alternde; préocc. durch „<rs type="work" subtype="self" xml:id="bibl_17672">Reigen</rs>“.― <rs type="place" xml:id="pl_04226" ref="#pmb874">Gmunden</rs>.― </p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_14147">
+   <back><listPerson><person xml:id="person_14147">
                   <persName>
                      <surname>Casanova</surname>
                      <forename>Giacomo Girolamo</forename>
@@ -251,29 +249,35 @@ letzter Band, der alternde; préocc. durch „<rs type="work" subtype="self" xml
                   <gloss type="w1792"/>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76994.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_443befbacdaa99c161dd11495b82b99b">
-            <placeName type="city">Linz</placeName>
-            <location>
-               <geo decls="#LatLng">48.30639 14.28611</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2772400/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_ec5faf5c37e55de32672b04a90a59b20">
-            <placeName type="river">Donau</placeName>
-            <placeName type="today">Neue Donau</placeName>
-            <location>
-               <geo decls="#LatLng">48.2644 16.37547</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3333514/</idno>
-         </place>
-         <place xml:id="place_d533f22e7175d6063cb4c4286fb92c0c">
-            <placeName type="city">Gmunden</placeName>
-            <location>
-               <geo decls="#LatLng">47.91839 13.79933</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2778436/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91153">
+               <placeName type="city">Linz</placeName>
+               <location>
+                  <geo decls="#LatLng">48.30639 14.28611</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2772400/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_443befbacdaa99c161dd11495b82b99b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91153</idno>
+            </place>
+            <place xml:id="pmb90538">
+               <placeName type="river">Donau</placeName>
+               <placeName type="today">Neue Donau</placeName>
+               <location>
+                  <geo decls="#LatLng">48.2644 16.37547</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3333514/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ec5faf5c37e55de32672b04a90a59b20</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90538</idno>
+            </place>
+            <place xml:id="pmb874">
+               <placeName type="city">Gmunden</placeName>
+               <location>
+                  <geo decls="#LatLng">47.91839 13.79933</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2778436/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d533f22e7175d6063cb4c4286fb92c0c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/874</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

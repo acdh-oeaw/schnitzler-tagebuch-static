@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-036E-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,18 +178,20 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3739.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3740.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-12-13">
             <p xml:space="preserve"><date when="1913-12-13">13/12</date> Dict. <rs type="work" subtype="self" xml:id="bibl_9814">Novelle</rs>, Briefe.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42296" ref="#person_14786"><roleName>Dr.</roleName> <surname>Ergas</surname></rs> erscheint (bei dem in der Capponcina v. <rs type="person" xml:id="pNt_42297" ref="#person_20885"><surname>Unruh</surname></rs> wohnt); wegen 
-„<rs type="work" xml:id="bibl_9815">Prinz Ferdinand</rs>“, <rs type="place" ref="#place_burgtheater">Burgtheater</rs>. Ich teleph. an <rs type="person" xml:id="pNt_42298" ref="#person_19364"><surname>Rosenbaum</surname></rs> in dieser 
+„<rs type="work" xml:id="bibl_9815">Prinz Ferdinand</rs>“, <rs type="place" ref="#pmb14">Burgtheater</rs>. Ich teleph. an <rs type="person" xml:id="pNt_42298" ref="#person_19364"><surname>Rosenbaum</surname></rs> in dieser 
 Sache.</p>
             <p xml:space="preserve" rend="indent">Nm. Trödelei.― <rs ref="#person_15833" type="person" xml:id="pNt_42299"><forename>Else</forename> <surname>Speidel</surname></rs>, die ich (nach laryngosk. Untersuchung 
 Vormittag) elektrisire.</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42300" ref="#person_13359"><forename>Stephi</forename></rs> zum Nachtmahl; ist nach <rs type="place" xml:id="pl_08557" ref="#place_0bcbcfedf2ef1f96542597b9279fb141">Rom</rs>, ― nach <rs type="place" xml:id="pl_08558" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs> eingeladen 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_42300" ref="#person_13359"><forename>Stephi</forename></rs> zum Nachtmahl; ist nach <rs type="place" xml:id="pl_08557" ref="#pmb445">Rom</rs>, ― nach <rs type="place" xml:id="pl_08558" ref="#pmb44374">St. Moritz</rs> eingeladen 
 und fühlt sich „psychisch impotent“ beides anzunehmen.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13359">
+      </body>
+   <back><listPerson><person xml:id="person_13359">
                   <persName>
                      <surname>Bachrach</surname>
                      <forename>Stefanie</forename>
@@ -364,25 +365,31 @@ und fühlt sich „psychisch impotent“ beides anzunehmen.</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76584.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb76584.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_burgtheater">
-            <placeName type="theater">Burgtheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.210333 16.361139</geo>
-            </location>
-         </place>
-         <place xml:id="place_0bcbcfedf2ef1f96542597b9279fb141">
-            <placeName type="city">Rom</placeName>
-            <location>
-               <geo decls="#LatLng">41.89193 12.51133</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3169070/</idno>
-         </place>
-         <place xml:id="place_51c7c0e8bc877f41a415a8e7efedd068">
-            <placeName type="city">St. Moritz</placeName>
-            <location>
-               <geo decls="#LatLng">46.49937 9.84327</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2658813/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb14">
+               <placeName type="theater">Burgtheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.210333 16.361139</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_burgtheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14</idno>
+            </place>
+            <place xml:id="pmb445">
+               <placeName type="city">Rom</placeName>
+               <location>
+                  <geo decls="#LatLng">41.89193 12.51133</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3169070/</idno>
+               <idno type="obsolete-schnitzler-diary">place_0bcbcfedf2ef1f96542597b9279fb141</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/445</idno>
+            </place>
+            <place xml:id="pmb44374">
+               <placeName type="city">St. Moritz</placeName>
+               <location>
+                  <geo decls="#LatLng">46.49937 9.84327</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2658813/</idno>
+               <idno type="obsolete-schnitzler-diary">place_51c7c0e8bc877f41a415a8e7efedd068</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44374</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

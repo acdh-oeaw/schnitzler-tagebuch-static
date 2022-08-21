@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E836-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-05-24">
-            <p xml:space="preserve"><date when="1894-05-24">24/5</date> <rs type="place" xml:id="pl_01706" ref="#place_57c9180eee4fb88db953c8d2f64d8a0e">Rekawinkl</rs> ― (mit <rs type="person" xml:id="pNt_08767" ref="#person_15194"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_08768" ref="#person_20410"><surname>Stern</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_22445">Presse</rs>),― <rs type="person" xml:id="pNt_08769" ref="#person_19052"><surname>Ranzenhofer</surname></rs>) ― Bic. 
-― <rs type="place" xml:id="pl_01707" ref="#place_f23bea7a0da3d228791889d1753f6111">Hainfeld</rs> ― <rs type="place" xml:id="pl_01708" ref="#place_4a3c6f2d3db815161ddfa4b4f6ec2f96">Lilienfeld</rs> ― <rs type="place" xml:id="pl_01709" ref="#place_c751e0a19ec1902a71bc1e9ce40014c2">St. Pölten</rs>.―</p>
+            <p xml:space="preserve"><date when="1894-05-24">24/5</date> <rs type="place" xml:id="pl_01706" ref="#pmb54767">Rekawinkl</rs> ― (mit <rs type="person" xml:id="pNt_08767" ref="#person_15194"><forename>Gustav</forename></rs>, <rs type="person" xml:id="pNt_08768" ref="#person_20410"><surname>Stern</surname></rs> (<rs type="work" subtype="newspaper" xml:id="bibl_22445">Presse</rs>),― <rs type="person" xml:id="pNt_08769" ref="#person_19052"><surname>Ranzenhofer</surname></rs>) ― Bic. 
+― <rs type="place" xml:id="pl_01707" ref="#pmb90825">Hainfeld</rs> ― <rs type="place" xml:id="pl_01708" ref="#pmb91147">Lilienfeld</rs> ― <rs type="place" xml:id="pl_01709" ref="#pmb49880">St. Pölten</rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15194">
+   <back><listPerson><person xml:id="person_15194">
                   <persName>
                      <surname>Frid</surname>
                      <forename>Gustav</forename>
@@ -256,35 +254,43 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19052</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/23049</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_57c9180eee4fb88db953c8d2f64d8a0e">
-            <placeName type="city">Rekawinkel</placeName>
-            <location>
-               <geo decls="#LatLng">48.17936 16.02433</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2767581/</idno>
-         </place>
-         <place xml:id="place_f23bea7a0da3d228791889d1753f6111">
-            <placeName type="city">Hainfeld</placeName>
-            <location>
-               <geo decls="#LatLng">48.0339 15.77414</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776981/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_4a3c6f2d3db815161ddfa4b4f6ec2f96">
-            <placeName type="city">Lilienfeld</placeName>
-            <location>
-               <geo decls="#LatLng">48.01312 15.59664</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2772470/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_c751e0a19ec1902a71bc1e9ce40014c2">
-            <placeName type="city">St. Pölten</placeName>
-            <location>
-               <geo decls="#LatLng">48.2 15.63333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766429/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb54767">
+               <placeName type="city">Rekawinkel</placeName>
+               <location>
+                  <geo decls="#LatLng">48.17936 16.02433</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2767581/</idno>
+               <idno type="obsolete-schnitzler-diary">place_57c9180eee4fb88db953c8d2f64d8a0e</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/54767</idno>
+            </place>
+            <place xml:id="pmb90825">
+               <placeName type="city">Hainfeld</placeName>
+               <location>
+                  <geo decls="#LatLng">48.0339 15.77414</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776981/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_f23bea7a0da3d228791889d1753f6111</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90825</idno>
+            </place>
+            <place xml:id="pmb91147">
+               <placeName type="city">Lilienfeld</placeName>
+               <location>
+                  <geo decls="#LatLng">48.01312 15.59664</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2772470/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_4a3c6f2d3db815161ddfa4b4f6ec2f96</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91147</idno>
+            </place>
+            <place xml:id="pmb49880">
+               <placeName type="city">St. Pölten</placeName>
+               <location>
+                  <geo decls="#LatLng">48.2 15.63333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766429/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c751e0a19ec1902a71bc1e9ce40014c2</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49880</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

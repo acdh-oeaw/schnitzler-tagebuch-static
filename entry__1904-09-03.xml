@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F657-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,14 +176,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1963.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-09-03">
-            <p xml:space="preserve"><date when="1904-09-03">3/9</date> O. und ich mit <rs type="person" xml:id="pNt_21510" ref="#person_16292"><forename>Gerty</forename></rs> nach <rs type="place" xml:id="pl_04875" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>.― Im Zug <rs type="person" xml:id="pNt_21511" ref="#person_19542"><surname>Salten</surname></rs>, der nach <rs type="place" xml:id="pl_04876" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs> 
-fährt, die <rs type="person" xml:id="pNt_21512" ref="#person_19513"><surname>Coburg</surname></rs> (<rs type="person" xml:id="pNt_21513" ref="#person_17976"><surname>Mattachich</surname></rs>) die aus <rs type="place" xml:id="pl_04877" ref="#place_6f777458fb1e954e62bcbeba299fb886">Elster</rs> Entflohne zu interviewen.― 
-<rs type="place" xml:id="pl_04878" ref="#place_c2ad928214981e457405589604924059">Ischl</rs>. <rs type="person" xml:id="pNt_21514" ref="#person_16294"><forename>Hugo</forename></rs> an der Bahn. ― Hotel Kaiserkrone.― Mit <rs type="person" xml:id="pNt_21515" ref="#person_16294"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_21516" ref="#person_16292"><forename>Gerty</forename></rs> und 
+            <p xml:space="preserve"><date when="1904-09-03">3/9</date> O. und ich mit <rs type="person" xml:id="pNt_21510" ref="#person_16292"><forename>Gerty</forename></rs> nach <rs type="place" xml:id="pl_04875" ref="#pmb213">Ischl</rs>.― Im Zug <rs type="person" xml:id="pNt_21511" ref="#person_19542"><surname>Salten</surname></rs>, der nach <rs type="place" xml:id="pl_04876" ref="#pmb182">Paris</rs> 
+fährt, die <rs type="person" xml:id="pNt_21512" ref="#person_19513"><surname>Coburg</surname></rs> (<rs type="person" xml:id="pNt_21513" ref="#person_17976"><surname>Mattachich</surname></rs>) die aus <rs type="place" xml:id="pl_04877" ref="#pmb90583">Elster</rs> Entflohne zu interviewen.― 
+<rs type="place" xml:id="pl_04878" ref="#pmb213">Ischl</rs>. <rs type="person" xml:id="pNt_21514" ref="#person_16294"><forename>Hugo</forename></rs> an der Bahn. ― Hotel Kaiserkrone.― Mit <rs type="person" xml:id="pNt_21515" ref="#person_16294"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_21516" ref="#person_16292"><forename>Gerty</forename></rs> und 
 Vater <rs ref="#person_16293" type="person" xml:id="pNt_21517"><surname>H.</surname></rs> spazieren. Regen.― Kaiserkr. genachtm.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16292">
+      </body>
+   <back><listPerson><person xml:id="person_16292">
                   <persName>
                      <surname>Hofmannsthal</surname>
                      <forename>Gertrude von</forename>
@@ -351,29 +352,35 @@ Vater <rs ref="#person_16293" type="person" xml:id="pNt_21517"><surname>H.</surn
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb27933</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/23861</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_e20d37a5d7fcc4c35be6fc18a8e71bfa">
-            <placeName type="city">Paris</placeName>
-            <location>
-               <geo decls="#LatLng">48.85341 2.3488</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2988507/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_6f777458fb1e954e62bcbeba299fb886">
-            <placeName type="city">Elster</placeName>
-            <location>
-               <geo decls="#LatLng">51.83011 12.82424</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2930695/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_c2ad928214981e457405589604924059">
-            <placeName type="city">Ischl</placeName>
-            <placeName type="alt">Bad Ischl</placeName>
-            <location>
-               <geo decls="#LatLng">47.71109 13.61893</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782052/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb182">
+               <placeName type="city">Paris</placeName>
+               <location>
+                  <geo decls="#LatLng">48.85341 2.3488</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2988507/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_e20d37a5d7fcc4c35be6fc18a8e71bfa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/182</idno>
+            </place>
+            <place xml:id="pmb90583">
+               <placeName type="city">Elster</placeName>
+               <location>
+                  <geo decls="#LatLng">51.83011 12.82424</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2930695/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_6f777458fb1e954e62bcbeba299fb886</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90583</idno>
+            </place>
+            <place xml:id="pmb213">
+               <placeName type="city">Ischl</placeName>
+               <placeName type="alt">Bad Ischl</placeName>
+               <location>
+                  <geo decls="#LatLng">47.71109 13.61893</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782052/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c2ad928214981e457405589604924059</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/213</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

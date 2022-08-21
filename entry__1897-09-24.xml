@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-ECEA-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,10 +178,11 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1376.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1377.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1897-09-24">
             <p xml:space="preserve"><date when="1897-09-24">24/9</date> 11 hinaus.— <rs type="person" xml:id="pNt_14443" ref="#person_17825"><surname>Mandl</surname></rs> dort, Mutter, Schwester.― (Schwester hat die 
-Geschichte mit <rs type="person" xml:id="pNt_14444" ref="#person_15178"><surname>Y.</surname></rs> bereits aus <rs type="place" xml:id="pl_02741" ref="#place_c2ad928214981e457405589604924059">I.</rs> durch Verwandte gehört; ich läugnete 
+Geschichte mit <rs type="person" xml:id="pNt_14444" ref="#person_15178"><surname>Y.</surname></rs> bereits aus <rs type="place" xml:id="pl_02741" ref="#pmb213">I.</rs> durch Verwandte gehört; ich läugnete 
 natürlich.) ― Im Garten spazieren.― Erwartung.― Vom Garten aus sah 
 die Schwester oft durchs Fenster in das Zimmer, wo <rs type="person" xml:id="pNt_14445"><forename>Mz.</forename></rs> lag.― Drin 
 seit dem Morgen <rs type="person" xml:id="pNt_14446" ref="#person_17825"><surname>Mandl</surname></rs>; <rs type="person" xml:id="pNt_14447" ref="#person_16850"><roleName>Frau</roleName> <surname>K.</surname></rs>, Mutter.― Schwester stellt sich auf 
@@ -194,9 +194,10 @@ stiller ― Das Kind auf dem Tisch; sehr schön; ich mußte es auf die
 Wange küssen. Tiefer Schmerz, den ich durchaus nicht erwartet. 
 Tiefer, als er war, wie mein <rs type="allusively" xml:id="rst_00268">Vater</rs> starb.― Nach einer Stunde zu <rs type="person" xml:id="pNt_14449"><forename>Mz.</forename></rs>; 
 die sich brav hielt wie immer, nach den 5tägigen Schmerzen sehr müd 
-war.― Mit Mutter und Schwester zur Bahn; nach <rs type="place" xml:id="pl_02742" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― <rs type="person" xml:id="pNt_14450" ref="#person_20925"><forename>Leo</forename> <surname>V.</surname></rs> im Kfh.―</p>
+war.― Mit Mutter und Schwester zur Bahn; nach <rs type="place" xml:id="pl_02742" ref="#pmb50">Wien</rs>.― <rs type="person" xml:id="pNt_14450" ref="#person_20925"><forename>Leo</forename> <surname>V.</surname></rs> im Kfh.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15178">
+      </body>
+   <back><listPerson><person xml:id="person_15178">
                   <persName>
                      <surname>Freudenthal</surname>
                      <forename>Rosa</forename>
@@ -359,20 +360,24 @@ war.― Mit Mutter und Schwester zur Bahn; nach <rs type="place" xml:id="pl_0274
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12695</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12695</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_c2ad928214981e457405589604924059">
-            <placeName type="city">Ischl</placeName>
-            <placeName type="alt">Bad Ischl</placeName>
-            <location>
-               <geo decls="#LatLng">47.71109 13.61893</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782052/</idno>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb213">
+               <placeName type="city">Ischl</placeName>
+               <placeName type="alt">Bad Ischl</placeName>
+               <location>
+                  <geo decls="#LatLng">47.71109 13.61893</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782052/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c2ad928214981e457405589604924059</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/213</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

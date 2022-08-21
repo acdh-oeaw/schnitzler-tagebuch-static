@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5F6-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,28 +176,34 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1922.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-05-29">
-            <p xml:space="preserve"><date when="1904-05-29">29/5</date> Ankunft <rs type="place" xml:id="pl_04747" ref="#place_05e29ff4895800e505d2e40807f90ca8">Fiume</rs>. Bahn <rs type="place" xml:id="pl_04748" ref="#place_438fca20b75a319c758a8740997cb83f">Adelsberg</rs>.― In die Grotte. Wundervoll.― 
+            <p xml:space="preserve"><date when="1904-05-29">29/5</date> Ankunft <rs type="place" xml:id="pl_04747" ref="#pmb44246">Fiume</rs>. Bahn <rs type="place" xml:id="pl_04748" ref="#pmb90190">Adelsberg</rs>.― In die Grotte. Wundervoll.― 
 Nachm. geschlafen.― Abreise Schlafwagen.―</p>
          </div>
-      </body><back><listPlace><place xml:id="place_05e29ff4895800e505d2e40807f90ca8">
-            <placeName type="city">Fiume</placeName>
-            <placeName type="alt">Rijeka</placeName>
-            <location>
-               <geo decls="#LatLng">45.32673 14.44241</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3191648/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_438fca20b75a319c758a8740997cb83f">
-            <placeName type="city">Adelsberg</placeName>
-            <placeName type="alt">Postojna</placeName>
-            <location>
-               <geo decls="#LatLng">45.77435 14.21528</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3192673/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+      </body>
+   <back><listPlace><place xml:id="pmb44246">
+               <placeName type="city">Fiume</placeName>
+               <placeName type="alt">Rijeka</placeName>
+               <location>
+                  <geo decls="#LatLng">45.32673 14.44241</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3191648/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_05e29ff4895800e505d2e40807f90ca8</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44246</idno>
+            </place>
+            <place xml:id="pmb90190">
+               <placeName type="city">Adelsberg</placeName>
+               <placeName type="alt">Postojna</placeName>
+               <location>
+                  <geo decls="#LatLng">45.77435 14.21528</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3192673/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_438fca20b75a319c758a8740997cb83f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90190</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

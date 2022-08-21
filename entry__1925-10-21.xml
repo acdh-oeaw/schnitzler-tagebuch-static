@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1453-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,9 +177,10 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6566.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-10-21">
-            <p xml:space="preserve"><date when="1925-10-21">21/10</date> Ankunft <rs type="place" xml:id="pl_16411" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> 10.― Nebel und Regenwetter.</p>
+            <p xml:space="preserve"><date when="1925-10-21">21/10</date> Ankunft <rs type="place" xml:id="pl_16411" ref="#pmb50">Wien</rs> 10.― Nebel und Regenwetter.</p>
             <p xml:space="preserve" rend="indent">Zu Hause <rs type="person" xml:id="pNt_76191" ref="#person_14130"><forename>Lili</forename></rs> ― Bericht vom Arzt; Notwendigkeit Sanatorium Behandlung.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_76192" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> die 2 Zimmer vermiethet hat. Sie empfindet die Sanator.-Sache als 
 „abgekartet“;― so blind macht Hass.―</p>
@@ -191,7 +191,8 @@
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_76202" ref="#person_14130"><forename>Lili</forename></rs> später mit mir über Berufswahl, über <rs type="person" xml:id="pNt_76203" ref="#person_15836"><surname>H.</surname></rs> („Bluff“) ― und 
 Krankheiten.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14130">
+      </body>
+   <back><listPerson><person xml:id="person_14130">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Lili</forename>
@@ -357,12 +358,14 @@ Krankheiten.</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

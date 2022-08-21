@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E878-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0852.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-07-29">
             <p xml:space="preserve"><date when="1894-07-29">29/7</date> S. Von <rs type="person" xml:id="pNt_08985" ref="#person_19564"><forename>Dilly</forename></rs> abgeschmackter Brief. Sie scheint plötzlich nicht 
-zu wollen, daß ich nach <rs type="place" xml:id="pl_01773" ref="#place_07746ef3772ea6e718f5cd3a37681d92">Marienbad</rs> komme; betrügt mich wahrscheinlich.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_08986" ref="#person_19542"><surname>Salten</surname></rs> Bic. <rs type="place" xml:id="pl_01774" ref="#place_f31da60292f235984a0cb55466b84b5f">Weidling Bach</rs>; in <rs type="place" xml:id="pl_01775" ref="#place_79569c4d5a6b9125210394665c1e4f3f">Weidling</rs> soupirt. Litt unter 
+zu wollen, daß ich nach <rs type="place" xml:id="pl_01773" ref="#pmb91211">Marienbad</rs> komme; betrügt mich wahrscheinlich.―</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_08986" ref="#person_19542"><surname>Salten</surname></rs> Bic. <rs type="place" xml:id="pl_01774" ref="#pmb44394">Weidling Bach</rs>; in <rs type="place" xml:id="pl_01775" ref="#pmb44392">Weidling</rs> soupirt. Litt unter 
 dem Gedanken, was sich alles in den letzten 2 Jahren verändert.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19542">
+      </body>
+   <back><listPerson><person xml:id="person_19542">
                   <persName>
                      <surname>Salten</surname>
                      <forename>Felix</forename>
@@ -244,28 +245,34 @@ dem Gedanken, was sich alles in den letzten 2 Jahren verändert.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12618</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_07746ef3772ea6e718f5cd3a37681d92">
-            <placeName type="city">Marienbad</placeName>
-            <placeName type="alt">Mariánské Lázně</placeName>
-            <location>
-               <geo decls="#LatLng">49.96459 12.70118</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3071024/</idno>
-         </place>
-         <place xml:id="place_f31da60292f235984a0cb55466b84b5f">
-            <placeName type="city">Weidlingbach</placeName>
-            <location>
-               <geo decls="#LatLng">48.26667 16.25</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761738/</idno>
-         </place>
-         <place xml:id="place_79569c4d5a6b9125210394665c1e4f3f">
-            <placeName type="city">Weidling</placeName>
-            <location>
-               <geo decls="#LatLng">48.291 16.30865</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761741/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91211">
+               <placeName type="city">Marienbad</placeName>
+               <placeName type="alt">Mariánské Lázně</placeName>
+               <location>
+                  <geo decls="#LatLng">49.96459 12.70118</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3071024/</idno>
+               <idno type="obsolete-schnitzler-diary">place_07746ef3772ea6e718f5cd3a37681d92</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91211</idno>
+            </place>
+            <place xml:id="pmb44394">
+               <placeName type="city">Weidlingbach</placeName>
+               <location>
+                  <geo decls="#LatLng">48.26667 16.25</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761738/</idno>
+               <idno type="obsolete-schnitzler-diary">place_f31da60292f235984a0cb55466b84b5f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44394</idno>
+            </place>
+            <place xml:id="pmb44392">
+               <placeName type="city">Weidling</placeName>
+               <location>
+                  <geo decls="#LatLng">48.291 16.30865</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761741/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_79569c4d5a6b9125210394665c1e4f3f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44392</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EF36-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-06-01">
-            <p xml:space="preserve"><date when="1899-06-01">1/6</date> Frohnleichnam. Vorm. bei <rs type="person" xml:id="pNt_16355" ref="#person_15485"><surname>Gl.s</surname></rs>.― Bic. <rs type="place" xml:id="pl_03120" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>, <rs type="place" xml:id="pl_03121" ref="#place_9ae90ea21d3e063c02809f046183f123">Ring</rs>, 
+            <p xml:space="preserve"><date when="1899-06-01">1/6</date> Frohnleichnam. Vorm. bei <rs type="person" xml:id="pNt_16355" ref="#person_15485"><surname>Gl.s</surname></rs>.― Bic. <rs type="place" xml:id="pl_03120" ref="#pmb63">Hietzing</rs>, <rs type="place" xml:id="pl_03121" ref="#pmb91600">Ring</rs>, 
 schreckliche Einsamkeit.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15485">
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -214,20 +212,24 @@ schreckliche Einsamkeit.</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_6fc6f10422bfe80ddcba23b4f7f080dc">
-            <placeName type="district">Hietzing</placeName>
-            <location>
-               <geo decls="#LatLng">48.17547 16.29101</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776420/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_9ae90ea21d3e063c02809f046183f123">
-            <placeName type="street">Ringstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.20493 16.36244</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/8181703/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb63">
+               <placeName type="district">Hietzing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.17547 16.29101</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776420/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_6fc6f10422bfe80ddcba23b4f7f080dc</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63</idno>
+            </place>
+            <place xml:id="pmb91600">
+               <placeName type="street">Ringstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20493 16.36244</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/8181703/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9ae90ea21d3e063c02809f046183f123</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91600</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

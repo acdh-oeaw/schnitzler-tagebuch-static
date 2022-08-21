@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0BE6-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,12 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4975.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1919-11-24">
             <p xml:space="preserve"><date when="1919-11-24">24/11</date> Vm. bei <rs type="person" xml:id="pNt_57389" ref="#person_18881"><forename>Kolap</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. Ausschussitzung der Autorengenossenschaft.</p>
-            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#place_volkstheater">Volkstheater</rs>. Mit <rs type="person" xml:id="pNt_57390" ref="#person_13663"><surname>Bernau</surname></rs> und <rs type="person" xml:id="pNt_57391" ref="#person_19925"><surname>Schulbaur</surname></rs> über die <rs type="work" subtype="self" xml:id="bibl_5140">Besetzung</rs>.</p>
+            <p xml:space="preserve" rend="indent">Im <rs type="place" ref="#pmb92202">Volkstheater</rs>. Mit <rs type="person" xml:id="pNt_57390" ref="#person_13663"><surname>Bernau</surname></rs> und <rs type="person" xml:id="pNt_57391" ref="#person_19925"><surname>Schulbaur</surname></rs> über die <rs type="work" subtype="self" xml:id="bibl_5140">Besetzung</rs>.</p>
             <pb n="312"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="312" place="top_left" type="pageNum">312</fw>
@@ -191,7 +191,8 @@
                </fw>
             </tei:fw>
          </div>
-      </body><back><listPerson><person xml:id="person_13663">
+      </body>
+   <back><listPerson><person xml:id="person_13663">
                   <persName>
                      <surname>Bernau</surname>
                      <forename>Alfred</forename>
@@ -301,12 +302,14 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30819</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30819</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

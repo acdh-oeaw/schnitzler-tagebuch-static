@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F00C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -170,13 +169,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-01-19">
-            <p xml:space="preserve"><date when="1900-01-19">19/1</date> Mit <rs type="person" xml:id="pNt_16810" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03313" ref="#place_d875eb393c66e72bae202421dff945d3">Tchl.</rs>― Sehr nett. (Während der „<rs type="work" subtype="self" xml:id="bibl_18391">Frage</rs>“ im <rs type="place" xml:id="pl_03314" ref="#place_a9a988302086229505c21f885134919d">Josefst.</rs>)
+            <p xml:space="preserve"><date when="1900-01-19">19/1</date> Mit <rs type="person" xml:id="pNt_16810" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03313" ref="#pmb790">Tchl.</rs>― Sehr nett. (Während der „<rs type="work" subtype="self" xml:id="bibl_18391">Frage</rs>“ im <rs type="place" xml:id="pl_03314" ref="#pmb58">Josefst.</rs>)
 ― <rs type="person" xml:id="pNt_16811" ref="#person_16165"><surname>Herzl</surname></rs> im Club interpellirt mich über <rs type="work" xml:id="bibl_18392">I love you</rs> und hörte ungern die
 Wahrheit.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16165">
+   <back><listPerson><person xml:id="person_16165">
                   <persName>
                      <surname>Herzl</surname>
                      <forename>Theodor</forename>
@@ -272,18 +270,22 @@ Wahrheit.</p>
                   <gloss type="w1055">Text</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33055.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_d875eb393c66e72bae202421dff945d3">
-            <placeName type="street">Tuchlauben</placeName>
-            <location>
-               <geo decls="#LatLng">48.210212 16.370346</geo>
-            </location>
-         </place>
-         <place xml:id="place_a9a988302086229505c21f885134919d">
-            <placeName type="district">Josefstadt</placeName>
-            <location>
-               <geo decls="#LatLng">48.21126 16.34706</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2775027/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb790">
+               <placeName type="street">Tuchlauben</placeName>
+               <location>
+                  <geo decls="#LatLng">48.210212 16.370346</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_d875eb393c66e72bae202421dff945d3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/790</idno>
+            </place>
+            <place xml:id="pmb58">
+               <placeName type="district">Josefstadt</placeName>
+               <location>
+                  <geo decls="#LatLng">48.21126 16.34706</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2775027/</idno>
+               <idno type="obsolete-schnitzler-diary">place_a9a988302086229505c21f885134919d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

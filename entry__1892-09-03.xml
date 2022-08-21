@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5C4-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,12 +177,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0634.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-09-03">
-            <p xml:space="preserve"><date when="1892-09-03">3. 9.</date> <rs type="place" xml:id="pl_01328" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> ― <rs type="place" xml:id="pl_01329" ref="#place_1c679b42087ccfa5324ce23df5f90058">Hütteneck</rs> ― <rs type="place" xml:id="pl_01330" ref="#place_16f8bed3c52bf873fb6bab75c2c654f9">Sandling Alm</rs> ― <rs type="place" xml:id="pl_01331" ref="#place_d533d08bcfe8e578ccfe1c311133df7f">Loser</rs>.― Uebernachtet. (Mit 
+            <p xml:space="preserve"><date when="1892-09-03">3. 9.</date> <rs type="place" xml:id="pl_01328" ref="#pmb213">Ischl</rs> ― <rs type="place" xml:id="pl_01329" ref="#pmb90915">Hütteneck</rs> ― <rs type="place" xml:id="pl_01330" ref="#pmb91653">Sandling Alm</rs> ― <rs type="place" xml:id="pl_01331" ref="#pmb52428">Loser</rs>.― Uebernachtet. (Mit 
 <rs type="person" xml:id="pNt_06519" ref="#person_19827"><forename>Julius</forename></rs>.)</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19827">
+      </body>
+   <back><listPerson><person xml:id="person_19827">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Julius</forename>
@@ -212,36 +213,44 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12698</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12698</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_c2ad928214981e457405589604924059">
-            <placeName type="city">Ischl</placeName>
-            <placeName type="alt">Bad Ischl</placeName>
-            <location>
-               <geo decls="#LatLng">47.71109 13.61893</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782052/</idno>
-         </place>
-         <place xml:id="place_1c679b42087ccfa5324ce23df5f90058">
-            <placeName type="region">Hütteneck</placeName>
-            <placeName type="alt">Hütteneckalm</placeName>
-            <location>
-               <geo decls="#LatLng">47.66667 13.68333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2775361/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_16f8bed3c52bf873fb6bab75c2c654f9">
-            <placeName type="mountain">Sandling</placeName>
-            <location>
-               <geo decls="#LatLng">47.65 13.71667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766781/</idno>
-         </place>
-         <place xml:id="place_d533d08bcfe8e578ccfe1c311133df7f">
-            <placeName type="mountain">Loser</placeName>
-            <location>
-               <geo decls="#LatLng">47.65 13.76667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2772245/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb213">
+               <placeName type="city">Ischl</placeName>
+               <placeName type="alt">Bad Ischl</placeName>
+               <location>
+                  <geo decls="#LatLng">47.71109 13.61893</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782052/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c2ad928214981e457405589604924059</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/213</idno>
+            </place>
+            <place xml:id="pmb90915">
+               <placeName type="region">Hütteneck</placeName>
+               <placeName type="alt">Hütteneckalm</placeName>
+               <location>
+                  <geo decls="#LatLng">47.66667 13.68333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2775361/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_1c679b42087ccfa5324ce23df5f90058</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90915</idno>
+            </place>
+            <place xml:id="pmb91653">
+               <placeName type="mountain">Sandling</placeName>
+               <location>
+                  <geo decls="#LatLng">47.65 13.71667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766781/</idno>
+               <idno type="obsolete-schnitzler-diary">place_16f8bed3c52bf873fb6bab75c2c654f9</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91653</idno>
+            </place>
+            <place xml:id="pmb52428">
+               <placeName type="mountain">Loser</placeName>
+               <location>
+                  <geo decls="#LatLng">47.65 13.76667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2772245/</idno>
+               <idno type="obsolete-schnitzler-diary">place_d533d08bcfe8e578ccfe1c311133df7f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/52428</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

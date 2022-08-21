@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F053-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -167,13 +166,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1550.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-03-31">
-            <p xml:space="preserve"><date when="1900-03-31">31/3</date> <rs type="place" xml:id="pl_03362" ref="#place_5e257bfe3f70d446cb1b8076406b8992">Ragusa</rs>.― <rs type="place" xml:id="pl_03363" ref="#place_114b1b1df6330d8c3ddabdcbc6f25ae4" ana="#exclude">Lacromafahrt</rs> verunglückt wegen Angst von <rs type="person" xml:id="pNt_16958" ref="#person_20865"><surname>Ullmann</surname></rs>
+            <p xml:space="preserve"><date when="1900-03-31">31/3</date> <rs type="place" xml:id="pl_03362" ref="#pmb682">Ragusa</rs>.― <rs type="place" xml:id="pl_03363" ref="#place_114b1b1df6330d8c3ddabdcbc6f25ae4" ana="#exclude">Lacromafahrt</rs> verunglückt wegen Angst von <rs type="person" xml:id="pNt_16958" ref="#person_20865"><surname>Ullmann</surname></rs>
 und <rs type="person" xml:id="pNt_16959" ref="#person_20475"><surname>Strasser</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_16960" ref="#person_14061"><surname>Bum</surname></rs> und <rs type="person" xml:id="pNt_16961" ref="#person_15857"><surname>Halban</surname></rs> <rs type="place" xml:id="pl_03364" ref="#place_9d341efc807ec652de9e969316690ccb">Ombla</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. mit <rs type="person" xml:id="pNt_16960" ref="#person_14061"><surname>Bum</surname></rs> und <rs type="person" xml:id="pNt_16961" ref="#person_15857"><surname>Halban</surname></rs> <rs type="place" xml:id="pl_03364" ref="#pmb92731">Ombla</rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14061">
+      </body>
+   <back><listPerson><person xml:id="person_14061">
                   <persName>
                      <surname>Bum</surname>
                      <forename>Anton</forename>
@@ -278,23 +279,26 @@ und <rs type="person" xml:id="pNt_16959" ref="#person_20475"><surname>Strasser</
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20865</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/26296</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_5e257bfe3f70d446cb1b8076406b8992">
-            <placeName type="city">Ragusa</placeName>
-            <placeName type="today">Dubrovnik</placeName>
-            <location>
-               <geo decls="#LatLng">42.64807 18.09216</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3201047/</idno>
-         </place>
-         <place xml:id="place_9d341efc807ec652de9e969316690ccb">
-            <placeName type="city">Ombla</placeName>
-            <placeName type="alt">Rijeka Dubrovačka</placeName>
-            <location>
-               <geo decls="#LatLng">42.66778 18.07833</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3201050/</idno>
-            <note type="desc">error: city, eher river</note>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb682">
+               <placeName type="city">Ragusa</placeName>
+               <placeName type="today">Dubrovnik</placeName>
+               <location>
+                  <geo decls="#LatLng">42.64807 18.09216</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3201047/</idno>
+               <idno type="obsolete-schnitzler-diary">place_5e257bfe3f70d446cb1b8076406b8992</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/682</idno>
+            </place>
+            <place xml:id="pmb92731">
+               <placeName type="city">Ombla</placeName>
+               <placeName type="alt">Rijeka Dubrovačka</placeName>
+               <location>
+                  <geo decls="#LatLng">42.66778 18.07833</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3201050/</idno>
+               <note type="desc">error: city, eher river</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_9d341efc807ec652de9e969316690ccb</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

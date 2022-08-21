@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E4D3-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -183,15 +182,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1892-01-04">
             <p xml:space="preserve"><date when="1892-01-04">4/1</date> Vm. <rs type="person" xml:id="pNt_05862" ref="#person_15485"><forename>Mz.</forename></rs> Abd. bei ihr.―</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_05863" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_05864" ref="#person_13611"><surname>Bératon</surname></rs>, <rs type="person" xml:id="pNt_05865" ref="#person_13318"><surname>Auspitzer</surname></rs> (<rs type="place" ref="#place_leidinger">Leidinger</rs>).</p>
-            <p xml:space="preserve" rend="indent">Von <rs type="place" xml:id="pl_01248" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs> Telegr. an <rs type="allusively" xml:id="rst_00134">Papa</rs>: „Mit Freuden acceptire das <rs type="work" subtype="self" xml:id="bibl_22802">Märchen</rs>, 
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_05863" ref="#person_13374"><surname>Bahr</surname></rs>, <rs type="person" xml:id="pNt_05864" ref="#person_13611"><surname>Bératon</surname></rs>, <rs type="person" xml:id="pNt_05865" ref="#person_13318"><surname>Auspitzer</surname></rs> (<rs type="place" ref="#pmb42">Leidinger</rs>).</p>
+            <p xml:space="preserve" rend="indent">Von <rs type="place" xml:id="pl_01248" ref="#pmb91524">Prag</rs> Telegr. an <rs type="allusively" xml:id="rst_00134">Papa</rs>: „Mit Freuden acceptire das <rs type="work" subtype="self" xml:id="bibl_22802">Märchen</rs>, 
 beglückwünsche Sie zu ihrem Sohne.“</p>
             <p xml:space="preserve" rend="indent">Von <rs type="person" xml:id="pNt_05867" ref="#person_18792"><surname>Pierson</surname></rs> <rs type="work" subtype="self" xml:id="bibl_22803">A. Cyclus</rs> zurück; Angst vor Confiscation (wie <rs type="work" xml:id="bibl_22804">russ. Reise</rs> 
 von <rs type="person" xml:id="pNt_05868" ref="#person_13374"><surname>Bahr</surname></rs>).―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13318">
+   <back><listPerson><person xml:id="person_13318">
                   <persName>
                      <surname>Auspitzer</surname>
                      <forename>Emil</forename>
@@ -445,20 +443,24 @@ von <rs type="person" xml:id="pNt_05868" ref="#person_13374"><surname>Bahr</surn
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30175</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30175.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_leidinger">
-            <placeName type="restaurant">Leidingers Restauration</placeName>
-            <location>
-               <geo decls="#LatLng">48.201433 16.369395</geo>
-            </location>
-         </place>
-         <place xml:id="place_c12b8d9779a8ad2b240a57b31c979290">
-            <placeName type="city">Prag</placeName>
-            <placeName type="alt">Praha</placeName>
-            <location>
-               <geo decls="#LatLng">50.08804 14.42076</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3067696/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb42">
+               <placeName type="restaurant">Leidingers Restauration</placeName>
+               <location>
+                  <geo decls="#LatLng">48.201433 16.369395</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_leidinger</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/42</idno>
+            </place>
+            <place xml:id="pmb91524">
+               <placeName type="city">Prag</placeName>
+               <placeName type="alt">Praha</placeName>
+               <location>
+                  <geo decls="#LatLng">50.08804 14.42076</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3067696/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c12b8d9779a8ad2b240a57b31c979290</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91524</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

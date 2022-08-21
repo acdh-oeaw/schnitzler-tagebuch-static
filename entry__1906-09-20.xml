@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F941-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1906-09-20">
             <p xml:space="preserve"><date when="1906-09-20">20/9</date> Regen wie meist.</p>
-            <p xml:space="preserve" rend="indent">Nm. Abreise; mit <rs type="person" xml:id="pNt_25449" ref="#person_15158"><forename>Fred</forename></rs>, <rs type="person" xml:id="pNt_25450" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_25451" ref="#person_16292"><forename>Gerty</forename></rs>. <rs type="place" xml:id="pl_05682" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+            <p xml:space="preserve" rend="indent">Nm. Abreise; mit <rs type="person" xml:id="pNt_25449" ref="#person_15158"><forename>Fred</forename></rs>, <rs type="person" xml:id="pNt_25450" ref="#person_16293"><forename>Hugo</forename></rs>, <rs type="person" xml:id="pNt_25451" ref="#person_16292"><forename>Gerty</forename></rs>. <rs type="place" xml:id="pl_05682" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">Meine Zimmer neu gemalt.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15158">
+   <back><listPerson><person xml:id="person_15158">
                   <persName>
                      <surname>W. Fred</surname>
                   </persName>
@@ -273,12 +271,14 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11740</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

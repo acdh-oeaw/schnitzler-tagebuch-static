@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1275-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,9 +178,10 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6288.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6289.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-06-30">
-            <p xml:space="preserve"><date when="1924-06-30">30/6</date> <rs type="place" xml:id="pl_15451" ref="#place_63714a562352ef3ae472da20ed0384c0">B.-B.</rs> <rs type="person" xml:id="pNt_72561" ref="#person_19832"><forename>O.</forename></rs> holt mich ab; wir gehn zum Steueramt; dann ins 
+            <p xml:space="preserve"><date when="1924-06-30">30/6</date> <rs type="place" xml:id="pl_15451" ref="#pmb228">B.-B.</rs> <rs type="person" xml:id="pNt_72561" ref="#person_19832"><forename>O.</forename></rs> holt mich ab; wir gehn zum Steueramt; dann ins 
 Bankhaus <rs type="person" xml:id="pNt_72562"><surname>Herrmann</surname></rs>. <rs type="person" xml:id="pNt_72563" ref="#person_15932"><roleName>Herr</roleName> <surname>Harris</surname></rs>. Berathung. Ihre Schulden sind 
 beträchtlicher als ich gedacht.― Auf dem Rückweg ist sie von 
 factiöser Schweigsamkeit ― wie in den schönsten Ehejahren;― fast 
@@ -208,7 +208,8 @@ richtiges über <rs type="figur">Falk.</rs> und <rs type="role" xml:id="pNt_7257
             <p xml:space="preserve" rend="indent">Im Hotel arbeitsunfähig auf dem Divan.</p>
             <p xml:space="preserve" rend="indent">Oben genachtm.; auch Frau <rs type="person" xml:id="pNt_72572"><forename>Grethe</forename> <surname>L.</surname></rs> war dabei.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14130">
+      </body>
+   <back><listPerson><person xml:id="person_14130">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Lili</forename>
@@ -355,12 +356,14 @@ richtiges über <rs type="figur">Falk.</rs> und <rs type="role" xml:id="pNt_7257
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30205</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30205</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_63714a562352ef3ae472da20ed0384c0">
-            <placeName type="city">Baden-Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.7606 8.23975</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2953504/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb228">
+               <placeName type="city">Baden-Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.7606 8.23975</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2953504/</idno>
+               <idno type="obsolete-schnitzler-diary">place_63714a562352ef3ae472da20ed0384c0</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/228</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

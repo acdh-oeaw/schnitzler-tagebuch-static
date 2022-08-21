@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0473-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,7 +181,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1914-09-01">
-            <p xml:space="preserve"><date when="1914-09-01">1/9</date> Mit O. <rs type="place" xml:id="pl_08937" ref="#place_dafa001a267e1bbaf6d4afbdeb05b65b">Hubhanslauweg</rs> etc.―</p>
+            <p xml:space="preserve"><date when="1914-09-01">1/9</date> Mit O. <rs type="place" xml:id="pl_08937" ref="#pmb92297">Hubhanslauweg</rs> etc.―</p>
             <pb n="133"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -191,11 +190,10 @@
                <fw n="133" place="top_right" type="pageNum">133</fw>
             </tei:fw>
             <p xml:space="preserve">Nm. am <rs type="work" subtype="self" xml:id="bibl_8976">Graesler</rs>.(Immer Feile und Neuschreiben einzelner Seiten.)</p>
-            <p xml:space="preserve" rend="indent">Abends Abreise von <rs type="place" xml:id="pl_08938" ref="#place_c2ad928214981e457405589604924059">Ischl</rs> en fam.</p>
+            <p xml:space="preserve" rend="indent">Abends Abreise von <rs type="place" xml:id="pl_08938" ref="#pmb213">Ischl</rs> en fam.</p>
          </div>
       </body>
-   
-    <back><listBibl><bibl xml:id="pmb30201">
+   <back><listBibl><bibl xml:id="pmb30201">
                   <author role="author">
                      <persName>
                         <surname>Schnitzler</surname>
@@ -225,20 +223,24 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30201</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30201</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_dafa001a267e1bbaf6d4afbdeb05b65b">
-            <placeName type="street">Hubhanslauweg</placeName>
-            <location>
-               <geo decls="#LatLng">47.714876 13.634176</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_c2ad928214981e457405589604924059">
-            <placeName type="city">Ischl</placeName>
-            <placeName type="alt">Bad Ischl</placeName>
-            <location>
-               <geo decls="#LatLng">47.71109 13.61893</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782052/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92297">
+               <placeName type="street">Hubhanslauweg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.714876 13.634176</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_dafa001a267e1bbaf6d4afbdeb05b65b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92297</idno>
+            </place>
+            <place xml:id="pmb213">
+               <placeName type="city">Ischl</placeName>
+               <placeName type="alt">Bad Ischl</placeName>
+               <location>
+                  <geo decls="#LatLng">47.71109 13.61893</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782052/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c2ad928214981e457405589604924059</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/213</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E86B-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,13 +177,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0849.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-07-16">
-            <p xml:space="preserve"><date when="1894-07-16">16/7</date> Arbeit. Nm. in <rs type="place" xml:id="pl_01760" ref="#place_50fce40d86c3084224109d978bdf526c">St. Gilgen</rs>. Abends beim „<rs type="person" xml:id="pNt_08947" ref="#person_18736"><forename>Leopold</forename></rs>“ (wo ich 
+            <p xml:space="preserve"><date when="1894-07-16">16/7</date> Arbeit. Nm. in <rs type="place" xml:id="pl_01760" ref="#pmb33">St. Gilgen</rs>. Abends beim „<rs type="person" xml:id="pNt_08947" ref="#person_18736"><forename>Leopold</forename></rs>“ (wo ich 
 wohne) <rs type="person" xml:id="pNt_08948" ref="#person_21526"><forename>Gina</forename></rs> etc.― Anregende Gespräche mit <rs ref="#person_17900" type="person" xml:id="pNt_08949"><forename>Elsa</forename></rs>.― Von <rs type="person" xml:id="pNt_08950" ref="#person_19564"><forename>Dilly</forename></rs> hör ich 
 wenig, was mir gleichgiltig ist.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_17900">
+      </body>
+   <back><listPerson><person xml:id="person_17900">
                   <persName>
                      <surname>Markbreiter</surname>
                      <forename>Else</forename>
@@ -285,12 +286,14 @@ wenig, was mir gleichgiltig ist.</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb22474</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/22474</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_50fce40d86c3084224109d978bdf526c">
-            <placeName type="city">St. Gilgen</placeName>
-            <location>
-               <geo decls="#LatLng">47.76667 13.36667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766683/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb33">
+               <placeName type="city">St. Gilgen</placeName>
+               <location>
+                  <geo decls="#LatLng">47.76667 13.36667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766683/</idno>
+               <idno type="obsolete-schnitzler-diary">place_50fce40d86c3084224109d978bdf526c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/33</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

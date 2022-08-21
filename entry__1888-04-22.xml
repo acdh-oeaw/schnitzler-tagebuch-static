@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E024-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1888-04-22">
-            <p xml:space="preserve"><date when="1888-04-22">22/4</date> Sonntag. Diner <rs type="person" xml:id="pNt_03175" ref="#person_20681"><surname>Tewele</surname></rs>. Alter College <rs type="person" xml:id="pNt_03176" ref="#person_19278"><surname>Rindskopf</surname></rs> aus <rs type="place" xml:id="pl_00652" ref="#place_f9bc40ca10f433dea7afac987494929a">Australien</rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_00653" ref="#place_bb601d3a84fe725c19dfd45453a99945">Louisenstadt</rs> Th. <rs type="work" xml:id="bibl_18911">Schützenliesl</rs>.―</p>
+            <p xml:space="preserve"><date when="1888-04-22">22/4</date> Sonntag. Diner <rs type="person" xml:id="pNt_03175" ref="#person_20681"><surname>Tewele</surname></rs>. Alter College <rs type="person" xml:id="pNt_03176" ref="#person_19278"><surname>Rindskopf</surname></rs> aus <rs type="place" xml:id="pl_00652" ref="#pmb604">Australien</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_00653" ref="#pmb92381">Louisenstadt</rs> Th. <rs type="work" xml:id="bibl_18911">Schützenliesl</rs>.―</p>
             <p xml:space="preserve" rend="indent">Ballhaus. Schwarzes Mädl.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_19278">
+   <back><listPerson><person xml:id="person_19278">
                   <persName>
                      <surname>Rindskopf</surname>
                      <forename>Emil?</forename>
@@ -240,22 +238,26 @@
                   <gloss type="w1336">Posse</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80085.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_f9bc40ca10f433dea7afac987494929a">
-            <placeName type="country">Australien</placeName>
-            <location>
-               <geo decls="#LatLng">-25 135</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2077456/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_bb601d3a84fe725c19dfd45453a99945">
-            <placeName type="district">Louisenstadt</placeName>
-            <placeName type="alt">Luisenstadt</placeName>
-            <location>
-               <geo decls="#LatLng">52.509228 13.406810</geo>
-            </location>
-            <note type="desc">heute Berlin Mitte und Kreuzberg</note>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb604">
+               <placeName type="country">Australien</placeName>
+               <location>
+                  <geo decls="#LatLng">-25 135</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2077456/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_f9bc40ca10f433dea7afac987494929a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/604</idno>
+            </place>
+            <place xml:id="pmb92381">
+               <placeName type="district">Louisenstadt</placeName>
+               <placeName type="alt">Luisenstadt</placeName>
+               <location>
+                  <geo decls="#LatLng">52.509228 13.406810</geo>
+               </location>
+               <note type="desc">heute Berlin Mitte und Kreuzberg</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_bb601d3a84fe725c19dfd45453a99945</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92381</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

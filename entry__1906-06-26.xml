@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8EB-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,12 +179,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-06-26">
-            <p xml:space="preserve"><date when="1906-06-26">26/6</date> <rs type="place" xml:id="pl_05589" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Continental.― <rs type="person" xml:id="pNt_25188" ref="#person_20386"><forename>Liesl</forename></rs>. <rs type="person" xml:id="pNt_25189" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abds. mit O. und <rs type="person" xml:id="pNt_25190" ref="#person_20386"><forename>Liesl</forename></rs> <rs type="place" xml:id="pl_05590" ref="#place_bbd408ee8f3ae7989e74dd808b6a9e98">Wannsee</rs>.</p>
+            <p xml:space="preserve"><date when="1906-06-26">26/6</date> <rs type="place" xml:id="pl_05589" ref="#pmb168">Berlin</rs>. Continental.― <rs type="person" xml:id="pNt_25188" ref="#person_20386"><forename>Liesl</forename></rs>. <rs type="person" xml:id="pNt_25189" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abds. mit O. und <rs type="person" xml:id="pNt_25190" ref="#person_20386"><forename>Liesl</forename></rs> <rs type="place" xml:id="pl_05590" ref="#pmb61076">Wannsee</rs>.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_20386">
+   <back><listPerson><person xml:id="person_20386">
                   <persName>
                      <surname>Steinrück</surname>
                      <forename>Elisabeth</forename>
@@ -237,20 +235,24 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12837</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12837</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_ee1611b61f5688e70c12b40684dbb395">
-            <placeName type="city">Berlin</placeName>
-            <location>
-               <geo decls="#LatLng">52.52437 13.41053</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2950159/</idno>
-         </place>
-         <place xml:id="place_bbd408ee8f3ae7989e74dd808b6a9e98">
-            <placeName type="lake">Wannsee</placeName>
-            <location>
-               <geo decls="#LatLng">52.41915 13.15531</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2814196/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb168">
+               <placeName type="city">Berlin</placeName>
+               <location>
+                  <geo decls="#LatLng">52.52437 13.41053</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2950159/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ee1611b61f5688e70c12b40684dbb395</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+            </place>
+            <place xml:id="pmb61076">
+               <placeName type="lake">Wannsee</placeName>
+               <location>
+                  <geo decls="#LatLng">52.41915 13.15531</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2814196/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_bbd408ee8f3ae7989e74dd808b6a9e98</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/61076</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

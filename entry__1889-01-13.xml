@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E125-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,13 +181,12 @@
       <body>
          <div type="diary-day" xml:id="entry__1889-01-13">
             <p xml:space="preserve"><date when="1889-01-13">13.</date> Ges. Concert.</p>
-            <p xml:space="preserve" rend="indent">Prom. Conc. <rs type="place" ref="#place_ronacher">Ronacher</rs>.</p>
+            <p xml:space="preserve" rend="indent">Prom. Conc. <rs type="place" ref="#pmb92490">Ronacher</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_03528" ref="#person_19398"><forename>Mizi</forename> <surname>R.</surname></rs></p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_03529" ref="#person_16022"><forename>J.</forename></rs> (1). Kfh.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16022">
+   <back><listPerson><person xml:id="person_16022">
                   <persName>
                      <surname>Heeger</surname>
                      <forename>Jeanette</forename>
@@ -208,11 +206,13 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19398</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/23611</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_ronacher">
-            <placeName>Ronacher</placeName>
-            <location>
-               <geo decls="#LatLng">48.205139 16.375</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92490">
+               <placeName>Ronacher</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205139 16.375</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_ronacher</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92490</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

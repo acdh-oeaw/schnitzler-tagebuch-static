@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18E5-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,11 +178,12 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7218.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7219.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-01-04">
-            <p xml:space="preserve"><date when="1929-01-04">4/1</date> <rs type="place" xml:id="pl_18458" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>. Vm. Hotel,― telephon. etc.―</p>
+            <p xml:space="preserve"><date when="1929-01-04">4/1</date> <rs type="place" xml:id="pl_18458" ref="#pmb168">Berlin</rs>. Vm. Hotel,― telephon. etc.―</p>
             <p xml:space="preserve" rend="indent">Zu Tisch bei <rs type="person" xml:id="pNt_85665" ref="#person_18140"><surname>Michaelis’</surname></rs>. Dort <rs type="person" xml:id="pNt_85666" ref="#person_16469"><forename>Lucy v.</forename> <surname>J.</surname></rs>, <rs type="person" xml:id="pNt_85667" ref="#person_13548"><forename>Mirjam</forename></rs> und <rs type="person" xml:id="pNt_85668" ref="#person_13549"><forename>Noema</forename></rs>. <rs type="person" xml:id="pNt_85669" ref="#person_16469"><forename>Lucy</forename></rs> nach 
-2½ Jahren zum ersten Mal (<rs type="place" xml:id="pl_18459" ref="#place_35d7df6ed3d93be2927d14acc5f1fc9a">Hamburg</rs> ― als ich mit <rs type="person" xml:id="pNt_85670" ref="#person_14130"><forename>Lili</forename></rs> 
+2½ Jahren zum ersten Mal (<rs type="place" xml:id="pl_18459" ref="#pmb506">Hamburg</rs> ― als ich mit <rs type="person" xml:id="pNt_85670" ref="#person_14130"><forename>Lili</forename></rs> 
 landete) ― vom Theater ab, jetzt „<rs type="work" subtype="newspaper" xml:id="bibl_5">Tempo</rs>“,― Tisch-Nachbarin von 
 <rs type="person" xml:id="pNt_85671" ref="#person_21602"><forename>Vicki</forename></rs>;― sehr journalistisch eingestellt;― klug und lebendig.― 
 (Über ihre Differ. mit <rs type="person" xml:id="pNt_85672" ref="#person_19832"><forename>O.</forename></rs> hatte nach Corresp., telef. gesprochen.) ― 
@@ -202,7 +202,8 @@ sehr müd und eher „unwirsch“.―</p>
 einiger Opportunismus lag.― Sah das „<rs type="work" xml:id="bibl_7">Oesterreich Buch</rs>“ durch 
 (Photographien);― mit <rs type="person" xml:id="pNt_85680" ref="#person_19822"><forename>Heini</forename></rs> fort. Sorgenvoll.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14130">
+      </body>
+   <back><listPerson><person xml:id="person_14130">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Lili</forename>
@@ -494,20 +495,24 @@ einiger Opportunismus lag.― Sah das „<rs type="work" xml:id="bibl_7">Oesterr
                   <note>15034</note>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb65626.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_ee1611b61f5688e70c12b40684dbb395">
-            <placeName type="city">Berlin</placeName>
-            <location>
-               <geo decls="#LatLng">52.52437 13.41053</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2950159/</idno>
-         </place>
-         <place xml:id="place_35d7df6ed3d93be2927d14acc5f1fc9a">
-            <placeName type="city">Hamburg</placeName>
-            <location>
-               <geo decls="#LatLng">53.57532 10.01534</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2911298/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb168">
+               <placeName type="city">Berlin</placeName>
+               <location>
+                  <geo decls="#LatLng">52.52437 13.41053</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2950159/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ee1611b61f5688e70c12b40684dbb395</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+            </place>
+            <place xml:id="pmb506">
+               <placeName type="city">Hamburg</placeName>
+               <location>
+                  <geo decls="#LatLng">53.57532 10.01534</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2911298/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_35d7df6ed3d93be2927d14acc5f1fc9a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/506</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

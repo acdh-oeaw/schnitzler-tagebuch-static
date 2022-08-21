@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-114B-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,13 +178,15 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6103.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6104.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-09-06">
-            <p xml:space="preserve"><date when="1923-09-06">6/9</date> <rs type="place" xml:id="pl_15034" ref="#place_05e302e5aab8a6fdaa8f3d9a573b8c1b">Chur</rs>.― Mit der elektr. Bahn <rs type="place" xml:id="pl_15035" ref="#place_1bc11fc0b2253c7386fef2d7da882016">Arosa</rs>; spazieren, <rs type="place" xml:id="pl_15036" ref="#place_d2f12cb4ee6318c16ebc5c0286d3e521">Innerarosa</rs>; im 
-Kursaal gegessen; Rückfahrt mit <rs type="person" xml:id="pNt_70178" ref="#person_16015"><roleName>Dr.</roleName> <surname>Hecht</surname></rs> und Frau (<rs type="place" xml:id="pl_15037" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>).―</p>
-            <p xml:space="preserve" rend="indent">Abends spazieren mit <rs type="person" xml:id="pNt_70179" ref="#person_18863"><forename>C.</forename></rs> über und durch <rs type="place" xml:id="pl_15038" ref="#place_05e302e5aab8a6fdaa8f3d9a573b8c1b">Chur</rs>.―</p>
+            <p xml:space="preserve"><date when="1923-09-06">6/9</date> <rs type="place" xml:id="pl_15034" ref="#pmb2448">Chur</rs>.― Mit der elektr. Bahn <rs type="place" xml:id="pl_15035" ref="#pmb43995">Arosa</rs>; spazieren, <rs type="place" xml:id="pl_15036" ref="#pmb92300">Innerarosa</rs>; im 
+Kursaal gegessen; Rückfahrt mit <rs type="person" xml:id="pNt_70178" ref="#person_16015"><roleName>Dr.</roleName> <surname>Hecht</surname></rs> und Frau (<rs type="place" xml:id="pl_15037" ref="#pmb91735">Semmering</rs>).―</p>
+            <p xml:space="preserve" rend="indent">Abends spazieren mit <rs type="person" xml:id="pNt_70179" ref="#person_18863"><forename>C.</forename></rs> über und durch <rs type="place" xml:id="pl_15038" ref="#pmb2448">Chur</rs>.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16015">
+      </body>
+   <back><listPerson><person xml:id="person_16015">
                   <persName>
                      <surname>Hecht</surname>
                      <forename>Victor</forename>
@@ -232,36 +233,44 @@ Kursaal gegessen; Rückfahrt mit <rs type="person" xml:id="pNt_70178" ref="#pers
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12435</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12435</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1bc11fc0b2253c7386fef2d7da882016">
-            <placeName type="city">Arosa</placeName>
-            <location>
-               <geo decls="#LatLng">46.77793 9.67621</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2661712/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_d2f12cb4ee6318c16ebc5c0286d3e521">
-            <placeName type="city">Innerarosa</placeName>
-            <location>
-               <geo decls="#LatLng">46.775566 9.661864</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_8627b9def9e6e2fd2353f5f3822fba9c">
-            <placeName type="mountain">Semmering</placeName>
-            <location>
-               <geo decls="#LatLng">47.63333 15.81667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2765171/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_05e302e5aab8a6fdaa8f3d9a573b8c1b">
-            <placeName type="city">Chur</placeName>
-            <location>
-               <geo decls="#LatLng">46.84986 9.53287</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2661169/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb43995">
+               <placeName type="city">Arosa</placeName>
+               <location>
+                  <geo decls="#LatLng">46.77793 9.67621</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2661712/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_1bc11fc0b2253c7386fef2d7da882016</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43995</idno>
+            </place>
+            <place xml:id="pmb92300">
+               <placeName type="city">Innerarosa</placeName>
+               <location>
+                  <geo decls="#LatLng">46.775566 9.661864</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d2f12cb4ee6318c16ebc5c0286d3e521</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92300</idno>
+            </place>
+            <place xml:id="pmb91735">
+               <placeName type="mountain">Semmering</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63333 15.81667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2765171/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8627b9def9e6e2fd2353f5f3822fba9c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735</idno>
+            </place>
+            <place xml:id="pmb2448">
+               <placeName type="city">Chur</placeName>
+               <location>
+                  <geo decls="#LatLng">46.84986 9.53287</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2661169/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_05e302e5aab8a6fdaa8f3d9a573b8c1b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2448</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F919-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,15 +180,14 @@
       <body>
          <div type="diary-day" xml:id="entry__1906-08-11">
             <p xml:space="preserve"><date when="1906-08-11">11/8</date> Allein spazieren in Straßen.―</p>
-            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_25310" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_25311" ref="#person_20383"><surname>Steinrück</surname></rs> aufs Schiff (nach <rs type="place" xml:id="pl_05643" ref="#place_058d4f9fe48b8920d409f2ebb88e0247">Lübeck</rs>) begleitet.―</p>
+            <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_25310" ref="#person_20386"><forename>Liesl</forename></rs> und <rs type="person" xml:id="pNt_25311" ref="#person_20383"><surname>Steinrück</surname></rs> aufs Schiff (nach <rs type="place" xml:id="pl_05643" ref="#pmb884">Lübeck</rs>) begleitet.―</p>
             <p xml:space="preserve" rend="indent">Mit O. in der Camera obscura.</p>
             <p xml:space="preserve" rend="indent">Lese „<rs type="work" xml:id="bibl_15129">Poggenpuhl</rs>“. <rs type="person" xml:id="pNt_25312" ref="#person_15661"><surname>Grillparzer</surname></rs> <rs type="work" xml:id="bibl_15130">Tagebücher</rs>.―</p>
             <p xml:space="preserve" rend="indent">Bristol genachtm.</p>
-            <p xml:space="preserve" rend="indent">Abreise von <rs type="place" xml:id="pl_05644" ref="#place_226e71f7dbaedcb5e25a3998ca43db21">Kopenhagen</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Abreise von <rs type="place" xml:id="pl_05644" ref="#pmb36300">Kopenhagen</rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15661">
+   <back><listPerson><person xml:id="person_15661">
                   <persName>
                      <surname>Grillparzer</surname>
                      <forename>Franz</forename>
@@ -310,20 +308,24 @@
                   <gloss type="w1791"/>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76989.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_058d4f9fe48b8920d409f2ebb88e0247">
-            <placeName type="city">Lübeck</placeName>
-            <location>
-               <geo decls="#LatLng">53.86893 10.68729</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2875601/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_226e71f7dbaedcb5e25a3998ca43db21">
-            <placeName type="city">Kopenhagen</placeName>
-            <location>
-               <geo decls="#LatLng">55.67594 12.56553</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2618425/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb884">
+               <placeName type="city">Lübeck</placeName>
+               <location>
+                  <geo decls="#LatLng">53.86893 10.68729</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2875601/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_058d4f9fe48b8920d409f2ebb88e0247</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/884</idno>
+            </place>
+            <place xml:id="pmb36300">
+               <placeName type="city">Kopenhagen</placeName>
+               <location>
+                  <geo decls="#LatLng">55.67594 12.56553</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2618425/</idno>
+               <idno type="obsolete-schnitzler-diary">place_226e71f7dbaedcb5e25a3998ca43db21</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

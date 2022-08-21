@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F222-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,16 +180,15 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1901-08-03">
-            <p xml:space="preserve"><date when="1901-08-03">3/8</date> <rs type="place" xml:id="pl_03750" ref="#place_d111b37857b0a9b910db70a7c59a82df">Vahrn</rs>. <rs type="work" subtype="self" xml:id="bibl_18294">Dolch</rs> neu beendet.</p>
+            <p xml:space="preserve"><date when="1901-08-03">3/8</date> <rs type="place" xml:id="pl_03750" ref="#pmb946">Vahrn</rs>. <rs type="work" subtype="self" xml:id="bibl_18294">Dolch</rs> neu beendet.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18006" ref="#person_20772"><surname>Tolstoi</surname></rs> <rs type="work" xml:id="bibl_18295">Memoiren</rs>.―</p>
             <p xml:space="preserve" rend="indent">Selten so wohl gefühlt wie hier.―</p>
             <p xml:space="preserve" rend="indent">Bemerkungen zur <rs type="work" subtype="self" xml:id="bibl_18296">Autobiographie</rs>.―</p>
             <p xml:space="preserve" rend="indent">Frl. <rs type="person" xml:id="pNt_18007" ref="#person_15324"><forename>Els.</forename> <surname>Galafrès</surname></rs>.― <rs type="person" xml:id="pNt_18008" ref="#person_14733"><roleName>Herr</roleName> <surname>Elsinger</surname></rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18009" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> ist in <rs type="place" xml:id="pl_03751" ref="#place_9746f127a4a25642baeba0d98f0b4ea0">Toelz</rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_18009" ref="#person_15485"><forename>M.</forename> <surname>Gl.</surname></rs> ist in <rs type="place" xml:id="pl_03751" ref="#pmb424">Toelz</rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_14733">
+   <back><listPerson><person xml:id="person_14733">
                   <persName>
                      <surname>Elsinger</surname>
                   </persName>
@@ -343,22 +341,26 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59336.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb59336.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_d111b37857b0a9b910db70a7c59a82df">
-            <placeName type="city">Vahrn</placeName>
-            <placeName type="alt">Varna</placeName>
-            <location>
-               <geo decls="#LatLng">46.73901 11.63749</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3164691/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_9746f127a4a25642baeba0d98f0b4ea0">
-            <placeName type="city">Tölz</placeName>
-            <placeName type="alt">Bad Tölz</placeName>
-            <location>
-               <geo decls="#LatLng">47.76111 11.5589</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2953324/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb946">
+               <placeName type="city">Vahrn</placeName>
+               <placeName type="alt">Varna</placeName>
+               <location>
+                  <geo decls="#LatLng">46.73901 11.63749</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3164691/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d111b37857b0a9b910db70a7c59a82df</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/946</idno>
+            </place>
+            <place xml:id="pmb424">
+               <placeName type="city">Tölz</placeName>
+               <placeName type="alt">Bad Tölz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.76111 11.5589</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2953324/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9746f127a4a25642baeba0d98f0b4ea0</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/424</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

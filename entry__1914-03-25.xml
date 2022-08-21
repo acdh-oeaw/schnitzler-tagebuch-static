@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-03D4-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,10 +178,11 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3799.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3800.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1914-03-25">
-            <p xml:space="preserve"><date when="1914-03-25">25/3</date> Feiertag.― In leidlicher Stimmung spazieren <rs type="place" xml:id="pl_08651" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>, 
-<rs type="place" xml:id="pl_08652" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>. Sogar innerlich beschäftigt mit <rs type="work" subtype="self" xml:id="bibl_8756">Fink</rs>, statt mit hypochondr. 
+            <p xml:space="preserve"><date when="1914-03-25">25/3</date> Feiertag.― In leidlicher Stimmung spazieren <rs type="place" xml:id="pl_08651" ref="#pmb169">Pötzleinsdorf</rs>, 
+<rs type="place" xml:id="pl_08652" ref="#pmb170">Neuwaldegg</rs>. Sogar innerlich beschäftigt mit <rs type="work" subtype="self" xml:id="bibl_8756">Fink</rs>, statt mit hypochondr. 
 und düstern Gedanken. Merke erst bei solchen seltnen Gelegenheiten, 
 in wie schlimmer Verfassung ich seelisch,― productiv seit lange bin.― 
 Traf die <rs type="person" xml:id="pNt_43174" ref="#person_13776"><surname>Bleibtreu</surname></rs> (über das Pech mit dem <rs type="work" subtype="self" xml:id="bibl_8757">Eins. Weg</rs>;― über ihres 
@@ -200,7 +200,8 @@ die Schwierigkeit, große Künstler dichterisch glaubhaft zu machen.―</p>
             <p xml:space="preserve" rend="indent">― Um eine Stunde zu viel,― denn in der letzten war ich wie meist mit 
 meiner Hörkraft zu Ende und das Gespräch war nur mehr Mühsal für mich.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13776">
+      </body>
+   <back><listPerson><person xml:id="person_13776">
                   <persName>
                      <surname>Bleibtreu</surname>
                      <forename>Hedwig</forename>
@@ -505,20 +506,24 @@ meiner Hörkraft zu Ende und das Gespräch war nur mehr Mühsal für mich.―</p
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78079.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78079.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_82109b1e661086ac882d02fa24e8b774">
-            <placeName type="district">Pötzleinsdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.24354 16.3062</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2768462/</idno>
-         </place>
-         <place xml:id="place_c79ad839f84019f53250a4e6365359f9">
-            <placeName type="district">Neuwaldegg</placeName>
-            <location>
-               <geo decls="#LatLng">48.23429 16.29095</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2770640/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb169">
+               <placeName type="district">Pötzleinsdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.24354 16.3062</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2768462/</idno>
+               <idno type="obsolete-schnitzler-diary">place_82109b1e661086ac882d02fa24e8b774</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/169</idno>
+            </place>
+            <place xml:id="pmb170">
+               <placeName type="district">Neuwaldegg</placeName>
+               <location>
+                  <geo decls="#LatLng">48.23429 16.29095</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2770640/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c79ad839f84019f53250a4e6365359f9</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/170</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

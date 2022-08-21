@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1270-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,13 +177,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6285.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1924-06-25">
-            <p xml:space="preserve"><date when="1924-06-25">25/6</date> ― Vm. mit <rs type="person" xml:id="pNt_72531" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15443" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs>.</p>
+            <p xml:space="preserve"><date when="1924-06-25">25/6</date> ― Vm. mit <rs type="person" xml:id="pNt_72531" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> <rs type="place" xml:id="pl_15443" ref="#pmb113">Türkenschanzpark</rs>.</p>
             <p xml:space="preserve" rend="indent">Nm. gepackt.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_72532" ref="#person_17509"><surname>Lichtenstern’s</surname></rs>.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_17509">
+      </body>
+   <back><listPerson><person xml:id="person_17509">
                   <persName>
                      <surname>Lichtenstern</surname>
                      <forename>Robert</forename>
@@ -235,11 +236,13 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12435</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12435</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_70badd7ef7036249b2048516efb8b9aa">
-            <placeName type="park">Türkenschanzpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.235429 16.334063</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb113">
+               <placeName type="park">Türkenschanzpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.235429 16.334063</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_70badd7ef7036249b2048516efb8b9aa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/113</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

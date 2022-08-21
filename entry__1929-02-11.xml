@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-190B-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1929-02-11">
-            <p xml:space="preserve"><date when="1929-02-11">11/2</date> Vm. tel. <rs type="person" xml:id="pNt_85951" ref="#person_19832"><forename>O.</forename></rs> (aus <rs type="place" xml:id="pl_18514" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>);― <rs type="person" xml:id="pNt_85952" ref="#person_20383"><forename>Albert</forename> <surname>Steinrück</surname></rs> ist gestorben. Vor 3 
+            <p xml:space="preserve"><date when="1929-02-11">11/2</date> Vm. tel. <rs type="person" xml:id="pNt_85951" ref="#person_19832"><forename>O.</forename></rs> (aus <rs type="place" xml:id="pl_18514" ref="#pmb168">Berlin</rs>);― <rs type="person" xml:id="pNt_85952" ref="#person_20383"><forename>Albert</forename> <surname>Steinrück</surname></rs> ist gestorben. Vor 3 
 Jahren etwa Cirrhose ― so gut wie verloren;― erholte sich so, dass ich 
 fast falsche Diagnose vermutete;― künstlerische Hochblüte (zuletzt 
 im Film <rs type="work" subtype="self" xml:id="bibl_105">Else</rs>, der noch nicht heraus den <rs type="work">Dorsday</rs>); nun nur wenige Tage 
 krank gewesen (Magenblutungen).― Ich hab ihn sehr gern gehabt; als 
 Menschen auch.</p>
-            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_85954" ref="#person_14483"><forename>Fritz</forename> <surname>Donath</surname></rs>, der jetzt ein wenig „Dramaturg“ am D. <rs type="place" ref="#place_volkstheater">Volksth.</rs> bringt 
+            <p xml:space="preserve" rend="indent">Hr. <rs type="person" xml:id="pNt_85954" ref="#person_14483"><forename>Fritz</forename> <surname>Donath</surname></rs>, der jetzt ein wenig „Dramaturg“ am D. <rs type="place" ref="#pmb92202">Volksth.</rs> bringt 
 ein Mscrpt.―</p>
             <p xml:space="preserve" rend="indent">Dictirt ― „<rs type="work" subtype="self" xml:id="bibl_106">Spiel</rs>“, <rs type="work" xml:id="bibl_107">Tgb.</rs> <rs type="person" xml:id="pNt_85955" ref="#person_14130"><forename>Lili</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_108">Spiel</rs>“. Allerlei geordnet.</p>
@@ -197,8 +196,7 @@ Frau <rs type="person" xml:id="pNt_85960" ref="#person_17621"><roleName>Prof.</r
 <rs type="person" xml:id="pNt_85961" ref="#person_14669"><surname>Einstein</surname></rs> u. s. w.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_14130">
+   <back><listPerson><person xml:id="person_14130">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Lili</forename>
@@ -505,19 +503,23 @@ Frau <rs type="person" xml:id="pNt_85960" ref="#person_17621"><roleName>Prof.</r
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30945</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30945</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_ee1611b61f5688e70c12b40684dbb395">
-            <placeName type="city">Berlin</placeName>
-            <location>
-               <geo decls="#LatLng">52.52437 13.41053</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2950159/</idno>
-         </place>
-         <place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb168">
+               <placeName type="city">Berlin</placeName>
+               <location>
+                  <geo decls="#LatLng">52.52437 13.41053</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2950159/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ee1611b61f5688e70c12b40684dbb395</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+            </place>
+            <place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4A3-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,7 +176,8 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1820.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1903-06-20">
             <p xml:space="preserve"><date when="1903-06-20">20/6</date> Vm. traf ich in der Stadt <rs type="person" xml:id="pNt_19908" ref="#person_19854"><forename>Paul v.</forename> <surname>Schönthan</surname></rs> (Altwerden, es bröckelt 
 vieles ab; „Andersgläubigkeit“, die ihm angeblich bei den liber. 
@@ -189,10 +189,11 @@ ich sehr bestreite)), <rs type="person" xml:id="pNt_19910" ref="#person_21486"><
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_19916" ref="#person_21074"><roleName>Direktor</roleName> <surname>Wallner</surname></rs>. Las ihm <rs type="work" subtype="self" xml:id="bibl_17723">Marionetten</rs>, <rs type="work" subtype="self" xml:id="bibl_17724">Cassian</rs>, <rs type="work" subtype="self" xml:id="bibl_17725">Alkandi</rs> als die 
 projekt. Texte für <rs type="person" xml:id="pNt_19917" ref="#person_16177"><surname>Heuberger</surname></rs>, <rs type="person" xml:id="pNt_19918" ref="#person_21537"><surname>Zemlinsky</surname></rs>, <rs type="person" xml:id="pNt_19919" ref="#person_17777"><surname>Mader</surname></rs> vor; er schien ziemlich 
 begeistert.</p>
-            <p xml:space="preserve" rend="indent">Abends bei O.; wo auch <rs type="person" xml:id="pNt_19920"><forename>Ellyn</forename> <surname>S.</surname></rs> hinkam. Engagirt <rs type="place" xml:id="pl_04332" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> (<rs type="place" ref="#place_volkstheater">Volksth.</rs>); 
+            <p xml:space="preserve" rend="indent">Abends bei O.; wo auch <rs type="person" xml:id="pNt_19920"><forename>Ellyn</forename> <surname>S.</surname></rs> hinkam. Engagirt <rs type="place" xml:id="pl_04332" ref="#pmb45258">München</rs> (<rs type="place" ref="#pmb92202">Volksth.</rs>); 
 über das „[Briess]“.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15715">
+      </body>
+   <back><listPerson><person xml:id="person_15715">
                   <persName>
                      <surname>Grünwald</surname>
                      <forename>Ida</forename>
@@ -659,20 +660,24 @@ begeistert.</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29923</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29923</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_d0a6343a081a7335baa965ce4fd0845c">
-            <placeName type="city">München</placeName>
-            <location>
-               <geo decls="#LatLng">48.13743 11.57549</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2867714/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb45258">
+               <placeName type="city">München</placeName>
+               <location>
+                  <geo decls="#LatLng">48.13743 11.57549</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2867714/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d0a6343a081a7335baa965ce4fd0845c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258</idno>
+            </place>
+            <place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

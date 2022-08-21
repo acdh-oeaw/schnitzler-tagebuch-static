@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E0BF-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0358.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1888-10-03">
-            <p xml:space="preserve"><date when="1888-10-03">3/10</date> Mittwoch. Bei <rs type="person" xml:id="pNt_03363" ref="#person_20274"><forename>Adele</forename></rs> <rs ref="#person_17696" type="person" xml:id="pNt_03364"><surname>Sp.</surname></rs> Mit <rs type="person" xml:id="pNt_03365" ref="#person_16022"><forename>Jean.</forename></rs> und <rs ref="#person_17696" type="person" xml:id="pNt_03366"><surname>Sp.</surname></rs> Rest. <rs type="place" xml:id="pl_00745" ref="#place_34ebbbd3ada43b915388e0dfd5c4530c">Teinfaltstr.</rs></p>
+            <p xml:space="preserve"><date when="1888-10-03">3/10</date> Mittwoch. Bei <rs type="person" xml:id="pNt_03363" ref="#person_20274"><forename>Adele</forename></rs> <rs ref="#person_17696" type="person" xml:id="pNt_03364"><surname>Sp.</surname></rs> Mit <rs type="person" xml:id="pNt_03365" ref="#person_16022"><forename>Jean.</forename></rs> und <rs ref="#person_17696" type="person" xml:id="pNt_03366"><surname>Sp.</surname></rs> Rest. <rs type="place" xml:id="pl_00745" ref="#pmb92565">Teinfaltstr.</rs></p>
          </div>
-      </body><back><listPerson><person xml:id="person_16022">
+      </body>
+   <back><listPerson><person xml:id="person_16022">
                   <persName>
                      <surname>Heeger</surname>
                      <forename>Jeanette</forename>
@@ -249,13 +250,15 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20274</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/25230</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_34ebbbd3ada43b915388e0dfd5c4530c">
-            <placeName type="street">Teinfaltstr.</placeName>
-            <placeName type="alt">Teinfaltstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.211571 16.363008</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92565">
+               <placeName type="street">Teinfaltstr.</placeName>
+               <placeName type="alt">Teinfaltstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.211571 16.363008</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_34ebbbd3ada43b915388e0dfd5c4530c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92565</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

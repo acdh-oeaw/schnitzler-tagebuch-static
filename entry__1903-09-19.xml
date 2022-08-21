@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F4FC-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,12 +179,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1903-09-19">
-            <p xml:space="preserve"><date when="1903-09-19">19/9</date> <rs type="person" xml:id="pNt_20269" ref="#person_16222"><forename>Georg</forename></rs> und <rs ref="#person_18728" type="person" xml:id="pNt_20270"><forename>Elly</forename> <surname>H.</surname></rs> Mittags <rs type="place" xml:id="pl_04480" ref="#place_811c7ad30c4e603795ef80e0c113ad9e">Frankg.</rs>― Abd. <rs type="person" xml:id="pNt_20271" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_20272" ref="#person_16292"><forename>Gerty</forename></rs> <rs type="place" xml:id="pl_04481" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>, 
+            <p xml:space="preserve"><date when="1903-09-19">19/9</date> <rs type="person" xml:id="pNt_20269" ref="#person_16222"><forename>Georg</forename></rs> und <rs ref="#person_18728" type="person" xml:id="pNt_20270"><forename>Elly</forename> <surname>H.</surname></rs> Mittags <rs type="place" xml:id="pl_04480" ref="#pmb397">Frankg.</rs>― Abd. <rs type="person" xml:id="pNt_20271" ref="#person_16293"><forename>Hugo</forename></rs> <rs type="person" xml:id="pNt_20272" ref="#person_16292"><forename>Gerty</forename></rs> <rs type="place" xml:id="pl_04481" ref="#pmb63">Hietzing</rs>, 
 mit O.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16222">
+   <back><listPerson><person xml:id="person_16222">
                   <persName>
                      <surname>Hirschfeld</surname>
                      <forename>Georg</forename>
@@ -300,19 +298,23 @@ mit O.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11740</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_811c7ad30c4e603795ef80e0c113ad9e">
-            <placeName type="street">Frankgasse</placeName>
-            <location>
-               <geo decls="#LatLng">48.215361 16.357267</geo>
-            </location>
-         </place>
-         <place xml:id="place_6fc6f10422bfe80ddcba23b4f7f080dc">
-            <placeName type="district">Hietzing</placeName>
-            <location>
-               <geo decls="#LatLng">48.17547 16.29101</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776420/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb397">
+               <placeName type="street">Frankgasse</placeName>
+               <location>
+                  <geo decls="#LatLng">48.215361 16.357267</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_811c7ad30c4e603795ef80e0c113ad9e</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/397</idno>
+            </place>
+            <place xml:id="pmb63">
+               <placeName type="district">Hietzing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.17547 16.29101</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776420/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_6fc6f10422bfe80ddcba23b4f7f080dc</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E189-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0398.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1889-08-01">
-            <p xml:space="preserve"><date when="1889-08-01">1. 8.</date> Donnerstag. <rs type="place" xml:id="pl_00796" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>. <rs type="person" xml:id="pNt_03790" ref="#person_13733"><forename>Hel.</forename> <surname>H.</surname></rs> ―</p>
+            <p xml:space="preserve"><date when="1889-08-01">1. 8.</date> Donnerstag. <rs type="place" xml:id="pl_00796" ref="#pmb662">Baden</rs>. <rs type="person" xml:id="pNt_03790" ref="#person_13733"><forename>Hel.</forename> <surname>H.</surname></rs> ―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13733">
+      </body>
+   <back><listPerson><person xml:id="person_13733">
                   <persName>
                      <surname>Binder</surname>
                      <forename>Helene</forename>
@@ -208,12 +209,14 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14218</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14218</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_9a43e84f6e1d406076f2372205804f6d">
-            <placeName type="city">Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.00543 16.23264</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782067/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb662">
+               <placeName type="city">Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00543 16.23264</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782067/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9a43e84f6e1d406076f2372205804f6d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

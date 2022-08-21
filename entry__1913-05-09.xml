@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0294-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3616.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3617.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-05-09">
             <p xml:space="preserve"><date when="1913-05-09">9/5</date> Dict. <rs type="work" subtype="self" xml:id="bibl_9453">Novelle</rs>.―</p>
             <pb n="37"/>
@@ -189,7 +189,7 @@
                </fw>
                <fw n="37" place="top_right" type="pageNum">37</fw>
             </tei:fw>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40717" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>; er fährt nach <rs type="place" xml:id="pl_08271" ref="#place_8ac85cc83788186b74cc9ca468d300c5">Brioni</rs>. Spitzencatarrh; ißt bei uns.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40717" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>; er fährt nach <rs type="place" xml:id="pl_08271" ref="#pmb45260">Brioni</rs>. Spitzencatarrh; ißt bei uns.―</p>
             <p xml:space="preserve" rend="indent">― Mit O. zum Antiquitätenhändler <rs type="person" xml:id="pNt_40718" ref="#person_16890"><surname>Klein</surname></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_40719"><forename>Joh.</forename> <surname>Strauß</surname></rs> Th. (Kl. Th.); <rs type="person" xml:id="pNt_40720" ref="#person_21295"><surname>Wied</surname></rs>, <rs type="work" xml:id="bibl_9454">2·2 = 5</rs>. Nachher mit <rs type="person" xml:id="pNt_40721" ref="#person_13428"><surname>Barnowsky</surname></rs>, 
 <rs type="person" xml:id="pNt_40722" ref="#person_15709"><roleName>Frau</roleName> <surname>Grüning</surname></rs> (die vortreffliche Schauspielerin) <rs type="person" xml:id="pNt_40723" ref="#person_21594"><roleName>Hofrätin</roleName> <surname>Zuckerkandl</surname></rs>, 
@@ -200,7 +200,8 @@ der <rs type="place" xml:id="pl_08272" ref="#place_0f2f3070dbc7c0bb90b16cf58fd4e
 Redaction: „Haben Sie das nötig ―“ Alles was sonst gegen die Censur 
 schreit,― hält das Maul ― oder fällt mir in den Rücken.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15709">
+      </body>
+   <back><listPerson><person xml:id="person_15709">
                   <persName>
                      <surname>Grüning</surname>
                      <forename>Ilka</forename>
@@ -489,13 +490,15 @@ schreit,― hält das Maul ― oder fällt mir in den Rücken.―</p>
                   <gloss type="w1097">Drama</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76603.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_8ac85cc83788186b74cc9ca468d300c5">
-            <placeName type="city">Brioni</placeName>
-            <placeName type="alt">Brijuni</placeName>
-            <location>
-               <geo decls="#LatLng">44.91417 13.76222</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3203301/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb45260">
+               <placeName type="city">Brioni</placeName>
+               <placeName type="alt">Brijuni</placeName>
+               <location>
+                  <geo decls="#LatLng">44.91417 13.76222</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3203301/</idno>
+               <idno type="obsolete-schnitzler-diary">place_8ac85cc83788186b74cc9ca468d300c5</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45260</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

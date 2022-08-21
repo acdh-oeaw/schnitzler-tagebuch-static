@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1B00-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7511.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7512.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1930-06-27">
             <p xml:space="preserve"><date when="1930-06-27">27/6</date> Vm. Stadt, Besorgungen.― (<rs type="person" xml:id="pNt_90070"><surname>Braun</surname></rs>, <rs type="person" xml:id="pNt_90071"><surname>Förster</surname></rs> etc.)</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_90072" ref="#person_14482"><surname>Donaths</surname></rs> Mittag. Dort Dr. <rs type="person" xml:id="pNt_90073" ref="#person_20511"><forename>Walter</forename> <surname>Strauss</surname></rs>.― Mit <rs type="person" xml:id="pNt_90074"><forename>Ferry</forename></rs> Herzstation, 
@@ -190,12 +190,13 @@ ihrem Heraufsehn enträtselt.―</p>
             <p xml:space="preserve" rend="indent">Banger und zerwühlter Nachmittag.― Schwüle.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_90080" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> abgeholt. Tasche und Halstuch zum Geschenk; das sie kaum nehmen 
 wollte.― Ins Kino, Sonne im Herzen (<rs type="person" xml:id="pNt_90081" ref="#person_15360"><surname>Gaynor</surname></rs>) langweilig, Kitsch.― Sie 
-weinte immer wieder. In den <rs type="place" xml:id="pl_19318" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> nach 11; wir allein. 
-(Stürmisch.) ― Die Reise nach <rs type="place" xml:id="pl_19319" ref="#place_84bb7a44667327c91eade4b980a38a6f">Karlsbad</rs> immer wieder wie etwas 
+weinte immer wieder. In den <rs type="place" xml:id="pl_19318" ref="#pmb113">Türkenschanzpark</rs> nach 11; wir allein. 
+(Stürmisch.) ― Die Reise nach <rs type="place" xml:id="pl_19319" ref="#pmb842">Karlsbad</rs> immer wieder wie etwas 
 katastrophales. Meine Erklärungen ― dass es für beide gut, immer 
 rückgewiesen. Was weiter noch unbestimmt.― Schwer, schwer.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14234">
+      </body>
+   <back><listPerson><person xml:id="person_14234">
                   <persName>
                      <surname>Clauser</surname>
                      <forename>Suzanne</forename>
@@ -425,19 +426,23 @@ rückgewiesen. Was weiter noch unbestimmt.― Schwer, schwer.―</p>
                   <gloss type="w1066">Film</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80272.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_70badd7ef7036249b2048516efb8b9aa">
-            <placeName type="park">Türkenschanzpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.235429 16.334063</geo>
-            </location>
-         </place>
-         <place xml:id="place_84bb7a44667327c91eade4b980a38a6f">
-            <placeName type="city">Karlsbad</placeName>
-            <placeName type="alt">Karlovy Vary</placeName>
-            <location>
-               <geo decls="#LatLng">50.23271 12.87117</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3073803/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb113">
+               <placeName type="park">Türkenschanzpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.235429 16.334063</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_70badd7ef7036249b2048516efb8b9aa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/113</idno>
+            </place>
+            <place xml:id="pmb842">
+               <placeName type="city">Karlsbad</placeName>
+               <placeName type="alt">Karlovy Vary</placeName>
+               <location>
+                  <geo decls="#LatLng">50.23271 12.87117</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3073803/</idno>
+               <idno type="obsolete-schnitzler-diary">place_84bb7a44667327c91eade4b980a38a6f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/842</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

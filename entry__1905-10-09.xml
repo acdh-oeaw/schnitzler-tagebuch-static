@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F7E7-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,7 +180,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1905-10-09">
-            <p xml:space="preserve"><date when="1905-10-09">9/10</date> Vm. <rs type="place" ref="#place_volkstheater">Volkstheater</rs>; <rs type="person" xml:id="pNt_23575" ref="#person_20914"><surname>Vallentin</surname></rs> Regisseur, <rs type="work" subtype="self" xml:id="bibl_15943">Kakadu</rs> Costume besichtigt.― 
+            <p xml:space="preserve"><date when="1905-10-09">9/10</date> Vm. <rs type="place" ref="#pmb92202">Volkstheater</rs>; <rs type="person" xml:id="pNt_23575" ref="#person_20914"><surname>Vallentin</surname></rs> Regisseur, <rs type="work" subtype="self" xml:id="bibl_15943">Kakadu</rs> Costume besichtigt.― 
 Mit der <rs type="person" xml:id="pNt_23576" ref="#person_15324"><surname>Galafrès</surname></rs> gesprochen.―</p>
             <p xml:space="preserve" rend="indent">In die Burg. Auf <rs type="person" xml:id="pNt_23577" ref="#person_19364"><surname>Rosenbaum’s</surname></rs> Rath <rs type="person" xml:id="pNt_23578" ref="#person_16386"><roleName>Hofrath</roleName> <surname>Horsetzky</surname></rs> (Intendanz) besucht 
 (sieht aus wie von <rs type="person" xml:id="pNt_23579" ref="#person_14065"><surname>Burckhard</surname></rs> gedichtet), für <rs type="person" xml:id="pNt_23580" ref="#person_18825"><surname>Plappart</surname></rs> Karte abgegeben.― 
@@ -190,14 +189,13 @@ und kündigte seinen Besuch an.―</p>
             <p xml:space="preserve" rend="indent">In die Burg. <rs type="work" subtype="self" xml:id="bibl_15944">Probe</rs>.― Strich im letzten Akt (<rs type="person" xml:id="pNt_23582"><forename>Alberts</forename></rs> und des 
 Kindes letztes Auftreten) wieder aufgemacht. Mit <rs type="person" xml:id="pNt_23583" ref="#person_16646"><surname>Kainz</surname></rs> nach Hause.―</p>
             <p xml:space="preserve" rend="indent">Nachm. der <rs type="person" xml:id="pNt_23584" ref="#person_15715"><surname>Grünwald</surname></rs> u. a. den Plan zum <rs type="work" subtype="self" xml:id="bibl_15945">Aerztestück</rs> 
-dictirt. (Sie verläßt <rs type="place" xml:id="pl_05335" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> Ende dieses.) ―</p>
+dictirt. (Sie verläßt <rs type="place" xml:id="pl_05335" ref="#pmb50">Wien</rs> Ende dieses.) ―</p>
             <p xml:space="preserve" rend="indent">Tags über in guter Stimmung, das Humoristische all dieses 
 Gethu’s empfunden ― Abds. in einen Katzenjammer verfallen.― Mit O. 
 unten bei <rs type="person" xml:id="pNt_23585" ref="#person_14792"><surname>Erl’s</surname></rs> (zum 1. Mal).</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_14065">
+   <back><listPerson><person xml:id="person_14065">
                   <persName>
                      <surname>Burckhard</surname>
                      <forename>Max Eugen</forename>
@@ -539,19 +537,23 @@ unten bei <rs type="person" xml:id="pNt_23585" ref="#person_14792"><surname>Erl�
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29903</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29903</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

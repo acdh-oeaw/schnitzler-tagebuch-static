@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-18EE-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,17 +177,19 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7224.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-01-13">
-            <p xml:space="preserve"><date when="1929-01-13">13/1</date> S. Zu <rs type="person" xml:id="pNt_85755" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, sie <rs type="place" xml:id="pl_18475" ref="#place_aa7bc685fb8a034d6e21b4d6675631ad">Türkenstr.</rs> begleitet (Hausgehilfen- und 
-Haushaltsorgen).― Fuhr Auto <rs type="place" xml:id="pl_18476" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs> Pension, wo ich höre, dass 
-<rs type="person" xml:id="pNt_85756" ref="#person_13355"><forename>Ama</forename></rs> im Sanat. <rs type="place" xml:id="pl_18477" ref="#place_f5b61ab40d3efa6b67d874a0fd70d3bd">Purkersdorf</rs>;― ich fahr hin, finde <rs type="person" xml:id="pNt_85757" ref="#person_13355"><forename>Ama</forename></rs> besser als 
+            <p xml:space="preserve"><date when="1929-01-13">13/1</date> S. Zu <rs type="person" xml:id="pNt_85755" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>, sie <rs type="place" xml:id="pl_18475" ref="#pmb92572">Türkenstr.</rs> begleitet (Hausgehilfen- und 
+Haushaltsorgen).― Fuhr Auto <rs type="place" xml:id="pl_18476" ref="#pmb63">Hietzing</rs> Pension, wo ich höre, dass 
+<rs type="person" xml:id="pNt_85756" ref="#person_13355"><forename>Ama</forename></rs> im Sanat. <rs type="place" xml:id="pl_18477" ref="#pmb91552">Purkersdorf</rs>;― ich fahr hin, finde <rs type="person" xml:id="pNt_85757" ref="#person_13355"><forename>Ama</forename></rs> besser als 
 ich gedacht; bringe Grüße von <rs type="person" xml:id="pNt_85758" ref="#person_21602"><forename>Vicki</forename></rs> und <rs type="person" xml:id="pNt_85759" ref="#person_21600"><forename>Mimi</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">― <rs type="person" xml:id="pNt_85760" ref="#person_13650"><roleName>Dr.</roleName> <surname>Berliner</surname></rs>, der Chef u. s. w.―</p>
             <p xml:space="preserve" rend="indent">Nm. am „<rs type="work" subtype="self" xml:id="bibl_26">Spiel der Sommerl.</rs>“.― <rs type="work" subtype="self" xml:id="bibl_27">Roman</rs>.―</p>
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_85761" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13355">
+      </body>
+   <back><listPerson><person xml:id="person_13355">
                   <persName>
                      <surname>Bachrach</surname>
                      <forename>Eugenie</forename>
@@ -342,28 +343,34 @@ ich gedacht; bringe Grüße von <rs type="person" xml:id="pNt_85758" ref="#perso
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30321.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30321</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_aa7bc685fb8a034d6e21b4d6675631ad">
-            <placeName type="street">Türkenstr.</placeName>
-            <placeName type="alt">Türkenstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.217940 16.364391</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_6fc6f10422bfe80ddcba23b4f7f080dc">
-            <placeName type="district">Hietzing</placeName>
-            <location>
-               <geo decls="#LatLng">48.17547 16.29101</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776420/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_f5b61ab40d3efa6b67d874a0fd70d3bd">
-            <placeName type="city">Purkersdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.20769 16.17539</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2768232/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92572">
+               <placeName type="street">Türkenstr.</placeName>
+               <placeName type="alt">Türkenstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.217940 16.364391</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_aa7bc685fb8a034d6e21b4d6675631ad</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92572</idno>
+            </place>
+            <place xml:id="pmb63">
+               <placeName type="district">Hietzing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.17547 16.29101</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776420/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_6fc6f10422bfe80ddcba23b4f7f080dc</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63</idno>
+            </place>
+            <place xml:id="pmb91552">
+               <placeName type="city">Purkersdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20769 16.17539</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2768232/</idno>
+               <idno type="obsolete-schnitzler-diary">place_f5b61ab40d3efa6b67d874a0fd70d3bd</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91552</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

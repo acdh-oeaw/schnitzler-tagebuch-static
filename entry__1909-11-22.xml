@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FDA4-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,14 +180,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1909-11-22">
-            <p xml:space="preserve"><date when="1909-11-22">22/11</date> Vm. bei <rs type="person" xml:id="pNt_31270" ref="#person_15562"><roleName>Prof.</roleName> <surname>Gomperz</surname></rs>. Im Panorama <rs type="place" xml:id="pl_06866" ref="#place_15efe7c2378d325de85d6bc1d9b72d40">Tonkin</rs>, dann Panorama 
-<rs type="place" xml:id="pl_06867" ref="#place_7a0be5a1ed9675975e678b517f07573c">Schweiz</rs> (<rs type="place" xml:id="pl_06868" ref="#place_cc610f9eb29c95079ad238a42870cf2e">Genfer See</rs> etc.) ―</p>
+            <p xml:space="preserve"><date when="1909-11-22">22/11</date> Vm. bei <rs type="person" xml:id="pNt_31270" ref="#person_15562"><roleName>Prof.</roleName> <surname>Gomperz</surname></rs>. Im Panorama <rs type="place" xml:id="pl_06866" ref="#pmb91911">Tonkin</rs>, dann Panorama 
+<rs type="place" xml:id="pl_06867" ref="#pmb43435">Schweiz</rs> (<rs type="place" xml:id="pl_06868" ref="#pmb512">Genfer See</rs> etc.) ―</p>
             <p xml:space="preserve" rend="indent">Nm. die „<rs type="work" subtype="self" xml:id="bibl_13012">Hirtenflöte</rs>“ durchgesehn.―</p>
             <p xml:space="preserve" rend="indent">Abends mit O. Volksoper <rs type="work" xml:id="bibl_13013">Carmen</rs> (<rs type="person" xml:id="pNt_31271" ref="#person_13570"><surname>Bellincioni</surname></rs>).</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13570">
+   <back><listPerson><person xml:id="person_13570">
                   <persName>
                      <surname>Bellincioni</surname>
                      <forename>Gemma</forename>
@@ -282,30 +280,35 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30627.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30627</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_15efe7c2378d325de85d6bc1d9b72d40">
-            <placeName type="region">Tonkin</placeName>
-            <placeName type="alt">Golf von Tonkin</placeName>
-            <location>
-               <geo decls="#LatLng">20 108</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/1818184/</idno>
-            <note type="desc">vermutlich</note>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_7a0be5a1ed9675975e678b517f07573c">
-            <placeName type="country">Schweiz</placeName>
-            <location>
-               <geo decls="#LatLng">47.00016 8.01427</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2658434/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_cc610f9eb29c95079ad238a42870cf2e">
-            <placeName type="lake">Genfer See</placeName>
-            <location>
-               <geo decls="#LatLng">46.43774 6.46906</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2660647/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91911">
+               <placeName type="region">Tonkin</placeName>
+               <placeName type="alt">Golf von Tonkin</placeName>
+               <location>
+                  <geo decls="#LatLng">20 108</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/1818184/</idno>
+               <note type="desc">vermutlich</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_15efe7c2378d325de85d6bc1d9b72d40</idno>
+            </place>
+            <place xml:id="pmb43435">
+               <placeName type="country">Schweiz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.00016 8.01427</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2658434/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_7a0be5a1ed9675975e678b517f07573c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43435</idno>
+            </place>
+            <place xml:id="pmb512">
+               <placeName type="lake">Genfer See</placeName>
+               <location>
+                  <geo decls="#LatLng">46.43774 6.46906</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2660647/</idno>
+               <idno type="obsolete-schnitzler-diary">place_cc610f9eb29c95079ad238a42870cf2e</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/512</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

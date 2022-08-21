@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE6B-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,23 +177,29 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0181.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1882-08-06">
-            <p xml:space="preserve"><date when="1882-08-06">6. 8.</date> <rs type="place" xml:id="pl_00304" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs> ― <rs type="place" xml:id="pl_00305" ref="#place_51c7c0e8bc877f41a415a8e7efedd068">St. Moritz</rs> ― <rs type="place" xml:id="pl_00306" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs></p>
+            <p xml:space="preserve"><date when="1882-08-06">6. 8.</date> <rs type="place" xml:id="pl_00304" ref="#pmb34946">Pontresina</rs> ― <rs type="place" xml:id="pl_00305" ref="#pmb44374">St. Moritz</rs> ― <rs type="place" xml:id="pl_00306" ref="#pmb34946">Pontresina</rs></p>
          </div>
-      </body><back><listPlace><place xml:id="place_51c7c0e8bc877f41a415a8e7efedd068">
-            <placeName type="city">St. Moritz</placeName>
-            <location>
-               <geo decls="#LatLng">46.49937 9.84327</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2658813/</idno>
-         </place>
-         <place xml:id="place_ed6893b78d32ca570adf82aa6fe6e5be">
-            <placeName type="city">Pontresina</placeName>
-            <location>
-               <geo decls="#LatLng">46.4955 9.90126</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2659172/</idno>
-         </place>
-         </listPlace></back></text>
+      </body>
+   <back><listPlace><place xml:id="pmb44374">
+               <placeName type="city">St. Moritz</placeName>
+               <location>
+                  <geo decls="#LatLng">46.49937 9.84327</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2658813/</idno>
+               <idno type="obsolete-schnitzler-diary">place_51c7c0e8bc877f41a415a8e7efedd068</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44374</idno>
+            </place>
+            <place xml:id="pmb34946">
+               <placeName type="city">Pontresina</placeName>
+               <location>
+                  <geo decls="#LatLng">46.4955 9.90126</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2659172/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ed6893b78d32ca570adf82aa6fe6e5be</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/34946</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0E57-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,10 +177,11 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/5495.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1921-08-10">
-            <p xml:space="preserve"><date when="1921-08-10">10/8</date> Früh bei <rs type="person" xml:id="pNt_63256" ref="#person_15854"><forename>Gisa</forename></rs>.― Begegnung mit Frau <rs type="person" xml:id="pNt_63257" ref="#person_21547"><forename>Alice</forename> <surname>Ziegler</surname></rs> <rs type="person" xml:id="pNt_63258" ref="#person_21547"><surname>Bondy</surname></rs> (<rs type="place" xml:id="pl_13255" ref="#place_c12b8d9779a8ad2b240a57b31c979290">Prag</rs>); (und 
-Verwandten); aus <rs type="place" xml:id="pl_13256" ref="#place_1e16be54e7a0530f7f6994e967daacb1">Strobl</rs> hier; seit 10 Jahren nicht gesehen, damals führte 
+            <p xml:space="preserve"><date when="1921-08-10">10/8</date> Früh bei <rs type="person" xml:id="pNt_63256" ref="#person_15854"><forename>Gisa</forename></rs>.― Begegnung mit Frau <rs type="person" xml:id="pNt_63257" ref="#person_21547"><forename>Alice</forename> <surname>Ziegler</surname></rs> <rs type="person" xml:id="pNt_63258" ref="#person_21547"><surname>Bondy</surname></rs> (<rs type="place" xml:id="pl_13255" ref="#pmb91524">Prag</rs>); (und 
+Verwandten); aus <rs type="place" xml:id="pl_13256" ref="#pmb91852">Strobl</rs> hier; seit 10 Jahren nicht gesehen, damals führte 
 sie mich, <rs type="person" xml:id="pNt_63259" ref="#person_19832"><forename>O.</forename></rs>, <rs type="person" xml:id="pNt_63260" ref="#person_13359"><forename>Stephi</forename></rs> im Auto herum. Auf der Bank am See, redeten Politik.</p>
             <p xml:space="preserve" rend="indent">― Nm. Notizen <rs type="work" subtype="self" xml:id="bibl_3468">Verführer</rs>.―</p>
             <p xml:space="preserve" rend="indent">Zur Jause bei <rs type="person" xml:id="pNt_63261" ref="#person_13969"><surname>Copijn-Brevée</surname></rs>. Der Gatte Arzt;― Maler <rs type="person" xml:id="pNt_63262" ref="#person_16377"><surname>Horovitz</surname></rs> und Frau, 
@@ -190,7 +190,8 @@ brachte seine Kriegszeichnungen eine Art Tagebuch für seine Frau,
 vorzüglich.―</p>
             <p xml:space="preserve" rend="indent">Beim Hirschen (<rs type="person" xml:id="pNt_63265" ref="#person_16764"><surname>Katzier</surname></rs>) gen.;― <rs type="person" xml:id="pNt_63266" ref="#person_13305"><surname>Auernheimers</surname></rs>, <rs type="person" xml:id="pNt_63267" ref="#person_21559"><surname>Zifferer</surname></rs>, <rs type="person" xml:id="pNt_63268" ref="#person_16770"><forename>Arthur</forename> <surname>Kaufmann</surname></rs>.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13305">
+      </body>
+   <back><listPerson><person xml:id="person_13305">
                   <persName>
                      <surname>Auernheimer</surname>
                      <forename>Raoul</forename>
@@ -482,22 +483,26 @@ vorzüglich.―</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30205</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30205</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_c12b8d9779a8ad2b240a57b31c979290">
-            <placeName type="city">Prag</placeName>
-            <placeName type="alt">Praha</placeName>
-            <location>
-               <geo decls="#LatLng">50.08804 14.42076</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3067696/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_1e16be54e7a0530f7f6994e967daacb1">
-            <placeName type="city">Strobl</placeName>
-            <location>
-               <geo decls="#LatLng">47.68581 13.45359</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/7872217/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91524">
+               <placeName type="city">Prag</placeName>
+               <placeName type="alt">Praha</placeName>
+               <location>
+                  <geo decls="#LatLng">50.08804 14.42076</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3067696/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c12b8d9779a8ad2b240a57b31c979290</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91524</idno>
+            </place>
+            <place xml:id="pmb91852">
+               <placeName type="city">Strobl</placeName>
+               <location>
+                  <geo decls="#LatLng">47.68581 13.45359</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/7872217/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_1e16be54e7a0530f7f6994e967daacb1</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91852</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E3F5-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0534.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-05-20">
             <p xml:space="preserve"><date when="1891-05-20">20. 5.</date> Gespräch mit <rs type="person" xml:id="pNt_05304" ref="#person_18792"><surname>Pierson</surname></rs> über den Verlag meiner <rs type="work" subtype="self" xml:id="bibl_23089">Anatolsachen</rs>. 
 Eventueller Titel: <rs type="work" subtype="self" xml:id="bibl_23090">Sind sie alle so</rs>?</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_23091">Alkandi</rs> an <rs type="person" xml:id="pNt_05305" ref="#person_14065"><surname>Burckhard</surname></rs> geschickt.</p>
-            <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_05306" ref="#person_19542"><surname>Salten</surname></rs> im <rs type="place" xml:id="pl_01076" ref="#place_86a694cf5ce5552ca627cb96b607eccd">Prater</rs>.</p>
+            <p xml:space="preserve" rend="indent">Abends mit <rs type="person" xml:id="pNt_05306" ref="#person_19542"><surname>Salten</surname></rs> im <rs type="place" xml:id="pl_01076" ref="#pmb91530">Prater</rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14065">
+      </body>
+   <back><listPerson><person xml:id="person_14065">
                   <persName>
                      <surname>Burckhard</surname>
                      <forename>Max Eugen</forename>
@@ -336,12 +337,14 @@ Eventueller Titel: <rs type="work" subtype="self" xml:id="bibl_23090">Sind sie a
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29935</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_86a694cf5ce5552ca627cb96b607eccd">
-            <placeName type="park">Prater</placeName>
-            <location>
-               <geo decls="#LatLng">48.20609 16.41169</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3322725/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91530">
+               <placeName type="park">Prater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20609 16.41169</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3322725/</idno>
+               <idno type="obsolete-schnitzler-diary">place_86a694cf5ce5552ca627cb96b607eccd</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91530</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

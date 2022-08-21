@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0CD-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -167,12 +166,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1578.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-08-11">
-            <p xml:space="preserve"><date when="1900-08-11">11/8</date> In <rs type="place" xml:id="pl_03487" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> Mit <rs type="person" xml:id="pNt_17255" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>― Fuhr vor 2 Jahren durch, von <rs type="place" xml:id="pl_03488" ref="#place_ca7668a05b2a3dbf29ca3d768c0febe8">Graz</rs>, <rs type="place" xml:id="pl_03489" ref="#place_41b46f689d0f8b3cf558b1980be2d77b">Steinach</rs>
+            <p xml:space="preserve"><date when="1900-08-11">11/8</date> In <rs type="place" xml:id="pl_03487" ref="#pmb662">B.</rs> Mit <rs type="person" xml:id="pNt_17255" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>― Fuhr vor 2 Jahren durch, von <rs type="place" xml:id="pl_03488" ref="#pmb90759">Graz</rs>, <rs type="place" xml:id="pl_03489" ref="#pmb35493">Steinach</rs>
 kommend.― Regen. Netter Tag. Spaziergänge.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_18303">
+      </body>
+   <back><listPerson><person xml:id="person_18303">
                   <persName>
                      <surname>Müller</surname>
                      <forename>Leopoldine</forename>
@@ -198,28 +199,34 @@ kommend.― Regen. Netter Tag. Spaziergänge.</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb21727</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21727</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_9a43e84f6e1d406076f2372205804f6d">
-            <placeName type="city">Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.00543 16.23264</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782067/</idno>
-         </place>
-         <place xml:id="place_ca7668a05b2a3dbf29ca3d768c0febe8">
-            <placeName type="city">Graz</placeName>
-            <location>
-               <geo decls="#LatLng">47.06667 15.45</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2778067/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_41b46f689d0f8b3cf558b1980be2d77b">
-            <placeName type="city">Steinach</placeName>
-            <location>
-               <geo decls="#LatLng">47.63333 13.6</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2605074/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb662">
+               <placeName type="city">Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00543 16.23264</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782067/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9a43e84f6e1d406076f2372205804f6d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+            </place>
+            <place xml:id="pmb90759">
+               <placeName type="city">Graz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.06667 15.45</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2778067/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_ca7668a05b2a3dbf29ca3d768c0febe8</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90759</idno>
+            </place>
+            <place xml:id="pmb35493">
+               <placeName type="city">Steinach</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63333 13.6</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2605074/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_41b46f689d0f8b3cf558b1980be2d77b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35493</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

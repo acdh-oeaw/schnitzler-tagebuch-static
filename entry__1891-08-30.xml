@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E454-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1891-08-30">
-            <p xml:space="preserve"><date when="1891-08-30">30. 8.</date> Sonntag. Vorm. in <rs type="place" xml:id="pl_01198" ref="#place_9a43e84f6e1d406076f2372205804f6d">B.</rs> Mit <rs type="person" xml:id="pNt_05540" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01199" ref="#place_0ed25784b285fef0210884c28f91e2c2">Tribuswinkel</rs> ― In <rs type="place" xml:id="pl_01200" ref="#place_0e891dbd1b1814a0cddd64e270c6ffac">Vöslau</rs> 
-gespeist. Mit <rs type="person" xml:id="pNt_05541" ref="#person_15338"><surname>Ludaßy</surname></rs> zu Fuß nach <rs type="place" xml:id="pl_01201" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>.― <rs type="person" xml:id="pNt_05542" ref="#person_15485"><forename>Mz.</forename></rs>― Hatte einen 
+            <p xml:space="preserve"><date when="1891-08-30">30. 8.</date> Sonntag. Vorm. in <rs type="place" xml:id="pl_01198" ref="#pmb662">B.</rs> Mit <rs type="person" xml:id="pNt_05540" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01199" ref="#pmb91942">Tribuswinkel</rs> ― In <rs type="place" xml:id="pl_01200" ref="#pmb992">Vöslau</rs> 
+gespeist. Mit <rs type="person" xml:id="pNt_05541" ref="#person_15338"><surname>Ludaßy</surname></rs> zu Fuß nach <rs type="place" xml:id="pl_01201" ref="#pmb662">Baden</rs>.― <rs type="person" xml:id="pNt_05542" ref="#person_15485"><forename>Mz.</forename></rs>― Hatte einen 
 schlechten Tag, war wieder zerquält; von allem.― Mit ihr Wohnung soup.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15338">
+   <back><listPerson><person xml:id="person_15338">
                   <persName>
                      <surname>Gans-Ludassy</surname>
                      <forename>Julius von</forename>
@@ -245,27 +243,33 @@ schlechten Tag, war wieder zerquält; von allem.― Mit ihr Wohnung soup.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_0ed25784b285fef0210884c28f91e2c2">
-            <placeName type="city">Tribuswinkel</placeName>
-            <location>
-               <geo decls="#LatLng">48.00623 16.27075</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2763364/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_0e891dbd1b1814a0cddd64e270c6ffac">
-            <placeName type="city">Bad Vöslau</placeName>
-            <location>
-               <geo decls="#LatLng">47.96533 16.21359</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782043/</idno>
-         </place>
-         <place xml:id="place_9a43e84f6e1d406076f2372205804f6d">
-            <placeName type="city">Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.00543 16.23264</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782067/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91942">
+               <placeName type="city">Tribuswinkel</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00623 16.27075</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2763364/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_0ed25784b285fef0210884c28f91e2c2</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91942</idno>
+            </place>
+            <place xml:id="pmb992">
+               <placeName type="city">Bad Vöslau</placeName>
+               <location>
+                  <geo decls="#LatLng">47.96533 16.21359</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782043/</idno>
+               <idno type="obsolete-schnitzler-diary">place_0e891dbd1b1814a0cddd64e270c6ffac</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/992</idno>
+            </place>
+            <place xml:id="pmb662">
+               <placeName type="city">Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00543 16.23264</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782067/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9a43e84f6e1d406076f2372205804f6d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

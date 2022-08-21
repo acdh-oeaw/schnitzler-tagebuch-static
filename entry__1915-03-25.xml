@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-053F-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,14 +180,13 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1915-03-25">
-            <p xml:space="preserve"><date when="1915-03-25">25/3</date> Frühlingswetter. Fuhr <rs type="place" xml:id="pl_09268" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs>, zu Fuss über <rs type="place" xml:id="pl_09269" ref="#place_2fb2f45597d6fce7cea9ec0ffa809c8b">Einöd</rs>, <rs type="place" xml:id="pl_09270" ref="#place_cfcc431ac443c562893b3bea6f47b1ef">Anningerhaus</rs>, 
-Goldne Stiege ― <rs type="place" xml:id="pl_09271" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs> etwas über 3 Stunden.―</p>
+            <p xml:space="preserve"><date when="1915-03-25">25/3</date> Frühlingswetter. Fuhr <rs type="place" xml:id="pl_09268" ref="#pmb662">Baden</rs>, zu Fuss über <rs type="place" xml:id="pl_09269" ref="#pmb90569">Einöd</rs>, <rs type="place" xml:id="pl_09270" ref="#pmb92145">Anningerhaus</rs>, 
+Goldne Stiege ― <rs type="place" xml:id="pl_09271" ref="#pmb968">Mödling</rs> etwas über 3 Stunden.―</p>
             <p xml:space="preserve" rend="indent">Nm. vertrödelt.―</p>
             <p xml:space="preserve" rend="indent">In einem Wohltätigkeits-Concert der <rs type="person" xml:id="pNt_45214" ref="#person_15939"><roleName>Gfn.</roleName> <surname>Hartenau</surname></rs> (u. a.) mit <rs type="person" xml:id="pNt_45215" ref="#person_19986"><forename>Gustav</forename></rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15939">
+   <back><listPerson><person xml:id="person_15939">
                   <persName>
                      <surname>Hartenau</surname>
                      <forename>Johanna von</forename>
@@ -242,37 +240,45 @@ Goldne Stiege ― <rs type="place" xml:id="pl_09271" ref="#place_02031ed2507818d
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12740</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12740</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_9a43e84f6e1d406076f2372205804f6d">
-            <placeName type="city">Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.00543 16.23264</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782067/</idno>
-         </place>
-         <place xml:id="place_2fb2f45597d6fce7cea9ec0ffa809c8b">
-            <placeName type="region">Einöd</placeName>
-            <placeName type="alt">Einöde</placeName>
-            <location>
-               <geo decls="#LatLng">48.02254 16.23539</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2601501/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_cfcc431ac443c562893b3bea6f47b1ef">
-            <placeName type="mountain" subtype="compoundNounInstitution">Anningerhaus</placeName>
-            <location>
-               <geo decls="#LatLng">48.054702 16.245940</geo>
-            </location>
-            <note type="desc">error: mountain, Almhütte</note>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_02031ed2507818d10a37c1a6bf0c9f9d">
-            <placeName type="city">Mödling</placeName>
-            <location>
-               <geo decls="#LatLng">48.08605 16.28921</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2771335/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb662">
+               <placeName type="city">Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00543 16.23264</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782067/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9a43e84f6e1d406076f2372205804f6d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+            </place>
+            <place xml:id="pmb90569">
+               <placeName type="region">Einöd</placeName>
+               <placeName type="alt">Einöde</placeName>
+               <location>
+                  <geo decls="#LatLng">48.02254 16.23539</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2601501/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_2fb2f45597d6fce7cea9ec0ffa809c8b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90569</idno>
+            </place>
+            <place xml:id="pmb92145">
+               <placeName type="mountain" subtype="compoundNounInstitution">Anningerhaus</placeName>
+               <location>
+                  <geo decls="#LatLng">48.054702 16.245940</geo>
+               </location>
+               <note type="desc">error: mountain, Almhütte</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_cfcc431ac443c562893b3bea6f47b1ef</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92145</idno>
+            </place>
+            <place xml:id="pmb968">
+               <placeName type="city">Mödling</placeName>
+               <location>
+                  <geo decls="#LatLng">48.08605 16.28921</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2771335/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_02031ed2507818d10a37c1a6bf0c9f9d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/968</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

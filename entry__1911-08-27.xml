@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0027-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,7 +180,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-08-27">
-            <p xml:space="preserve"><date when="1911-08-27">27/8</date> Gegen die <rs type="place" xml:id="pl_07593" ref="#place_a986157dd13e2da85af1182f75cedff2">Ochnerhöhe</rs> zu.―</p>
+            <p xml:space="preserve"><date when="1911-08-27">27/8</date> Gegen die <rs type="place" xml:id="pl_07593" ref="#pmb91385">Ochnerhöhe</rs> zu.―</p>
             <pb n="259"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -194,8 +193,7 @@
             <p xml:space="preserve" rend="indent">Kopfweh.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15256">
+   <back><listPerson><person xml:id="person_15256">
                   <persName>
                      <surname>Frischauer</surname>
                      <forename>Berthold</forename>
@@ -220,14 +218,15 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15256</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/16710</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_a986157dd13e2da85af1182f75cedff2">
-            <placeName type="region">Ochnerhöhe</placeName>
-            <location>
-               <geo decls="#LatLng">47.65 15.78333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2769550/</idno>
-            <note type="desc">error region, eher mountain</note>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91385">
+               <placeName type="region">Ochnerhöhe</placeName>
+               <location>
+                  <geo decls="#LatLng">47.65 15.78333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2769550/</idno>
+               <note type="desc">error region, eher mountain</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_a986157dd13e2da85af1182f75cedff2</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FA4E-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,13 +179,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1907-06-16">
-            <p xml:space="preserve"><date when="1907-06-16">16/6</date> S. Mit O. <rs type="place" xml:id="pl_06005" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs> ― <rs type="place" xml:id="pl_06006" ref="#place_318e051b87a18bd62b48dc49a3318206">Hütteldorf</rs>.―</p>
+            <p xml:space="preserve"><date when="1907-06-16">16/6</date> S. Mit O. <rs type="place" xml:id="pl_06005" ref="#pmb170">Neuwaldegg</rs> ― <rs type="place" xml:id="pl_06006" ref="#pmb90913">Hütteldorf</rs>.―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="allusively" xml:id="rst_00852">Mama</rs> zu Tisch. <rs type="person" xml:id="pNt_27099" ref="#person_13914"><surname>Brahms</surname></rs>, <rs type="work" xml:id="bibl_14333">erste</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am <rs type="work" subtype="self" xml:id="bibl_14334">Roman</rs>.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13914">
+   <back><listPerson><person xml:id="person_13914">
                   <persName>
                      <surname>Brahms</surname>
                      <forename>Johannes</forename>
@@ -279,21 +277,25 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30757.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30757</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_c79ad839f84019f53250a4e6365359f9">
-            <placeName type="district">Neuwaldegg</placeName>
-            <location>
-               <geo decls="#LatLng">48.23429 16.29095</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2770640/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_318e051b87a18bd62b48dc49a3318206">
-            <placeName type="district">Hütteldorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.2 16.26667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2775371/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb170">
+               <placeName type="district">Neuwaldegg</placeName>
+               <location>
+                  <geo decls="#LatLng">48.23429 16.29095</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2770640/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c79ad839f84019f53250a4e6365359f9</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/170</idno>
+            </place>
+            <place xml:id="pmb90913">
+               <placeName type="district">Hütteldorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.2 16.26667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2775371/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_318e051b87a18bd62b48dc49a3318206</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90913</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2A4-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,11 +181,10 @@
       <body>
          <div type="diary-day" xml:id="entry__1890-05-11">
             <p xml:space="preserve"><date when="1890-05-11">11.</date> <rs type="person" xml:id="pNt_04554" ref="#person_15485"><forename>Mz.</forename></rs> Vorm. (2) ― Brief von <rs type="person" xml:id="pNt_04555" ref="#person_16022"><forename>Jean.</forename></rs> ― den <rs type="person" xml:id="pNt_04556" ref="#person_15485"><forename>Mz.</forename></rs> auffängt, ― Abds. nach 
-<rs type="place" xml:id="pl_00903" ref="#place_e08f67e87755f34f857023df12e0fde1">Mariahilf</rs> mit <rs type="person" xml:id="pNt_04557" ref="#person_15485"><forename>Mz.</forename></rs> (<rs type="person" xml:id="pNt_04558" ref="#person_20905"><surname>Valenais</surname></rs>) ― <rs type="place" ref="#place_leidinger">Leidinger</rs> soup. Kfh. Poker ―</p>
+<rs type="place" xml:id="pl_00903" ref="#pmb56">Mariahilf</rs> mit <rs type="person" xml:id="pNt_04557" ref="#person_15485"><forename>Mz.</forename></rs> (<rs type="person" xml:id="pNt_04558" ref="#person_20905"><surname>Valenais</surname></rs>) ― <rs type="place" ref="#pmb42">Leidinger</rs> soup. Kfh. Poker ―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15485">
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -249,19 +247,23 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20905</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/26363</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_e08f67e87755f34f857023df12e0fde1">
-            <placeName type="district">Mariahilf</placeName>
-            <location>
-               <geo decls="#LatLng">48.19522 16.35032</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2771932/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_leidinger">
-            <placeName type="restaurant">Leidingers Restauration</placeName>
-            <location>
-               <geo decls="#LatLng">48.201433 16.369395</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb56">
+               <placeName type="district">Mariahilf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.19522 16.35032</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2771932/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_e08f67e87755f34f857023df12e0fde1</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/56</idno>
+            </place>
+            <place xml:id="pmb42">
+               <placeName type="restaurant">Leidingers Restauration</placeName>
+               <location>
+                  <geo decls="#LatLng">48.201433 16.369395</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_leidinger</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/42</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

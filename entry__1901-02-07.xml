@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F181-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1615.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1901-02-07">
-            <p xml:space="preserve"><date when="1901-02-07">7/2</date> Vm. mit <rs type="person" xml:id="pNt_17753" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03603" ref="#place_a4e19dfb23f1a34df28b229075997643">Liebhartsthal</rs>. Nm. sie bei mir ― Beisel, neue Wohnung.</p>
+            <p xml:space="preserve"><date when="1901-02-07">7/2</date> Vm. mit <rs type="person" xml:id="pNt_17753" ref="#person_19832"><forename>D.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03603" ref="#pmb92374">Liebhartsthal</rs>. Nm. sie bei mir ― Beisel, neue Wohnung.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19832">
+      </body>
+   <back><listPerson><person xml:id="person_19832">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Olga</forename>
@@ -212,12 +213,14 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_a4e19dfb23f1a34df28b229075997643">
-            <placeName type="region">Liebhartstal</placeName>
-            <placeName type="today">Liebhartstalstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.217079 16.287997</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92374">
+               <placeName type="region">Liebhartstal</placeName>
+               <placeName type="today">Liebhartstalstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.217079 16.287997</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_a4e19dfb23f1a34df28b229075997643</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92374</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

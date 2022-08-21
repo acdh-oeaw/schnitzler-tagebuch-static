@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E2BB-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,12 +181,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1890-06-03">
             <p xml:space="preserve"><date when="1890-06-03">3.</date> <rs type="person" xml:id="pNt_04604" ref="#person_15485"><forename>Mz.</forename></rs> Abds. bei mir (5).</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_leidinger">Leidinger</rs> allein soup.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb42">Leidinger</rs> allein soup.</p>
             <p xml:space="preserve" rend="indent">Kfh. Billard.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15485">
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -215,11 +213,13 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_leidinger">
-            <placeName type="restaurant">Leidingers Restauration</placeName>
-            <location>
-               <geo decls="#LatLng">48.201433 16.369395</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb42">
+               <placeName type="restaurant">Leidingers Restauration</placeName>
+               <location>
+                  <geo decls="#LatLng">48.201433 16.369395</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_leidinger</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/42</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

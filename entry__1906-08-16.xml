@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F91E-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,11 +176,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2254.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-08-16">
-            <p xml:space="preserve"><date when="1906-08-16">16/8</date> <rs type="place" xml:id="pl_05650" ref="#place_00f8780e567ba1b5689c43337d826371">Weimar</rs> ― <rs type="place" xml:id="pl_05651" ref="#place_ba5e55f7ed3c570abe8427b688dc877a">Ilmenau</rs>.― Gabelbach. <rs type="place" xml:id="pl_05652" ref="#place_94a82eb628c878d3f8cdba2bc3ee77dc">Kickelhahn</rs>. <rs type="person" xml:id="pNt_25343" ref="#person_15499"><surname>Goethehäuschen</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1906-08-16">16/8</date> <rs type="place" xml:id="pl_05650" ref="#pmb92063">Weimar</rs> ― <rs type="place" xml:id="pl_05651" ref="#pmb2351">Ilmenau</rs>.― Gabelbach. <rs type="place" xml:id="pl_05652" ref="#pmb91024">Kickelhahn</rs>. <rs type="person" xml:id="pNt_25343" ref="#person_15499"><surname>Goethehäuschen</surname></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15499">
+      </body>
+   <back><listPerson><person xml:id="person_15499">
                   <persName>
                      <surname>Goethe</surname>
                      <forename>Johann Wolfgang von</forename>
@@ -211,29 +212,35 @@
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11461.html</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/11461</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_00f8780e567ba1b5689c43337d826371">
-            <placeName type="city">Weimar</placeName>
-            <location>
-               <geo decls="#LatLng">50.9803 11.32903</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2812482/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_ba5e55f7ed3c570abe8427b688dc877a">
-            <placeName type="city">Ilmenau</placeName>
-            <location>
-               <geo decls="#LatLng">50.68322 10.91858</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2896514/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_94a82eb628c878d3f8cdba2bc3ee77dc">
-            <placeName type="mountain">Kickelhahn</placeName>
-            <location>
-               <geo decls="#LatLng">50.66544 10.88114</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2891238/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92063">
+               <placeName type="city">Weimar</placeName>
+               <location>
+                  <geo decls="#LatLng">50.9803 11.32903</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2812482/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_00f8780e567ba1b5689c43337d826371</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92063</idno>
+            </place>
+            <place xml:id="pmb2351">
+               <placeName type="city">Ilmenau</placeName>
+               <location>
+                  <geo decls="#LatLng">50.68322 10.91858</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2896514/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_ba5e55f7ed3c570abe8427b688dc877a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2351</idno>
+            </place>
+            <place xml:id="pmb91024">
+               <placeName type="mountain">Kickelhahn</placeName>
+               <location>
+                  <geo decls="#LatLng">50.66544 10.88114</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2891238/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_94a82eb628c878d3f8cdba2bc3ee77dc</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91024</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

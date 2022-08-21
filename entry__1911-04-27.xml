@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FFAD-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,7 +180,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1911-04-27">
-            <p xml:space="preserve"><date when="1911-04-27">27/4</date> <rs type="place" xml:id="pl_07460" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs> ― <rs type="place" xml:id="pl_07461" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs>;― mit <rs type="person" xml:id="pNt_35145" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
+            <p xml:space="preserve"><date when="1911-04-27">27/4</date> <rs type="place" xml:id="pl_07460" ref="#pmb45258">München</rs> ― <rs type="place" xml:id="pl_07461" ref="#pmb667">Partenkirchen</rs>;― mit <rs type="person" xml:id="pNt_35145" ref="#person_20383"><forename>Albert</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_35146" ref="#person_20386"><forename>Liesl</forename></rs> fühlt sich besser, sieht aber nicht anders aus.― Dort zu Mittag.―</p>
             <p xml:space="preserve" rend="indent">Nm. Dr. <rs type="person" xml:id="pNt_35147" ref="#person_18548"><forename>Rudi</forename> <surname>Olden</surname></rs>, Referendar, mit Monocle und nicht ohne 
 Humor, bei <rs type="person" xml:id="pNt_35148" ref="#person_20386"><forename>Liesl</forename></rs>.―</p>
@@ -189,8 +188,7 @@ Humor, bei <rs type="person" xml:id="pNt_35148" ref="#person_20386"><forename>Li
 <rs type="person" xml:id="pNt_35151" ref="#person_15291"><forename>Rudolf</forename> <surname>Fürst</surname></rs>.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15291">
+   <back><listPerson><person xml:id="person_15291">
                   <persName>
                      <surname>Fürst</surname>
                      <forename>Rudolf</forename>
@@ -356,20 +354,24 @@ Humor, bei <rs type="person" xml:id="pNt_35148" ref="#person_20386"><forename>Li
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb79493.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb79493.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_d0a6343a081a7335baa965ce4fd0845c">
-            <placeName type="city">München</placeName>
-            <location>
-               <geo decls="#LatLng">48.13743 11.57549</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2867714/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_5cea8f71bfa6f42547adaf63d65eb3ed">
-            <placeName type="city">Garmisch-Partenkirchen</placeName>
-            <location>
-               <geo decls="#LatLng">47.49209 11.09576</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2922530/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb45258">
+               <placeName type="city">München</placeName>
+               <location>
+                  <geo decls="#LatLng">48.13743 11.57549</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2867714/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d0a6343a081a7335baa965ce4fd0845c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258</idno>
+            </place>
+            <place xml:id="pmb667">
+               <placeName type="city">Garmisch-Partenkirchen</placeName>
+               <location>
+                  <geo decls="#LatLng">47.49209 11.09576</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2922530/</idno>
+               <idno type="obsolete-schnitzler-diary">place_5cea8f71bfa6f42547adaf63d65eb3ed</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/667</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

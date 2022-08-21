@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E808-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-04-08">
-            <p xml:space="preserve"><date when="1894-04-08">8/4</date> Bic.partie (mit <rs type="person" xml:id="pNt_08652" ref="#person_15855"><surname>Hajek</surname></rs>) <rs type="place" xml:id="pl_01671" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs> ― <rs type="place" xml:id="pl_01672" ref="#place_9a43e84f6e1d406076f2372205804f6d">Baden</rs> ― <rs type="place" xml:id="pl_01673" ref="#place_1c24743c9fa25eb3584fe72837b40057">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_01674" ref="#place_02031ed2507818d10a37c1a6bf0c9f9d">Mödling</rs>.</p>
+            <p xml:space="preserve"><date when="1894-04-08">8/4</date> Bic.partie (mit <rs type="person" xml:id="pNt_08652" ref="#person_15855"><surname>Hajek</surname></rs>) <rs type="place" xml:id="pl_01671" ref="#pmb50">Wien</rs> ― <rs type="place" xml:id="pl_01672" ref="#pmb662">Baden</rs> ― <rs type="place" xml:id="pl_01673" ref="#pmb90845">Heiligenkreuz</rs> ― <rs type="place" xml:id="pl_01674" ref="#pmb968">Mödling</rs>.</p>
             <p xml:space="preserve" rend="indent">― Nachts bei <rs type="person" xml:id="pNt_08653" ref="#person_19564"><forename>Dilly</forename></rs>.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15855">
+   <back><listPerson><person xml:id="person_15855">
                   <persName>
                      <surname>Hajek</surname>
                      <forename>Markus</forename>
@@ -245,35 +243,43 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12618</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         <place xml:id="place_9a43e84f6e1d406076f2372205804f6d">
-            <placeName type="city">Baden</placeName>
-            <location>
-               <geo decls="#LatLng">48.00543 16.23264</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2782067/</idno>
-         </place>
-         <place xml:id="place_1c24743c9fa25eb3584fe72837b40057">
-            <placeName type="city">Heiligenkreuz</placeName>
-            <location>
-               <geo decls="#LatLng">48.05559 16.12493</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776586/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_02031ed2507818d10a37c1a6bf0c9f9d">
-            <placeName type="city">Mödling</placeName>
-            <location>
-               <geo decls="#LatLng">48.08605 16.28921</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2771335/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            <place xml:id="pmb662">
+               <placeName type="city">Baden</placeName>
+               <location>
+                  <geo decls="#LatLng">48.00543 16.23264</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2782067/</idno>
+               <idno type="obsolete-schnitzler-diary">place_9a43e84f6e1d406076f2372205804f6d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662</idno>
+            </place>
+            <place xml:id="pmb90845">
+               <placeName type="city">Heiligenkreuz</placeName>
+               <location>
+                  <geo decls="#LatLng">48.05559 16.12493</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776586/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_1c24743c9fa25eb3584fe72837b40057</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90845</idno>
+            </place>
+            <place xml:id="pmb968">
+               <placeName type="city">Mödling</placeName>
+               <location>
+                  <geo decls="#LatLng">48.08605 16.28921</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2771335/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_02031ed2507818d10a37c1a6bf0c9f9d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/968</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-077D-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,11 +178,12 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4339.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4340.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1916-10-19">
             <p xml:space="preserve"><date when="1916-10-19">19/10</date> Traum: Bahnhof, ich soll zu <rs type="person" xml:id="pNt_48971" ref="#person_15485"><forename>M.</forename> <surname>G.</surname></rs> fahren, während ich Fahrplan 
 studiere, und versuche den Ortsnamen zu erinnern, fährt der Zug fort, 
-ich weiss immer nur: auf der Strecke nach „<rs type="place" xml:id="pl_10245" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs>“.―</p>
+ich weiss immer nur: auf der Strecke nach „<rs type="place" xml:id="pl_10245" ref="#pmb667">Partenkirchen</rs>“.―</p>
             <p xml:space="preserve" rend="indent">― Beim Cigarrenagenten <rs type="person" xml:id="pNt_48972" ref="#person_14521"><surname>Drucker</surname></rs>, verbrecherisch theuer Cig. gekauft.</p>
             <p xml:space="preserve" rend="indent">― Mit O. bei <rs type="person" xml:id="pNt_48973" ref="#person_16935"><surname>Knepler</surname></rs>, geschäftl. Gespräch über O.s Concert und ev. 
 Vorlesung von mir.― Trafen dann <rs type="person" xml:id="pNt_48974" ref="#person_19197"><surname>Ress</surname></rs>, der über 
@@ -200,7 +200,8 @@ Photographien.―</p>
             <p xml:space="preserve" rend="indent">Tonkünstler Orchester, mit O. Sie berichtet <rs type="person" xml:id="pNt_48977" ref="#person_19827"><forename>Julius</forename></rs> (der in der 
 gleichen Loge mit uns) von <rs type="person" xml:id="pNt_48978" ref="#person_17277"><forename>Else</forename> <surname>L.</surname></rs>―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14521">
+      </body>
+   <back><listPerson><person xml:id="person_14521">
                   <persName>
                      <surname>Drucker</surname>
                      <forename>Alfred?</forename>
@@ -428,12 +429,14 @@ gleichen Loge mit uns) von <rs type="person" xml:id="pNt_48978" ref="#person_172
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30819</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30819</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_5cea8f71bfa6f42547adaf63d65eb3ed">
-            <placeName type="city">Garmisch-Partenkirchen</placeName>
-            <location>
-               <geo decls="#LatLng">47.49209 11.09576</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2922530/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb667">
+               <placeName type="city">Garmisch-Partenkirchen</placeName>
+               <location>
+                  <geo decls="#LatLng">47.49209 11.09576</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2922530/</idno>
+               <idno type="obsolete-schnitzler-diary">place_5cea8f71bfa6f42547adaf63d65eb3ed</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/667</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

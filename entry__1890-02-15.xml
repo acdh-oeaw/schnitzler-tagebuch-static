@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E24F-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,12 +181,11 @@
       <body>
          <div type="diary-day" xml:id="entry__1890-02-15">
             <p xml:space="preserve"><date when="1890-02-15">15.</date> Mit <rs type="person" xml:id="pNt_04376" ref="#person_15485"><forename>Mz.</forename></rs> dinirt Vorstadt, sie nachher bei mir.</p>
-            <p xml:space="preserve" rend="indent">Ball <rs type="place" ref="#place_sacher">Sacher</rs>.</p>
+            <p xml:space="preserve" rend="indent">Ball <rs type="place" ref="#pmb92506">Sacher</rs>.</p>
             <p xml:space="preserve" rend="indent">Poker <rs type="person" xml:id="pNt_04378" ref="#person_20278"><surname>Spitzer</surname></rs>.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15485">
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -230,11 +228,13 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20278</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/25240</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_sacher">
-            <placeName type="hotel">Sacher</placeName>
-            <location>
-               <geo decls="#LatLng">48.203889 16.369444</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92506">
+               <placeName type="hotel">Sacher</placeName>
+               <location>
+                  <geo decls="#LatLng">48.203889 16.369444</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_sacher</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92506</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

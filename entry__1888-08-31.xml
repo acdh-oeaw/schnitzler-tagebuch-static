@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E0A5-D</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1888-08-31">
-            <p xml:space="preserve"><date when="1888-08-31">31/8</date> Freitag. Mit <rs type="person" xml:id="pNt_03331" ref="#person_16022"><forename>Jean.</forename></rs> <rs type="place" xml:id="pl_00734" ref="#place_9276bb03d04ad0aaf2a8b8c9560ada31">Hernals</rs> Wirtshaus. 1.</p>
+            <p xml:space="preserve"><date when="1888-08-31">31/8</date> Freitag. Mit <rs type="person" xml:id="pNt_03331" ref="#person_16022"><forename>Jean.</forename></rs> <rs type="place" xml:id="pl_00734" ref="#pmb67">Hernals</rs> Wirtshaus. 1.</p>
             <p xml:space="preserve" rend="center">September</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16022">
+   <back><listPerson><person xml:id="person_16022">
                   <persName>
                      <surname>Heeger</surname>
                      <forename>Jeanette</forename>
@@ -197,13 +195,15 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16022</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/18007</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_9276bb03d04ad0aaf2a8b8c9560ada31">
-            <placeName type="district">Hernals</placeName>
-            <location>
-               <geo decls="#LatLng">48.22707 16.31006</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776486/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb67">
+               <placeName type="district">Hernals</placeName>
+               <location>
+                  <geo decls="#LatLng">48.22707 16.31006</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776486/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_9276bb03d04ad0aaf2a8b8c9560ada31</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/67</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

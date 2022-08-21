@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FC31-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,16 +176,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2581.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-11-16">
             <p xml:space="preserve"><date when="1908-11-16">16/11</date> Vm. nach zweij. Pause bei <rs type="person" xml:id="pNt_29149" ref="#person_15562"><roleName>Prof.</roleName> <surname>Gomperz</surname></rs>. R. Ohr angeblich stationär, 
 l. erheblich schlechter. Beginn einer leichten Behandlung (u. a. f. v.).―</p>
             <p xml:space="preserve" rend="indent">Nm. gelesen. Dictirt (<rs type="work" subtype="self" xml:id="bibl_13768">Medardus</rs>).</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#place_volkstheater">Volkstheater</rs> „<rs type="work" xml:id="bibl_13769">Vater</rs>“.</p>
-            <p xml:space="preserve" rend="indent">Dann im <rs type="place" ref="#place_meissl">Meissl</rs>, wo wir <rs type="person" xml:id="pNt_29151" ref="#person_20986"><surname>Vollmoeller</surname></rs> vergebl. erwarteten.</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" ref="#pmb92202">Volkstheater</rs> „<rs type="work" xml:id="bibl_13769">Vater</rs>“.</p>
+            <p xml:space="preserve" rend="indent">Dann im <rs type="place" ref="#pmb96">Meissl</rs>, wo wir <rs type="person" xml:id="pNt_29151" ref="#person_20986"><surname>Vollmoeller</surname></rs> vergebl. erwarteten.</p>
             <p xml:space="preserve" rend="indent">O.’s Nervenzustand, rückwirkend auf mich.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15562">
+      </body>
+   <back><listPerson><person xml:id="person_15562">
                   <persName>
                      <surname>Gomperz</surname>
                      <forename>Benjamin</forename>
@@ -286,18 +287,22 @@ l. erheblich schlechter. Beginn einer leichten Behandlung (u. a. f. v.).―</p>
                   <gloss type="w1097">Drama</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80216.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         <place xml:id="place_meissl">
-            <placeName type="hotel">Meissl &amp; Schadn</placeName>
-            <location>
-               <geo decls="#LatLng">48.206389 16.371111</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            <place xml:id="pmb96">
+               <placeName type="hotel">Meissl &amp; Schadn</placeName>
+               <location>
+                  <geo decls="#LatLng">48.206389 16.371111</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_meissl</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/96</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

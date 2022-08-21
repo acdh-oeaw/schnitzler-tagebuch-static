@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13B3-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6490.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-05-14">
-            <p xml:space="preserve"><date when="1925-05-14">14/5</date> Vm. <rs type="place" xml:id="pl_16059" ref="#place_8627b9def9e6e2fd2353f5f3822fba9c">Semmering</rs>. Südbahnhotel.― Im Coupé mit „<rs type="work" subtype="self" xml:id="bibl_16448">Weiher</rs>“ beschäftigt.</p>
+            <p xml:space="preserve"><date when="1925-05-14">14/5</date> Vm. <rs type="place" xml:id="pl_16059" ref="#pmb91735">Semmering</rs>. Südbahnhotel.― Im Coupé mit „<rs type="work" subtype="self" xml:id="bibl_16448">Weiher</rs>“ beschäftigt.</p>
             <p xml:space="preserve" rend="indent">Spazierg. Hochstraße. Recht menschenleer.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_75136" ref="#person_14743"><roleName>Frau</roleName> <surname>Ender</surname></rs> als Matrone.―</p>
             <p xml:space="preserve" rend="indent">Beginne <rs type="work" xml:id="bibl_16449">l’Atlantide</rs> von <rs type="person" xml:id="pNt_75137" ref="#person_13603"><surname>Benoit</surname></rs> zu lesen.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14743">
+      </body>
+   <back><listPerson><person xml:id="person_14743">
                   <persName>
                      <surname>Ender</surname>
                      <forename>Melanie</forename>
@@ -270,13 +271,15 @@
                   <gloss type="w1060">Roman</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80150.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_8627b9def9e6e2fd2353f5f3822fba9c">
-            <placeName type="mountain">Semmering</placeName>
-            <location>
-               <geo decls="#LatLng">47.63333 15.81667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2765171/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb91735">
+               <placeName type="mountain">Semmering</placeName>
+               <location>
+                  <geo decls="#LatLng">47.63333 15.81667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2765171/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8627b9def9e6e2fd2353f5f3822fba9c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

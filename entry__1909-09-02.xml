@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FD53-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,15 +177,17 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2745.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1909-09-02">
-            <p xml:space="preserve"><date when="1909-09-02">2/9</date> Wieder in <rs type="place" xml:id="pl_06802" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Ordnen. <rs type="person" xml:id="pNt_30853" ref="#person_13787"><roleName>Frau</roleName> <surname>Bloch</surname></rs> wohnt schon da.―</p>
+            <p xml:space="preserve"><date when="1909-09-02">2/9</date> Wieder in <rs type="place" xml:id="pl_06802" ref="#pmb50">Wien</rs>. Ordnen. <rs type="person" xml:id="pNt_30853" ref="#person_13787"><roleName>Frau</roleName> <surname>Bloch</surname></rs> wohnt schon da.―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="allusively" xml:id="rst_01045">Mama</rs>. Später <rs type="person" xml:id="pNt_30854"><forename>Otti</forename> <surname>Metzl</surname></rs> mit <rs type="person" xml:id="pNt_30855" ref="#person_19544"><forename>Paul</forename></rs>,― endlich der Hausherr, 
 über die neue Wohnung.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtmahl mit O. spazieren. Wie gut, wieder bei ihr zu 
 sein.― Sie ist Heimat und Sinn meines Lebens.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13787">
+      </body>
+   <back><listPerson><person xml:id="person_13787">
                   <persName>
                      <surname>Bloch</surname>
                      <forename>Emma</forename>
@@ -288,12 +289,14 @@ sein.― Sie ist Heimat und Sinn meines Lebens.</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb23918</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/23918</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

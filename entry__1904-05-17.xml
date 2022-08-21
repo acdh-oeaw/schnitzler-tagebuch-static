@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F5EA-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,13 +176,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1920.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1904-05-17">
-            <p xml:space="preserve"><date when="1904-05-17">17/5</date> <rs type="place" xml:id="pl_04728" ref="#place_8191692ba6c002b14b07549113e62125">Palermo</rs> ― <rs type="place" xml:id="pl_04729" ref="#place_48c89a9facf5012725c3530c90f95e1a">Syrakus</rs>.― Villa Achradina.― <rs type="place" xml:id="pl_04730" ref="#place_f130439c6cf524a764adcc2ef2983323" ana="#exclude">Griech.</rs> Theater. Latomia del 
+            <p xml:space="preserve"><date when="1904-05-17">17/5</date> <rs type="place" xml:id="pl_04728" ref="#pmb901">Palermo</rs> ― <rs type="place" xml:id="pl_04729" ref="#pmb48769">Syrakus</rs>.― Villa Achradina.― <rs type="place" xml:id="pl_04730" ref="#place_f130439c6cf524a764adcc2ef2983323" ana="#exclude">Griech.</rs> Theater. Latomia del 
 paradiso, Ohr des Dionysos.― Der Wirth <rs type="person" xml:id="pNt_21077" ref="#person_19034"><roleName>Herr</roleName> <surname>Ragusa</surname></rs>.― Sommerabend.― 
 Phonograph, der Sohn des Bürgermeisters.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19034">
+      </body>
+   <back><listPerson><person xml:id="person_19034">
                   <persName>
                      <surname>Ragusa</surname>
                      <forename>Enrico?</forename>
@@ -192,22 +193,26 @@ Phonograph, der Sohn des Bürgermeisters.</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19034</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/23015</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_8191692ba6c002b14b07549113e62125">
-            <placeName type="city">Palermo</placeName>
-            <location>
-               <geo decls="#LatLng">38.13205 13.33561</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2523920/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_48c89a9facf5012725c3530c90f95e1a">
-            <placeName type="city">Syrakus</placeName>
-            <placeName type="alt">Siracusa</placeName>
-            <location>
-               <geo decls="#LatLng">37.07542 15.28664</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2523083/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb901">
+               <placeName type="city">Palermo</placeName>
+               <location>
+                  <geo decls="#LatLng">38.13205 13.33561</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2523920/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_8191692ba6c002b14b07549113e62125</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/901</idno>
+            </place>
+            <place xml:id="pmb48769">
+               <placeName type="city">Syrakus</placeName>
+               <placeName type="alt">Siracusa</placeName>
+               <location>
+                  <geo decls="#LatLng">37.07542 15.28664</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2523083/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_48c89a9facf5012725c3530c90f95e1a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/48769</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

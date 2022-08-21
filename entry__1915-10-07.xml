@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0603-A</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4113.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-10-07">
             <p xml:space="preserve"><date when="1915-10-07">7/10</date> <rs type="work" subtype="self" xml:id="bibl_8362">Probe</rs> des ganzen.</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_8363">Verführer</rs>.</p>
             <p xml:space="preserve" rend="indent">Nach dem Nachtm. bei <rs type="person" xml:id="pNt_46467" ref="#person_19784"><surname>Schmutzers</surname></rs> Billard. Sie erzählen mir von ihrer 
-Fußwanderung durch die <rs type="place" xml:id="pl_09618" ref="#place_b2a677fb2730bf552834184278c3511c">Wachau</rs>.</p>
+Fußwanderung durch die <rs type="place" xml:id="pl_09618" ref="#pmb531">Wachau</rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19784">
+      </body>
+   <back><listPerson><person xml:id="person_19784">
                   <persName>
                      <surname>Schmutzer</surname>
                      <forename>Ferdinand</forename>
@@ -258,13 +259,15 @@ Fußwanderung durch die <rs type="place" xml:id="pl_09618" ref="#place_b2a677fb2
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30717</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30717</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_b2a677fb2730bf552834184278c3511c">
-            <placeName type="region">Wachau</placeName>
-            <location>
-               <geo decls="#LatLng">48.33333 15.41667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2762137/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb531">
+               <placeName type="region">Wachau</placeName>
+               <location>
+                  <geo decls="#LatLng">48.33333 15.41667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2762137/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_b2a677fb2730bf552834184278c3511c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/531</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

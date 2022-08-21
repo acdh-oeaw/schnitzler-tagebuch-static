@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E85C-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0847.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1894-07-01">
-            <p xml:space="preserve"><date when="1894-07-01">1/7</date> Bic. mit <rs type="person" xml:id="pNt_08904" ref="#person_19542"><surname>Salten</surname></rs> <rs type="place" xml:id="pl_01743" ref="#place_75a91cfc61c0352be9fb9262b84574a6">Stockerau</rs> ― <rs type="place" xml:id="pl_01744" ref="#place_15132be64d12d34052619003b16df487">Tulln</rs> ― <rs type="place" xml:id="pl_01745" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.― Nachts <rs type="person" xml:id="pNt_08905" ref="#person_19564"><forename>Dilly</forename></rs>.</p>
+            <p xml:space="preserve"><date when="1894-07-01">1/7</date> Bic. mit <rs type="person" xml:id="pNt_08904" ref="#person_19542"><surname>Salten</surname></rs> <rs type="place" xml:id="pl_01743" ref="#pmb54769">Stockerau</rs> ― <rs type="place" xml:id="pl_01744" ref="#pmb91959">Tulln</rs> ― <rs type="place" xml:id="pl_01745" ref="#pmb50">Wien</rs>.― Nachts <rs type="person" xml:id="pNt_08905" ref="#person_19564"><forename>Dilly</forename></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19542">
+      </body>
+   <back><listPerson><person xml:id="person_19542">
                   <persName>
                      <surname>Salten</surname>
                      <forename>Felix</forename>
@@ -241,28 +242,34 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12618</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_75a91cfc61c0352be9fb9262b84574a6">
-            <placeName type="city">Stockerau</placeName>
-            <location>
-               <geo decls="#LatLng">48.38333 16.21667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2764279/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_15132be64d12d34052619003b16df487">
-            <placeName type="city">Tulln</placeName>
-            <location>
-               <geo decls="#LatLng">48.32829 16.05858</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2763266/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb54769">
+               <placeName type="city">Stockerau</placeName>
+               <location>
+                  <geo decls="#LatLng">48.38333 16.21667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2764279/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_75a91cfc61c0352be9fb9262b84574a6</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/54769</idno>
+            </place>
+            <place xml:id="pmb91959">
+               <placeName type="city">Tulln</placeName>
+               <location>
+                  <geo decls="#LatLng">48.32829 16.05858</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2763266/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_15132be64d12d34052619003b16df487</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91959</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

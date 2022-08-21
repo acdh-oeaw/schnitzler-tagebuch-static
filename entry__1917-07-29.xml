@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0898-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,9 +180,9 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1917-07-29">
-            <p xml:space="preserve"><date when="1917-07-29">29/7</date> S. In arger Schwüle <rs type="place" xml:id="pl_10632" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Rieglerhütte Höhengraben 
-<rs type="place" xml:id="pl_10633" ref="#place_b900112ce988d972bc2d561413e84979">Sophien-Alpe</rs> ― Hameau <rs type="place" xml:id="pl_10634" ref="#place_a513bae177c89d12226f343ac5ff1ee3">Salmannsdorf</rs>;― Bitterkeit im Herzen.</p>
-            <p xml:space="preserve" rend="indent">Mit O. Nm. ein feindseliges Gespräch, wegen der <rs type="place" xml:id="pl_10635" ref="#place_5cea8f71bfa6f42547adaf63d65eb3ed">Partenkirchen</rs> Reise.</p>
+            <p xml:space="preserve"><date when="1917-07-29">29/7</date> S. In arger Schwüle <rs type="place" xml:id="pl_10632" ref="#pmb169">Pötzleinsdorf</rs> ― Rieglerhütte Höhengraben 
+<rs type="place" xml:id="pl_10633" ref="#pmb92533">Sophien-Alpe</rs> ― Hameau <rs type="place" xml:id="pl_10634" ref="#pmb91641">Salmannsdorf</rs>;― Bitterkeit im Herzen.</p>
+            <p xml:space="preserve" rend="indent">Mit O. Nm. ein feindseliges Gespräch, wegen der <rs type="place" xml:id="pl_10635" ref="#pmb667">Partenkirchen</rs> Reise.</p>
             <pb n="68"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw n="68" place="top_left" type="pageNum">68</fw>
@@ -198,8 +197,7 @@
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51200" ref="#person_19822"><forename>Heini</forename></rs> ein <rs type="person" xml:id="pNt_51201" ref="#person_14579"><surname>Dvorak</surname></rs> Quartett.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_14579">
+   <back><listPerson><person xml:id="person_14579">
                   <persName>
                      <surname>Dvořák</surname>
                      <forename>Antonín</forename>
@@ -354,33 +352,41 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30971</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30971</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_82109b1e661086ac882d02fa24e8b774">
-            <placeName type="district">Pötzleinsdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.24354 16.3062</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2768462/</idno>
-         </place>
-         <place xml:id="place_b900112ce988d972bc2d561413e84979">
-            <placeName type="mountain">Sofienalpe</placeName>
-            <location>
-               <geo decls="#LatLng">48.244807 16.226574</geo>
-            </location>
-         </place>
-         <place xml:id="place_a513bae177c89d12226f343ac5ff1ee3">
-            <placeName type="district">Salmannsdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.25 16.3</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766841/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_5cea8f71bfa6f42547adaf63d65eb3ed">
-            <placeName type="city">Garmisch-Partenkirchen</placeName>
-            <location>
-               <geo decls="#LatLng">47.49209 11.09576</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2922530/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb169">
+               <placeName type="district">Pötzleinsdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.24354 16.3062</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2768462/</idno>
+               <idno type="obsolete-schnitzler-diary">place_82109b1e661086ac882d02fa24e8b774</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/169</idno>
+            </place>
+            <place xml:id="pmb92533">
+               <placeName type="mountain">Sofienalpe</placeName>
+               <location>
+                  <geo decls="#LatLng">48.244807 16.226574</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_b900112ce988d972bc2d561413e84979</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92533</idno>
+            </place>
+            <place xml:id="pmb91641">
+               <placeName type="district">Salmannsdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.25 16.3</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766841/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_a513bae177c89d12226f343ac5ff1ee3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91641</idno>
+            </place>
+            <place xml:id="pmb667">
+               <placeName type="city">Garmisch-Partenkirchen</placeName>
+               <location>
+                  <geo decls="#LatLng">47.49209 11.09576</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2922530/</idno>
+               <idno type="obsolete-schnitzler-diary">place_5cea8f71bfa6f42547adaf63d65eb3ed</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/667</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

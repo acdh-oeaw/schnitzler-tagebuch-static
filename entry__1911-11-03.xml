@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-006B-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3263.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3264.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1911-11-03">
             <p xml:space="preserve"><date when="1911-11-03">3/11</date> Nicht sehr wohl. Bis Mittag in dem entzückenden Hotelzimmer. 
 Zu <rs type="person" xml:id="pNt_36518" ref="#person_19759"><forename>Erich</forename> <surname>Schmidt</surname></rs>, sprach nur seine Tochter ― Zu <rs type="person" xml:id="pNt_36519" ref="#person_18122"><forename>Richard M.</forename> <surname>Meyer</surname></rs>. 
@@ -199,7 +199,7 @@ beide zu <rs type="person" xml:id="pNt_36531" ref="#person_20552"><surname>Stuck
                <fw n="279" place="top_right" type="pageNum">279</fw>
             </tei:fw>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_36532"><forename>Erich</forename></rs> und <rs type="person" xml:id="pNt_36533" ref="#person_21546"><forename>Mirjam</forename> <surname>Ziegel</surname></rs>. <rs type="person" xml:id="pNt_36534" ref="#person_21546"><forename>Mirjams</forename></rs> Erlebnisse mit dem zudringlichen 
-Direktor <rs type="person" xml:id="pNt_36535" ref="#person_21211"><surname>Weisse</surname></rs> auf der Reise <rs type="place" xml:id="pl_07674" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>―<rs type="place" xml:id="pl_07675" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>, wo sie die <rs type="work" xml:id="bibl_11271">Nora</rs> spielte. 
+Direktor <rs type="person" xml:id="pNt_36535" ref="#person_21211"><surname>Weisse</surname></rs> auf der Reise <rs type="place" xml:id="pl_07674" ref="#pmb50">Wien</rs>―<rs type="place" xml:id="pl_07675" ref="#pmb91649">Salzburg</rs>, wo sie die <rs type="work" xml:id="bibl_11271">Nora</rs> spielte. 
 Pläne und Zweifel.―</p>
             <p xml:space="preserve" rend="indent">Zu <rs type="person" xml:id="pNt_36536" ref="#person_20552"><surname>Stuckens</surname></rs>; wo <rs type="person" xml:id="pNt_36537" ref="#person_21107"><surname>Wassermann</surname></rs> und <rs type="person" xml:id="pNt_36538" ref="#person_16041"><surname>Heimann</surname></rs>. Gespräch über politisches 
 und Weltgefühl; Unheimlichkeit des Staatsgedankens.―</p>
@@ -210,7 +210,8 @@ und Weltgefühl; Unheimlichkeit des Staatsgedankens.―</p>
 Mühe; mein Gehör verschlechtert sich von Tag zu Tag. Düster nach 
 Haus. Warum mir das!</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13913">
+      </body>
+   <back><listPerson><person xml:id="person_13913">
                   <persName>
                      <surname>Brahm</surname>
                      <forename>Otto</forename>
@@ -729,19 +730,23 @@ Haus. Warum mir das!</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32526.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32526</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         <place xml:id="place_c38ad36647aca0261d667c432a4866bd">
-            <placeName type="city">Salzburg</placeName>
-            <location>
-               <geo decls="#LatLng">47.79941 13.04399</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766824/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            <place xml:id="pmb91649">
+               <placeName type="city">Salzburg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.79941 13.04399</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766824/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c38ad36647aca0261d667c432a4866bd</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91649</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

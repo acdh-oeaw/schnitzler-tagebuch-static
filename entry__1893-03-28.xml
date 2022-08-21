@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E692-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,15 +177,17 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0681.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1893-03-28">
             <p xml:space="preserve"><date when="1893-03-28">28/3</date> Brief von <rs type="person" xml:id="pNt_07180" ref="#person_15485"><forename>Mz.</forename></rs> Nur als Schuldgeständnis zu betrachten!― 
 Entsetzlich ― ―Alles vernichtet.― <rs type="person" xml:id="pNt_07181" ref="#person_14199"><forename>Gusti</forename></rs> Vormittag; Abds. mit ihr soupirt 
-<rs type="place" xml:id="pl_01446" ref="#place_734783c73a75120c23d7e2716107f9ae">Brigittenau</rs>.― Der Brief, sagt <rs type="person" xml:id="pNt_07182" ref="#person_14199"><forename>Gusti</forename></rs>, ist ein gelispeltes Mea culpa.― 
+<rs type="place" xml:id="pl_01446" ref="#pmb70">Brigittenau</rs>.― Der Brief, sagt <rs type="person" xml:id="pNt_07182" ref="#person_14199"><forename>Gusti</forename></rs>, ist ein gelispeltes Mea culpa.― 
 Begreiflich ― aus phys. Gründen.― Hoffnungsschimmer: Erschlaffung.― 
 <rs type="person" xml:id="pNt_07183" ref="#person_14199"><forename>Gusti</forename></rs>: „Ich war egoistisch genug, an unsern Verkehr zu denken.“―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14199">
+      </body>
+   <back><listPerson><person xml:id="person_14199">
                   <persName>
                      <surname>Chlum</surname>
                      <forename>Auguste</forename>
@@ -236,13 +237,15 @@ Begreiflich ― aus phys. Gründen.― Hoffnungsschimmer: Erschlaffung.―
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_734783c73a75120c23d7e2716107f9ae">
-            <placeName type="district">Brigittenau</placeName>
-            <location>
-               <geo decls="#LatLng">48.23451 16.37409</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2781400/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb70">
+               <placeName type="district">Brigittenau</placeName>
+               <location>
+                  <geo decls="#LatLng">48.23451 16.37409</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2781400/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_734783c73a75120c23d7e2716107f9ae</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/70</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

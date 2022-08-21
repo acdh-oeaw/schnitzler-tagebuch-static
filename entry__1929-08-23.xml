@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-19CC-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7343.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-08-23">
-            <p xml:space="preserve"><date when="1929-08-23">23/8</date> <rs type="place" xml:id="pl_18842" ref="#place_b69e39d38efc442d4f3faa0970eaf441">Caux</rs>, Palace.― Die schönen Zimmer, wunderbarer Blick. In den Garten 
+            <p xml:space="preserve"><date when="1929-08-23">23/8</date> <rs type="place" xml:id="pl_18842" ref="#pmb90460">Caux</rs>, Palace.― Die schönen Zimmer, wunderbarer Blick. In den Garten 
 allein spazieren, später mit <rs type="person" xml:id="pNt_87553" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> weiter, von Landschaft entzückt.</p>
             <p xml:space="preserve" rend="indent">Nm. Briefe etc.―</p>
             <p xml:space="preserve" rend="indent">Spaziergang gegen Abd. Terrasse.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_18863">
+      </body>
+   <back><listPerson><person xml:id="person_18863">
                   <persName>
                      <surname>Pollaczek</surname>
                      <forename>Clara Katharina</forename>
@@ -214,13 +215,15 @@ allein spazieren, später mit <rs type="person" xml:id="pNt_87553" ref="#person_
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12435</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12435</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_b69e39d38efc442d4f3faa0970eaf441">
-            <placeName type="city">Caux</placeName>
-            <location>
-               <geo decls="#LatLng">46.43241 6.93855</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2661247/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb90460">
+               <placeName type="city">Caux</placeName>
+               <location>
+                  <geo decls="#LatLng">46.43241 6.93855</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2661247/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_b69e39d38efc442d4f3faa0970eaf441</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90460</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

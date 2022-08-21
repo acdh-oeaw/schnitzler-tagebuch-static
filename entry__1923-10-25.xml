@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-117C-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,16 +177,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6131.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-10-25">
             <p xml:space="preserve"><date when="1923-10-25">25/10</date> Dictirt Briefe.―</p>
             <p xml:space="preserve" rend="indent">Nachm. vertrödelt.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70535" ref="#person_17587"><forename>Ernst</forename> <surname>Lissauer</surname></rs> besucht mich. Er sucht Stellung in <rs type="place" xml:id="pl_15129" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>. Über seine 
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_70535" ref="#person_17587"><forename>Ernst</forename> <surname>Lissauer</surname></rs> besucht mich. Er sucht Stellung in <rs type="place" xml:id="pl_15129" ref="#pmb50">Wien</rs>. Über seine 
 geisteskranke Frau. Über „<rs type="work" subtype="self" xml:id="bibl_2083">Dämmerseelen</rs>“, meinen angeblichen 
 „Fatalismus“ u. a. ― Angeregtes Gespräch ―</p>
             <p xml:space="preserve" rend="indent">Bei <rs type="person" xml:id="pNt_70536" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> z. N., wo ihr Bruder <rs type="person" xml:id="pNt_70537" ref="#person_17611"><forename>Otto</forename></rs> mit Gattin und ihr Bruder <rs ref="#person_17608" type="person" xml:id="pNt_70538"><forename>Fredy</forename></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_17608">
+      </body>
+   <back><listPerson><person xml:id="person_17608">
                   <persName>
                      <surname>Loeb</surname>
                      <forename>Alfred</forename>
@@ -296,12 +297,14 @@ geisteskranke Frau. Über „<rs type="work" subtype="self" xml:id="bibl_2083">D
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb20552</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/20552</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F389-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1708.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1902-09-06">
-            <p xml:space="preserve"><date when="1902-09-06">6/9</date> Rad <rs type="place" xml:id="pl_04104" ref="#place_011f95c064510a49374a120c0dd30e07">Vorder-</rs> <rs type="place" xml:id="pl_04104x" ref="#place_011f95c064510a49374a120c0dd30e07x">Mitterstoder</rs>.― Nm. <rs type="work" subtype="self" xml:id="bibl_18080">Hexerei</rs> Novelle durchgeschaut.―</p>
+            <p xml:space="preserve"><date when="1902-09-06">6/9</date> Rad <rs type="place" xml:id="pl_04104" ref="#pmb92027">Vorder-</rs> <rs type="place" xml:id="pl_04104x" ref="#pmb91255">Mitterstoder</rs>.― Nm. <rs type="work" subtype="self" xml:id="bibl_18080">Hexerei</rs> Novelle durchgeschaut.―</p>
          </div>
-      </body><back><listBibl><bibl xml:id="pmb30683">
+      </body>
+   <back><listBibl><bibl xml:id="pmb30683">
                   <author role="author">
                      <persName>
                         <surname>Schnitzler</surname>
@@ -202,19 +203,23 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30683</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30683</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_011f95c064510a49374a120c0dd30e07">
-            <placeName type="city">Vorderstoder</placeName>
-            <location>
-               <geo decls="#LatLng">47.71337 14.22712</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2762185/</idno>
-         </place>
-         <place xml:id="place_011f95c064510a49374a120c0dd30e07x">
-            <placeName type="city">Mitterstoder</placeName>
-            <location>
-               <geo decls="#LatLng">47.70427 14.16889</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/11820098/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92027">
+               <placeName type="city">Vorderstoder</placeName>
+               <location>
+                  <geo decls="#LatLng">47.71337 14.22712</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2762185/</idno>
+               <idno type="obsolete-schnitzler-diary">place_011f95c064510a49374a120c0dd30e07</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92027</idno>
+            </place>
+            <place xml:id="pmb91255">
+               <placeName type="city">Mitterstoder</placeName>
+               <location>
+                  <geo decls="#LatLng">47.70427 14.16889</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/11820098/</idno>
+               <idno type="obsolete-schnitzler-diary">place_011f95c064510a49374a120c0dd30e07x</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91255</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

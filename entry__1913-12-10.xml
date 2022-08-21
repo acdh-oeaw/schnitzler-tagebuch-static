@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-036B-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,9 +177,10 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3736.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1913-12-10">
-            <p xml:space="preserve"><date when="1913-12-10">10/12</date> Vm. Burgth. Probe (<rs type="place" xml:id="pl_08553" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>) <rs type="work" subtype="self" xml:id="bibl_9802">1. u. 2. Akt</rs>.―</p>
+            <p xml:space="preserve"><date when="1913-12-10">10/12</date> Vm. Burgth. Probe (<rs type="place" xml:id="pl_08553" ref="#pmb58">Josefstadt</rs>) <rs type="work" subtype="self" xml:id="bibl_9802">1. u. 2. Akt</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. offnen (?) Brief an <rs type="person" xml:id="pNt_42253" ref="#person_16477"><surname>Jacobsohn</surname></rs> (dumme Notiz, <rs type="person" xml:id="pNt_42254" ref="#person_19135"><surname>Reik</surname></rs>) entworfen; 
 an der <rs type="work" subtype="self" xml:id="bibl_9803">Novelle</rs>.―</p>
             <p xml:space="preserve" rend="indent">Symph. Concert (Dirigent <rs type="person" xml:id="pNt_42255" ref="#person_17025"><surname>Konrath</surname></rs>) mit <rs type="person" xml:id="pNt_42256" ref="#person_16770"><surname>Kaufmann</surname></rs>. Sprach <rs type="person" xml:id="pNt_42257" ref="#person_13594"><surname>Benedikt</surname></rs> (<rs type="figur">Cyprian</rs>) 
@@ -188,7 +188,8 @@ nach Jahren (über neue Orchesterkunst, <rs type="person" xml:id="pNt_42259" ref
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_42261"><surname>Kfm.</surname></rs> Imperial; über Schriftsteller ― Dichter ― (<rs type="person" xml:id="pNt_42262" ref="#person_16041"><surname>Heimann</surname></rs> ― <rs type="person" xml:id="pNt_42263"><surname>Mann</surname></rs>); 
 über den <rs type="work" subtype="self" xml:id="bibl_9804">Einsamen Weg</rs> u. a.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16041">
+      </body>
+   <back><listPerson><person xml:id="person_16041">
                   <persName>
                      <surname>Heimann</surname>
                      <forename>Moritz</forename>
@@ -554,12 +555,14 @@ nach Jahren (über neue Orchesterkunst, <rs type="person" xml:id="pNt_42259" ref
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29985</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29985</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_a9a988302086229505c21f885134919d">
-            <placeName type="district">Josefstadt</placeName>
-            <location>
-               <geo decls="#LatLng">48.21126 16.34706</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2775027/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb58">
+               <placeName type="district">Josefstadt</placeName>
+               <location>
+                  <geo decls="#LatLng">48.21126 16.34706</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2775027/</idno>
+               <idno type="obsolete-schnitzler-diary">place_a9a988302086229505c21f885134919d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

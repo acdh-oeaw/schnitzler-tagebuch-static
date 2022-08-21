@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E9FE-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,12 +177,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1051.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1895-08-27">
-            <p xml:space="preserve"><date when="1895-08-27">27/8</date> Mit <rs type="person" xml:id="pNt_10941" ref="#person_19542"><surname>Salten</surname></rs> Bic. über <rs type="place" xml:id="pl_02118" ref="#place_ec3b8f91abd5adbb9fc8134582a34868">Holzkirchen</rs> nach <rs type="place" xml:id="pl_02119" ref="#place_d0a6343a081a7335baa965ce4fd0845c">München</rs>.― Hier Abends 
+            <p xml:space="preserve"><date when="1895-08-27">27/8</date> Mit <rs type="person" xml:id="pNt_10941" ref="#person_19542"><surname>Salten</surname></rs> Bic. über <rs type="place" xml:id="pl_02118" ref="#pmb90905">Holzkirchen</rs> nach <rs type="place" xml:id="pl_02119" ref="#pmb45258">München</rs>.― Hier Abends 
 <rs type="work" xml:id="bibl_22223">Meistersinger</rs>.― Lauter gute Briefe fanden sich vor.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19542">
+      </body>
+   <back><listPerson><person xml:id="person_19542">
                   <persName>
                      <surname>Salten</surname>
                      <forename>Felix</forename>
@@ -233,21 +234,25 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30661</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30661</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_ec3b8f91abd5adbb9fc8134582a34868">
-            <placeName type="city">Holzkirchen</placeName>
-            <location>
-               <geo decls="#LatLng">47.87663 11.70181</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2899676/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_d0a6343a081a7335baa965ce4fd0845c">
-            <placeName type="city">München</placeName>
-            <location>
-               <geo decls="#LatLng">48.13743 11.57549</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2867714/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb90905">
+               <placeName type="city">Holzkirchen</placeName>
+               <location>
+                  <geo decls="#LatLng">47.87663 11.70181</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2899676/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_ec3b8f91abd5adbb9fc8134582a34868</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90905</idno>
+            </place>
+            <place xml:id="pmb45258">
+               <placeName type="city">München</placeName>
+               <location>
+                  <geo decls="#LatLng">48.13743 11.57549</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2867714/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_d0a6343a081a7335baa965ce4fd0845c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F8F2-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,12 +179,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1906-07-03">
-            <p xml:space="preserve"><date when="1906-07-03">3/7</date> Spazierg.― <rs type="place" xml:id="pl_05601" ref="#place_e70463985ec0df2dfd04711a244a44e0">Helsingborg</rs> ― Wagen <rs type="place" xml:id="pl_05602" ref="#place_0ec05b1e8fa1e73dba03288b4b6c43a3">Aalsgaard</rs>.―</p>
+            <p xml:space="preserve"><date when="1906-07-03">3/7</date> Spazierg.― <rs type="place" xml:id="pl_05601" ref="#pmb90861">Helsingborg</rs> ― Wagen <rs type="place" xml:id="pl_05602" ref="#pmb90178">Aalsgaard</rs>.―</p>
             <p xml:space="preserve" rend="indent">(Las „<rs type="work" xml:id="bibl_15079">Rangierbahnhof</rs>“ von der <rs type="person" xml:id="pNt_25210" ref="#person_13829"><surname>Böhlau</surname></rs>.)</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13829">
+   <back><listPerson><person xml:id="person_13829">
                   <persName>
                      <surname>Böhlau</surname>
                      <forename>Helene</forename>
@@ -230,22 +228,26 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78648.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78648.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_e70463985ec0df2dfd04711a244a44e0">
-            <placeName type="city">Helsingborg</placeName>
-            <location>
-               <geo decls="#LatLng">56.04673 12.69437</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2706767/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_0ec05b1e8fa1e73dba03288b4b6c43a3">
-            <placeName type="city">Aalsgaard</placeName>
-            <placeName type="alt">Ålsgårde</placeName>
-            <location>
-               <geo decls="#LatLng">56.07559 12.53995</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2624784/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb90861">
+               <placeName type="city">Helsingborg</placeName>
+               <location>
+                  <geo decls="#LatLng">56.04673 12.69437</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2706767/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_e70463985ec0df2dfd04711a244a44e0</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90861</idno>
+            </place>
+            <place xml:id="pmb90178">
+               <placeName type="city">Aalsgaard</placeName>
+               <placeName type="alt">Ålsgårde</placeName>
+               <location>
+                  <geo decls="#LatLng">56.07559 12.53995</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2624784/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_0ec05b1e8fa1e73dba03288b4b6c43a3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90178</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

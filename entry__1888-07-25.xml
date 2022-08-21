@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E082-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,33 +177,41 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0349.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1888-07-25">
-            <p xml:space="preserve"><date when="1888-07-25">25/7</date> Mittwoch. <rs type="place" xml:id="pl_00704" ref="#place_32ce05e138b10ec1e22c4feae285d05f">Newport</rs> ― Cowes <rs type="place" xml:id="pl_00705" ref="#place_6fc83c551ba6be24246201aa38176ea6">Ryde</rs> ― <rs type="place" xml:id="pl_00706" ref="#place_59ead8d1e124ccfb79f3ace06f43e703">London</rs>.― H. O.</p>
+            <p xml:space="preserve"><date when="1888-07-25">25/7</date> Mittwoch. <rs type="place" xml:id="pl_00704" ref="#pmb91348">Newport</rs> ― Cowes <rs type="place" xml:id="pl_00705" ref="#pmb91626">Ryde</rs> ― <rs type="place" xml:id="pl_00706" ref="#pmb224">London</rs>.― H. O.</p>
          </div>
-      </body><back><listPlace><place xml:id="place_32ce05e138b10ec1e22c4feae285d05f">
-            <placeName type="city">Newport</placeName>
-            <location>
-               <geo decls="#LatLng">50.70146 -1.29124</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2641599/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_6fc83c551ba6be24246201aa38176ea6">
-            <placeName type="city">Ryde</placeName>
-            <location>
-               <geo decls="#LatLng">50.72999 -1.1621</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2638911/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_59ead8d1e124ccfb79f3ace06f43e703">
-            <placeName type="city">London</placeName>
-            <location>
-               <geo decls="#LatLng">51.50853 -0.12574</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2643743/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+      </body>
+   <back><listPlace><place xml:id="pmb91348">
+               <placeName type="city">Newport</placeName>
+               <location>
+                  <geo decls="#LatLng">50.70146 -1.29124</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2641599/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_32ce05e138b10ec1e22c4feae285d05f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91348</idno>
+            </place>
+            <place xml:id="pmb91626">
+               <placeName type="city">Ryde</placeName>
+               <location>
+                  <geo decls="#LatLng">50.72999 -1.1621</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2638911/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_6fc83c551ba6be24246201aa38176ea6</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91626</idno>
+            </place>
+            <place xml:id="pmb224">
+               <placeName type="city">London</placeName>
+               <location>
+                  <geo decls="#LatLng">51.50853 -0.12574</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2643743/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_59ead8d1e124ccfb79f3ace06f43e703</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/224</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F777-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,16 +176,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2090.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-06-19">
             <p xml:space="preserve"><date when="1905-06-19">19/6</date> Vm. Tennis. (<rs type="person" xml:id="pNt_23049" ref="#person_19542"><surname>Salten</surname></rs>.)</p>
             <p xml:space="preserve" rend="indent">Nm.<rs ref="#person_18789" type="person" xml:id="pNt_23050"><roleName>Frau</roleName> <surname>v. Pienczykowska</surname></rs> da, die mir <rs type="place" xml:id="pl_05215" ref="#place_55c76de3045e4a0a1e0b4506c5e2d403" ana="#exclude">französ.</rs> Übersetzung des Bands 
 „<rs type="work" subtype="self" xml:id="bibl_15770">griechische Tänzerin</rs>“ gesandt.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05216" ref="#place_b333d193dca0791c0cf701b0749dc4ce">Hinterbrühl</rs> bei <rs type="person" xml:id="pNt_23051" ref="#person_20386"><forename>Liesl</forename></rs>.―</p>
+            <p xml:space="preserve" rend="indent">Mit O. <rs type="place" xml:id="pl_05216" ref="#pmb75">Hinterbrühl</rs> bei <rs type="person" xml:id="pNt_23051" ref="#person_20386"><forename>Liesl</forename></rs>.―</p>
             <p xml:space="preserve" rend="indent">Drei Genien müßten Wachestehn, während der Künstler schafft: 
 Unbeirrtheit, Einsamkeit, Sorgenfreiheit.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19542">
+      </body>
+   <back><listPerson><person xml:id="person_19542">
                   <persName>
                      <surname>Salten</surname>
                      <forename>Felix</forename>
@@ -267,12 +268,14 @@ Unbeirrtheit, Einsamkeit, Sorgenfreiheit.―</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30301.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30301</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_b333d193dca0791c0cf701b0749dc4ce">
-            <placeName type="city">Hinterbrühl</placeName>
-            <location>
-               <geo decls="#LatLng">48.08611 16.24809</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776358/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb75">
+               <placeName type="city">Hinterbrühl</placeName>
+               <location>
+                  <geo decls="#LatLng">48.08611 16.24809</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776358/</idno>
+               <idno type="obsolete-schnitzler-diary">place_b333d193dca0791c0cf701b0749dc4ce</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/75</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

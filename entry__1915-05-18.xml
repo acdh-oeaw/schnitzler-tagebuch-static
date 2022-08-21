@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0575-B</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,10 +178,11 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4044.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4045.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1915-05-18">
             <p xml:space="preserve"><date when="1915-05-18">18/5</date> Dictirt („<rs type="work" subtype="self" xml:id="bibl_8139">Eifersucht</rs>“ Skizze).―</p>
-            <p xml:space="preserve" rend="indent">Mit O. Nm. <rs type="place" xml:id="pl_09372" ref="#place_6fc6f10422bfe80ddcba23b4f7f080dc">Hietzing</rs>, zu <rs type="person" xml:id="pNt_45627" ref="#person_16910"><surname>Klimt</surname></rs>. Atelier <rs type="place" xml:id="pl_09373" ref="#place_23d92dc3c1f9f4fe3a80d49eb4800faa">Feldmühlgasse</rs>, mitten in altem 
+            <p xml:space="preserve" rend="indent">Mit O. Nm. <rs type="place" xml:id="pl_09372" ref="#pmb63">Hietzing</rs>, zu <rs type="person" xml:id="pNt_45627" ref="#person_16910"><surname>Klimt</surname></rs>. Atelier <rs type="place" xml:id="pl_09373" ref="#pmb92235">Feldmühlgasse</rs>, mitten in altem 
 Garten. Er zeigt mir seine Zeichnungen, einige Bilder, Landschaften, 
 Portraits, Phantasien, vollendete und unvollendete; insbesondre die 
 Landschaften wunderschön. Er ist noch nach keinem „glücklich“ 
@@ -190,12 +190,13 @@ gewesen. Er signirt mir die gekaufte Zeichnung, gibt O. eine Photographie
 mit. Führt uns in Räumen und Garten umher; und ich fühle, bei allen 
 Unterschieden, und der Überlegenheit seiner Künstlerschaft gegenüber,― 
 eine ganz im tiefen verborgene Verwandtschaft.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. durch den <rs type="place" xml:id="pl_09374" ref="#place_c2e186fca4448a726e594d611bfb4494">Schönbrunnergarten</rs>, in schwüler Sommerstimmung, und 
+            <p xml:space="preserve" rend="indent">Mit O. durch den <rs type="place" xml:id="pl_09374" ref="#pmb92519">Schönbrunnergarten</rs>, in schwüler Sommerstimmung, und 
 von dem allgemeinen Zustand der Welt bedrückt.―</p>
             <p xml:space="preserve" rend="indent">Abend auf dem Balkon.―</p>
             <p xml:space="preserve" rend="indent">Die Correctur der „<rs type="work" subtype="self" xml:id="bibl_8140">Großen Scene</rs>“ von der <rs type="work" subtype="newspaper" xml:id="bibl_8141">N. Fr. Pr.</rs> durchgesehn.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16910">
+      </body>
+   <back><listPerson><person xml:id="person_16910">
                   <persName>
                      <surname>Klimt</surname>
                      <forename>Gustav</forename>
@@ -264,27 +265,33 @@ von dem allgemeinen Zustand der Welt bedrückt.―</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30819</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30819</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_6fc6f10422bfe80ddcba23b4f7f080dc">
-            <placeName type="district">Hietzing</placeName>
-            <location>
-               <geo decls="#LatLng">48.17547 16.29101</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776420/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_23d92dc3c1f9f4fe3a80d49eb4800faa">
-            <placeName type="street">Feldmühlgasse</placeName>
-            <location>
-               <geo decls="#LatLng">48.188257 16.283445</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_c2e186fca4448a726e594d611bfb4494">
-            <placeName type="park">Schönbrunnerpark</placeName>
-            <placeName type="alt">Schönbrunner Schlosspark</placeName>
-            <location>
-               <geo decls="#LatLng">48.1806202 16.3067984</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb63">
+               <placeName type="district">Hietzing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.17547 16.29101</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776420/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_6fc6f10422bfe80ddcba23b4f7f080dc</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63</idno>
+            </place>
+            <place xml:id="pmb92235">
+               <placeName type="street">Feldmühlgasse</placeName>
+               <location>
+                  <geo decls="#LatLng">48.188257 16.283445</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_23d92dc3c1f9f4fe3a80d49eb4800faa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92235</idno>
+            </place>
+            <place xml:id="pmb92519">
+               <placeName type="park">Schönbrunnerpark</placeName>
+               <placeName type="alt">Schönbrunner Schlosspark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.1806202 16.3067984</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_c2e186fca4448a726e594d611bfb4494</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92519</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

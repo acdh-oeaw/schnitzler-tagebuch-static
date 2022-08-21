@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DE6A-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,9 +177,10 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0181.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1882-08-05">
-            <p xml:space="preserve"><date when="1882-08-05">5. 8.</date> <rs type="place" xml:id="pl_00301" ref="#place_aa91a9fbe032ecd8738607f09ea24f0d">Davos</rs> ― <rs type="place" xml:id="pl_00302" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs> (über den <rs type="place" xml:id="pl_00303" ref="#place_013cb17810f74d141f08803ec5a688db">Albulapass</rs>)</p>
+            <p xml:space="preserve"><date when="1882-08-05">5. 8.</date> <rs type="place" xml:id="pl_00301" ref="#pmb892">Davos</rs> ― <rs type="place" xml:id="pl_00302" ref="#pmb34946">Pontresina</rs> (über den <rs type="place" xml:id="pl_00303" ref="#pmb92136">Albulapass</rs>)</p>
             <pb n="137"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_center">
@@ -189,27 +189,34 @@
                <fw place="top_right" type="pageNum">137</fw>
             </tei:fw>
          </div>
-      </body><back><listPlace><place xml:id="place_aa91a9fbe032ecd8738607f09ea24f0d">
-            <placeName type="city">Davos</placeName>
-            <location>
-               <geo decls="#LatLng">46.80429 9.83723</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2661039/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_ed6893b78d32ca570adf82aa6fe6e5be">
-            <placeName type="city">Pontresina</placeName>
-            <location>
-               <geo decls="#LatLng">46.4955 9.90126</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2659172/</idno>
-         </place>
-         <place xml:id="place_013cb17810f74d141f08803ec5a688db">
-            <placeName type="mountain">Albulapass</placeName>
-            <location>
-               <geo decls="#LatLng">46.584 9.839</geo>
-            </location>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+      </body>
+   <back><listPlace><place xml:id="pmb892">
+               <placeName type="city">Davos</placeName>
+               <location>
+                  <geo decls="#LatLng">46.80429 9.83723</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2661039/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_aa91a9fbe032ecd8738607f09ea24f0d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/892</idno>
+            </place>
+            <place xml:id="pmb34946">
+               <placeName type="city">Pontresina</placeName>
+               <location>
+                  <geo decls="#LatLng">46.4955 9.90126</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2659172/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ed6893b78d32ca570adf82aa6fe6e5be</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/34946</idno>
+            </place>
+            <place xml:id="pmb92136">
+               <placeName type="mountain">Albulapass</placeName>
+               <location>
+                  <geo decls="#LatLng">46.584 9.839</geo>
+               </location>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_013cb17810f74d141f08803ec5a688db</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92136</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

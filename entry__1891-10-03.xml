@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E476-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0563.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0564.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1891-10-03">
             <p xml:space="preserve"><date when="1891-10-03">3. 10.</date> ― Ziemlich viele Ideen in den letzten Monaten. Dadurch, daß 
 aber jede einzelne nach verschiedenen Richtungen auseinanderläuft, 
@@ -194,11 +194,12 @@ schwindender Liebe schmeckt. Und dabei: so unerhört nervös, krank
 geradezu mich zuweilen ein Wort, eine Bewegung, ein Nichts von ihr 
 macht ― das auseinandergehn ― insbesondre nach solchen 
 vernichtenden Abenden ― das unleidlichste.―</p>
-            <p xml:space="preserve" rend="indent">― Vormittag begleitete ich sie nach <rs type="place" xml:id="pl_01233" ref="#place_e08f67e87755f34f857023df12e0fde1">Mariahilf</rs>, wo wir zärtlich und 
+            <p xml:space="preserve" rend="indent">― Vormittag begleitete ich sie nach <rs type="place" xml:id="pl_01233" ref="#pmb56">Mariahilf</rs>, wo wir zärtlich und 
 wohl waren.―</p>
             <p xml:space="preserve" rend="indent">― Beide sind wir entsetzlich nervös ―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15485">
+      </body>
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -226,13 +227,15 @@ wohl waren.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14953</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/14953</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_e08f67e87755f34f857023df12e0fde1">
-            <placeName type="district">Mariahilf</placeName>
-            <location>
-               <geo decls="#LatLng">48.19522 16.35032</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2771932/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb56">
+               <placeName type="district">Mariahilf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.19522 16.35032</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2771932/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_e08f67e87755f34f857023df12e0fde1</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/56</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

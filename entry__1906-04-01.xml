@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F895-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,16 +176,18 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2211.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1906-04-01">
-            <p xml:space="preserve"><date when="1906-04-01">1/4</date> Vm. (Regen und Sonnenschein) spazieren <rs type="place" xml:id="pl_05487" ref="#place_431168489e6885d4e91ebc5edec7dfb4">Grinzing</rs>, <rs type="place" xml:id="pl_05488" ref="#place_86f90c857ca2c813e066ea7b3502cb7c">Hohe Warte</rs>.―</p>
+            <p xml:space="preserve"><date when="1906-04-01">1/4</date> Vm. (Regen und Sonnenschein) spazieren <rs type="place" xml:id="pl_05487" ref="#pmb90771">Grinzing</rs>, <rs type="place" xml:id="pl_05488" ref="#pmb92292">Hohe Warte</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_14891">Roman</rs>.</p>
             <p xml:space="preserve" rend="indent">Viel musizirt. <rs type="work" xml:id="bibl_14892">Lohengrin</rs>; Vocalisen und „<rs type="work" xml:id="bibl_14893">Entführung</rs>“ mit O.</p>
             <p xml:space="preserve" rend="indent">Auf dem Spazierg. über einen Aufsatz meditirt: „<rs type="work" subtype="self" xml:id="bibl_14894">Wie sich die Leute 
 das Dichten vorstellen</rs>.“ ―</p>
             <p xml:space="preserve" rend="indent">Lese vorwiegend <rs type="person" xml:id="pNt_24686" ref="#person_17599"><surname>Litzmanns</surname></rs> „<rs type="work" xml:id="bibl_14895"><rs type="person" xml:id="pNt_24687"><forename>Clara</forename> <surname>Schumann</surname></rs></rs>“.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_17599">
+      </body>
+   <back><listPerson><person xml:id="person_17599">
                   <persName>
                      <surname>Litzmann</surname>
                      <forename>Berthold</forename>
@@ -299,19 +300,23 @@ das Dichten vorstellen</rs>.“ ―</p>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30823.html</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30823</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_431168489e6885d4e91ebc5edec7dfb4">
-            <placeName type="district">Grinzing</placeName>
-            <location>
-               <geo decls="#LatLng">48.25 16.33333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2777937/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_86f90c857ca2c813e066ea7b3502cb7c">
-            <placeName type="street">Hohe Warte</placeName>
-            <location>
-               <geo decls="#LatLng">48.248422 16.355191</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb90771">
+               <placeName type="district">Grinzing</placeName>
+               <location>
+                  <geo decls="#LatLng">48.25 16.33333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2777937/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_431168489e6885d4e91ebc5edec7dfb4</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90771</idno>
+            </place>
+            <place xml:id="pmb92292">
+               <placeName type="street">Hohe Warte</placeName>
+               <location>
+                  <geo decls="#LatLng">48.248422 16.355191</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_86f90c857ca2c813e066ea7b3502cb7c</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92292</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

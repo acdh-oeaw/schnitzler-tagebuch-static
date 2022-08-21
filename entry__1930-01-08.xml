@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A56-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,8 +180,8 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1930-01-08">
-            <p xml:space="preserve"><date when="1930-01-08">8/1</date> <rs type="place" xml:id="pl_19039" ref="#place_ee1611b61f5688e70c12b40684dbb395">Berlin</rs>.― Schönes Wetter in diesen Tagen. Brief aus <rs type="place" xml:id="pl_19040" ref="#place_e20d37a5d7fcc4c35be6fc18a8e71bfa">Paris</rs>.―</p>
-            <p xml:space="preserve" rend="indent">In den <rs type="place" xml:id="pl_19041" ref="#place_db4a42a192c3c97a2871005a8ccd6439">Grunewald</rs>. Spazierg. mit <rs type="person" xml:id="pNt_88665" ref="#person_18137"><forename>Dora</forename></rs> und Gespräch.― Über die 
+            <p xml:space="preserve"><date when="1930-01-08">8/1</date> <rs type="place" xml:id="pl_19039" ref="#pmb168">Berlin</rs>.― Schönes Wetter in diesen Tagen. Brief aus <rs type="place" xml:id="pl_19040" ref="#pmb182">Paris</rs>.―</p>
+            <p xml:space="preserve" rend="indent">In den <rs type="place" xml:id="pl_19041" ref="#pmb129">Grunewald</rs>. Spazierg. mit <rs type="person" xml:id="pNt_88665" ref="#person_18137"><forename>Dora</forename></rs> und Gespräch.― Über die 
 Complicationen (und positiven Werthe) meiner Existenz. Ahnunglose 
 Befriedigung <rs type="person" xml:id="pNt_88666" ref="#person_19832"><forename>O.s</forename></rs> ―</p>
             <p xml:space="preserve" rend="indent">Speiste bei <rs ref="#person_18140" type="person" xml:id="pNt_88667"><surname>M.s</surname></rs>. Der junge Violinspieler <rs type="person" xml:id="pNt_88668" ref="#person_17534"><surname>Liepmann</surname></rs>.</p>
@@ -193,8 +192,7 @@ hat <rs type="person" xml:id="pNt_88674" ref="#person_19832"><forename>O.</foren
 über Humor.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_18137">
+   <back><listPerson><person xml:id="person_18137">
                   <persName>
                      <surname>Michaelis</surname>
                      <forename>Dora</forename>
@@ -367,28 +365,34 @@ hat <rs type="person" xml:id="pNt_88674" ref="#person_19832"><forename>O.</foren
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21602</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/54787/</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_ee1611b61f5688e70c12b40684dbb395">
-            <placeName type="city">Berlin</placeName>
-            <location>
-               <geo decls="#LatLng">52.52437 13.41053</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2950159/</idno>
-         </place>
-         <place xml:id="place_e20d37a5d7fcc4c35be6fc18a8e71bfa">
-            <placeName type="city">Paris</placeName>
-            <location>
-               <geo decls="#LatLng">48.85341 2.3488</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2988507/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_db4a42a192c3c97a2871005a8ccd6439">
-            <placeName type="district">Grunewald</placeName>
-            <location>
-               <geo decls="#LatLng">52.48338 13.26586</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2914210/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb168">
+               <placeName type="city">Berlin</placeName>
+               <location>
+                  <geo decls="#LatLng">52.52437 13.41053</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2950159/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ee1611b61f5688e70c12b40684dbb395</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+            </place>
+            <place xml:id="pmb182">
+               <placeName type="city">Paris</placeName>
+               <location>
+                  <geo decls="#LatLng">48.85341 2.3488</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2988507/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_e20d37a5d7fcc4c35be6fc18a8e71bfa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/182</idno>
+            </place>
+            <place xml:id="pmb129">
+               <placeName type="district">Grunewald</placeName>
+               <location>
+                  <geo decls="#LatLng">52.48338 13.26586</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2914210/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_db4a42a192c3c97a2871005a8ccd6439</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/129</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

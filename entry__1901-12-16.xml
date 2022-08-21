@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F29B-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,11 +177,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1661.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1901-12-16">
-            <p xml:space="preserve"><date when="1901-12-16">16/12</date> Mit <rs type="person" xml:id="pNt_18286" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" xml:id="pl_03827" ref="#place_c79ad839f84019f53250a4e6365359f9">Neuwaldegg</rs>. Abd. bei <rs type="person" xml:id="pNt_18287" ref="#person_19832"><forename>O.</forename></rs> Qu. <rs type="person" xml:id="pNt_18288" ref="#person_19351"><surname>Rosé</surname></rs>.</p>
+            <p xml:space="preserve"><date when="1901-12-16">16/12</date> Mit <rs type="person" xml:id="pNt_18286" ref="#person_19986"><forename>Gustav</forename></rs> <rs type="place" xml:id="pl_03827" ref="#pmb170">Neuwaldegg</rs>. Abd. bei <rs type="person" xml:id="pNt_18287" ref="#person_19832"><forename>O.</forename></rs> Qu. <rs type="person" xml:id="pNt_18288" ref="#person_19351"><surname>Rosé</surname></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19351">
+      </body>
+   <back><listPerson><person xml:id="person_19351">
                   <persName>
                      <surname>Rosé</surname>
                      <forename>Arnold</forename>
@@ -270,13 +271,15 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_c79ad839f84019f53250a4e6365359f9">
-            <placeName type="district">Neuwaldegg</placeName>
-            <location>
-               <geo decls="#LatLng">48.23429 16.29095</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2770640/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb170">
+               <placeName type="district">Neuwaldegg</placeName>
+               <location>
+                  <geo decls="#LatLng">48.23429 16.29095</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2770640/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c79ad839f84019f53250a4e6365359f9</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/170</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

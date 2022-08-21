@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F028-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -171,13 +170,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1900-02-16">
-            <p xml:space="preserve"><date when="1900-02-16">16/2</date> Mit <rs type="person" xml:id="pNt_16867" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> neue Wohnung <rs type="place" xml:id="pl_03321" ref="#place_e2126a092a86733f5da8d4adc169adcd">H.gasse</rs>.―</p>
-            <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_18406">Unsre Gusti</rs>“ <rs type="place" xml:id="pl_03322" ref="#place_a9a988302086229505c21f885134919d">Josefstadt</rs>, mit <rs type="person" xml:id="pNt_16868" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>―</p>
+            <p xml:space="preserve"><date when="1900-02-16">16/2</date> Mit <rs type="person" xml:id="pNt_16867" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> neue Wohnung <rs type="place" xml:id="pl_03321" ref="#pmb92266">H.gasse</rs>.―</p>
+            <p xml:space="preserve" rend="indent">„<rs type="work" xml:id="bibl_18406">Unsre Gusti</rs>“ <rs type="place" xml:id="pl_03322" ref="#pmb58">Josefstadt</rs>, mit <rs type="person" xml:id="pNt_16868" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs>―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="person" xml:id="pNt_16869" ref="#person_16972"><forename>Wilhelm</forename> <surname>König</surname></rs> und Dr. <rs type="person" xml:id="pNt_16870" ref="#person_13543"><forename>Ludwig</forename> <surname>Beer</surname></rs> bei mir.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_13543">
+   <back><listPerson><person xml:id="person_13543">
                   <persName>
                      <surname>Beer</surname>
                      <forename>Ludwig</forename>
@@ -250,16 +248,20 @@
                   <gloss type="w1149">Schwank</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb81143.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_e2126a092a86733f5da8d4adc169adcd">
-            <placeName type="street">H.gasse</placeName>
-            <note type="notToVerify"/>
-         </place>
-         <place xml:id="place_a9a988302086229505c21f885134919d">
-            <placeName type="district">Josefstadt</placeName>
-            <location>
-               <geo decls="#LatLng">48.21126 16.34706</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2775027/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92266">
+               <placeName type="street">H.gasse</placeName>
+               <note type="notToVerify"/>
+               <idno type="obsolete-schnitzler-diary">place_e2126a092a86733f5da8d4adc169adcd</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92266</idno>
+            </place>
+            <place xml:id="pmb58">
+               <placeName type="district">Josefstadt</placeName>
+               <location>
+                  <geo decls="#LatLng">48.21126 16.34706</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2775027/</idno>
+               <idno type="obsolete-schnitzler-diary">place_a9a988302086229505c21f885134919d</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

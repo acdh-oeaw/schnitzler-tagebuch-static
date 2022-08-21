@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A4E-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,7 +178,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4718.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4719.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-10-11">
             <p xml:space="preserve"><date when="1918-10-11">11/10</date> Sehr üble Nacht.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_54382" ref="#person_14672"><roleName>Hr.</roleName> <surname>Eipper</surname></rs>, Procurist, kommt um 11, dictirt der <rs type="person" xml:id="pNt_54383" ref="#person_18881"><forename>Kolap</forename></rs> einen Brief, 
@@ -192,13 +192,14 @@ Gesprächs stellte sich leicht heraus, daß meine Briefe sehr richtig waren
 ― und schließlich zur Gründung der Filiale geführt haben.― 
 Geschäftliches und persönliches aus dem Verlag; es that ihm sichtlich 
 wohl sich auszusprechen.― Viel über <rs type="place" xml:id="pl_11274" ref="#place_be7f11f190986254826063420695db61" ana="#exclude">Berliner</rs> Verhältnisse. Er ist 
-entsetzt über die Unanständigkeit (Preise etc.) in <rs type="place" xml:id="pl_11275" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.</p>
+entsetzt über die Unanständigkeit (Preise etc.) in <rs type="place" xml:id="pl_11275" ref="#pmb50">Wien</rs>.</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_5883">Weiher</rs>“.―</p>
-            <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_54387" ref="#person_18916"><surname>Popper</surname></rs>. Er sieht die Zukunft, besonders <rs type="place" xml:id="pl_11276" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wiens</rs>, und ganz 
+            <p xml:space="preserve" rend="indent">Mit O. bei <rs type="person" xml:id="pNt_54387" ref="#person_18916"><surname>Popper</surname></rs>. Er sieht die Zukunft, besonders <rs type="place" xml:id="pl_11276" ref="#pmb50">Wiens</rs>, und ganz 
 besonders der Juden ganz schwarz.― Hr. <rs type="person" xml:id="pNt_54388"><forename>Sigm.</forename> <surname>Münz</surname></rs> bei ihm.</p>
             <p xml:space="preserve" rend="indent">N. d. N. <rs type="person" xml:id="pNt_54389" ref="#person_19874"><surname>Schott</surname></rs> und Frau.― Mit <rs type="person" xml:id="pNt_54390" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_54391" ref="#person_13882"><surname>Borodin</surname></rs> Qu.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13882">
+      </body>
+   <back><listPerson><person xml:id="person_13882">
                   <persName>
                      <surname>Borodin</surname>
                      <forename>Alexander P.</forename>
@@ -479,12 +480,14 @@ besonders der Juden ganz schwarz.― Hr. <rs type="person" xml:id="pNt_54388"><f
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30775</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30775</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

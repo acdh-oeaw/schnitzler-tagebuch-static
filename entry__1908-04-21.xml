@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB60-E</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,7 +177,8 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2499.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2500.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-04-21">
             <p xml:space="preserve"><date when="1908-04-21">21/4</date> Vm. Besorgungen Stadt. Überall Elogen über die <rs type="work" subtype="self" xml:id="bibl_13379">Comt. Mizzi</rs> (<rs type="person" xml:id="pNt_28196" ref="#person_18420"><surname>Neumann</surname></rs> 
 in der Boden Credit Anstalt … „ein echter Schn. …
@@ -187,11 +187,12 @@ in der Boden Credit Anstalt … „ein echter Schn. …
 das! … Es ist eigentlich beschämend.― </p>
             <p xml:space="preserve" rend="indent">Dictirt Briefe, <rs type="work" subtype="self" xml:id="bibl_13380">alte Gedichte</rs>.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_13381">Verführer</rs>“ herumgedacht.―</p>
-            <p xml:space="preserve" rend="indent">Regisseur <rs type="person" xml:id="pNt_28199" ref="#person_16159"><surname>Herzka</surname></rs>, vom <rs type="place" ref="#place_volkstheater">Volkstheater</rs> (nachdem schon Ostermontag früh ein 
+            <p xml:space="preserve" rend="indent">Regisseur <rs type="person" xml:id="pNt_28199" ref="#person_16159"><surname>Herzka</surname></rs>, vom <rs type="place" ref="#pmb92202">Volkstheater</rs> (nachdem schon Ostermontag früh ein 
 Brief von <rs type="person" xml:id="pNt_28200" ref="#person_14939"><surname>Fellner</surname></rs> kam) wegen der <rs type="work" subtype="self" xml:id="bibl_13382">Comt. Mizzi</rs>.― Sagte nicht gleich ja, 
 weil ich das Burgth. noch in Erwägung zog.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14690">
+      </body>
+   <back><listPerson><person xml:id="person_14690">
                   <persName>
                      <surname>Eisenstein</surname>
                      <forename>Jacques</forename>
@@ -381,12 +382,14 @@ weil ich das Burgth. noch in Erwägung zog.―</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29931</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29931</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

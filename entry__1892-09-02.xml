@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E5C3-6</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,9 +178,10 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0633.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0634.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1892-09-02">
-            <p xml:space="preserve"><date when="1892-09-02">2. 9.</date> Vorm. mit <rs type="person" xml:id="pNt_06512" ref="#person_19827"><forename>Julius</forename></rs> <rs type="place" xml:id="pl_01327" ref="#place_1e3c7c657544ebb1e32a5a21f37e8121">Ziemnitzwilddnis</rs>.―</p>
+            <p xml:space="preserve"><date when="1892-09-02">2. 9.</date> Vorm. mit <rs type="person" xml:id="pNt_06512" ref="#person_19827"><forename>Julius</forename></rs> <rs type="place" xml:id="pl_01327" ref="#pmb92123">Ziemnitzwilddnis</rs>.―</p>
             <p xml:space="preserve" rend="indent">Nm. bei <rs type="person" xml:id="pNt_06513" ref="#person_15029"><roleName>Frau</roleName> <surname>Fl.</surname></rs>; vor ihr und <rs ref="#person_20136" type="person" xml:id="pNt_06514"><surname>Singer’s</surname></rs> (Mutter und Tochter) und 
 <rs type="person" xml:id="pNt_06515" ref="#person_13551"><forename>Richard</forename></rs> „<rs type="work" subtype="self" xml:id="bibl_22929">Abschiedsouper</rs>“, „<rs type="work" subtype="self" xml:id="bibl_22930">Weihnachtseink.</rs>“ „<rs type="work" subtype="self" xml:id="bibl_22931">Episode</rs>“ und <rs type="work" subtype="self" xml:id="bibl_22932">Ged.</rs> 
 vorgelesen.― <rs type="person" xml:id="pNt_06516" ref="#person_13391"><forename>Jenny</forename> <surname>S.</surname></rs> kokettes 17j. Mädl, die mit mir kokettirt und 
@@ -191,7 +191,8 @@ sie mich für eine gute Partie hält und 2.) weil sie mich oft mit
 behaupte, sie sehe der <rs type="person" xml:id="pNt_06518" ref="#person_15485"><surname>Gl.</surname></rs> ähnlich.― Abd. Spaziergang. Sie: 
 „Bleiben Sie bei mir“ etc.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13391">
+      </body>
+   <back><listPerson><person xml:id="person_13391">
                   <persName>
                      <surname>Bally</surname>
                      <forename>Jenny</forename>
@@ -420,13 +421,15 @@ behaupte, sie sehe der <rs type="person" xml:id="pNt_06518" ref="#person_15485">
                   <title>Gedichte</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76533.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_1e3c7c657544ebb1e32a5a21f37e8121">
-            <placeName type="region">Ziemnitzwilddnis</placeName>
-            <placeName type="alt">Enge Zimnitz</placeName>
-            <location>
-               <geo decls="#LatLng">47.73333 13.58333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2604815/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92123">
+               <placeName type="region">Ziemnitzwilddnis</placeName>
+               <placeName type="alt">Enge Zimnitz</placeName>
+               <location>
+                  <geo decls="#LatLng">47.73333 13.58333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2604815/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1e3c7c657544ebb1e32a5a21f37e8121</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92123</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

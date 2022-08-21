@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E337-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1890-10-05">
-            <p xml:space="preserve"><date when="1890-10-05">5/10</date> Sonntag Ankunft in <rs type="place" xml:id="pl_01006" ref="#place_1b388e3352c32b76b8d975c4d3625070">Wien</rs>.―</p>
+            <p xml:space="preserve"><date when="1890-10-05">5/10</date> Sonntag Ankunft in <rs type="place" xml:id="pl_01006" ref="#pmb50">Wien</rs>.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_04810" ref="#person_17821"><forename>Irene</forename> <surname>M.s</surname></rs> Krankheit.―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_17821">
+   <back><listPerson><person xml:id="person_17821">
                   <persName>
                      <surname>Mandl</surname>
                      <forename>Irene</forename>
@@ -211,12 +209,14 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17821</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/20899</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1b388e3352c32b76b8d975c4d3625070">
-            <placeName type="city">Wien</placeName>
-            <location>
-               <geo decls="#LatLng">48.20849 16.37208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2761369/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50">
+               <placeName type="city">Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2761369/</idno>
+               <idno type="obsolete-schnitzler-diary">place_1b388e3352c32b76b8d975c4d3625070</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

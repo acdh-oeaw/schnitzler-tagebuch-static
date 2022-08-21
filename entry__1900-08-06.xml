@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F0C8-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -167,11 +166,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1577.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-08-06">
-            <p xml:space="preserve"><date when="1900-08-06">6/8</date> In <rs type="place" xml:id="pl_03481" ref="#place_120410a779ad166b8dbc4b6da97934b1">Obertraun</rs>, kurz mit <rs type="person" xml:id="pNt_17242" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs></p>
+            <p xml:space="preserve"><date when="1900-08-06">6/8</date> In <rs type="place" xml:id="pl_03481" ref="#pmb91381">Obertraun</rs>, kurz mit <rs type="person" xml:id="pNt_17242" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs></p>
          </div>
-      </body><back><listPerson><person xml:id="person_18303">
+      </body>
+   <back><listPerson><person xml:id="person_18303">
                   <persName>
                      <surname>Müller</surname>
                      <forename>Leopoldine</forename>
@@ -197,13 +198,15 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb21727</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21727</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_120410a779ad166b8dbc4b6da97934b1">
-            <placeName type="city">Obertraun</placeName>
-            <location>
-               <geo decls="#LatLng">47.55782 13.68553</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/7873136/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91381">
+               <placeName type="city">Obertraun</placeName>
+               <location>
+                  <geo decls="#LatLng">47.55782 13.68553</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/7873136/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_120410a779ad166b8dbc4b6da97934b1</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91381</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

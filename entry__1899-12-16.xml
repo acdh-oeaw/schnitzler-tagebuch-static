@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-EFEA-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,7 +180,7 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1899-12-16">
-            <p xml:space="preserve"><date when="1899-12-16">16/12</date> mit <rs type="person" xml:id="pNt_16745" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03291" ref="#place_d875eb393c66e72bae202421dff945d3">Tchl.</rs>; sehr schöner Abend.</p>
+            <p xml:space="preserve"><date when="1899-12-16">16/12</date> mit <rs type="person" xml:id="pNt_16745" ref="#person_18303"><forename>P.</forename> <surname>M.</surname></rs> <rs type="place" xml:id="pl_03291" ref="#pmb790">Tchl.</rs>; sehr schöner Abend.</p>
             <pb n="318"/>
             <tei:fw xmlns:tei="http://www.tei-c.org/ns/1.0" type="header">
                <fw place="top_left" type="pn">318</fw>
@@ -191,8 +190,7 @@
             </tei:fw>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_18303">
+   <back><listPerson><person xml:id="person_18303">
                   <persName>
                      <surname>Müller</surname>
                      <forename>Leopoldine</forename>
@@ -218,11 +216,13 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb21727</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21727</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_d875eb393c66e72bae202421dff945d3">
-            <placeName type="street">Tuchlauben</placeName>
-            <location>
-               <geo decls="#LatLng">48.210212 16.370346</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb790">
+               <placeName type="street">Tuchlauben</placeName>
+               <location>
+                  <geo decls="#LatLng">48.210212 16.370346</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_d875eb393c66e72bae202421dff945d3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/790</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

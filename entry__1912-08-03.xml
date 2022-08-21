@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-017D-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,14 +177,16 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/3456.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1912-08-03">
             <p xml:space="preserve"><date when="1912-08-03">3/8</date> Bad.―</p>
             <p xml:space="preserve" rend="indent">Nm. am <rs type="work" subtype="self" xml:id="bibl_10431">Sommerstück</rs>.―</p>
-            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38571" ref="#person_20764"><roleName>Hr.</roleName> <surname>Toepfer</surname></rs> aus <rs type="place" xml:id="pl_07984" ref="#place_73712d3d0428c81db13497b943ee8dc6">Lemberg</rs>, grotesk, stellt sich vor.</p>
-            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_38572" ref="#person_19755"><surname>Schmidls</surname></rs> <rs type="place" xml:id="pl_07985" ref="#place_b58956f9e8974e3a0f30757920fe9171">Cipro monte</rs>. Sonnenuntergang.</p>
+            <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_38571" ref="#person_20764"><roleName>Hr.</roleName> <surname>Toepfer</surname></rs> aus <rs type="place" xml:id="pl_07984" ref="#pmb46224">Lemberg</rs>, grotesk, stellt sich vor.</p>
+            <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_38572" ref="#person_19755"><surname>Schmidls</surname></rs> <rs type="place" xml:id="pl_07985" ref="#pmb92408">Cipro monte</rs>. Sonnenuntergang.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_19755">
+      </body>
+   <back><listPerson><person xml:id="person_19755">
                   <persName>
                      <surname>Schmidl</surname>
                      <forename>Hugo</forename>
@@ -243,20 +244,24 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30945</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30945</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_73712d3d0428c81db13497b943ee8dc6">
-            <placeName type="city">Lemberg</placeName>
-            <placeName type="alt">Lviv</placeName>
-            <location>
-               <geo decls="#LatLng">49.83826 24.02324</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/702550/</idno>
-         </place>
-         <place xml:id="place_b58956f9e8974e3a0f30757920fe9171">
-            <placeName type="mountain">Monte Cipro</placeName>
-            <placeName type="alt">Ciprovac</placeName>
-            <location>
-               <geo decls="#LatLng">44.907076 13.769963</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb46224">
+               <placeName type="city">Lemberg</placeName>
+               <placeName type="alt">Lviv</placeName>
+               <location>
+                  <geo decls="#LatLng">49.83826 24.02324</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/702550/</idno>
+               <idno type="obsolete-schnitzler-diary">place_73712d3d0428c81db13497b943ee8dc6</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46224</idno>
+            </place>
+            <place xml:id="pmb92408">
+               <placeName type="mountain">Monte Cipro</placeName>
+               <placeName type="alt">Ciprovac</placeName>
+               <location>
+                  <geo decls="#LatLng">44.907076 13.769963</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_b58956f9e8974e3a0f30757920fe9171</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92408</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

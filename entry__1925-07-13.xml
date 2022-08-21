@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-13EF-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,9 +177,10 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6513.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1925-07-13">
-            <p xml:space="preserve"><date when="1925-07-13">13/7</date> <rs type="person" xml:id="pNt_75447" ref="#person_19827"><forename>Julius</forename></rs> 60. Geburtstag. Telegr. ihm <rs type="place" xml:id="pl_16179" ref="#place_ed6893b78d32ca570adf82aa6fe6e5be">Pontresina</rs> ―</p>
+            <p xml:space="preserve"><date when="1925-07-13">13/7</date> <rs type="person" xml:id="pNt_75447" ref="#person_19827"><forename>Julius</forename></rs> 60. Geburtstag. Telegr. ihm <rs type="place" xml:id="pl_16179" ref="#pmb34946">Pontresina</rs> ―</p>
             <p xml:space="preserve" rend="indent">Dict. <rs type="work" subtype="self" xml:id="bibl_16539">Weiher</rs> 2. Akt zu Ende;― <rs type="work" subtype="self" xml:id="bibl_16540">Aphor.</rs>, <rs type="work" subtype="self" xml:id="bibl_16541">Therese</rs> ―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_16542">Weiher</rs> 3. Akt durchgelesen.―</p>
             <p xml:space="preserve" rend="indent"><rs type="work" subtype="self" xml:id="bibl_16543">Traumnov.</rs> zu feilen begonnen.</p>
@@ -188,7 +188,8 @@
             <p xml:space="preserve" rend="indent">N. d. N. mit <rs type="person" xml:id="pNt_75449" ref="#person_19822"><forename>Heini</forename></rs> <rs type="work" xml:id="bibl_16544">2 Brandenburgconcerte</rs>.</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_75450" ref="#person_13547"><forename>Bubi</forename> <surname>Beer-Hofmann</surname></rs>.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13547">
+      </body>
+   <back><listPerson><person xml:id="person_13547">
                   <persName>
                      <surname>Beer-Hofmann</surname>
                      <forename>Gabriel</forename>
@@ -400,12 +401,14 @@
                      1046-1051</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77119.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_ed6893b78d32ca570adf82aa6fe6e5be">
-            <placeName type="city">Pontresina</placeName>
-            <location>
-               <geo decls="#LatLng">46.4955 9.90126</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2659172/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb34946">
+               <placeName type="city">Pontresina</placeName>
+               <location>
+                  <geo decls="#LatLng">46.4955 9.90126</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2659172/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ed6893b78d32ca570adf82aa6fe6e5be</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/34946</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

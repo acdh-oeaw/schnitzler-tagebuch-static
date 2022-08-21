@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E87C-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,12 +180,11 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1894-08-02">
-            <p xml:space="preserve"><date when="1894-08-02">2/8</date> <rs type="person" xml:id="pNt_08998" ref="#person_16293"><forename>Hugo</forename></rs> (<rs type="person" xml:id="pNt_08999" ref="#person_16293"><forename>Loris</forename></rs>) kommt 2 Uhr an.― <rs type="place" xml:id="pl_01780" ref="#place_627965721d5dd1de8d834b5f7e49e05a">Hellbrunn</rs>, <rs type="place" xml:id="pl_01781" ref="#place_020701a8f23ba3401080c75bb555269b">Leopoldskron</rs>, 
+            <p xml:space="preserve"><date when="1894-08-02">2/8</date> <rs type="person" xml:id="pNt_08998" ref="#person_16293"><forename>Hugo</forename></rs> (<rs type="person" xml:id="pNt_08999" ref="#person_16293"><forename>Loris</forename></rs>) kommt 2 Uhr an.― <rs type="place" xml:id="pl_01780" ref="#pmb31">Hellbrunn</rs>, <rs type="place" xml:id="pl_01781" ref="#pmb91137">Leopoldskron</rs>, 
 Drahtseil Hohensalzburg; <rs type="person" xml:id="pNt_09000" ref="#person_16293"><forename>Hugo</forename></rs> liest schöne neue <rs type="work" xml:id="bibl_22482">Terzinen</rs> vor.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16293">
+   <back><listPerson><person xml:id="person_16293">
                   <persName>
                      <surname>Hofmannsthal</surname>
                      <forename>Hugo von</forename>
@@ -230,21 +228,25 @@ Drahtseil Hohensalzburg; <rs type="person" xml:id="pNt_09000" ref="#person_16293
                   <title>Terzinen</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76497.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_627965721d5dd1de8d834b5f7e49e05a">
-            <placeName type="district">Hellbrunn</placeName>
-            <location>
-               <geo decls="#LatLng">47.76667 13.06667</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2776533/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_020701a8f23ba3401080c75bb555269b">
-            <placeName type="district">Leopoldskron</placeName>
-            <location>
-               <geo decls="#LatLng">47.78333 13.03333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2772616/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb31">
+               <placeName type="district">Hellbrunn</placeName>
+               <location>
+                  <geo decls="#LatLng">47.76667 13.06667</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2776533/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_627965721d5dd1de8d834b5f7e49e05a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/31</idno>
+            </place>
+            <place xml:id="pmb91137">
+               <placeName type="district">Leopoldskron</placeName>
+               <location>
+                  <geo decls="#LatLng">47.78333 13.03333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2772616/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_020701a8f23ba3401080c75bb555269b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91137</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

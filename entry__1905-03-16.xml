@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F718-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,12 +176,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2053.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-03-16">
-            <p xml:space="preserve"><date when="1905-03-16">16/3</date> <rs type="place" xml:id="pl_05108" ref="#place_318efa92bf2fce794042c0ac7fd31b2f">Spalato</rs>. Mit <rs type="person" xml:id="pNt_22584" ref="#person_20270"><surname>Spiro</surname></rs> <rs type="place" xml:id="pl_05109" ref="#place_def2dc9c6d8c08abbceb0693016ec3a9">Salona</rs>, Diocletianpalast.</p>
+            <p xml:space="preserve"><date when="1905-03-16">16/3</date> <rs type="place" xml:id="pl_05108" ref="#pmb4231">Spalato</rs>. Mit <rs type="person" xml:id="pNt_22584" ref="#person_20270"><surname>Spiro</surname></rs> <rs type="place" xml:id="pl_05109" ref="#pmb91643">Salona</rs>, Diocletianpalast.</p>
             <p xml:space="preserve" rend="indent">― Lese <rs type="work" xml:id="bibl_15586">Manon</rs> von <rs type="person" xml:id="pNt_22585" ref="#person_18962"><surname>Prévost</surname></rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_18962">
+      </body>
+   <back><listPerson><person xml:id="person_18962">
                   <persName>
                      <surname>Prévost</surname>
                      <forename>Antoine-François</forename>
@@ -240,23 +241,27 @@
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31697</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31697.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_318efa92bf2fce794042c0ac7fd31b2f">
-            <placeName type="city">Spalato</placeName>
-            <placeName type="alt">Split</placeName>
-            <location>
-               <geo decls="#LatLng">43.50891 16.43915</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3190261/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_def2dc9c6d8c08abbceb0693016ec3a9">
-            <placeName type="city">Salona</placeName>
-            <placeName type="alt">Solin</placeName>
-            <location>
-               <geo decls="#LatLng">43.5432 16.49314</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3190359/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb4231">
+               <placeName type="city">Spalato</placeName>
+               <placeName type="alt">Split</placeName>
+               <location>
+                  <geo decls="#LatLng">43.50891 16.43915</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3190261/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_318efa92bf2fce794042c0ac7fd31b2f</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/4231</idno>
+            </place>
+            <place xml:id="pmb91643">
+               <placeName type="city">Salona</placeName>
+               <placeName type="alt">Solin</placeName>
+               <location>
+                  <geo decls="#LatLng">43.5432 16.49314</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3190359/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_def2dc9c6d8c08abbceb0693016ec3a9</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91643</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

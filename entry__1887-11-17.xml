@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-DF88-1</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,12 +177,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/0333.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1887-11-17">
-            <p xml:space="preserve"><date when="1887-11-17">17/11</date> Donnerstag. Mit <rs type="person" xml:id="pNt_02919" ref="#person_16022"><forename>Jeanette</forename></rs> (<rs type="place" xml:id="pl_00633" ref="#place_b6838b4a250a6393d18e5657d5b296d3">Schwarzenbergpl.</rs>) im Kaffeehaus 
-(<rs type="place" xml:id="pl_00634" ref="#place_c408a01edca0e21be38ca1ed19bca597">Wipplingerstr.</rs>).</p>
+            <p xml:space="preserve"><date when="1887-11-17">17/11</date> Donnerstag. Mit <rs type="person" xml:id="pNt_02919" ref="#person_16022"><forename>Jeanette</forename></rs> (<rs type="place" xml:id="pl_00633" ref="#pmb91711">Schwarzenbergpl.</rs>) im Kaffeehaus 
+(<rs type="place" xml:id="pl_00634" ref="#pmb120">Wipplingerstr.</rs>).</p>
          </div>
-      </body><back><listPerson><person xml:id="person_16022">
+      </body>
+   <back><listPerson><person xml:id="person_16022">
                   <persName>
                      <surname>Heeger</surname>
                      <forename>Jeanette</forename>
@@ -194,18 +195,22 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16022</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/18007</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_b6838b4a250a6393d18e5657d5b296d3">
-            <placeName type="street">Schwarzenbergplatz</placeName>
-            <location>
-               <geo decls="#LatLng">48.20085 16.37468</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/10244814/</idno>
-         </place>
-         <place xml:id="place_c408a01edca0e21be38ca1ed19bca597">
-            <placeName type="street">Wipplingerstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.212887 16.368327</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91711">
+               <placeName type="street">Schwarzenbergplatz</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20085 16.37468</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/10244814/</idno>
+               <idno type="obsolete-schnitzler-diary">place_b6838b4a250a6393d18e5657d5b296d3</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91711</idno>
+            </place>
+            <place xml:id="pmb120">
+               <placeName type="street">Wipplingerstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.212887 16.368327</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_c408a01edca0e21be38ca1ed19bca597</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/120</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

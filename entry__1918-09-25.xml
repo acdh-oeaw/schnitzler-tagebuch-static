@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0A3E-5</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -179,16 +178,18 @@
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4711.tif"/>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4712.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1918-09-25">
             <p xml:space="preserve"><date when="1918-09-25">25/9</date> Dict. (aus <rs type="work" subtype="self" xml:id="bibl_5841">Tgb.</rs>; Charakteristiken u. dgl.) ―</p>
             <p xml:space="preserve" rend="indent">Nm. <rs type="work" subtype="self" xml:id="bibl_5842">Nachklg.</rs> 5 durchzulesen begonnen.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" ref="#place_volkstheater">Volksth.</rs>, „<rs type="work" xml:id="bibl_5843">Rausch</rs>“ von <rs type="person" xml:id="pNt_54266" ref="#person_20530"><surname>Strindberg</surname></rs>, mit <rs type="person" xml:id="pNt_54267" ref="#person_19986"><forename>Gustav</forename></rs>. War mir, von den ersten 
+            <p xml:space="preserve" rend="indent"><rs type="place" ref="#pmb92202">Volksth.</rs>, „<rs type="work" xml:id="bibl_5843">Rausch</rs>“ von <rs type="person" xml:id="pNt_54266" ref="#person_20530"><surname>Strindberg</surname></rs>, mit <rs type="person" xml:id="pNt_54267" ref="#person_19986"><forename>Gustav</forename></rs>. War mir, von den ersten 
 2, 3 Bildern abgesehn, fast widerwärtig.―</p>
             <p xml:space="preserve" rend="indent">Las „<rs type="work" xml:id="bibl_5844">Arbeit</rs>“ des Schweizers <rs type="person" xml:id="pNt_54268" ref="#person_15425"><surname>Giedion</surname></rs>; ein plattes ungeschicktes Stück, 
 mit einiger Heimatluft und viel Praetensionen.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15425">
+      </body>
+   <back><listPerson><person xml:id="person_15425">
                   <persName>
                      <surname>Giedion</surname>
                      <forename>Sigfried</forename>
@@ -351,12 +352,14 @@ mit einiger Heimatluft und viel Praetensionen.―</p>
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30597</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30597</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

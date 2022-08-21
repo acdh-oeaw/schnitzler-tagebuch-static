@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-0133-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -182,15 +181,14 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1912-05-21">
-            <p xml:space="preserve"><date when="1912-05-21">21/5</date> Abreise von <rs type="place" xml:id="pl_07875" ref="#place_e4d4b19346747823e5636ed1238a7521">Venedig</rs>; <rs type="person" xml:id="pNt_38029" ref="#person_16770"><surname>Kaufmann</surname></rs> mit uns.</p>
+            <p xml:space="preserve"><date when="1912-05-21">21/5</date> Abreise von <rs type="place" xml:id="pl_07875" ref="#pmb462">Venedig</rs>; <rs type="person" xml:id="pNt_38029" ref="#person_16770"><surname>Kaufmann</surname></rs> mit uns.</p>
             <p xml:space="preserve" rend="indent">Las <rs type="person" xml:id="pNt_38030" ref="#person_16830"><surname>Keyserlings</surname></rs> <rs type="work" xml:id="bibl_10233">Wellen</rs>.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07876" ref="#place_3859ff9074d497ed0cb3c08be85996ad">Bozen</rs>. Hotel Laurin.</p>
-            <p xml:space="preserve" rend="indent">Spazierfahrt <rs type="place" xml:id="pl_07877" ref="#place_7580f5f486c19fc6b5b0dec742ca1949">Gries</rs>, <rs type="place" xml:id="pl_07878" ref="#place_ac580b62789ac9a04b9024bf3e6d1499">St. Anton</rs>.</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_07876" ref="#pmb40260">Bozen</rs>. Hotel Laurin.</p>
+            <p xml:space="preserve" rend="indent">Spazierfahrt <rs type="place" xml:id="pl_07877" ref="#pmb45092">Gries</rs>, <rs type="place" xml:id="pl_07878" ref="#pmb91800">St. Anton</rs>.</p>
             <p xml:space="preserve" rend="indent">Nachtmahl Greif ―</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16770">
+   <back><listPerson><person xml:id="person_16770">
                   <persName>
                      <surname>Kaufmann</surname>
                      <forename>Arthur</forename>
@@ -268,35 +266,43 @@
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78912.html</idno>
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb78912.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_e4d4b19346747823e5636ed1238a7521">
-            <placeName type="city">Venedig</placeName>
-            <location>
-               <geo decls="#LatLng">45.43713 12.33265</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3164603/</idno>
-         </place>
-         <place xml:id="place_3859ff9074d497ed0cb3c08be85996ad">
-            <placeName type="city">Bozen</placeName>
-            <location>
-               <geo decls="#LatLng">46.49067 11.33982</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3181913/</idno>
-         </place>
-         <place xml:id="place_7580f5f486c19fc6b5b0dec742ca1949">
-            <placeName type="city">Gries</placeName>
-            <location>
-               <geo decls="#LatLng">46.51667 11.33333</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3175824/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_ac580b62789ac9a04b9024bf3e6d1499">
-            <placeName type="city">St. Anton</placeName>
-            <placeName type="alt">Sankt Anton am Arlberg</placeName>
-            <location>
-               <geo decls="#LatLng">47.1275 10.26372</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766757/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb462">
+               <placeName type="city">Venedig</placeName>
+               <location>
+                  <geo decls="#LatLng">45.43713 12.33265</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3164603/</idno>
+               <idno type="obsolete-schnitzler-diary">place_e4d4b19346747823e5636ed1238a7521</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/462</idno>
+            </place>
+            <place xml:id="pmb40260">
+               <placeName type="city">Bozen</placeName>
+               <location>
+                  <geo decls="#LatLng">46.49067 11.33982</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3181913/</idno>
+               <idno type="obsolete-schnitzler-diary">place_3859ff9074d497ed0cb3c08be85996ad</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40260</idno>
+            </place>
+            <place xml:id="pmb45092">
+               <placeName type="city">Gries</placeName>
+               <location>
+                  <geo decls="#LatLng">46.51667 11.33333</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3175824/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_7580f5f486c19fc6b5b0dec742ca1949</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45092</idno>
+            </place>
+            <place xml:id="pmb91800">
+               <placeName type="city">St. Anton</placeName>
+               <placeName type="alt">Sankt Anton am Arlberg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.1275 10.26372</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766757/</idno>
+               <idno type="obsolete-schnitzler-diary">place_ac580b62789ac9a04b9024bf3e6d1499</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91800</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

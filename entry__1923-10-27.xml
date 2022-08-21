@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-117E-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,9 +177,10 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/6132.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1923-10-27">
-            <p xml:space="preserve"><date when="1923-10-27">27/10</date> Vm. bei <rs type="person" xml:id="pNt_70549" ref="#person_15854"><forename>Gisa</forename></rs>. (Kränkungen von <rs type="place" xml:id="pl_15131" ref="#place_5cfd5837c67e04c1d6f52c1b42c11f10">Rio</rs> aus.) ―</p>
+            <p xml:space="preserve"><date when="1923-10-27">27/10</date> Vm. bei <rs type="person" xml:id="pNt_70549" ref="#person_15854"><forename>Gisa</forename></rs>. (Kränkungen von <rs type="place" xml:id="pl_15131" ref="#pmb50017">Rio</rs> aus.) ―</p>
             <p xml:space="preserve" rend="indent">Finanzministerium mit <rs type="person" xml:id="pNt_70550" ref="#person_13754"><surname>Bittner</surname></rs> und <rs type="person" xml:id="pNt_70551" ref="#person_17915"><roleName>Dr.</roleName> <surname>Markus</surname></rs> in Steuersachen für 
 unsern Verband. Mit Sect. Chefs <rs type="person" xml:id="pNt_70552" ref="#person_15716"><roleName>Dr.</roleName> <surname>Grünwald</surname></rs> und <rs type="person" xml:id="pNt_70553" ref="#person_21462"><surname>Wollheim</surname></rs> und 
 einem Referenten conferirt.―</p>
@@ -189,7 +189,8 @@ einem Referenten conferirt.―</p>
             <p xml:space="preserve" rend="indent">Meine Nichte <rs ref="#person_14481" type="person" xml:id="pNt_70558"><forename>Annie</forename></rs> besucht mich.</p>
             <p xml:space="preserve" rend="indent">Briefe geschrieben (an <rs type="person" xml:id="pNt_70559" ref="#person_19832"><forename>O.</forename></rs> und <rs type="person" xml:id="pNt_70560" ref="#person_18137"><forename>Dora</forename></rs>).</p>
          </div>
-      </body><back><listPerson><person xml:id="person_15283">
+      </body>
+   <back><listPerson><person xml:id="person_15283">
                   <persName>
                      <surname>Füger</surname>
                      <forename>Friedrich Heinrich</forename>
@@ -506,12 +507,14 @@ einem Referenten conferirt.―</p>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_5cfd5837c67e04c1d6f52c1b42c11f10">
-            <placeName type="city">Rio de Janeiro</placeName>
-            <location>
-               <geo decls="#LatLng">-22.90278 -43.2075</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3451190/</idno>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb50017">
+               <placeName type="city">Rio de Janeiro</placeName>
+               <location>
+                  <geo decls="#LatLng">-22.90278 -43.2075</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3451190/</idno>
+               <idno type="obsolete-schnitzler-diary">place_5cfd5837c67e04c1d6f52c1b42c11f10</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50017</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

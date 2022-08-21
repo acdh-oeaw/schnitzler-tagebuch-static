@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FB9F-8</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -180,13 +179,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1908-06-23">
-            <p xml:space="preserve"><date when="1908-06-23">23/6</date> <rs type="place" xml:id="pl_06374" ref="#place_1ff97f22292e3d91119e867aadcf511b">Innsbruck</rs> ― <rs type="place" xml:id="pl_06375" ref="#place_5a2315c53148f860229a3a7597c81b2e">Waidbruck</rs> ― <rs type="place" xml:id="pl_06376" ref="#place_c2678e6fb300c179dca580e4baf4f3dc">Salegg</rs>.</p>
+            <p xml:space="preserve"><date when="1908-06-23">23/6</date> <rs type="place" xml:id="pl_06374" ref="#pmb90931">Innsbruck</rs> ― <rs type="place" xml:id="pl_06375" ref="#pmb92031">Waidbruck</rs> ― <rs type="place" xml:id="pl_06376" ref="#pmb41156">Salegg</rs>.</p>
             <p xml:space="preserve" rend="indent">Der Hotelier <rs type="person" xml:id="pNt_28525" ref="#person_16343"><surname>Honeck</surname></rs><!-- Schnitzler schreibt Honegg, korrigiert entsprechend der Editionsprinzipien, nachdem er als "Honeck" identifiziert wurde --> falscher Biedermann.</p>
             <p xml:space="preserve" rend="indent">Spazieren. Schwankungen.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_16343">
+   <back><listPerson><person xml:id="person_16343">
                   <persName>
                      <surname>Honeck</surname>
                      <forename>Michael</forename>
@@ -213,32 +211,37 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb18492</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/18492</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_1ff97f22292e3d91119e867aadcf511b">
-            <placeName type="city">Innsbruck</placeName>
-            <location>
-               <geo decls="#LatLng">47.26266 11.39454</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2775220/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_5a2315c53148f860229a3a7597c81b2e">
-            <placeName type="city">Waidbruck</placeName>
-            <placeName type="alt">Ponte Gardena</placeName>
-            <location>
-               <geo decls="#LatLng">46.59712 11.53088</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3170259/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_c2678e6fb300c179dca580e4baf4f3dc">
-            <placeName type="city">Salegg</placeName>
-            <placeName type="alt">Castel Salego</placeName>
-            <location>
-               <geo decls="#LatLng">46.53456 11.56208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/11820105/</idno>
-            <note type="desc">error: city, eher park</note>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb90931">
+               <placeName type="city">Innsbruck</placeName>
+               <location>
+                  <geo decls="#LatLng">47.26266 11.39454</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2775220/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_1ff97f22292e3d91119e867aadcf511b</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/90931</idno>
+            </place>
+            <place xml:id="pmb92031">
+               <placeName type="city">Waidbruck</placeName>
+               <placeName type="alt">Ponte Gardena</placeName>
+               <location>
+                  <geo decls="#LatLng">46.59712 11.53088</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3170259/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_5a2315c53148f860229a3a7597c81b2e</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92031</idno>
+            </place>
+            <place xml:id="pmb41156">
+               <placeName type="city">Salegg</placeName>
+               <placeName type="alt">Castel Salego</placeName>
+               <location>
+                  <geo decls="#LatLng">46.53456 11.56208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/11820105/</idno>
+               <note type="desc">error: city, eher park</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c2678e6fb300c179dca580e4baf4f3dc</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

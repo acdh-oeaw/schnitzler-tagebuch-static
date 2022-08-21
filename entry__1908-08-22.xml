@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-FBDB-4</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,13 +176,15 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2544.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1908-08-22">
             <p xml:space="preserve"><date when="1908-08-22">22/8</date> <rs type="person" xml:id="pNt_28720" ref="#person_20872"><forename>Agnes</forename></rs> malt mich.― Wald.―</p>
             <p xml:space="preserve" rend="indent">Am „<rs type="work" subtype="self" xml:id="bibl_13603">W. L.</rs>“.</p>
-            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_06428" ref="#place_c2678e6fb300c179dca580e4baf4f3dc">Salegg</rs>. Spazieren mit <rs type="person" xml:id="pNt_28721" ref="#person_13305"><surname>Auernheimer’s</surname></rs>, <rs type="person" xml:id="pNt_28722" ref="#person_15134"><surname>Frankfurter’s</surname></rs>.―</p>
+            <p xml:space="preserve" rend="indent"><rs type="place" xml:id="pl_06428" ref="#pmb41156">Salegg</rs>. Spazieren mit <rs type="person" xml:id="pNt_28721" ref="#person_13305"><surname>Auernheimer’s</surname></rs>, <rs type="person" xml:id="pNt_28722" ref="#person_15134"><surname>Frankfurter’s</surname></rs>.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13305">
+      </body>
+   <back><listPerson><person xml:id="person_13305">
                   <persName>
                      <surname>Auernheimer</surname>
                      <forename>Raoul</forename>
@@ -286,15 +287,16 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30207</idno>
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30207</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_c2678e6fb300c179dca580e4baf4f3dc">
-            <placeName type="city">Salegg</placeName>
-            <placeName type="alt">Castel Salego</placeName>
-            <location>
-               <geo decls="#LatLng">46.53456 11.56208</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/11820105/</idno>
-            <note type="desc">error: city, eher park</note>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb41156">
+               <placeName type="city">Salegg</placeName>
+               <placeName type="alt">Castel Salego</placeName>
+               <location>
+                  <geo decls="#LatLng">46.53456 11.56208</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/11820105/</idno>
+               <note type="desc">error: city, eher park</note>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_c2678e6fb300c179dca580e4baf4f3dc</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

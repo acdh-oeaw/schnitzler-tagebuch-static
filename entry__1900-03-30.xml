@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F052-9</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -167,27 +166,33 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1550.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-03-30">
-            <p xml:space="preserve"><date when="1900-03-30">30/3</date> <rs type="place" xml:id="pl_03359" ref="#place_5e257bfe3f70d446cb1b8076406b8992">Ragusa</rs> ― <rs type="place" xml:id="pl_03360" ref="#place_b3a736a103db5775e76f34aa9de837a4">Cattaro</rs> ― <rs type="place" xml:id="pl_03361" ref="#place_5e257bfe3f70d446cb1b8076406b8992">Ragusa</rs>.― Ankunft ohne Freude, im Gefühl
+            <p xml:space="preserve"><date when="1900-03-30">30/3</date> <rs type="place" xml:id="pl_03359" ref="#pmb682">Ragusa</rs> ― <rs type="place" xml:id="pl_03360" ref="#pmb49149">Cattaro</rs> ― <rs type="place" xml:id="pl_03361" ref="#pmb682">Ragusa</rs>.― Ankunft ohne Freude, im Gefühl
 großer Einsamkeit.</p>
          </div>
-      </body><back><listPlace><place xml:id="place_b3a736a103db5775e76f34aa9de837a4">
-            <placeName type="city">Cattaro</placeName>
-            <placeName type="alt">Kotor</placeName>
-            <location>
-               <geo decls="#LatLng">42.42067 18.76825</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3197538/</idno>
-            <note type="done"/>
-         </place>
-         <place xml:id="place_5e257bfe3f70d446cb1b8076406b8992">
-            <placeName type="city">Ragusa</placeName>
-            <placeName type="today">Dubrovnik</placeName>
-            <location>
-               <geo decls="#LatLng">42.64807 18.09216</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/3201047/</idno>
-         </place>
-         </listPlace></back></text>
+      </body>
+   <back><listPlace><place xml:id="pmb49149">
+               <placeName type="city">Cattaro</placeName>
+               <placeName type="alt">Kotor</placeName>
+               <location>
+                  <geo decls="#LatLng">42.42067 18.76825</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3197538/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_b3a736a103db5775e76f34aa9de837a4</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49149</idno>
+            </place>
+            <place xml:id="pmb682">
+               <placeName type="city">Ragusa</placeName>
+               <placeName type="today">Dubrovnik</placeName>
+               <location>
+                  <geo decls="#LatLng">42.64807 18.09216</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/3201047/</idno>
+               <idno type="obsolete-schnitzler-diary">place_5e257bfe3f70d446cb1b8076406b8992</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/682</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

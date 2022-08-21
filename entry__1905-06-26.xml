@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F77E-2</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -177,7 +176,8 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/2094.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1905-06-26">
             <p xml:space="preserve"><date when="1905-06-26">26/6</date> Traum, dass <rs type="person" xml:id="pNt_23086" ref="#person_13913"><surname>Brahm</surname></rs> die <rs type="work" subtype="self" xml:id="bibl_15783">N. E.</rs> unter dem Titel „Ein neuer Auftritt“, zu 
 schlechter Zeit, ohne mich zu verständigen, in schlechter Besetzung 
@@ -188,10 +188,11 @@ weiss worum es sich handelt.</p>
             <p xml:space="preserve" rend="indent">― An der <rs type="work" subtype="self" xml:id="bibl_15785">Rundfragen-beantwortung</rs>.― Wie schwerfällig stell 
 ich mich zu dieser Art von Arbeiten an.―</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_23088" ref="#person_17958"><forename>Paul</forename> <surname>Marx</surname></rs> da; <rs type="person" xml:id="pNt_23089" ref="#person_21107"><surname>Wassermann</surname></rs>. Mit ihm und <rs type="person" xml:id="pNt_23090" ref="#person_20872"><forename>Agnes</forename> <surname>Sp.</surname></rs> trafen wir dann im 
-<rs type="place" xml:id="pl_05224" ref="#place_70badd7ef7036249b2048516efb8b9aa">Türkenschanzpark</rs> zum Nachtmahl zusammen; saßen dann noch in <rs type="person" xml:id="pNt_23091"><surname>Speyer’s</surname></rs> 
+<rs type="place" xml:id="pl_05224" ref="#pmb113">Türkenschanzpark</rs> zum Nachtmahl zusammen; saßen dann noch in <rs type="person" xml:id="pNt_23091"><surname>Speyer’s</surname></rs> 
 Garten.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13913">
+      </body>
+   <back><listPerson><person xml:id="person_13913">
                   <persName>
                      <surname>Brahm</surname>
                      <forename>Otto</forename>
@@ -444,11 +445,13 @@ Garten.―</p>
                      (Haffner-Symphonie)</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77222.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_70badd7ef7036249b2048516efb8b9aa">
-            <placeName type="park">Türkenschanzpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.235429 16.334063</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb113">
+               <placeName type="park">Türkenschanzpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.235429 16.334063</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_70badd7ef7036249b2048516efb8b9aa</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/113</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

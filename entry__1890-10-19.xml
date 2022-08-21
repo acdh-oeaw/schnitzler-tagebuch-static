@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-E345-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1890-10-19">
-            <p xml:space="preserve"><date when="1890-10-19">19.</date> Bei <rs type="person" xml:id="pNt_04831" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01008" ref="#place_c38ad36647aca0261d667c432a4866bd">Salzburg</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Sie allein zu Hause getroffen (2), dort gegessen ― <rs type="place" xml:id="pl_01009" ref="#place_fa3620d08e1ddb05fcc69e5ec20e8f93">Kapuzinerberg</rs> ― 
+            <p xml:space="preserve"><date when="1890-10-19">19.</date> Bei <rs type="person" xml:id="pNt_04831" ref="#person_15485"><forename>Mz.</forename></rs> in <rs type="place" xml:id="pl_01008" ref="#pmb91649">Salzburg</rs>.―</p>
+            <p xml:space="preserve" rend="indent">Sie allein zu Hause getroffen (2), dort gegessen ― <rs type="place" xml:id="pl_01009" ref="#pmb297">Kapuzinerberg</rs> ― 
 wieder oben (1). Gesang der Liebe ― <rs type="person" xml:id="pNt_04832" ref="#person_21047"><forename>O.</forename></rs> vergessen ― ganz.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_15485">
+   <back><listPerson><person xml:id="person_15485">
                   <persName>
                      <surname>Glümer</surname>
                      <forename>Marie</forename>
@@ -244,20 +242,24 @@ wieder oben (1). Gesang der Liebe ― <rs type="person" xml:id="pNt_04832" ref="
                   <idno type="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2453</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2453</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_c38ad36647aca0261d667c432a4866bd">
-            <placeName type="city">Salzburg</placeName>
-            <location>
-               <geo decls="#LatLng">47.79941 13.04399</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2766824/</idno>
-         </place>
-         <place xml:id="place_fa3620d08e1ddb05fcc69e5ec20e8f93">
-            <placeName type="mountain">Kapuzinerberg</placeName>
-            <location>
-               <geo decls="#LatLng">47.80399 13.05734</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2774753/</idno>
-            <note type="done"/>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb91649">
+               <placeName type="city">Salzburg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.79941 13.04399</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2766824/</idno>
+               <idno type="obsolete-schnitzler-diary">place_c38ad36647aca0261d667c432a4866bd</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91649</idno>
+            </place>
+            <place xml:id="pmb297">
+               <placeName type="mountain">Kapuzinerberg</placeName>
+               <location>
+                  <geo decls="#LatLng">47.80399 13.05734</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2774753/</idno>
+               <note type="done"/>
+               <idno type="obsolete-schnitzler-diary">place_fa3620d08e1ddb05fcc69e5ec20e8f93</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/297</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

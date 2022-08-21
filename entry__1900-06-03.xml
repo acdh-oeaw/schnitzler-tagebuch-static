@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F093-F</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -167,11 +166,13 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1566.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-06-03">
-            <p xml:space="preserve"><date when="1900-06-03">3/6</date> Pfingstsonntag.― Nm. mit <rs type="person" xml:id="pNt_17109" ref="#person_20247"><surname>Sp.s</surname></rs> geradelt. <rs type="place" xml:id="pl_03414" ref="#place_a4e19dfb23f1a34df28b229075997643">Liebhartsthal</rs>.</p>
+            <p xml:space="preserve"><date when="1900-06-03">3/6</date> Pfingstsonntag.― Nm. mit <rs type="person" xml:id="pNt_17109" ref="#person_20247"><surname>Sp.s</surname></rs> geradelt. <rs type="place" xml:id="pl_03414" ref="#pmb92374">Liebhartsthal</rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_20247">
+      </body>
+   <back><listPerson><person xml:id="person_20247">
                   <persName>
                      <surname>Speyer</surname>
                      <forename>Albert</forename>
@@ -198,12 +199,14 @@
                   <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb25179</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/25179</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_a4e19dfb23f1a34df28b229075997643">
-            <placeName type="region">Liebhartstal</placeName>
-            <placeName type="today">Liebhartstalstraße</placeName>
-            <location>
-               <geo decls="#LatLng">48.217079 16.287997</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92374">
+               <placeName type="region">Liebhartstal</placeName>
+               <placeName type="today">Liebhartstalstraße</placeName>
+               <location>
+                  <geo decls="#LatLng">48.217079 16.287997</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_a4e19dfb23f1a34df28b229075997643</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92374</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

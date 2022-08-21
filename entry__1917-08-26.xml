@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-08B4-0</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,10 +177,11 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/4525.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1917-08-26">
-            <p xml:space="preserve"><date when="1917-08-26">26/8</date> S. Mit <rs type="person" xml:id="pNt_51414" ref="#person_20925"><forename>Leo</forename></rs> <rs type="place" xml:id="pl_10679" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs> ― Rieglerhütte ― <rs type="place" xml:id="pl_10680" ref="#place_b900112ce988d972bc2d561413e84979">Sofienalpe</rs> ― <rs type="place" xml:id="pl_10681" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher 
-Park</rs> ― <rs type="place" xml:id="pl_10682" ref="#place_82109b1e661086ac882d02fa24e8b774">Pötzleinsdorf</rs>.― Im Anschluss an <rs type="work" subtype="self" xml:id="bibl_6719">Graesler</rs> über mathematische 
+            <p xml:space="preserve"><date when="1917-08-26">26/8</date> S. Mit <rs type="person" xml:id="pNt_51414" ref="#person_20925"><forename>Leo</forename></rs> <rs type="place" xml:id="pl_10679" ref="#pmb169">Pötzleinsdorf</rs> ― Rieglerhütte ― <rs type="place" xml:id="pl_10680" ref="#pmb92533">Sofienalpe</rs> ― <rs type="place" xml:id="pl_10681" ref="#pmb176">Dornbacher 
+Park</rs> ― <rs type="place" xml:id="pl_10682" ref="#pmb169">Pötzleinsdorf</rs>.― Im Anschluss an <rs type="work" subtype="self" xml:id="bibl_6719">Graesler</rs> über mathematische 
 Gesetze, die nicht nur in Musik, auch Malerei, sondern auch in Dichtkunst 
 wirksam sind.― Über mein Ohrenleiden. über Hörapparate. (<rs type="person" xml:id="pNt_51415" ref="#person_20925"><forename>Leo’s</forename></rs> 
 techn.-physik. Kenntnisse.)</p>
@@ -189,7 +189,8 @@ techn.-physik. Kenntnisse.)</p>
             <p xml:space="preserve" rend="indent"><rs type="person" xml:id="pNt_51418" ref="#person_14130"><forename>Lili</forename></rs> von <rs type="person" xml:id="pNt_51419" ref="#person_19783"><surname>Schmutzers</surname></rs> abgeholt.―</p>
             <p xml:space="preserve" rend="indent">Mit <rs type="person" xml:id="pNt_51420" ref="#person_19822"><forename>Heini</forename></rs> <rs type="person" xml:id="pNt_51421" ref="#person_19902"><surname>Schubert</surname></rs> <rs type="work" xml:id="bibl_6721">Quintett C dur</rs>; Fr. <rs type="person" xml:id="pNt_51422" ref="#person_19783"><forename>Liesl</forename> <surname>Schmutzer</surname></rs> als Publikum.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_14130">
+      </body>
+   <back><listPerson><person xml:id="person_14130">
                   <persName>
                      <surname>Schnitzler</surname>
                      <forename>Lili</forename>
@@ -458,25 +459,31 @@ techn.-physik. Kenntnisse.)</p>
                      956</title>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77654.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_b900112ce988d972bc2d561413e84979">
-            <placeName type="mountain">Sofienalpe</placeName>
-            <location>
-               <geo decls="#LatLng">48.244807 16.226574</geo>
-            </location>
-         </place>
-         <place xml:id="place_75f2e194839d6ba0e5d4080c211a449a">
-            <placeName type="park">Dornbacher Park</placeName>
-            <placeName type="today">Schwarzenbergpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.249997 16.283563</geo>
-            </location>
-         </place>
-         <place xml:id="place_82109b1e661086ac882d02fa24e8b774">
-            <placeName type="district">Pötzleinsdorf</placeName>
-            <location>
-               <geo decls="#LatLng">48.24354 16.3062</geo>
-            </location>
-            <idno type="geonames">https://www.geonames.org/2768462/</idno>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92533">
+               <placeName type="mountain">Sofienalpe</placeName>
+               <location>
+                  <geo decls="#LatLng">48.244807 16.226574</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_b900112ce988d972bc2d561413e84979</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92533</idno>
+            </place>
+            <place xml:id="pmb176">
+               <placeName type="park">Dornbacher Park</placeName>
+               <placeName type="today">Schwarzenbergpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.249997 16.283563</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_75f2e194839d6ba0e5d4080c211a449a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/176</idno>
+            </place>
+            <place xml:id="pmb169">
+               <placeName type="district">Pötzleinsdorf</placeName>
+               <location>
+                  <geo decls="#LatLng">48.24354 16.3062</geo>
+               </location>
+               <idno type="geonames">http://www.geonames.org/2768462/</idno>
+               <idno type="obsolete-schnitzler-diary">place_82109b1e661086ac882d02fa24e8b774</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/169</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

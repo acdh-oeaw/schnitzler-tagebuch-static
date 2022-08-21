@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-160F-C</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -181,13 +180,12 @@
    <text>
       <body>
          <div type="diary-day" xml:id="entry__1927-01-09">
-            <p xml:space="preserve"><date when="1927-01-09">9/1</date> S. Mit <rs type="person" xml:id="pNt_79551" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>  <rs type="place" xml:id="pl_17078" ref="#place_75f2e194839d6ba0e5d4080c211a449a">Dornbacher Park</rs>. Schnee, dann Gequatsch ―</p>
+            <p xml:space="preserve"><date when="1927-01-09">9/1</date> S. Mit <rs type="person" xml:id="pNt_79551" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>  <rs type="place" xml:id="pl_17078" ref="#pmb176">Dornbacher Park</rs>. Schnee, dann Gequatsch ―</p>
             <p xml:space="preserve" rend="indent">― Nm. mit <rs type="work" subtype="self" xml:id="bibl_24046">aphor.</rs> beschäftigt.―</p>
             <p xml:space="preserve" rend="indent">Z. N. bei <rs ref="#person_17509" type="person" xml:id="pNt_79552"><surname>L.s</surname></rs> ― <rs type="person" xml:id="pNt_79553" ref="#person_17510"><forename>V.</forename> <surname>L.</surname></rs> über den <rs type="place" xml:id="pl_17079" ref="#place_05fa5a8e0f9cf3e0b1ed8c6c430c3267" ana="#exclude">Edlacher</rs> Aufenthalt.</p>
          </div>
       </body>
-   
-    <back><listPerson><person xml:id="person_17509">
+   <back><listPerson><person xml:id="person_17509">
                   <persName>
                      <surname>Lichtenstern</surname>
                      <forename>Robert</forename>
@@ -278,12 +276,14 @@
                   <gloss type="w1065">Aphorismensammlung</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35745.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_75f2e194839d6ba0e5d4080c211a449a">
-            <placeName type="park">Dornbacher Park</placeName>
-            <placeName type="today">Schwarzenbergpark</placeName>
-            <location>
-               <geo decls="#LatLng">48.249997 16.283563</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb176">
+               <placeName type="park">Dornbacher Park</placeName>
+               <placeName type="today">Schwarzenbergpark</placeName>
+               <location>
+                  <geo decls="#LatLng">48.249997 16.283563</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_75f2e194839d6ba0e5d4080c211a449a</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/176</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

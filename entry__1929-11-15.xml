@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000C-1A20-3</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -178,7 +177,8 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/7383.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1929-11-15">
             <p xml:space="preserve" rend="indent">Z. N. <rs type="person" xml:id="pNt_88096"><forename>H.</forename> <surname>K.</surname></rs> 
 <date when="1929-11-15">15/11</date> Tel. <rs type="person" xml:id="pNt_88097" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs> (vorher ihr Brief).</p>
@@ -186,7 +186,7 @@
 viel über <rs type="person" xml:id="pNt_88100" ref="#person_19180"><surname>Remarque</surname></rs> ― Ruhm und Einnahmen, Production.)</p>
             <p xml:space="preserve" rend="indent">Kleiner Spaziergang.</p>
             <p xml:space="preserve" rend="indent">Zu Tisch <rs type="person" xml:id="pNt_88101" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> bei mir.―</p>
-            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="place" ref="#place_volkstheater">Volksth.</rs> Zu <rs type="person" xml:id="pNt_88102" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs>.― Übergab ihm <rs type="work" subtype="self" xml:id="bibl_713">Sommerluft</rs>. 
+            <p xml:space="preserve" rend="indent">Gegen Abend <rs type="place" ref="#pmb92202">Volksth.</rs> Zu <rs type="person" xml:id="pNt_88102" ref="#person_13545"><roleName>Dr.</roleName> <surname>Beer</surname></rs>.― Übergab ihm <rs type="work" subtype="self" xml:id="bibl_713">Sommerluft</rs>. 
 Besetzungsfragen.</p>
             <p xml:space="preserve" rend="indent">Im Theater (mit <rs type="person" xml:id="pNt_88103" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs>) <rs type="person" xml:id="pNt_88104" ref="#person_20083"><surname>Sherriff</surname></rs>; <rs type="work" xml:id="bibl_714">die andere Seite</rs>, sehr interessant.― 
 <rs type="person" xml:id="pNt_88105" ref="#person_14234"><forename>Suz.</forename> <surname>Cl.</surname></rs> kam im Zwischenakt ― stellte vor. <rs type="person" xml:id="pNt_88106" ref="#person_13545"><surname>Beer</surname></rs> ― kommt gleichfalls ― 
@@ -195,7 +195,8 @@ einverstanden dass er <rs type="person" xml:id="pNt_88108"><surname>M.</surname>
 Opportunismus.</p>
             <p xml:space="preserve" rend="indent">― Mit <rs type="person" xml:id="pNt_88109" ref="#person_18863"><forename>C.</forename> <surname>P.</surname></rs> „Weingartl“ genachtm.―</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13545">
+      </body>
+   <back><listPerson><person xml:id="person_13545">
                   <persName>
                      <surname>Beer</surname>
                      <forename>Rudolf</forename>
@@ -424,12 +425,14 @@ Opportunismus.</p>
                   <gloss type="w1097">Drama</gloss>
                   <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb81307.html</idno>
                </bibl>
-               </listBibl><listPlace><place xml:id="place_volkstheater">
-            <placeName type="theater">Deutsches Volkstheater</placeName>
-            <placeName type="alt">Volkstheater</placeName>
-            <location>
-               <geo decls="#LatLng">48.205142 16.3566</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listBibl><listPlace><place xml:id="pmb92202">
+               <placeName type="theater">Deutsches Volkstheater</placeName>
+               <placeName type="alt">Volkstheater</placeName>
+               <location>
+                  <geo decls="#LatLng">48.205142 16.3566</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_volkstheater</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>

@@ -88,9 +88,8 @@
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
-            
             <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="URI">http://hdl.handle.net/21.11115/0000-000B-F046-7</tei:idno>
-            </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -167,12 +166,14 @@
    <facsimile>
       <graphic url="https://id.acdh.oeaw.ac.at/schnitzler/faksimiles/tagebuch/1548.tif"/>
    </facsimile>
-   <text><body>
+   <text>
+      <body>
          <div type="diary-day" xml:id="entry__1900-03-18">
             <p xml:space="preserve"><date when="1900-03-18">18/3</date> Heut vor einem Jahre starb <rs type="allusively" xml:id="rst_00313">Sie</rs>.―</p>
-            <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_16924" ref="#person_13920"><surname>Brandes</surname></rs> Vorlesung. Mit ihm und andern bei <rs type="place" ref="#place_sacher">Sacher</rs>.</p>
+            <p xml:space="preserve" rend="indent">Abd. <rs type="person" xml:id="pNt_16924" ref="#person_13920"><surname>Brandes</surname></rs> Vorlesung. Mit ihm und andern bei <rs type="place" ref="#pmb92506">Sacher</rs>.</p>
          </div>
-      </body><back><listPerson><person xml:id="person_13920">
+      </body>
+   <back><listPerson><person xml:id="person_13920">
                   <persName>
                      <surname>Brandes</surname>
                      <forename>Georg</forename>
@@ -201,11 +202,13 @@
                   <idno type="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10992.html</idno>
                   <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/10992</idno>
                </person>
-               </listPerson><listPlace><place xml:id="place_sacher">
-            <placeName type="hotel">Sacher</placeName>
-            <location>
-               <geo decls="#LatLng">48.203889 16.369444</geo>
-            </location>
-         </place>
-         </listPlace></back></text>
+               </listPerson><listPlace><place xml:id="pmb92506">
+               <placeName type="hotel">Sacher</placeName>
+               <location>
+                  <geo decls="#LatLng">48.203889 16.369444</geo>
+               </location>
+               <idno type="obsolete-schnitzler-diary">place_sacher</idno>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92506</idno>
+            </place>
+            </listPlace></back></text>
 </TEI>
