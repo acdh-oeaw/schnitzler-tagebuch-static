@@ -45,11 +45,11 @@
                         <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
                         <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
-                     </ul>
-                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
-                              <circle cx="11" cy="11" r="8"></circle>
-                              <line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button></form>
-                  </div>
+                     </ul><a href="search.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                           <circle cx="11" cy="11" r="8"></circle>
+                           <line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        SUCHE
+                        </a></div>
                </div>
             </nav>
          </div>
@@ -137,6 +137,7 @@
                                     <li><a href="pmb90883.html">Hintersee</a></li>
                                     <li><a href="pmb91562.html">Ramsau</a></li>
                                     <li><a href="pmb92083.html">Wimbachthal</a></li>
+                                    <li><a href="pmb92757.html">Restaurant Wimbach</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -159,6 +160,9 @@
                                                 
                                                     L.marker([47.5958, 12.92058]).addTo(mymap)
                                                     .bindPopup("<b>Wimbachthal</b>").openPopup();
+                                                
+                                                    L.marker([47.593022, 12.915717]).addTo(mymap)
+                                                    .bindPopup("<b>Restaurant Wimbach</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -172,7 +176,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 18. August 1922, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-08-21), PID: http://hdl.handle.net/21.11115/0000-000C-0FCC-F. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 18. August 1922, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-08-22), PID: http://hdl.handle.net/21.11115/0000-000C-0FCC-F. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2184,6 +2188,22 @@
                            <li><a href="http://www.geonames.org/2808386/">http://www.geonames.org/2808386/</a></li>
                            <li><a href="place_80ac1d6e6c6a817f355cfb419c6c574b">place_80ac1d6e6c6a817f355cfb419c6c574b</a></li>
                         </ul><span class="infodesc mr-2">Koordinaten</span><span>47.5958 12.92058</span></div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92757">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Restaurant Wimbach <a href="pmb92757.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
+                           <li><a href="place_512381c4cd7e5abb31bb5dd0553b6768">place_512381c4cd7e5abb31bb5dd0553b6768</a></li>
+                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/92606">https://pmb.acdh.oeaw.ac.at/entity/92606</a></li>
+                        </ul><span class="infodesc mr-2">Koordinaten</span><span>47.593022 12.915717</span></div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
