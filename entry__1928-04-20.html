@@ -101,6 +101,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Athen</a></li>
+                                    <li><a href=".html">Eleusis</a></li>
                                     <li><a href="pmb505.html">Athen</a></li>
                                     <li><a href="pmb90579.html">Eleusis</a></li>
                                  </ul>
@@ -116,6 +118,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Athen</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Eleusis</b>").openPopup();
                                                 
                                                     L.marker([37.97945, 23.71622]).addTo(mymap)
                                                     .bindPopup("<b>Athen</b>").openPopup();
@@ -135,7 +143,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 20. April 1928, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-17E2-B. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 20. April 1928, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-17E2-B. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

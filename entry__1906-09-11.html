@@ -107,6 +107,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Semmering</a></li>
+                                    <li><a href=".html">Südbahnhotel</a></li>
                                     <li><a href="pmb91735.html">Semmering</a></li>
                                  </ul>
                               </div>
@@ -121,6 +123,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Semmering</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Südbahnhotel</b>").openPopup();
                                                 
                                                     L.marker([47.63333, 15.81667]).addTo(mymap)
                                                     .bindPopup("<b>Semmering</b>").openPopup();
@@ -137,7 +145,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 11. September 1906, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F938-E. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 11. September 1906, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F938-E. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

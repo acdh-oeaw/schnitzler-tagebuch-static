@@ -114,6 +114,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Wien</a></li>
                                     <li><a href="pmb90913.html">Hütteldorf</a></li>
                                     <li><a href="pmb91099.html">Lainzer Tiergarten</a></li>
                                     <li><a href="pmb92553.html">Stock im Weg</a></li>
@@ -133,6 +134,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 
                                                     L.marker([48.2, 16.26667]).addTo(mymap)
                                                     .bindPopup("<b>Hütteldorf</b>").openPopup();
@@ -164,7 +168,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 20. Juli 1915, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-05B4-3. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 20. Juli 1915, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-05B4-3. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

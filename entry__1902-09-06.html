@@ -103,6 +103,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Windischgarsten</a></li>
                                     <li><a href="pmb92027.html">Vorderstoder</a></li>
                                     <li><a href="pmb91255.html">Mitterstoder</a></li>
                                  </ul>
@@ -118,6 +119,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Windischgarsten</b>").openPopup();
                                                 
                                                     L.marker([47.71337, 14.22712]).addTo(mymap)
                                                     .bindPopup("<b>Vorderstoder</b>").openPopup();
@@ -137,7 +141,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 6. September 1902, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F389-8. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 6. September 1902, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F389-8. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

@@ -107,6 +107,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Wien</a></li>
                                     <li><a href="pmb91641.html">Salmannsdorf</a></li>
                                     <li><a href="pmb169.html">Pötzleinsdorf</a></li>
                                  </ul>
@@ -122,6 +123,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 
                                                     L.marker([48.25, 16.3]).addTo(mymap)
                                                     .bindPopup("<b>Salmannsdorf</b>").openPopup();
@@ -141,7 +145,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 6. Jänner 1904, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F566-E. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 6. Jänner 1904, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F566-E. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

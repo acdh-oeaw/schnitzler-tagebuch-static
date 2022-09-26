@@ -117,6 +117,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Wien</a></li>
                                     <li><a href="pmb44176.html">Olmütz</a></li>
                                     <li><a href="pmb50.html">Wien</a></li>
                                  </ul>
@@ -132,6 +133,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 
                                                     L.marker([49.59552, 17.25175]).addTo(mymap)
                                                     .bindPopup("<b>Olmütz</b>").openPopup();
@@ -151,7 +155,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 30. März 1880, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-DD35-1. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 30. März 1880, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-DD35-1. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -196,7 +200,7 @@
                   <div class="modal-body">
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb26899" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/26899/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb26899.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/26899/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>

@@ -101,6 +101,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Graz</a></li>
+                                    <li><a href=".html">Schladming</a></li>
                                     <li><a href="pmb90759.html">Graz</a></li>
                                     <li><a href="pmb35493.html">Steinach</a></li>
                                     <li><a href="pmb91681.html">Schladming</a></li>
@@ -117,6 +119,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Graz</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Schladming</b>").openPopup();
                                                 
                                                     L.marker([47.06667, 15.45]).addTo(mymap)
                                                     .bindPopup("<b>Graz</b>").openPopup();
@@ -139,7 +147,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 17. Juli 1898, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-EE11-6. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 17. Juli 1898, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-EE11-6. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

@@ -119,6 +119,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Wien</a></li>
                                     <li><a href="pmb92226.html">Ellissenpark</a></li>
                                     <li><a href="pmb169.html">Pötzleinsdorf</a></li>
                                  </ul>
@@ -134,6 +135,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 
                                                     L.marker([48.241372, 16.300226]).addTo(mymap)
                                                     .bindPopup("<b>Ellissenpark</b>").openPopup();
@@ -153,7 +157,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 13. Mai 1916, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-06DE-4. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 13. Mai 1916, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-06DE-4. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

@@ -101,6 +101,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Salzburg</a></li>
+                                    <li><a href=".html">Berchtesgaden</a></li>
+                                    <li><a href=".html">Königssee</a></li>
                                     <li><a href="pmb797.html">Berchtesgaden</a></li>
                                     <li><a href="pmb91054.html">Königssee</a></li>
                                  </ul>
@@ -116,6 +119,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Salzburg</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Berchtesgaden</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Königssee</b>").openPopup();
                                                 
                                                     L.marker([47.63236, 13.00187]).addTo(mymap)
                                                     .bindPopup("<b>Berchtesgaden</b>").openPopup();
@@ -135,7 +147,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 14. Juni 1901, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F1FE-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 14. Juni 1901, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F1FE-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

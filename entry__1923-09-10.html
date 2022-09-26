@@ -107,6 +107,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Bregenz</a></li>
+                                    <li><a href=".html">Lochau</a></li>
                                     <li><a href="pmb91159.html">Lochau</a></li>
                                     <li><a href="pmb91468.html">Pfänder</a></li>
                                     <li><a href="pmb40321.html">Bregenz</a></li>
@@ -123,6 +125,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Bregenz</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Lochau</b>").openPopup();
                                                 
                                                     L.marker([47.53333, 9.75]).addTo(mymap)
                                                     .bindPopup("<b>Lochau</b>").openPopup();
@@ -145,7 +153,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 10. September 1923, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-114F-9. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 10. September 1923, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-114F-9. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

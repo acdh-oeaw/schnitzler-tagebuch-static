@@ -102,6 +102,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Grundlsee</a></li>
+                                    <li><a href=".html">Gössl</a></li>
+                                    <li><a href=".html">Kammersee</a></li>
                                     <li><a href="pmb91912.html">Toplitz-</a></li>
                                     <li><a href="pmb92327.html">Kammersee</a></li>
                                     <li><a href="pmb90749.html">Gössl</a></li>
@@ -120,6 +123,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Grundlsee</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Gössl</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Kammersee</b>").openPopup();
                                                 
                                                     L.marker([47.64167, 13.92778]).addTo(mymap)
                                                     .bindPopup("<b>Toplitz-</b>").openPopup();
@@ -148,7 +160,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 12. August 1889, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-E194-F. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 12. August 1889, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-E194-F. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

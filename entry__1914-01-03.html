@@ -152,6 +152,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Wien</a></li>
                                     <li><a href="pmb58.html">Josefstadt</a></li>
                                     <li><a href="pmb90392.html">Breslau</a></li>
                                  </ul>
@@ -167,6 +168,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 
                                                     L.marker([48.21126, 16.34706]).addTo(mymap)
                                                     .bindPopup("<b>Josefstadt</b>").openPopup();
@@ -186,7 +190,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 3. Jänner 1914, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-0383-C. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 3. Jänner 1914, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-0383-C. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -237,7 +241,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schriftsteller.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10893" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span> </span><span class="button"><span><a class="leseliste-button" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10893.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/10893/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118911732/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10893.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span> </span><span class="button"><span><a class="leseliste-button" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10893.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/10893/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118911732/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
@@ -279,13 +283,13 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Theaterleiter, Schauspieler.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2601" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2601" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2601/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/116653981/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2601" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2601.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2601/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/116653981/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
                            <p></p>
                            <ul class="dashed">
-                              <li>(mit Josef Jarno, Hanns Fischer: ) <a href="pmb32340.html">Aschermittwoch. Schwank</a>, 1897.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32340" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li>(mit Josef Jarno, Hanns Fischer: ) <a href="pmb32340.html">Aschermittwoch. Schwank</a>, 1897.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32340.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                               <li>(mit Josef Jarno, Hanns Friedrich Fischer: ) <a href="pmb41396.html">Der Rabenvater. Schwank in drei Akten</a>, 9. 7. 1895.  <span><a class="briefe-workbutton" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41396" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  </li>
                               <li>(mit Hanns Friedrich Fischer, Josef Jarno: ) <a href="pmb76963.html">Die Vielgeliebte</a> </li>
                            </ul>
@@ -370,7 +374,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schauspielerin.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4061" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4061/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/117547212/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4061.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4061/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/117547212/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>
@@ -430,7 +434,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Maler.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12277" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12277/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118882368/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12277.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12277/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118882368/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>
@@ -497,7 +501,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Dramaturg, Verleger.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12556" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12556" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12556/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/11662177X/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12556" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12556.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12556/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/11662177X/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>
@@ -688,7 +692,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Journalistin, Übersetzerin.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2312" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2312" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2312/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118758160/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2312" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2312.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2312/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118758160/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>
@@ -1157,7 +1161,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schauspieler.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3201" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/3201/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/117118524/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3201.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/3201/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/117118524/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>

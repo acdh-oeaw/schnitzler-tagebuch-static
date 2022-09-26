@@ -103,6 +103,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Hamburg</a></li>
+                                    <li><a href=".html">Lübeck</a></li>
+                                    <li><a href=".html">Hotel zum Kronprinzen</a></li>
                                     <li><a href="pmb506.html">Hamburg</a></li>
                                     <li><a href="pmb884.html">Lübeck</a></li>
                                  </ul>
@@ -118,6 +121,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Hamburg</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Lübeck</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Hotel zum Kronprinzen</b>").openPopup();
                                                 
                                                     L.marker([53.57532, 10.01534]).addTo(mymap)
                                                     .bindPopup("<b>Hamburg</b>").openPopup();
@@ -137,7 +149,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 7. Juli 1896, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-EB39-D. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 7. Juli 1896, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-EB39-D. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

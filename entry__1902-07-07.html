@@ -105,6 +105,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Welsberg</a></li>
+                                    <li><a href=".html">Lienz</a></li>
+                                    <li><a href=".html">Wildbad Waldbrunn</a></li>
                                     <li><a href="pmb428.html">Welsberg</a></li>
                                     <li><a href="pmb897.html">Lienz</a></li>
                                  </ul>
@@ -120,6 +123,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Welsberg</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Lienz</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wildbad Waldbrunn</b>").openPopup();
                                                 
                                                     L.marker([46.75774, 12.10556]).addTo(mymap)
                                                     .bindPopup("<b>Welsberg</b>").openPopup();
@@ -139,7 +151,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 7. Juli 1902, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F34D-D. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 7. Juli 1902, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F34D-D. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

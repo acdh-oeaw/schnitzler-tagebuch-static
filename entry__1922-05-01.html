@@ -148,6 +148,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Scheveningen</a></li>
+                                    <li><a href=".html">Leiden</a></li>
                                     <li><a href="pmb44313.html">Scheveningen</a></li>
                                     <li><a href="pmb91129.html">Leiden</a></li>
                                  </ul>
@@ -163,6 +165,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Scheveningen</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Leiden</b>").openPopup();
                                                 
                                                     L.marker([52.10461, 4.27557]).addTo(mymap)
                                                     .bindPopup("<b>Scheveningen</b>").openPopup();
@@ -182,7 +190,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 1. Mai 1922, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-0F5F-B. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 1. Mai 1922, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-0F5F-B. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

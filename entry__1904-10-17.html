@@ -141,7 +141,9 @@
                            <legend>Orte</legend>
                            <div class="row">
                               <div class="col-md-4">
-                                 <ul></ul>
+                                 <ul>
+                                    <li><a href=".html">Wien</a></li>
+                                 </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
                            </div>
@@ -154,6 +156,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -167,7 +172,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 17. Oktober 1904, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F683-B. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 17. Oktober 1904, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F683-B. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -213,7 +218,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Theaterleiter, Regisseur, Schauspieler.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12504" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12504" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12504/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118599380/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12504" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12504.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12504/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118599380/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>
@@ -475,7 +480,7 @@
                   <div class="modal-body">
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12701" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12701" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12701/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/1141930552/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12701" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12701.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12701/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/1141930552/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <p></p>
@@ -1371,32 +1376,32 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schriftsteller, Mediziner.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12749" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12749" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span> </span><span class="button"><span><a class="leseliste-button" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12749.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12749/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118758926/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12749" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12749.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span> </span><span class="button"><span><a class="leseliste-button" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12749.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12749/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118758926/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
                            <p></p>
                            <ul class="dashed">
                               <li><a href="pmb77328.html">Caritas</a>, 1905.  <span><a class="leseliste-workbutton" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb77328.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </li>
-                              <li><a href="pmb32620.html">Das Königreich</a>, 1908.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32620" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb32620.html">Das Königreich</a>, 1908.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32620.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                               <li><a href="pmb77329.html">Der Judas von Tirol</a> </li>
                               <li><a href="pmb77330.html">Der Kampf. Vivat academia! (Herr Doktor, haben Sie zu essen?)</a> </li>
                               <li><a href="pmb77331.html">Der Komödiant</a> </li>
-                              <li><a href="pmb30887.html">Der Weibsteufel</a>, 1914.  <span><a class="briefe-workbutton" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30887" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30887" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb30887.html">Der Weibsteufel</a>, 1914.  <span><a class="briefe-workbutton" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30887" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30887.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                               <li><a href="pmb77332.html">Die Bildschnitzer</a> </li>
                               <li><a href="pmb77333.html">Die Trenkwalder</a> </li>
-                              <li><a href="pmb30235.html">Erde</a>, 1907.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30235" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
-                              <li><a href="pmb31237.html">Es</a>, 1923.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31237" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb30235.html">Erde</a>, 1907.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30235.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb31237.html">Es</a>, 1923.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31237.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                               <li><a href="pmb33035.html">Familie</a>, 1905. </li>
-                              <li><a href="pmb31607.html">Frau Suitner</a>, 1916.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31607" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
-                              <li><a href="pmb30855.html">Glaube und Heimat. Die Tragödie eines Volkes</a>, 1910.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30855" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  <span><a class="leseliste-workbutton" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30855.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </li>
+                              <li><a href="pmb31607.html">Frau Suitner</a>, 1916.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31607.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb30855.html">Glaube und Heimat. Die Tragödie eines Volkes</a>, 1910.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30855.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  <span><a class="leseliste-workbutton" href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb30855.html" target="_blank"><span class="color-schnitzler-lektueren"> Lektüren</span></a></span>  </li>
                               <li><a href="pmb77334.html">Karrnerleut'</a> </li>
                               <li><a href="pmb77335.html">Kindertragödie</a> </li>
                               <li><a href="pmb77336.html">Maitanz</a> </li>
-                              <li>(mit Adolph Donath, Marie von Ebner-Eschenbach, Ferdinand von Saar, Peter Rosegger, Jakob Julius David, Hermann Bahr, Arthur Schnitzler, Theodor Herzl, Philipp Langmann, Marie Eugenie Delle Grazie, Karl Schönherr, Rudolf Hawel: ) <a href="pmb32840.html">Österreichische Dichter zum 60. Geburtstage Detlev von Liliencrons</a>, 1904.  <span><a class="briefe-workbutton" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32840" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32840" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li>(mit Adolph Donath, Marie von Ebner-Eschenbach, Ferdinand von Saar, Peter Rosegger, Jakob Julius David, Hermann Bahr, Arthur Schnitzler, Theodor Herzl, Philipp Langmann, Marie Eugenie Delle Grazie, Karl Schönherr, Rudolf Hawel: ) <a href="pmb32840.html">Österreichische Dichter zum 60. Geburtstage Detlev von Liliencrons</a>, 1904.  <span><a class="briefe-workbutton" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32840" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32840.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                               <li><a href="pmb77337.html">Sonnwendtag</a> </li>
                               <li><a href="pmb77338.html">Über die Brücke</a> </li>
-                              <li><a href="pmb31635.html">Volk in Not. Ein deutsches Heldenlied</a>, 1915.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31635" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb31635.html">Volk in Not. Ein deutsches Heldenlied</a>, 1915.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31635.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                            </ul>
                         </div>
                         <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
@@ -1574,7 +1579,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schriftsteller/Schriftstellerin, Schauspieler/Schauspielerin.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb24906" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/24906/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb24906.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/24906/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
@@ -1642,7 +1647,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schriftsteller.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3422" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/3422/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118733001/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3422.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/3422/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118733001/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>

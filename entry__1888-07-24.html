@@ -102,6 +102,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Ventnor</a></li>
+                                    <li><a href=".html">Newport</a></li>
                                     <li><a href="pmb92005.html">Ventnor</a></li>
                                     <li><a href="pmb90653.html">Freshwater</a></li>
                                     <li><a href="pmb91348.html">Newport</a></li>
@@ -118,6 +120,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Ventnor</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Newport</b>").openPopup();
                                                 
                                                     L.marker([50.59449, -1.20672]).addTo(mymap)
                                                     .bindPopup("<b>Ventnor</b>").openPopup();
@@ -140,7 +148,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 24. Juli 1888, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-E081-5. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 24. Juli 1888, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-E081-5. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

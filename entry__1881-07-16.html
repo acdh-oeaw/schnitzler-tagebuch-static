@@ -103,6 +103,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Obervellach</a></li>
+                                    <li><a href=".html">Winklern</a></li>
+                                    <li><a href=".html">Heiligenblut</a></li>
                                     <li><a href="pmb91383.html">Obervellach</a></li>
                                     <li><a href="pmb92089.html">Winklern</a></li>
                                     <li><a href="pmb90843.html">Heiligenblut</a></li>
@@ -119,6 +122,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Obervellach</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Winklern</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Heiligenblut</b>").openPopup();
                                                 
                                                     L.marker([46.93667, 13.20417]).addTo(mymap)
                                                     .bindPopup("<b>Obervellach</b>").openPopup();
@@ -141,7 +153,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 16. Juli 1881, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-DE1F-A. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 16. Juli 1881, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-DE1F-A. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

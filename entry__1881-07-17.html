@@ -72,7 +72,7 @@
                   
                   <div id="div__5">
                      
-                     <p id="p__4">Sonntag 17. <a data-toggle="modal" data-target="#pmb90843" style="color:black">Heiligenblut</a>, Pasterze, Bergerthörl ― <a data-toggle="modal" data-target="#pmb90981" style="color:black">Kals</a> (lOstündige 
+                     <p id="p__4">Sonntag 17. <a data-toggle="modal" data-target="#pmb90843" style="color:black">Heiligenblut</a>, Pasterze, Bergerthörl ― <a data-toggle="modal" data-target="#pmb90981" style="color:black">Kals</a> (10stündige 
                         Fußpartie).</p>
                      </div>
                   </div>
@@ -102,6 +102,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Heiligenblut</a></li>
+                                    <li><a href=".html">Pasterze</a></li>
+                                    <li><a href=".html">Kals</a></li>
                                     <li><a href="pmb90843.html">Heiligenblut</a></li>
                                     <li><a href="pmb90981.html">Kals</a></li>
                                  </ul>
@@ -117,6 +120,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Heiligenblut</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Pasterze</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Kals</b>").openPopup();
                                                 
                                                     L.marker([47.03979, 12.84345]).addTo(mymap)
                                                     .bindPopup("<b>Heiligenblut</b>").openPopup();
@@ -136,7 +148,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 17. Juli 1881, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-DE20-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 17. Juli 1881, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-DE20-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

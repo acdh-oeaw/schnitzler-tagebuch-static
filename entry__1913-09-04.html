@@ -107,6 +107,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">München</a></li>
                                     <li><a href="pmb90374.html">Bodensee</a></li>
                                     <li><a href="pmb45258.html">München</a></li>
                                  </ul>
@@ -122,6 +123,9 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>München</b>").openPopup();
                                                 
                                                     L.marker([49.06694, 8.35278]).addTo(mymap)
                                                     .bindPopup("<b>Bodensee</b>").openPopup();
@@ -141,7 +145,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Donnerstag, 4. September 1913, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-030A-6. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Donnerstag, 4. September 1913, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-030A-6. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

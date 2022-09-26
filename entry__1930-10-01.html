@@ -77,7 +77,7 @@
                      <p id="p__3">Nm. gelesen. (<a data-toggle="modal" data-target="#person_15391" style="color:black">Gentz</a> u. dgl.―)</p>
                      
                      <p id="p__12">Gegen 6 <a data-toggle="modal" data-target="#person_14234" style="color:black">Suz.</a>; begleite sie <a data-toggle="modal" data-target="#pmb92202" style="color:black">Volksth.</a>;― ich <a data-toggle="modal" data-target="#pmb58" style="color:black">Josefstadt</a>;― mit <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> <a data-toggle="modal" data-target="#person_18225" style="color:black">Molnar</a> 
-                        „<a data-toggle="modal" data-target="#pmb91399" style="color:black">Olympia</a>“ ― recht amüsant. Mit <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> „Hahn“.</p>
+                        „<a data-toggle="modal" data-target="#pmb77985" style="color:black">Olympia</a>“ ― recht amüsant. Mit <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> „Hahn“.</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -127,9 +127,11 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Wien</a></li>
+                                    <li><a href=".html">Deutsches Volkstheater</a></li>
+                                    <li><a href=".html">VIII., Josefstadt</a></li>
                                     <li><a href="pmb92202.html">Deutsches Volkstheater</a></li>
                                     <li><a href="pmb58.html">Josefstadt</a></li>
-                                    <li><a href="pmb91399.html">Olympia</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -144,14 +146,20 @@
                                                 zIndex: 1
                                                 }).addTo(mymap);
                                                 
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>VIII., Josefstadt</b>").openPopup();
+                                                
                                                     L.marker([48.205142, 16.3566]).addTo(mymap)
                                                     .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
                                                 
                                                     L.marker([48.21126, 16.34706]).addTo(mymap)
                                                     .bindPopup("<b>Josefstadt</b>").openPopup();
-                                                
-                                                    L.marker([37.64788, 21.6271]).addTo(mymap)
-                                                    .bindPopup("<b>Olympia</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -165,7 +173,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 1. Oktober 1930, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-1B60-A. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 1. Oktober 1930, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-1B60-A. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -211,7 +219,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schriftstellerin, Übersetzerin.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15015" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/15015/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb15015.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/15015/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
@@ -761,13 +769,13 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Publizist/Publizistin, Beamter/Beamte.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11416" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11416/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118538489/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11416.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11416/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118538489/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
                            <p></p>
                            <ul class="dashed">
-                              <li><a href="pmb30253.html">Tagebücher</a>, 1861–1874.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30253" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb30253.html">Tagebücher</a>, 1861–1874.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30253.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                            </ul>
                         </div>
                         <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
@@ -807,7 +815,7 @@
                               <li><a href="pmb77982.html">Die Fee</a> </li>
                               <li><a href="pmb77983.html">Die rote Mühle</a> </li>
                               <li><a href="pmb77984.html">Eins, zwei, drei</a> </li>
-                              <li><a href="pmb31611.html">Fasching</a>, 1917.  <span><a class="bahrschnitzler-workbutton" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31611" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </li>
+                              <li><a href="pmb31611.html">Fasching</a>, 1917.  <span><a class="bahrschnitzler-workbutton" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31611.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </li>
                               <li>(mit Ferenc Molnár, Alfred Polgar: ) <a href="pmb56659.html">Liliom</a>, 7. 12. 1909. </li>
                               <li><a href="pmb77985.html">Olympia</a> </li>
                               <li><a href="pmb77986.html">Souper</a> </li>
@@ -860,7 +868,7 @@
                      <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body">
                         <p>Schriftstellerin.<br></br></p>
                         <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12435" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12435" target="_blank"><span class="color-bahrschnitzler"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12435/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/13950916X/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                           <p class="buttonreihe"><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12435" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span> </span><span class="button"><span><a class="bahrschnitzler-button" href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12435.html" target="_blank"><span class="color-schnitzler-bahr"> Bahr/Schnitzler</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12435/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/13950916X/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
                         </div>
                         <div class="werke">
                            <h2>Werke</h2>
@@ -2939,26 +2947,6 @@
                            <li><a href="place_a9a988302086229505c21f885134919d">place_a9a988302086229505c21f885134919d</a></li>
                            <li><a href="https://pmb.acdh.oeaw.ac.at/entity/58">https://pmb.acdh.oeaw.ac.at/entity/58</a></li>
                         </ul><span class="infodesc mr-2">Koordinaten</span><span>48.21126 16.34706</span></div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91399">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Olympia <a href="pmb91399.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                           <li>Olympia</li>
-                           <li>Archaía Olympía</li>
-                        </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/264637/">http://www.geonames.org/264637/</a></li>
-                           <li><a href="place_153e719fd62d36d426a21622035b7024">place_153e719fd62d36d426a21622035b7024</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/91399">https://pmb.acdh.oeaw.ac.at/entity/91399</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>37.64788 21.6271</span></div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

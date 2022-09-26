@@ -106,6 +106,8 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Hinterbrühl</a></li>
+                                    <li><a href=".html">Hotel Radetzky</a></li>
                                     <li><a href="pmb75.html">Hinterbrühl</a></li>
                                     <li><a href="pmb91145.html">Liechtenstein</a></li>
                                  </ul>
@@ -121,6 +123,12 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Hinterbrühl</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Hotel Radetzky</b>").openPopup();
                                                 
                                                     L.marker([48.08611, 16.24809]).addTo(mymap)
                                                     .bindPopup("<b>Hinterbrühl</b>").openPopup();
@@ -140,7 +148,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 13. Mai 1906, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000B-F8BF-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 13. Mai 1906, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000B-F8BF-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

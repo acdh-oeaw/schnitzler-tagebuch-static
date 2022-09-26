@@ -152,6 +152,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Prag</a></li>
+                                    <li><a href=".html">Palasthotel Prag</a></li>
+                                    <li><a href=".html">Wien</a></li>
                                     <li><a href="pmb871.html">Karlsruhe</a></li>
                                     <li><a href="pmb35572.html">Braunschweig</a></li>
                                     <li><a href="pmb90759.html">Graz</a></li>
@@ -188,6 +191,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Prag</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Palasthotel Prag</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
                                                 
                                                     L.marker([49.00937, 8.40444]).addTo(mymap)
                                                     .bindPopup("<b>Karlsruhe</b>").openPopup();
@@ -270,7 +282,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 15. Juni 1912, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-014C-E. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 15. Juni 1912, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-014C-E. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

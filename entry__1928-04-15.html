@@ -113,6 +113,9 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href=".html">Dalmatia</a></li>
+                                    <li><a href=".html">Korcula</a></li>
+                                    <li><a href=".html">Dubrovnik</a></li>
                                     <li><a href="pmb90511.html">Dalmatien</a></li>
                                     <li><a href="pmb90502.html">Curzola</a></li>
                                     <li><a href="pmb682.html">Ragusa</a></li>
@@ -130,6 +133,15 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Dalmatia</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Korcula</b>").openPopup();
+                                                
+                                                    L.marker([, ]).addTo(mymap)
+                                                    .bindPopup("<b>Dubrovnik</b>").openPopup();
                                                 
                                                     L.marker([43, 17]).addTo(mymap)
                                                     .bindPopup("<b>Dalmatien</b>").openPopup();
@@ -155,7 +167,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 15. April 1928, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-05), PID: http://hdl.handle.net/21.11115/0000-000C-17DD-2. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 15. April 1928, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-26), PID: http://hdl.handle.net/21.11115/0000-000C-17DD-2. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
