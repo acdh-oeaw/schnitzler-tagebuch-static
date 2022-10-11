@@ -211,7 +211,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Donnerstag, 17. Juli 1930, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-27), PID: http://hdl.handle.net/21.11115/0000-000C-1B14-0. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Donnerstag, 17. Juli 1930, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-1B14-0. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -8156,11 +8156,27 @@
                      <h5 class="modal-title">Buchs <a href="pmb859.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2661348/">http://www.geonames.org/2661348/</a></li>
-                           <li><a href="place_4293c5990fed6c6352653a9489c26ab9">place_4293c5990fed6c6352653a9489c26ab9</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/859">https://pmb.acdh.oeaw.ac.at/entity/859</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>47.39358 8.08233</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    47.39358, 8.08233
+                                                        L.marker([47.39358, 8.08233]).addTo(mymap)
+                                                        .bindPopup("<b>Buchs</b>").openPopup();
+                                                </script><div class="card">
+                           <p>47.39358 8.08233</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_4293c5990fed6c6352653a9489c26ab9" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/859/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2661348/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -8173,11 +8189,27 @@
                      <h5 class="modal-title">Chur <a href="pmb2448.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2661169/">http://www.geonames.org/2661169/</a></li>
-                           <li><a href="place_05e302e5aab8a6fdaa8f3d9a573b8c1b">place_05e302e5aab8a6fdaa8f3d9a573b8c1b</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/2448">https://pmb.acdh.oeaw.ac.at/entity/2448</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>46.84986 9.53287</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.84986, 9.53287
+                                                        L.marker([46.84986, 9.53287]).addTo(mymap)
+                                                        .bindPopup("<b>Chur</b>").openPopup();
+                                                </script><div class="card">
+                           <p>46.84986 9.53287</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_05e302e5aab8a6fdaa8f3d9a573b8c1b" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2448/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2661169/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -8190,11 +8222,27 @@
                      <h5 class="modal-title">St. Moritz <a href="pmb44374.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2658813/">http://www.geonames.org/2658813/</a></li>
-                           <li><a href="place_51c7c0e8bc877f41a415a8e7efedd068">place_51c7c0e8bc877f41a415a8e7efedd068</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/44374">https://pmb.acdh.oeaw.ac.at/entity/44374</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>46.49937 9.84327</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.49937, 9.84327
+                                                        L.marker([46.49937, 9.84327]).addTo(mymap)
+                                                        .bindPopup("<b>St. Moritz</b>").openPopup();
+                                                </script><div class="card">
+                           <p>46.49937 9.84327</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_51c7c0e8bc877f41a415a8e7efedd068" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/44374/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2658813/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -8207,14 +8255,27 @@
                      <h5 class="modal-title">Thalheim <a href="pmb91887.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                           <li>Thalheim</li>
-                           <li>Thalheim bei Wels</li>
-                        </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2763742/">http://www.geonames.org/2763742/</a></li>
-                           <li><a href="place_ae346a40038f37b848c0d01aaaa37344">place_ae346a40038f37b848c0d01aaaa37344</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/91887">https://pmb.acdh.oeaw.ac.at/entity/91887</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.15 14.03333</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.15, 14.03333
+                                                        L.marker([48.15, 14.03333]).addTo(mymap)
+                                                        .bindPopup("<b>Thalheim</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.15 14.03333</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_ae346a40038f37b848c0d01aaaa37344" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/91887/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2763742/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

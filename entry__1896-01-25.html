@@ -168,7 +168,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 25. Jänner 1896, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-09-27), PID: http://hdl.handle.net/21.11115/0000-000B-EA95-5. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 25. Jänner 1896, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-EA95-5. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1475,11 +1475,27 @@
                      <h5 class="modal-title">Weidlingbach <a href="pmb44394.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2761738/">http://www.geonames.org/2761738/</a></li>
-                           <li><a href="place_f31da60292f235984a0cb55466b84b5f">place_f31da60292f235984a0cb55466b84b5f</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/44394">https://pmb.acdh.oeaw.ac.at/entity/44394</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.26667 16.25</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.26667, 16.25
+                                                        L.marker([48.26667, 16.25]).addTo(mymap)
+                                                        .bindPopup("<b>Weidlingbach</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.26667 16.25</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_f31da60292f235984a0cb55466b84b5f" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/44394/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2761738/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1492,11 +1508,27 @@
                      <h5 class="modal-title">Steinriegl <a href="pmb49210.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2764412/">http://www.geonames.org/2764412/</a></li>
-                           <li><a href="place_361000b73d3947c615f058769b32865c">place_361000b73d3947c615f058769b32865c</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/49210">https://pmb.acdh.oeaw.ac.at/entity/49210</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.26667 16.23333</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.26667, 16.23333
+                                                        L.marker([48.26667, 16.23333]).addTo(mymap)
+                                                        .bindPopup("<b>Steinriegl</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.26667 16.23333</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_361000b73d3947c615f058769b32865c" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/49210/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2764412/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1509,11 +1541,27 @@
                      <h5 class="modal-title">Königstetten <a href="pmb34354.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2773736/">http://www.geonames.org/2773736/</a></li>
-                           <li><a href="place_a2d96b5d9ef20498b3504ec5ae55b27c">place_a2d96b5d9ef20498b3504ec5ae55b27c</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/34354">https://pmb.acdh.oeaw.ac.at/entity/34354</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.30198 16.14492</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.30198, 16.14492
+                                                        L.marker([48.30198, 16.14492]).addTo(mymap)
+                                                        .bindPopup("<b>Königstetten</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.30198 16.14492</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_a2d96b5d9ef20498b3504ec5ae55b27c" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/34354/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2773736/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1526,14 +1574,27 @@
                      <h5 class="modal-title">Andrä Wördern <a href="pmb1246.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                           <li>Andrä Wördern</li>
-                           <li>Sankt Andrä-Wördern</li>
-                        </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/7873041/">http://www.geonames.org/7873041/</a></li>
-                           <li><a href="place_07e1e69de6ad35be535fe26851d79cc0">place_07e1e69de6ad35be535fe26851d79cc0</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/1246">https://pmb.acdh.oeaw.ac.at/entity/1246</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.32409 16.21714</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.32409, 16.21714
+                                                        L.marker([48.32409, 16.21714]).addTo(mymap)
+                                                        .bindPopup("<b>Andrä Wördern</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.32409 16.21714</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_07e1e69de6ad35be535fe26851d79cc0" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/1246/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/7873041/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1546,14 +1607,27 @@
                      <h5 class="modal-title">Klosterneuburg-Kierling <a href="pmb46976.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                           <li>Klosterneuburg-Kierling</li>
-                           <li>Kierling</li>
-                        </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2774449/">http://www.geonames.org/2774449/</a></li>
-                           <li><a href="place_48aaa5acfc6e1fb1917a5cb16e87aa1f">place_48aaa5acfc6e1fb1917a5cb16e87aa1f</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/46976">https://pmb.acdh.oeaw.ac.at/entity/46976</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.30997 16.27616</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.30997, 16.27616
+                                                        L.marker([48.30997, 16.27616]).addTo(mymap)
+                                                        .bindPopup("<b>Klosterneuburg-Kierling</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.30997 16.27616</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_48aaa5acfc6e1fb1917a5cb16e87aa1f" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/46976/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2774449/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1566,11 +1640,27 @@
                      <h5 class="modal-title">Klosterneuburg <a href="pmb865.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                           <li><a href="http://www.geonames.org/2773913/">http://www.geonames.org/2773913/</a></li>
-                           <li><a href="place_a3c879a4f19e7987aa5aa1f1b929b0da">place_a3c879a4f19e7987aa5aa1f1b929b0da</a></li>
-                           <li><a href="https://pmb.acdh.oeaw.ac.at/entity/865">https://pmb.acdh.oeaw.ac.at/entity/865</a></li>
-                        </ul><span class="infodesc mr-2">Koordinaten</span><span>48.30521 16.32522</span></div>
+                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.30521, 16.32522
+                                                        L.marker([48.30521, 16.32522]).addTo(mymap)
+                                                        .bindPopup("<b>Klosterneuburg</b>").openPopup();
+                                                </script><div class="card">
+                           <p>48.30521 16.32522</p>
+                        </div>
+                        <div id="mentions">
+                           <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_a3c879a4f19e7987aa5aa1f1b929b0da" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/865/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2773913/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>

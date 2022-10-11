@@ -58,10 +58,27 @@
                   <h1 align="center">Lindaustraße</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="place_39a489f609460ac329d6efa0598c1e3a">place_39a489f609460ac329d6efa0598c1e3a</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/92377">https://pmb.acdh.oeaw.ac.at/entity/92377</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>47.710302 13.585798</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    47.710302, 13.585798
+                                                        L.marker([47.710302, 13.585798]).addTo(mymap)
+                                                        .bindPopup("<b>Lindaustraße</b>").openPopup();
+                                                </script><div class="card">
+                        <p>47.710302 13.585798</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_39a489f609460ac329d6efa0598c1e3a" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/92377/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Samstag, 28. August 1897 <a href="entry__1897-08-28.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Montag, 2. August 1915 <a href="entry__1915-08-02.html"><i class="fas fa-external-link-alt"></i></a></li>
                         </ul>

@@ -58,13 +58,27 @@
                   <h1 align="center">Muottas Murail</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                        <li>Muottas Murail</li>
-                        <li>Muottas Muragl</li>
-                     </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/6934902/">http://www.geonames.org/6934902/</a></li>
-                        <li><a href="place_94501be4d3784aa4805664e854bb19af">place_94501be4d3784aa4805664e854bb19af</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>46.52179 9.9024</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.52179, 9.9024
+                                                        L.marker([46.52179, 9.9024]).addTo(mymap)
+                                                        .bindPopup("<b>Muottas Murail</b>").openPopup();
+                                                </script><div class="card">
+                        <p>46.52179 9.9024</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_94501be4d3784aa4805664e854bb19af" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/6934902/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Freitag, 29. August 1913 <a href="entry__1913-08-29.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Mittwoch, 22. Juli 1914 <a href="entry__1914-07-22.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Sonntag, 19. August 1923 <a href="entry__1923-08-19.html"><i class="fas fa-external-link-alt"></i></a></li>

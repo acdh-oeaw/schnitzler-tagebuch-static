@@ -58,11 +58,27 @@
                   <h1 align="center">Kapellen</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/2774782/">http://www.geonames.org/2774782/</a></li>
-                        <li><a href="place_cdd6a17b6dd4d30a8641418b752d3875">place_cdd6a17b6dd4d30a8641418b752d3875</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/90995">https://pmb.acdh.oeaw.ac.at/entity/90995</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>47.64784 15.62863</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    47.64784, 15.62863
+                                                        L.marker([47.64784, 15.62863]).addTo(mymap)
+                                                        .bindPopup("<b>Kapellen</b>").openPopup();
+                                                </script><div class="card">
+                        <p>47.64784 15.62863</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_cdd6a17b6dd4d30a8641418b752d3875" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/90995/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2774782/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Samstag, 16. Juli 1904 <a href="entry__1904-07-16.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Samstag, 29. Juni 1929 <a href="entry__1929-06-29.html"><i class="fas fa-external-link-alt"></i></a></li>
                         </ul>

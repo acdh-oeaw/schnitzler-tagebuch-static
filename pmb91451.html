@@ -58,11 +58,27 @@
                   <h1 align="center">Perchtoldsdorf</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/2769110/">http://www.geonames.org/2769110/</a></li>
-                        <li><a href="place_5e86e41371e971e6c8bbcf83490bc36e">place_5e86e41371e971e6c8bbcf83490bc36e</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/91451">https://pmb.acdh.oeaw.ac.at/entity/91451</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>48.11935 16.26607</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.11935, 16.26607
+                                                        L.marker([48.11935, 16.26607]).addTo(mymap)
+                                                        .bindPopup("<b>Perchtoldsdorf</b>").openPopup();
+                                                </script><div class="card">
+                        <p>48.11935 16.26607</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_5e86e41371e971e6c8bbcf83490bc36e" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/91451/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2769110/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Sonntag, 7. Juni 1891 <a href="entry__1891-06-07.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Dienstag, 12. Juli 1892 <a href="entry__1892-07-12.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Montag, 26. Juli 1897 <a href="entry__1897-07-26.html"><i class="fas fa-external-link-alt"></i></a></li>

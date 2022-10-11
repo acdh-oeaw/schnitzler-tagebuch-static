@@ -58,11 +58,27 @@
                   <h1 align="center">Karersee</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/3180522/">http://www.geonames.org/3180522/</a></li>
-                        <li><a href="place_0c8a0ca19b8a880f6aec12e3d3fe5c05">place_0c8a0ca19b8a880f6aec12e3d3fe5c05</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/91003">https://pmb.acdh.oeaw.ac.at/entity/91003</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>46.41147 11.58817</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.41147, 11.58817
+                                                        L.marker([46.41147, 11.58817]).addTo(mymap)
+                                                        .bindPopup("<b>Karersee</b>").openPopup();
+                                                </script><div class="card">
+                        <p>46.41147 11.58817</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_0c8a0ca19b8a880f6aec12e3d3fe5c05" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/91003/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/3180522/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Dienstag, 23. Juli 1901 <a href="entry__1901-07-23.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Mittwoch, 24. Juli 1901 <a href="entry__1901-07-24.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Donnerstag, 29. August 1907 <a href="entry__1907-08-29.html"><i class="fas fa-external-link-alt"></i></a></li>

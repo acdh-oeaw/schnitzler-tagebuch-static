@@ -58,14 +58,27 @@
                   <h1 align="center">Hornbaek</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                        <li>Hornbaek</li>
-                        <li>Hornbæk</li>
-                     </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/2619807/">http://www.geonames.org/2619807/</a></li>
-                        <li><a href="place_a60d3fd93584b49c239fa0d53066227b">place_a60d3fd93584b49c239fa0d53066227b</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/44089">https://pmb.acdh.oeaw.ac.at/entity/44089</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>56.08541 12.45049</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    56.08541, 12.45049
+                                                        L.marker([56.08541, 12.45049]).addTo(mymap)
+                                                        .bindPopup("<b>Hornbaek</b>").openPopup();
+                                                </script><div class="card">
+                        <p>56.08541 12.45049</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_a60d3fd93584b49c239fa0d53066227b" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/44089/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2619807/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Donnerstag, 5. Juli 1906 <a href="entry__1906-07-05.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Freitag, 27. Juli 1906 <a href="entry__1906-07-27.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Sonntag, 5. August 1906 <a href="entry__1906-08-05.html"><i class="fas fa-external-link-alt"></i></a></li>

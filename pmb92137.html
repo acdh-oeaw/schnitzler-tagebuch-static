@@ -58,13 +58,27 @@
                   <h1 align="center">Alleegade</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                        <li>Alleegade</li>
-                        <li>Allegade</li>
-                     </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="place_2d71fee2065c83ffb0f2e2516b201df2">place_2d71fee2065c83ffb0f2e2516b201df2</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/92137">https://pmb.acdh.oeaw.ac.at/entity/92137</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>55.677283 12.532997</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    55.677283, 12.532997
+                                                        L.marker([55.677283, 12.532997]).addTo(mymap)
+                                                        .bindPopup("<b>Alleegade</b>").openPopup();
+                                                </script><div class="card">
+                        <p>55.677283 12.532997</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_2d71fee2065c83ffb0f2e2516b201df2" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/92137/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Samstag, 12. Mai 1923 <a href="entry__1923-05-12.html"><i class="fas fa-external-link-alt"></i></a></li>
                         </ul>
                      </div>

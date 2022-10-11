@@ -58,13 +58,27 @@
                   <h1 align="center">Matthäikirchstr.</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                        <li>Matthäikirchstr.</li>
-                        <li>Herbert-von-Karajan-Straße</li>
-                     </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="place_001f4be1f06f195a19db0d2f0aee31ec">place_001f4be1f06f195a19db0d2f0aee31ec</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/92390">https://pmb.acdh.oeaw.ac.at/entity/92390</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>52.509690 13.368132</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    52.509690, 13.368132
+                                                        L.marker([52.509690, 13.368132]).addTo(mymap)
+                                                        .bindPopup("<b>Matthäikirchstr.</b>").openPopup();
+                                                </script><div class="card">
+                        <p>52.509690 13.368132</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_001f4be1f06f195a19db0d2f0aee31ec" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/92390/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Sonntag, 15. März 1925 <a href="entry__1925-03-15.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Freitag, 17. Februar 1928 <a href="entry__1928-02-17.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Sonntag, 7. Oktober 1928 <a href="entry__1928-10-07.html"><i class="fas fa-external-link-alt"></i></a></li>

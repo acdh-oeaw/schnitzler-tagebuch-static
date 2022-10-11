@@ -58,13 +58,27 @@
                   <h1 align="center">Teinfaltstr.</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                        <li>Teinfaltstr.</li>
-                        <li>Teinfaltstraße</li>
-                     </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="place_34ebbbd3ada43b915388e0dfd5c4530c">place_34ebbbd3ada43b915388e0dfd5c4530c</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/92565">https://pmb.acdh.oeaw.ac.at/entity/92565</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>48.211571 16.363008</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.211571, 16.363008
+                                                        L.marker([48.211571, 16.363008]).addTo(mymap)
+                                                        .bindPopup("<b>Teinfaltstr.</b>").openPopup();
+                                                </script><div class="card">
+                        <p>48.211571 16.363008</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_34ebbbd3ada43b915388e0dfd5c4530c" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/92565/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Mittwoch, 3. Oktober 1888 <a href="entry__1888-10-03.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Donnerstag, 30. Juni 1927 <a href="entry__1927-06-30.html"><i class="fas fa-external-link-alt"></i></a></li>
                         </ul>

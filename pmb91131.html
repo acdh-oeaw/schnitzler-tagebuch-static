@@ -58,11 +58,27 @@
                   <h1 align="center">Lend</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/7872240/">http://www.geonames.org/7872240/</a></li>
-                        <li><a href="place_a3c7fe0abd84cd0be2c8339f5fb2a969">place_a3c7fe0abd84cd0be2c8339f5fb2a969</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/91131">https://pmb.acdh.oeaw.ac.at/entity/91131</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>47.28075 13.02265</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    47.28075, 13.02265
+                                                        L.marker([47.28075, 13.02265]).addTo(mymap)
+                                                        .bindPopup("<b>Lend</b>").openPopup();
+                                                </script><div class="card">
+                        <p>47.28075 13.02265</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_a3c7fe0abd84cd0be2c8339f5fb2a969" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/91131/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/7872240/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Mittwoch, 13. Juli 1881 <a href="entry__1881-07-13.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Donnerstag, 14. Juli 1881 <a href="entry__1881-07-14.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Mittwoch, 20. Juli 1898 <a href="entry__1898-07-20.html"><i class="fas fa-external-link-alt"></i></a></li>

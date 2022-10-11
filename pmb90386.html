@@ -58,11 +58,27 @@
                   <h1 align="center">Bosporus</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/745043/">http://www.geonames.org/745043/</a></li>
-                        <li><a href="place_4483b20ab75d1e559b217b2e7794a5e7">place_4483b20ab75d1e559b217b2e7794a5e7</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/90386">https://pmb.acdh.oeaw.ac.at/entity/90386</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>41.05722 29.04333</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    41.05722, 29.04333
+                                                        L.marker([41.05722, 29.04333]).addTo(mymap)
+                                                        .bindPopup("<b>Bosporus</b>").openPopup();
+                                                </script><div class="card">
+                        <p>41.05722 29.04333</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_4483b20ab75d1e559b217b2e7794a5e7" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/90386/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/745043/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Donnerstag, 10. Februar 1916 <a href="entry__1916-02-10.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Montag, 23. April 1928 <a href="entry__1928-04-23.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Dienstag, 24. April 1928 <a href="entry__1928-04-24.html"><i class="fas fa-external-link-alt"></i></a></li>

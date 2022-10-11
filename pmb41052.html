@@ -58,14 +58,27 @@
                   <h1 align="center">Spittal a. d. Drau</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul class="list-unstyled">
-                        <li>Spittal a. d. Drau</li>
-                        <li>Spittal an der Drau</li>
-                     </ul><span class="infodesc">Normdaten IDs</span><ul class="list-unstyled">
-                        <li><a href="http://www.geonames.org/2764786/">http://www.geonames.org/2764786/</a></li>
-                        <li><a href="place_37c1019d59a18e340ff8820b88b3d6e7">place_37c1019d59a18e340ff8820b88b3d6e7</a></li>
-                        <li><a href="https://pmb.acdh.oeaw.ac.at/entity/41052">https://pmb.acdh.oeaw.ac.at/entity/41052</a></li>
-                     </ul><span class="infodesc mr-2">Koordinaten</span><span>46.8 13.5</span><div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul></ul>
+                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.8, 13.5
+                                                        L.marker([46.8, 13.5]).addTo(mymap)
+                                                        .bindPopup("<b>Spittal a. d. Drau</b>").openPopup();
+                                                </script><div class="card">
+                        <p>46.8 13.5</p>
+                     </div>
+                     <div id="mentions">
+                        <p class="buttonreihe"><span class="button"><span><a class="obsolete-schnitzler-diaryXXXX" href="place_37c1019d59a18e340ff8820b88b3d6e7" target="_blank"><span class="color-obsolete-schnitzler-diary"> obsolete-schnitzler-diary</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/41052/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2764786/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                     </div>
+                     <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                            <li>Dienstag, 19. Juli 1881 <a href="entry__1881-07-19.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Sonntag, 30. Juli 1899 <a href="entry__1899-07-30.html"><i class="fas fa-external-link-alt"></i></a></li>
                            <li>Dienstag, 2. Juli 1907 <a href="entry__1907-07-02.html"><i class="fas fa-external-link-alt"></i></a></li>
