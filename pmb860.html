@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:foo="whatever">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -58,9 +58,11 @@
                   <h1 align="center">Graz</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                     <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                  <div xmlns:mam="whatever" class="container-fluid">
+                     <div class="card-body-index">
+                        <div id="mentions"></div>
+                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
                                                     
                                                     var mymap = L.map('mapid').setView([50, 12], 5);
                                                     
@@ -72,11 +74,10 @@
                                                     47.06667, 15.45
                                                         L.marker([47.06667, 15.45]).addTo(mymap)
                                                         .bindPopup("<b>Graz</b>").openPopup();
-                                                </script><div class="card">
-                        <p>47.06667 15.45</p>
-                     </div>
-                     <div id="mentions">
-                        <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/90759/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2778067/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
+                                                </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>
