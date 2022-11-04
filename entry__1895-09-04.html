@@ -72,8 +72,8 @@
                   
                   <div id="div__10">
                      
-                     <p id="p__9">4/9 <a data-toggle="modal" data-target="#person_13196" style="color:black">Lou</a>, <a data-toggle="modal" data-target="#person_15529" style="color:black">Paul</a>, <a data-toggle="modal" data-target="#person_13551" style="color:black">Richard</a> ich <a data-toggle="modal" data-target="#pmb52262" style="color:black">Starnberger-See</a>, <a data-toggle="modal" data-target="#pmb44493" style="color:black">Tutzing</a>, Kegelspiel, 
-                        Bad, Abends <a data-toggle="modal" data-target="#pmb52323" style="color:black">Leoni</a>, Spaziergang, Gespräche mit <a data-toggle="modal" data-target="#person_13196" style="color:black">Lou</a>.</p>
+                     <p id="p__9">4/9 <a data-toggle="modal" data-target="#person_13196" style="color:black">Lou</a>, <a data-toggle="modal" data-target="#person_15529" style="color:black">Paul</a>, <a data-toggle="modal" data-target="#person_13551" style="color:black">Richard</a> ich <a data-toggle="modal" data-target="#pmb52262falsch" style="color:black">Starnberger-See</a>, <a data-toggle="modal" data-target="#pmb44493falsch" style="color:black">Tutzing</a>, Kegelspiel, 
+                        Bad, Abends <a data-toggle="modal" data-target="#pmb52323falsch" style="color:black">Leoni</a>, Spaziergang, Gespräche mit <a data-toggle="modal" data-target="#person_13196" style="color:black">Lou</a>.</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -118,9 +118,6 @@
                                     <li><a href=".html">München</a></li>
                                     <li><a href=".html">Hotel Continental</a></li>
                                     <li><a href=".html">Starnberger See</a></li>
-                                    <li><a href="pmb52262.html">Starnberger See</a></li>
-                                    <li><a href="pmb44493.html">Tutzing</a></li>
-                                    <li><a href="pmb52323.html">Leoni</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -143,15 +140,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Starnberger See</b>").openPopup();
-                                                
-                                                    L.marker([47.90348, 11.31187]).addTo(mymap)
-                                                    .bindPopup("<b>Starnberger See</b>").openPopup();
-                                                
-                                                    L.marker([47.90938, 11.2803]).addTo(mymap)
-                                                    .bindPopup("<b>Tutzing</b>").openPopup();
-                                                
-                                                    L.marker([47.957, 11.34484]).addTo(mymap)
-                                                    .bindPopup("<b>Leoni</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -165,7 +153,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 4. September 1895, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-EA06-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Mittwoch, 4. September 1895, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-EA06-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2040,105 +2028,6 @@
                               <li><a href="entry__1930-11-16.html">Sonntag, 16. November 1930</a></li>
                               <li><a href="entry__1931-05-12.html">Dienstag, 12. Mai 1931</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb52262">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Starnberger See <a href="pmb52262.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.90348, 11.31187
-                                                        L.marker([47.90348, 11.31187]).addTo(mymap)
-                                                        .bindPopup("<b>Starnberger See</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47.90348 11.31187</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/52262/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2829454/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb44493">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Tutzing <a href="pmb44493.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.90938, 11.2803
-                                                        L.marker([47.90938, 11.2803]).addTo(mymap)
-                                                        .bindPopup("<b>Tutzing</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47.90938 11.2803</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/44493/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2820692/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb52323">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Leoni <a href="pmb52323.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.957, 11.34484
-                                                        L.marker([47.957, 11.34484]).addTo(mymap)
-                                                        .bindPopup("<b>Leoni</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47.957 11.34484</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/52323/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2878684/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

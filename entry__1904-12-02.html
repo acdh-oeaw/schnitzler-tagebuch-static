@@ -79,14 +79,14 @@
                      <p id="p__5">Nm. mit Mama <a data-toggle="modal" data-target="#person_18282" style="color:black">Mozart</a> Symph. 6.―</p>
                      
                      <p id="p__6"><a data-toggle="modal" data-target="#person_16293" style="color:black">Hugo</a> besucht uns, von Waffenübung zurück, nach 
-                        <a data-toggle="modal" data-target="#pmb883" style="color:black">Wiesbaden</a> fahrend (<a data-toggle="modal" data-target="#person_14574" style="color:black">Duse</a>).</p>
+                        <a data-toggle="modal" data-target="#pmb883falsch" style="color:black">Wiesbaden</a> fahrend (<a data-toggle="modal" data-target="#person_14574" style="color:black">Duse</a>).</p>
                      
                      <p id="p__5">An der N. E.―</p>
                      
                      <p id="p__6"><a data-toggle="modal" data-target="#person_13223" style="color:black">Ansorge</a> Concert.―</p>
                      
                      <p id="p__13">Nachher mit O., <a data-toggle="modal" data-target="#person_18320" style="color:black">Fanny M.</a>, <a data-toggle="modal" data-target="#person_19424" style="color:black">Rothenstein</a>, <a data-toggle="modal" data-target="#person_20925" style="color:black">Leo</a>, <a data-toggle="modal" data-target="#person_21107" style="color:black">Wassermann</a>, 
-                        <a data-toggle="modal" data-target="#person_16770" style="color:black">Kaufmann</a> im <a data-toggle="modal" data-target="#pmb96" style="color:black">Meissl</a> genachtmahlt.</p>
+                        <a data-toggle="modal" data-target="#person_16770" style="color:black">Kaufmann</a> im <a data-toggle="modal" data-target="#pmb96falsch" style="color:black">Meissl</a> genachtmahlt.</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -166,8 +166,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb883.html">Wiesbaden</a></li>
-                                    <li><a href="pmb96.html">Meissl &amp; Schadn</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -184,12 +182,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([50.08258, 8.24932]).addTo(mymap)
-                                                    .bindPopup("<b>Wiesbaden</b>").openPopup();
-                                                
-                                                    L.marker([48.206389, 16.371111]).addTo(mymap)
-                                                    .bindPopup("<b>Meissl &amp; Schadn</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -203,7 +195,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 2. Dezember 1904, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-F6B1-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 2. Dezember 1904, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-F6B1-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -4489,72 +4481,6 @@
                               <li><a href="entry__1906-04-17.html">Dienstag, 17. April 1906</a></li>
                               <li><a href="entry__1906-12-25.html">Dienstag, 25. Dezember 1906</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb883">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Wiesbaden <a href="pmb883.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    50.08258, 8.24932
-                                                        L.marker([50.08258, 8.24932]).addTo(mymap)
-                                                        .bindPopup("<b>Wiesbaden</b>").openPopup();
-                                                </script><div class="card">
-                           <p>50.08258 8.24932</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/883/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2809346/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb96">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Meissl &amp; Schadn <a href="pmb96.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.206389, 16.371111
-                                                        L.marker([48.206389, 16.371111]).addTo(mymap)
-                                                        .bindPopup("<b>Meissl &amp; Schadn</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.206389 16.371111</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/96/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                      </div>
                   </div>

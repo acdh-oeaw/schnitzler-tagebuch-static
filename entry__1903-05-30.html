@@ -72,8 +72,8 @@
                   
                   <div id="div__9">
                      
-                     <p id="p__8">30/5 <a data-toggle="modal" data-target="#pmb462" style="color:black">Venedig</a>. <a data-toggle="modal" data-target="#pmb92388" style="color:black">Marcusplatz</a>. Taubenfüttern. <a data-toggle="modal" data-target="#person_19731" style="color:black">Hans Schlesinger</a>. Mit ihm 
-                        Academie und eine Kirche.― <a data-toggle="modal" data-target="#pmb91143" style="color:black">Lido</a> San Lazzaro <a data-toggle="modal" data-target="#place_12e574577a3124ccdf89ba3ab71ae562" style="color:black">Armen.</a> Kloster.― Pilsner 
+                     <p id="p__8">30/5 <a data-toggle="modal" data-target="#pmb462falsch" style="color:black">Venedig</a>. <a data-toggle="modal" data-target="#pmb92388falsch" style="color:black">Marcusplatz</a>. Taubenfüttern. <a data-toggle="modal" data-target="#person_19731" style="color:black">Hans Schlesinger</a>. Mit ihm 
+                        Academie und eine Kirche.― <a data-toggle="modal" data-target="#pmb91143falsch" style="color:black">Lido</a> San Lazzaro <a data-toggle="modal" data-target="#place_12e574577a3124ccdf89ba3ab71ae562falsch" style="color:black">Armen.</a> Kloster.― Pilsner 
                         Birreria.</p>
                      </div>
                   </div>
@@ -110,9 +110,6 @@
                                  <ul>
                                     <li><a href=".html">Venedig</a></li>
                                     <li><a href=".html">Hotel Vapore</a></li>
-                                    <li><a href="pmb462.html">Venedig</a></li>
-                                    <li><a href="pmb92388.html">Markusplatz</a></li>
-                                    <li><a href="pmb91143.html">Lido</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -132,15 +129,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Hotel Vapore</b>").openPopup();
-                                                
-                                                    L.marker([45.43713, 12.33265]).addTo(mymap)
-                                                    .bindPopup("<b>Venedig</b>").openPopup();
-                                                
-                                                    L.marker([45.434172, 12.338433]).addTo(mymap)
-                                                    .bindPopup("<b>Markusplatz</b>").openPopup();
-                                                
-                                                    L.marker([45.4105, 12.36649]).addTo(mymap)
-                                                    .bindPopup("<b>Lido</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -154,7 +142,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 30. Mai 1903, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-F48E-2. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 30. Mai 1903, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-F48E-2. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -242,107 +230,6 @@
                               <li><a href="entry__1915-01-21.html">Donnerstag, 21. Januar 1915</a></li>
                               <li><a href="entry__1920-09-03.html">Freitag, 3. September 1920</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb462">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Venedig <a href="pmb462.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    45.43713, 12.33265
-                                                        L.marker([45.43713, 12.33265]).addTo(mymap)
-                                                        .bindPopup("<b>Venedig</b>").openPopup();
-                                                </script><div class="card">
-                           <p>45.43713 12.33265</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/462/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/3164603/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92388">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Markusplatz <a href="pmb92388.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Piazza San Marco</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    45.434172, 12.338433
-                                                        L.marker([45.434172, 12.338433]).addTo(mymap)
-                                                        .bindPopup("<b>Markusplatz</b>").openPopup();
-                                                </script><div class="card">
-                           <p>45.434172 12.338433</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92388/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91143">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Lido <a href="pmb91143.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    45.4105, 12.36649
-                                                        L.marker([45.4105, 12.36649]).addTo(mymap)
-                                                        .bindPopup("<b>Lido</b>").openPopup();
-                                                </script><div class="card">
-                           <p>45.4105 12.36649</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91143/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/3174748/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

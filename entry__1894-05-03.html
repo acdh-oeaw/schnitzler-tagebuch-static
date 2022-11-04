@@ -72,7 +72,7 @@
                   
                   <div id="div__13">
                      
-                     <p id="p__12">3/5 Mit <a data-toggle="modal" data-target="#person_19542" style="color:black">Salten</a> <a data-toggle="modal" data-target="#pmb968" style="color:black">Mödling</a> ― <a data-toggle="modal" data-target="#pmb90721" style="color:black">Gießhübl</a> ― <a data-toggle="modal" data-target="#pmb173" style="color:black">Rodaun</a>.― <a data-toggle="modal" data-target="#person_19564" style="color:black">Dilly</a> <a data-toggle="modal" data-target="#person_13491" style="color:black">Theo</a>.― 
+                     <p id="p__12">3/5 Mit <a data-toggle="modal" data-target="#person_19542" style="color:black">Salten</a> <a data-toggle="modal" data-target="#pmb968falsch" style="color:black">Mödling</a> ― <a data-toggle="modal" data-target="#pmb90721falsch" style="color:black">Gießhübl</a> ― <a data-toggle="modal" data-target="#pmb173falsch" style="color:black">Rodaun</a>.― <a data-toggle="modal" data-target="#person_19564" style="color:black">Dilly</a> <a data-toggle="modal" data-target="#person_13491" style="color:black">Theo</a>.― 
                         Irritirende Fadaisen <a data-toggle="modal" data-target="#person_19564" style="color:black">Dillys</a>. <a data-toggle="modal" data-target="#person_14584" style="color:black">Olga Dv.</a>― Die Erinnerungen, besonders 
                         frühjahrs, stören schmerzlich.― Kann mich vom Tod meines Vaters nicht 
                         erholen.― Monomanie Krankheit und Tod.―</p>
@@ -126,9 +126,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb968.html">Mödling</a></li>
-                                    <li><a href="pmb90721.html">Gießhübl</a></li>
-                                    <li><a href="pmb173.html">Rodaun</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -145,15 +142,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([48.08605, 16.28921]).addTo(mymap)
-                                                    .bindPopup("<b>Mödling</b>").openPopup();
-                                                
-                                                    L.marker([48.0978, 16.23479]).addTo(mymap)
-                                                    .bindPopup("<b>Gießhübl</b>").openPopup();
-                                                
-                                                    L.marker([48.13307, 16.25839]).addTo(mymap)
-                                                    .bindPopup("<b>Rodaun</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -167,7 +155,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Donnerstag, 3. Mai 1894, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-E821-A. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Donnerstag, 3. Mai 1894, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-E821-A. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2398,105 +2386,6 @@
                               <li><a href="entry__1896-09-10.html">Donnerstag, 10. September 1896</a></li>
                               <li><a href="entry__1896-09-23.html">Mittwoch, 23. September 1896</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb968">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Mödling <a href="pmb968.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.08605, 16.28921
-                                                        L.marker([48.08605, 16.28921]).addTo(mymap)
-                                                        .bindPopup("<b>Mödling</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.08605 16.28921</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/968/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2771335/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb90721">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Gießhübl <a href="pmb90721.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.0978, 16.23479
-                                                        L.marker([48.0978, 16.23479]).addTo(mymap)
-                                                        .bindPopup("<b>Gießhübl</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.0978 16.23479</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/90721/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2778573/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb173">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Rodaun <a href="pmb173.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.13307, 16.25839
-                                                        L.marker([48.13307, 16.25839]).addTo(mymap)
-                                                        .bindPopup("<b>Rodaun</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.13307 16.25839</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/173/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2767332/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

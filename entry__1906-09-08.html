@@ -86,7 +86,7 @@
                         Gelegenheiten. So unendlich fern ― und ganz nah die Zeit, in der ich so 
                         dachte, so schrieb.― In diesen und solchen schönen Herbsttagen ersteht 
                         immer zuerst die Erinnerung nicht an die letztvergangnen, sondern 
-                        an ganz entlegene Herbsttage, wie 1876, <a data-toggle="modal" data-target="#pmb103" style="color:black">Volksgarten</a>, <a data-toggle="modal" data-target="#person_17368" style="color:black">Fännchen</a>, 
+                        an ganz entlegene Herbsttage, wie 1876, <a data-toggle="modal" data-target="#pmb103falsch" style="color:black">Volksgarten</a>, <a data-toggle="modal" data-target="#person_17368" style="color:black">Fännchen</a>, 
                         Schulbeginn … Wahrscheinlich (wahrscheinlich ―?) träte die 
                         Melancholie des Alterns nicht so lebhaft bei mir auf, wenn nicht 
                         das Absinken meines Gehörs mit den Erinnerungen an die besseren 
@@ -102,7 +102,7 @@
                         ein Gebäude etc.― Dann sagt er. Aha, da ist wahrscheinlich jeden Sonntag 
                         Krieg.―</p>
                      
-                     <p id="p__11">Neulich, wie er <a data-toggle="modal" data-target="#person_20241" style="color:black">Else Speidel</a> von <a data-toggle="modal" data-target="#pmb959" style="color:black">Marienlyst</a> erzählt: Fräulein, halt mir 
+                     <p id="p__11">Neulich, wie er <a data-toggle="modal" data-target="#person_20241" style="color:black">Else Speidel</a> von <a data-toggle="modal" data-target="#pmb959falsch" style="color:black">Marienlyst</a> erzählt: Fräulein, halt mir 
                         die Schaufel, ich muss der <a data-toggle="modal" data-target="#person_20241" style="color:black">Else</a> zeigen, wie gross das Meer ist.―</p>
                      
                      <p id="p__8">„Ich hab eine Locomotiv bekommen, die hat da (auf seinen Popo zeigend) 
@@ -157,8 +157,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb103.html">Volksgarten</a></li>
-                                    <li><a href="pmb959.html">Marienlyst</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -175,12 +173,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([48.20809, 16.36157]).addTo(mymap)
-                                                    .bindPopup("<b>Volksgarten</b>").openPopup();
-                                                
-                                                    L.marker([55.00186, 11.92716]).addTo(mymap)
-                                                    .bindPopup("<b>Marienlyst</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -194,7 +186,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 8. September 1906, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-F935-1. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 8. September 1906, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-F935-1. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2864,72 +2856,6 @@
                               <li><a href="entry__1922-11-07.html">Dienstag, 7. November 1922</a></li>
                               <li><a href="entry__1922-12-03.html">Sonntag, 3. Dezember 1922</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb103">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Volksgarten <a href="pmb103.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.20809, 16.36157
-                                                        L.marker([48.20809, 16.36157]).addTo(mymap)
-                                                        .bindPopup("<b>Volksgarten</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.20809 16.36157</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/103/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/6697258/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb959">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Marienlyst <a href="pmb959.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    55.00186, 11.92716
-                                                        L.marker([55.00186, 11.92716]).addTo(mymap)
-                                                        .bindPopup("<b>Marienlyst</b>").openPopup();
-                                                </script><div class="card">
-                           <p>55.00186 11.92716</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/959/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2617052/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

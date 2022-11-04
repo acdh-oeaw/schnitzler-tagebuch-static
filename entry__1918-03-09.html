@@ -74,9 +74,9 @@
                      
                      <p id="p__2">9/3 Vm. Besorgungen.―</p>
                      
-                     <p id="p__8">Zu Tisch <a data-toggle="modal" data-target="#person_18560" style="color:black">Frl. Oppelt</a>, zum Thee <a data-toggle="modal" data-target="#person_19227" style="color:black">Gerty v. L.</a> (aus <a data-toggle="modal" data-target="#pmb35512" style="color:black">Ungarn</a> <a data-toggle="modal" data-target="#pmb45359" style="color:black">Arad</a> zurück).―</p>
+                     <p id="p__8">Zu Tisch <a data-toggle="modal" data-target="#person_18560" style="color:black">Frl. Oppelt</a>, zum Thee <a data-toggle="modal" data-target="#person_19227" style="color:black">Gerty v. L.</a> (aus <a data-toggle="modal" data-target="#pmb35512falsch" style="color:black">Ungarn</a> <a data-toggle="modal" data-target="#pmb45359falsch" style="color:black">Arad</a> zurück).―</p>
                      
-                     <p id="p__6">Regisseur <a data-toggle="modal" data-target="#person_19392" style="color:black">Rosenthal</a>; mit Anträgen von <a data-toggle="modal" data-target="#person_13663" style="color:black">Bernau</a>, neuem <a data-toggle="modal" data-target="#pmb92202" style="color:black">Volkstheater</a>director 
+                     <p id="p__6">Regisseur <a data-toggle="modal" data-target="#person_19392" style="color:black">Rosenthal</a>; mit Anträgen von <a data-toggle="modal" data-target="#person_13663" style="color:black">Bernau</a>, neuem <a data-toggle="modal" data-target="#pmb92202falsch" style="color:black">Volkstheater</a>director 
                         von August an; zugleich sehr guter Bekannter von ihm. Gute Aussichten.―</p>
                      </div>
                   </div>
@@ -124,9 +124,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb35512.html">Ungarn</a></li>
-                                    <li><a href="pmb45359.html">Arad</a></li>
-                                    <li><a href="pmb92202.html">Deutsches Volkstheater</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -143,15 +140,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([47, 20]).addTo(mymap)
-                                                    .bindPopup("<b>Ungarn</b>").openPopup();
-                                                
-                                                    L.marker([46.18333, 21.31667]).addTo(mymap)
-                                                    .bindPopup("<b>Arad</b>").openPopup();
-                                                
-                                                    L.marker([48.205142, 16.3566]).addTo(mymap)
-                                                    .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -165,7 +153,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 9. März 1918, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-0976-6. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 9. März 1918, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-0976-6. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -540,107 +528,6 @@
                               <li><a href="entry__1924-02-08.html">Freitag, 8. Februar 1924</a></li>
                               <li><a href="entry__1925-09-23.html">Mittwoch, 23. September 1925</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb35512">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Ungarn <a href="pmb35512.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47, 20
-                                                        L.marker([47, 20]).addTo(mymap)
-                                                        .bindPopup("<b>Ungarn</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47 20</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/35512/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/719819/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb45359">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Arad <a href="pmb45359.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    46.18333, 21.31667
-                                                        L.marker([46.18333, 21.31667]).addTo(mymap)
-                                                        .bindPopup("<b>Arad</b>").openPopup();
-                                                </script><div class="card">
-                           <p>46.18333 21.31667</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/45359/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/686254/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92202">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Deutsches Volkstheater <a href="pmb92202.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Volkstheater</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.205142, 16.3566
-                                                        L.marker([48.205142, 16.3566]).addTo(mymap)
-                                                        .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.205142 16.3566</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92202/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                      </div>
                   </div>

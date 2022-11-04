@@ -77,9 +77,9 @@
                      <p id="p__3">Nm. aphoristisches.</p>
                      
                      <p id="p__14">Abds. abgeholt von <a data-toggle="modal" data-target="#person_18881" style="color:black">Kolap</a>, Hofr. P. und <a data-toggle="modal" data-target="#person_13285" style="color:black">Rudi Askonas</a> in seinem Auto, von 
-                        ihm chauffirt, wollten <a data-toggle="modal" data-target="#pmb91889" style="color:black">Thallern</a>;― abgesperrte Straßen, Verirrungen, 
-                        Feldwege, <a data-toggle="modal" data-target="#place_7706d9b014ddf4dd4066b654867caeb7" style="color:black">Balkanismus</a>;― um 9 in <a data-toggle="modal" data-target="#pmb968" style="color:black">Mödling</a>, Hotel Hajek angelangt, wo wir 
-                        nm. Zurück <a data-toggle="modal" data-target="#pmb92478" style="color:black">Reichsstraße</a>;― Garage im <a data-toggle="modal" data-target="#pmb92435" style="color:black">Toscanapalais</a>;― Taxi heim.</p>
+                        ihm chauffirt, wollten <a data-toggle="modal" data-target="#pmb91889falsch" style="color:black">Thallern</a>;― abgesperrte Straßen, Verirrungen, 
+                        Feldwege, <a data-toggle="modal" data-target="#place_7706d9b014ddf4dd4066b654867caeb7falsch" style="color:black">Balkanismus</a>;― um 9 in <a data-toggle="modal" data-target="#pmb968falsch" style="color:black">Mödling</a>, Hotel Hajek angelangt, wo wir 
+                        nm. Zurück <a data-toggle="modal" data-target="#pmb92478falsch" style="color:black">Reichsstraße</a>;― Garage im <a data-toggle="modal" data-target="#pmb92435falsch" style="color:black">Toscanapalais</a>;― Taxi heim.</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -126,10 +126,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb91889.html">Thallern</a></li>
-                                    <li><a href="pmb968.html">Mödling</a></li>
-                                    <li><a href="pmb92478.html">Reichsstraße</a></li>
-                                    <li><a href="pmb92435.html">Palais Toskana</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -146,18 +142,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([48.4, 15.65]).addTo(mymap)
-                                                    .bindPopup("<b>Thallern</b>").openPopup();
-                                                
-                                                    L.marker([48.08605, 16.28921]).addTo(mymap)
-                                                    .bindPopup("<b>Mödling</b>").openPopup();
-                                                
-                                                    L.marker([, ]).addTo(mymap)
-                                                    .bindPopup("<b>Reichsstraße</b>").openPopup();
-                                                
-                                                    L.marker([48.194765, 16.373437]).addTo(mymap)
-                                                    .bindPopup("<b>Palais Toskana</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -171,7 +155,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 25. Juli 1927, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-16D4-C. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Montag, 25. Juli 1927, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-16D4-C. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1060,122 +1044,6 @@
                               <li><a href="entry__1931-10-03.html">Samstag, 3. Oktober 1931</a></li>
                               <li><a href="entry__1931-10-17.html">Samstag, 17. Oktober 1931</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91889">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Thallern <a href="pmb91889.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.4, 15.65
-                                                        L.marker([48.4, 15.65]).addTo(mymap)
-                                                        .bindPopup("<b>Thallern</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.4 15.65</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91889/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2763732/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb968">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Mödling <a href="pmb968.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.08605, 16.28921
-                                                        L.marker([48.08605, 16.28921]).addTo(mymap)
-                                                        .bindPopup("<b>Mödling</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.08605 16.28921</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/968/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2771335/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92478">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Reichsstraße <a href="pmb92478.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92478/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92435">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Palais Toskana <a href="pmb92435.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.194765, 16.373437
-                                                        L.marker([48.194765, 16.373437]).addTo(mymap)
-                                                        .bindPopup("<b>Palais Toskana</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.194765 16.373437</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92435/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                      </div>
                   </div>

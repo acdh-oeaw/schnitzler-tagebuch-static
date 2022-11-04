@@ -74,11 +74,11 @@
                      
                      <p id="p__4">15/1 Besorgungen (nach kurzem Besuch bei <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a>) ―</p>
                      
-                     <p id="p__16">Bei der <a data-toggle="modal" data-target="#person_21594" style="color:black">Hofr. Zuckerkandl</a>. (Die <a data-toggle="modal" data-target="#pmb14" style="color:black">Burgtheater</a>sache;― Dr. <a data-toggle="modal" data-target="#person_19891" style="color:black">Fr. 
+                     <p id="p__16">Bei der <a data-toggle="modal" data-target="#person_21594" style="color:black">Hofr. Zuckerkandl</a>. (Die <a data-toggle="modal" data-target="#pmb14falsch" style="color:black">Burgtheater</a>sache;― Dr. <a data-toggle="modal" data-target="#person_19891" style="color:black">Fr. 
                            Schreyvogl</a>, der von clericaler Seite ins Bth. geschmuggelt werden 
                         sollte;― <a data-toggle="modal" data-target="#person_16293" style="color:black">Hugos</a> und F. S.s Eintreten für ihn. Vercliquung.― <a data-toggle="modal" data-target="#person_16293" style="color:black">Hugos</a> 
                         „Bösheit“,― und Genie.― Warum sie nicht ihre Memoiren schreibt. 
-                        ― Die Tochter Wagner v. Jaureggs in der <a data-toggle="modal" data-target="#pmb91638" style="color:black">Sahara</a>, und Empfehlung der 
+                        ― Die Tochter Wagner v. Jaureggs in der <a data-toggle="modal" data-target="#pmb91638falsch" style="color:black">Sahara</a>, und Empfehlung der 
                         Hofrätin (<a data-toggle="modal" data-target="#person_18638" style="color:black">Painlevé</a>). <a data-toggle="modal" data-target="#person_15210" style="color:black">Friedell</a> als Abstinenter (Alkohol) ―)</p>
                      
                      <p id="p__5">― Bei Annie und Ferry,― zum ersten Mal. Nette Wohnung.</p>
@@ -154,8 +154,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb14.html">Burgtheater</a></li>
-                                    <li><a href="pmb91638.html">Sahara</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -172,12 +170,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([48.210333, 16.361139]).addTo(mymap)
-                                                    .bindPopup("<b>Burgtheater</b>").openPopup();
-                                                
-                                                    L.marker([26, 13]).addTo(mymap)
-                                                    .bindPopup("<b>Sahara</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -191,7 +183,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 15. Jänner 1929, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-18F0-A. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 15. Jänner 1929, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-18F0-A. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -5829,72 +5821,6 @@
                               <li><a href="entry__1931-06-24.html">Mittwoch, 24. Juni 1931</a></li>
                               <li><a href="entry__1931-07-14.html">Dienstag, 14. Juli 1931</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb14">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Burgtheater <a href="pmb14.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.210333, 16.361139
-                                                        L.marker([48.210333, 16.361139]).addTo(mymap)
-                                                        .bindPopup("<b>Burgtheater</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.210333 16.361139</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/14/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91638">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Sahara <a href="pmb91638.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    26, 13
-                                                        L.marker([26, 13]).addTo(mymap)
-                                                        .bindPopup("<b>Sahara</b>").openPopup();
-                                                </script><div class="card">
-                           <p>26 13</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91638/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2212709/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

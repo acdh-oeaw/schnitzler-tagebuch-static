@@ -74,7 +74,7 @@
                      
                      <p id="p__4">29/4 Vm. Bank; <a data-toggle="modal" data-target="#person_17175" style="color:black">Hr. Kugel</a>.―</p>
                      
-                     <p id="p__6">Bei <a data-toggle="modal" data-target="#person_15854" style="color:black">Gisa</a>. <a data-toggle="modal" data-target="#person_20915" style="color:black">Edi Vallo</a> kommt herunter, sich für <a data-toggle="modal" data-target="#pmb50017" style="color:black">Rio de Janeiro</a> 
+                     <p id="p__6">Bei <a data-toggle="modal" data-target="#person_15854" style="color:black">Gisa</a>. <a data-toggle="modal" data-target="#person_20915" style="color:black">Edi Vallo</a> kommt herunter, sich für <a data-toggle="modal" data-target="#pmb50017falsch" style="color:black">Rio de Janeiro</a> 
                         verabschieden.―</p>
                      
                      <p id="p__4">Bei <a data-toggle="modal" data-target="#person_19986" style="color:black">Gustav</a>.― Er spricht von sechs Frauen, die im Krieg ihre Söhne 
@@ -84,7 +84,7 @@
                      
                      <p id="p__4">Nm. Sitzung Autorengesellschaft.</p>
                      
-                     <p id="p__6">Panorama (<a data-toggle="modal" data-target="#pmb90942" style="color:black">Riviera</a>).</p>
+                     <p id="p__6">Panorama (<a data-toggle="modal" data-target="#pmb90942falsch" style="color:black">Riviera</a>).</p>
                      
                      <p id="p__7">Rest. Hopfner.―</p>
                      
@@ -147,8 +147,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb50017.html">Rio de Janeiro</a></li>
-                                    <li><a href="pmb90942.html">italienische Riviera</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -165,12 +163,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([-22.90278, -43.2075]).addTo(mymap)
-                                                    .bindPopup("<b>Rio de Janeiro</b>").openPopup();
-                                                
-                                                    L.marker([44.16447, 8.32429]).addTo(mymap)
-                                                    .bindPopup("<b>italienische Riviera</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -184,7 +176,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 29. April 1921, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-0DF0-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Freitag, 29. April 1921, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-0DF0-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2130,74 +2122,6 @@
                               <li><a href="entry__1929-03-01.html">Freitag, 1. März 1929</a></li>
                               <li><a href="entry__1930-01-17.html">Freitag, 17. Januar 1930</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb50017">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Rio de Janeiro <a href="pmb50017.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    -22.90278, -43.2075
-                                                        L.marker([-22.90278, -43.2075]).addTo(mymap)
-                                                        .bindPopup("<b>Rio de Janeiro</b>").openPopup();
-                                                </script><div class="card">
-                           <p>-22.90278 -43.2075</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/50017/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/3451190/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb90942">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">italienische Riviera <a href="pmb90942.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Italienische Riviera</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    44.16447, 8.32429
-                                                        L.marker([44.16447, 8.32429]).addTo(mymap)
-                                                        .bindPopup("<b>italienische Riviera</b>").openPopup();
-                                                </script><div class="card">
-                           <p>44.16447 8.32429</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/90942/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/3170325/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

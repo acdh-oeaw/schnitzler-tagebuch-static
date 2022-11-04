@@ -75,9 +75,9 @@
                      <p id="p__6">22/12 Vm. dictirt, soweit ich nicht durch telephoniren über die Eins. Weg 
                         Affaire in Anspruch genommen war (mit <a data-toggle="modal" data-target="#person_16125" style="color:black">Herterich</a> <a data-toggle="modal" data-target="#person_15368" style="color:black">Geiringer</a>, <a data-toggle="modal" data-target="#person_13664" style="color:black">Bernauer</a>).―</p>
                      
-                     <p id="p__9">Abends im <a data-toggle="modal" data-target="#pmb92202" style="color:black">Volksth.</a>;― mit <a data-toggle="modal" data-target="#person_13664" style="color:black">Bernauer</a>, <a data-toggle="modal" data-target="#person_19392" style="color:black">Rosenthal</a>, <a data-toggle="modal" data-target="#person_18209" style="color:black">Moissi</a> über die 
+                     <p id="p__9">Abends im <a data-toggle="modal" data-target="#pmb92202falsch" style="color:black">Volksth.</a>;― mit <a data-toggle="modal" data-target="#person_13664" style="color:black">Bernauer</a>, <a data-toggle="modal" data-target="#person_19392" style="color:black">Rosenthal</a>, <a data-toggle="modal" data-target="#person_18209" style="color:black">Moissi</a> über die 
                         ev. Aufführung Eins. Weg. Ich mache es abhängig davon, daß <a data-toggle="modal" data-target="#person_18209" style="color:black">Moissi</a> 
-                        seine <a data-toggle="modal" data-target="#pmb91304" style="color:black">Moskauer</a> Gastspielreise verschiebt. Über Besetzung einigen wir 
+                        seine <a data-toggle="modal" data-target="#pmb91304falsch" style="color:black">Moskauer</a> Gastspielreise verschiebt. Über Besetzung einigen wir 
                         uns nothdürftig.―</p>
                      
                      <p id="p__9">Sah mir dann den „weißen Heiland“ an (saß mit <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> in der 
@@ -149,8 +149,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb92202.html">Deutsches Volkstheater</a></li>
-                                    <li><a href="pmb91304.html">Moskau</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -167,12 +165,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([48.205142, 16.3566]).addTo(mymap)
-                                                    .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
-                                                
-                                                    L.marker([55.75222, 37.61556]).addTo(mymap)
-                                                    .bindPopup("<b>Moskau</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -186,7 +178,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 22. Dezember 1923, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-11B6-3. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Samstag, 22. Dezember 1923, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-11B6-3. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2824,74 +2816,6 @@
                               <li><a href="entry__1924-02-08.html">Freitag, 8. Februar 1924</a></li>
                               <li><a href="entry__1925-09-23.html">Mittwoch, 23. September 1925</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92202">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Deutsches Volkstheater <a href="pmb92202.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Volkstheater</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.205142, 16.3566
-                                                        L.marker([48.205142, 16.3566]).addTo(mymap)
-                                                        .bindPopup("<b>Deutsches Volkstheater</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.205142 16.3566</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92202/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91304">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Moskau <a href="pmb91304.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    55.75222, 37.61556
-                                                        L.marker([55.75222, 37.61556]).addTo(mymap)
-                                                        .bindPopup("<b>Moskau</b>").openPopup();
-                                                </script><div class="card">
-                           <p>55.75222 37.61556</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91304/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/524901/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

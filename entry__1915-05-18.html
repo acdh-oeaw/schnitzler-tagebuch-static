@@ -74,7 +74,7 @@
                      
                      <p id="p__3">18/5 Dictirt („Eifersucht“ Skizze).―</p>
                      
-                     <p id="p__5">Mit O. Nm. <a data-toggle="modal" data-target="#pmb63" style="color:black">Hietzing</a>, zu <a data-toggle="modal" data-target="#person_16910" style="color:black">Klimt</a>. Atelier <a data-toggle="modal" data-target="#pmb92235" style="color:black">Feldmühlgasse</a>, mitten in altem 
+                     <p id="p__5">Mit O. Nm. <a data-toggle="modal" data-target="#pmb63falsch" style="color:black">Hietzing</a>, zu <a data-toggle="modal" data-target="#person_16910" style="color:black">Klimt</a>. Atelier <a data-toggle="modal" data-target="#pmb92235falsch" style="color:black">Feldmühlgasse</a>, mitten in altem 
                         Garten. Er zeigt mir seine Zeichnungen, einige Bilder, Landschaften, 
                         Portraits, Phantasien, vollendete und unvollendete; insbesondre die 
                         Landschaften wunderschön. Er ist noch nach keinem „glücklich“ 
@@ -83,7 +83,7 @@
                         Unterschieden, und der Überlegenheit seiner Künstlerschaft gegenüber,― 
                         eine ganz im tiefen verborgene Verwandtschaft.―</p>
                      
-                     <p id="p__4">Mit O. durch den <a data-toggle="modal" data-target="#pmb92519" style="color:black">Schönbrunnergarten</a>, in schwüler Sommerstimmung, und 
+                     <p id="p__4">Mit O. durch den <a data-toggle="modal" data-target="#pmb92519falsch" style="color:black">Schönbrunnergarten</a>, in schwüler Sommerstimmung, und 
                         von dem allgemeinen Zustand der Welt bedrückt.―</p>
                      
                      <p id="p__4">Abend auf dem Balkon.―</p>
@@ -127,9 +127,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb63.html">Hietzing</a></li>
-                                    <li><a href="pmb92235.html">Feldmühlgasse</a></li>
-                                    <li><a href="pmb92519.html">Schönbrunnerpark</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -146,15 +143,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([48.17547, 16.29101]).addTo(mymap)
-                                                    .bindPopup("<b>Hietzing</b>").openPopup();
-                                                
-                                                    L.marker([48.188257, 16.283445]).addTo(mymap)
-                                                    .bindPopup("<b>Feldmühlgasse</b>").openPopup();
-                                                
-                                                    L.marker([48.1806202, 16.3067984]).addTo(mymap)
-                                                    .bindPopup("<b>Schönbrunnerpark</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -168,7 +156,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 18. Mai 1915, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-0575-B. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 18. Mai 1915, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-0575-B. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -265,107 +253,6 @@
                               <li><a href="entry__1923-10-27.html">Samstag, 27. Oktober 1923</a></li>
                               <li><a href="entry__1928-07-04.html">Mittwoch, 4. Juli 1928</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb63">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Hietzing <a href="pmb63.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.17547, 16.29101
-                                                        L.marker([48.17547, 16.29101]).addTo(mymap)
-                                                        .bindPopup("<b>Hietzing</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.17547 16.29101</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/63/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2776420/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92235">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Feldmühlgasse <a href="pmb92235.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.188257, 16.283445
-                                                        L.marker([48.188257, 16.283445]).addTo(mymap)
-                                                        .bindPopup("<b>Feldmühlgasse</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.188257 16.283445</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92235/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92519">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Schönbrunnerpark <a href="pmb92519.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Schönbrunner Schlosspark</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.1806202, 16.3067984
-                                                        L.marker([48.1806202, 16.3067984]).addTo(mymap)
-                                                        .bindPopup("<b>Schönbrunnerpark</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.1806202 16.3067984</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92519/detail" target="_blank"><span class="color-PMB">PMB</span></a></span></p>
                         </div>
                      </div>
                   </div>

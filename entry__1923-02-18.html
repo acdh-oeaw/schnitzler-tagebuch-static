@@ -78,8 +78,8 @@
                         <a data-toggle="modal" data-target="#person_21024" style="color:black">Erika Wagner</a> sang. Mir war die Musik durchaus mißbehaglich;― 
                         Geist, Witz, Bizarrerie ― aber Seele nicht.― Viele Leute.― Lernte 
                         kennen <a data-toggle="modal" data-target="#person_20430" style="color:black">Steuermann</a> (den Klavierspieler),― <a data-toggle="modal" data-target="#person_21124" style="color:black">Anton v. Webern</a>, eine 
-                        <a data-toggle="modal" data-target="#place_2b25a044731d28feb0db1931b4becfb6" style="color:black">Holländerin</a> (Freundin <a data-toggle="modal" data-target="#person_18885" style="color:black">Dr. P.</a>), <a data-toggle="modal" data-target="#person_15335" style="color:black">Gräfin [Gandolfi]</a>, sprach ein paar 
-                        Dutzend Menschen. (<a data-toggle="modal" data-target="#person_15210" style="color:black">Friedell</a>, <a data-toggle="modal" data-target="#person_13272" style="color:black">Asch</a>, <a data-toggle="modal" data-target="#person_15225" style="color:black">Friedman</a> (<a data-toggle="modal" data-target="#pmb43406" style="color:black">Amerika</a>), <a data-toggle="modal" data-target="#person_20238" style="color:black">Spechts</a>, 
+                        <a data-toggle="modal" data-target="#place_2b25a044731d28feb0db1931b4becfb6falsch" style="color:black">Holländerin</a> (Freundin <a data-toggle="modal" data-target="#person_18885" style="color:black">Dr. P.</a>), <a data-toggle="modal" data-target="#person_15335" style="color:black">Gräfin [Gandolfi]</a>, sprach ein paar 
+                        Dutzend Menschen. (<a data-toggle="modal" data-target="#person_15210" style="color:black">Friedell</a>, <a data-toggle="modal" data-target="#person_13272" style="color:black">Asch</a>, <a data-toggle="modal" data-target="#person_15225" style="color:black">Friedman</a> (<a data-toggle="modal" data-target="#pmb43406falsch" style="color:black">Amerika</a>), <a data-toggle="modal" data-target="#person_20238" style="color:black">Spechts</a>, 
                         Hofrätin etc.)</p>
                      </div>
                   </div>
@@ -165,7 +165,6 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href=".html">Wien</a></li>
-                                    <li><a href="pmb43406.html">Amerika</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -182,9 +181,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Wien</b>").openPopup();
-                                                
-                                                    L.marker([39.76, -98.5]).addTo(mymap)
-                                                    .bindPopup("<b>Amerika</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -198,7 +194,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 18. Februar 1923, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000C-1084-C. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 18. Februar 1923, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000C-1084-C. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -3901,39 +3897,6 @@
                               <li><a href="entry__1926-01-15.html">Freitag, 15. Januar 1926</a></li>
                               <li><a href="entry__1926-11-21.html">Sonntag, 21. November 1926</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb43406">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Amerika <a href="pmb43406.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    39.76, -98.5
-                                                        L.marker([39.76, -98.5]).addTo(mymap)
-                                                        .bindPopup("<b>Amerika</b>").openPopup();
-                                                </script><div class="card">
-                           <p>39.76 -98.5</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/43406/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/6252001/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

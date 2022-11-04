@@ -72,8 +72,8 @@
                   
                   <div id="div__11">
                      
-                     <p id="p__10">6/6 Mit Dr. <a data-toggle="modal" data-target="#person_19987" style="color:black">M. Schwarzkopf</a> und <a data-toggle="modal" data-target="#person_15855" style="color:black">Hajek</a>, auch z. Th. <a data-toggle="modal" data-target="#person_15854" style="color:black">Gisela</a> Bic. <a data-toggle="modal" data-target="#pmb49880" style="color:black">St. 
-                           Pölten</a> ― <a data-toggle="modal" data-target="#pmb91496" style="color:black">Pöchlarn</a> ― <a data-toggle="modal" data-target="#pmb90689" style="color:black">Gaming</a>.― Nacht. (Auch Mama dort.) ―</p>
+                     <p id="p__10">6/6 Mit Dr. <a data-toggle="modal" data-target="#person_19987" style="color:black">M. Schwarzkopf</a> und <a data-toggle="modal" data-target="#person_15855" style="color:black">Hajek</a>, auch z. Th. <a data-toggle="modal" data-target="#person_15854" style="color:black">Gisela</a> Bic. <a data-toggle="modal" data-target="#pmb49880falsch" style="color:black">St. 
+                           Pölten</a> ― <a data-toggle="modal" data-target="#pmb91496falsch" style="color:black">Pöchlarn</a> ― <a data-toggle="modal" data-target="#pmb90689falsch" style="color:black">Gaming</a>.― Nacht. (Auch Mama dort.) ―</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -123,9 +123,6 @@
                                     <li><a href=".html">St. Pölten</a></li>
                                     <li><a href=".html">Pöchlarn</a></li>
                                     <li><a href=".html">Gaming</a></li>
-                                    <li><a href="pmb49880.html">St. Pölten</a></li>
-                                    <li><a href="pmb91496.html">Pöchlarn</a></li>
-                                    <li><a href="pmb90689.html">Gaming</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -151,15 +148,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Gaming</b>").openPopup();
-                                                
-                                                    L.marker([48.2, 15.63333]).addTo(mymap)
-                                                    .bindPopup("<b>St. Pölten</b>").openPopup();
-                                                
-                                                    L.marker([48.2, 15.2]).addTo(mymap)
-                                                    .bindPopup("<b>Pöchlarn</b>").openPopup();
-                                                
-                                                    L.marker([47.929, 15.08818]).addTo(mymap)
-                                                    .bindPopup("<b>Gaming</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -173,7 +161,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 6. Juni 1897, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-EC7E-F. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 6. Juni 1897, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-EC7E-F. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2261,105 +2249,6 @@
                               <li><a href="entry__1928-05-04.html">Freitag, 4. Mai 1928</a></li>
                               <li><a href="entry__1928-05-08.html">Dienstag, 8. Mai 1928</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb49880">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">St. Pölten <a href="pmb49880.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.2, 15.63333
-                                                        L.marker([48.2, 15.63333]).addTo(mymap)
-                                                        .bindPopup("<b>St. Pölten</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.2 15.63333</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/49880/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2766429/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91496">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Pöchlarn <a href="pmb91496.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.2, 15.2
-                                                        L.marker([48.2, 15.2]).addTo(mymap)
-                                                        .bindPopup("<b>Pöchlarn</b>").openPopup();
-                                                </script><div class="card">
-                           <p>48.2 15.2</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91496/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2768627/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb90689">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Gaming <a href="pmb90689.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.929, 15.08818
-                                                        L.marker([47.929, 15.08818]).addTo(mymap)
-                                                        .bindPopup("<b>Gaming</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47.929 15.08818</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/90689/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2778949/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

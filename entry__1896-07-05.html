@@ -72,7 +72,7 @@
                   
                   <div id="div__13">
                      
-                     <p id="p__4">5/7 Sonntag. <a data-toggle="modal" data-target="#pmb506" style="color:black">Hamburg</a>.― Zum Hafen, Hafenfahrt. Amerikadampfer. 
+                     <p id="p__4">5/7 Sonntag. <a data-toggle="modal" data-target="#pmb506falsch" style="color:black">Hamburg</a>.― Zum Hafen, Hafenfahrt. Amerikadampfer. 
                         Aprilwetter. Bei Pfordte dinirt.― Diese Zeilen gleich dort. Halbe 
                         Flasche Wein getrunken; wundre mich, wie stark so wenig Alkohol auf 
                         mich wirkt.― Es ist fast, als wenn das Leben was andres wäre als 
@@ -87,7 +87,7 @@
                         sagen nie das Gefühl des Neides, sondern nur das des Könnens.― 
                         Pfordte.</p>
                      
-                     <p id="p__6">Nm. <a data-toggle="modal" data-target="#pmb1226" style="color:black">Blankenese</a>. Wellen ins Schifflein.― <a data-toggle="modal" data-target="#pmb506" style="color:black">Hamburg</a> Pilsner Bierhalle.―</p>
+                     <p id="p__6">Nm. <a data-toggle="modal" data-target="#pmb1226falsch" style="color:black">Blankenese</a>. Wellen ins Schifflein.― <a data-toggle="modal" data-target="#pmb506falsch" style="color:black">Hamburg</a> Pilsner Bierhalle.―</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -123,8 +123,6 @@
                                  <ul>
                                     <li><a href=".html">Hamburg</a></li>
                                     <li><a href=".html">Hotel zum Kronprinzen</a></li>
-                                    <li><a href="pmb1226.html">Blankenese</a></li>
-                                    <li><a href="pmb506.html">Hamburg</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -144,12 +142,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Hotel zum Kronprinzen</b>").openPopup();
-                                                
-                                                    L.marker([53.55698, 9.8059]).addTo(mymap)
-                                                    .bindPopup("<b>Blankenese</b>").openPopup();
-                                                
-                                                    L.marker([53.57532, 10.01534]).addTo(mymap)
-                                                    .bindPopup("<b>Hamburg</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -163,7 +155,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 5. Juli 1896, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-EB37-F. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Sonntag, 5. Juli 1896, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-EB37-F. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -279,72 +271,6 @@
                               <li><a href="entry__1915-05-05.html">Mittwoch, 5. Mai 1915</a></li>
                               <li><a href="entry__1925-12-16.html">Mittwoch, 16. Dezember 1925</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb1226">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Blankenese <a href="pmb1226.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    53.55698, 9.8059
-                                                        L.marker([53.55698, 9.8059]).addTo(mymap)
-                                                        .bindPopup("<b>Blankenese</b>").openPopup();
-                                                </script><div class="card">
-                           <p>53.55698 9.8059</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/1226/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2948066/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb506">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Hamburg <a href="pmb506.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    53.57532, 10.01534
-                                                        L.marker([53.57532, 10.01534]).addTo(mymap)
-                                                        .bindPopup("<b>Hamburg</b>").openPopup();
-                                                </script><div class="card">
-                           <p>53.57532 10.01534</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/506/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2911298/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

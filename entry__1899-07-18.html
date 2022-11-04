@@ -72,13 +72,13 @@
                   
                   <div id="div__22">
                      
-                     <p id="p__5">18/7 Ankunft <a data-toggle="modal" data-target="#pmb92001" style="color:black">Velden</a>.― Mama, Schwester.―</p>
+                     <p id="p__5">18/7 Ankunft <a data-toggle="modal" data-target="pmb909" style="color:black">Velden</a>.― Mama, Schwester.―</p>
                      
-                     <p id="p__6">Rudi B. <a data-toggle="modal" data-target="#pmb91030" style="color:black">Klagenfurt</a>.― Rad Hugelmann.―</p>
+                     <p id="p__6">Rudi B. <a data-toggle="modal" data-target="#pmb91030falsch" style="color:black">Klagenfurt</a>.― Rad Hugelmann.―</p>
                      
                      <p id="p__8"><a data-toggle="modal" data-target="#person_16321" style="color:black">Annie Holitscher</a>.― Nachm. Hugelmann Rudi und <a data-toggle="modal" data-target="#person_14073" style="color:black">Lola</a>.―</p>
                      
-                     <p id="p__6"><a data-toggle="modal" data-target="#pmb44278" style="color:black">Pörtschach</a> mit <a data-toggle="modal" data-target="#person_15854" style="color:black">Gisa</a> nach Haus geradelt.―</p>
+                     <p id="p__6"><a data-toggle="modal" data-target="#pmb44278falsch" style="color:black">Pörtschach</a> mit <a data-toggle="modal" data-target="#person_15854" style="color:black">Gisa</a> nach Haus geradelt.―</p>
                      
                      <p id="p__6">Nm. 1. Akt Shawl bedacht und gelesen.</p>
                      </div>
@@ -135,9 +135,6 @@
                                  <ul>
                                     <li><a href=".html">Velden</a></li>
                                     <li><a href=".html">Pension Pundschu</a></li>
-                                    <li><a href="pmb92001.html">Velden</a></li>
-                                    <li><a href="pmb91030.html">Klagenfurt</a></li>
-                                    <li><a href="pmb44278.html">Pörtschach</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -157,15 +154,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Pension Pundschu</b>").openPopup();
-                                                
-                                                    L.marker([46.61301, 14.0413]).addTo(mymap)
-                                                    .bindPopup("<b>Velden</b>").openPopup();
-                                                
-                                                    L.marker([46.62472, 14.30528]).addTo(mymap)
-                                                    .bindPopup("<b>Klagenfurt</b>").openPopup();
-                                                
-                                                    L.marker([46.63639, 14.14639]).addTo(mymap)
-                                                    .bindPopup("<b>Pörtschach</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -179,7 +167,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 18. Juli 1899, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-EF65-7. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 18. Juli 1899, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-EF65-7. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -1938,109 +1926,6 @@
                               <li><a href="entry__1908-03-04.html">Mittwoch, 4. März 1908</a></li>
                               <li><a href="entry__1920-11-23.html">Dienstag, 23. November 1920</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92001">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Velden <a href="pmb92001.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Velden am Wörthersee</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    46.61301, 14.0413
-                                                        L.marker([46.61301, 14.0413]).addTo(mymap)
-                                                        .bindPopup("<b>Velden</b>").openPopup();
-                                                </script><div class="card">
-                           <p>46.61301 14.0413</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92001/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2762453/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91030">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Klagenfurt <a href="pmb91030.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    46.62472, 14.30528
-                                                        L.marker([46.62472, 14.30528]).addTo(mymap)
-                                                        .bindPopup("<b>Klagenfurt</b>").openPopup();
-                                                </script><div class="card">
-                           <p>46.62472 14.30528</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91030/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2774326/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb44278">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Pörtschach <a href="pmb44278.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75"><span class="infodesc">Namensvarianten</span><ul>
-                           <li>Pörtschach am Wörthersee</li>
-                        </ul>
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    46.63639, 14.14639
-                                                        L.marker([46.63639, 14.14639]).addTo(mymap)
-                                                        .bindPopup("<b>Pörtschach</b>").openPopup();
-                                                </script><div class="card">
-                           <p>46.63639 14.14639</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/44278/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2768497/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>

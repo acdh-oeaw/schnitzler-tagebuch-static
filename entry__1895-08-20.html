@@ -72,7 +72,7 @@
                   
                   <div id="div__12">
                      
-                     <p id="p__11">20/8 Bic. <a data-toggle="modal" data-target="#pmb797" style="color:black">Berchtesgaden</a> ― <a data-toggle="modal" data-target="#pmb91054" style="color:black">Königssee</a> ― <a data-toggle="modal" data-target="#pmb797" style="color:black">Berchtesgaden</a>. <a data-toggle="modal" data-target="#person_17312" style="color:black">Langkammer</a> 
+                     <p id="p__11">20/8 Bic. <a data-toggle="modal" data-target="#pmb797falsch" style="color:black">Berchtesgaden</a> ― <a data-toggle="modal" data-target="#pmb91054falsch" style="color:black">Königssee</a> ― <a data-toggle="modal" data-target="#pmb797falsch" style="color:black">Berchtesgaden</a>. <a data-toggle="modal" data-target="#person_17312" style="color:black">Langkammer</a> 
                         und Frau (<a data-toggle="modal" data-target="#person_17313" style="color:black">Nordmann</a>), <a data-toggle="modal" data-target="#person_16889" style="color:black">Klein</a> (Rmdth.), die <a data-toggle="modal" data-target="#person_16398" style="color:black">Hruby</a>.― Familie an, 
                         sowie <a data-toggle="modal" data-target="#person_13196" style="color:black">Lou Salomé</a>.―</p>
                      </div>
@@ -127,8 +127,6 @@
                                     <li><a href=".html">Salzburg</a></li>
                                     <li><a href=".html">Berchtesgaden</a></li>
                                     <li><a href=".html">Königssee</a></li>
-                                    <li><a href="pmb91054.html">Königssee</a></li>
-                                    <li><a href="pmb797.html">Berchtesgaden</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -151,12 +149,6 @@
                                                 
                                                     L.marker([, ]).addTo(mymap)
                                                     .bindPopup("<b>Königssee</b>").openPopup();
-                                                
-                                                    L.marker([47.55567, 12.97802]).addTo(mymap)
-                                                    .bindPopup("<b>Königssee</b>").openPopup();
-                                                
-                                                    L.marker([47.63236, 13.00187]).addTo(mymap)
-                                                    .bindPopup("<b>Berchtesgaden</b>").openPopup();
                                                 </script></div>
                      </div>
                   </div>
@@ -170,7 +162,7 @@
                      <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 20. August 1895, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-10-11), PID: http://hdl.handle.net/21.11115/0000-000B-E9F7-8. 
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, Dienstag, 20. August 1895, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-11-04), PID: http://hdl.handle.net/21.11115/0000-000B-E9F7-8. 
                      </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -385,72 +377,6 @@
                         <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                               <li><a href="entry__1895-08-20.html">Dienstag, 20. August 1895</a></li>
                            </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91054">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Königssee <a href="pmb91054.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.55567, 12.97802
-                                                        L.marker([47.55567, 12.97802]).addTo(mymap)
-                                                        .bindPopup("<b>Königssee</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47.55567 12.97802</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91054/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2885777/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb797">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Berchtesgaden <a href="pmb797.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-body">
-                     <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-tagebuch w-75">
-                        <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
-                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.63236, 13.00187
-                                                        L.marker([47.63236, 13.00187]).addTo(mymap)
-                                                        .bindPopup("<b>Berchtesgaden</b>").openPopup();
-                                                </script><div class="card">
-                           <p>47.63236 13.00187</p>
-                        </div>
-                        <div id="mentions">
-                           <p class="buttonreihe"><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/797/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://www.geonames.org/2950881/" target="_blank"><span class="wikipedia-color"> geonames</span></a></span></p>
                         </div>
                      </div>
                   </div>
