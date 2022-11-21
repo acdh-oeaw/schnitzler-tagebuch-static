@@ -72,12 +72,12 @@
                   
                   <div id="div__28">
                      
-                     <p id="p__24">1/7 Autotour <a data-toggle="modal" data-target="#pmb40260falsch" style="color:black">Bozen</a> ― <a data-toggle="modal" data-target="#pmb91229falsch" style="color:black">Mendel</a> ― <a data-toggle="modal" data-target="#pmb91265falsch" style="color:black">Molveno</a>. Mittag. Ein Herr <a data-toggle="modal" data-target="#person_17121" style="color:black">Willy Krauss</a> aus 
-                        <a data-toggle="modal" data-target="#pmb50falsch" style="color:black">Wien</a> bat wegen Zahnwehs nach <a data-toggle="modal" data-target="#pmb40260falsch" style="color:black">Bozen</a> mitgenommen zu werden.― Das „goldne 
+                     <p id="p__24">1/7 Autotour <a data-toggle="modal" data-target="#pmb40260" style="color:black">Bozen</a> ― <a data-toggle="modal" data-target="#pmb91229" style="color:black">Mendel</a> ― <a data-toggle="modal" data-target="#pmb91265" style="color:black">Molveno</a>. Mittag. Ein Herr <a data-toggle="modal" data-target="#person_17121" style="color:black">Willy Krauss</a> aus 
+                        <a data-toggle="modal" data-target="#pmb50" style="color:black">Wien</a> bat wegen Zahnwehs nach <a data-toggle="modal" data-target="#pmb40260" style="color:black">Bozen</a> mitgenommen zu werden.― Das „goldne 
                         Buch“, in das ich mich (zufällig unter <a data-toggle="modal" data-target="#person_19154" style="color:black">Reinhardt</a>) eintragen mußte.― 
-                        ― Weiter nach <a data-toggle="modal" data-target="#pmb954falsch" style="color:black">Trient</a>, wo wir <a data-toggle="modal" data-target="#person_17121" style="color:black">Hrn. Krauss</a> am Bahnhof absetzten. Dom; <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> 
+                        ― Weiter nach <a data-toggle="modal" data-target="#pmb954" style="color:black">Trient</a>, wo wir <a data-toggle="modal" data-target="#person_17121" style="color:black">Hrn. Krauss</a> am Bahnhof absetzten. Dom; <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> 
                         photogr. mich, <a data-toggle="modal" data-target="#person_20340" style="color:black">Hr. Stefenelli</a> uns beide;― Herumfahrt, Café Europe; weiter 
-                        nach <a data-toggle="modal" data-target="#pmb40260falsch" style="color:black">Bozen</a>.― Im Hotel ein Brief von <a data-toggle="modal" data-target="#person_21546" style="color:black">Mirjam Ziegel</a> aus <a data-toggle="modal" data-target="#pmb988falsch" style="color:black">Siusi</a> (<a data-toggle="modal" data-target="#pmb988falsch" style="color:black">Seis</a>) ― an 
+                        nach <a data-toggle="modal" data-target="#pmb40260" style="color:black">Bozen</a>.― Im Hotel ein Brief von <a data-toggle="modal" data-target="#person_21546" style="color:black">Mirjam Ziegel</a> aus <a data-toggle="modal" data-target="#pmb988" style="color:black">Siusi</a> (<a data-toggle="modal" data-target="#pmb988" style="color:black">Seis</a>) ― an 
                         <a data-toggle="modal" data-target="#person_19832" style="color:black">O.</a>;― offenbar wurde ihr erzählt, dass ich mit <a data-toggle="modal" data-target="#person_19832" style="color:black">O.</a> hier sei.― Im Greif wie immer genachtm.―</p>
                      
                      <p id="p__4">Las dann die Erzählung von <a data-toggle="modal" data-target="#person_18863" style="color:black">C. P.</a> zu Ende und sagte ihr etliches darüber.</p>
@@ -128,29 +128,18 @@
                            <legend>Orte</legend>
                            <div class="row">
                               <div class="col-md-4">
-                                 <ul></ul>
+                                 <ul>
+                                    <li><a href="pmb91229.html">Passo della Mendola</a></li>
+                                    <li><a href="pmb91265.html">Molveno</a></li>
+                                    <li><a href="pmb50.html">Wien</a></li>
+                                    <li><a href="pmb954.html">Trient</a></li>
+                                    <li><a href="pmb40260.html">Bozen</a></li>
+                                    <li><a href="pmb988.html">Seis am Schlern</a></li>
+                                 </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
                            </div>
-                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                
-                                                var mymap = L.map('mapid').setView([50, 12], 5);
-                                                
-                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                maxZoom: 18,
-                                                zIndex: 1
-                                                }).addTo(mymap);
-                                                
-                                                    L.marker([, ]).addTo(mymap)
-                                                    .bindPopup("<b>Bozen</b>").openPopup();
-                                                
-                                                    L.marker([, ]).addTo(mymap)
-                                                    .bindPopup("<b>Molveno</b>").openPopup();
-                                                
-                                                    L.marker([, ]).addTo(mymap)
-                                                    .bindPopup("<b>Trient</b>").openPopup();
-                                                </script></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -164,8 +153,8 @@
                   </div>
                   <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale
                      Edition, Mittwoch, 1. Juli 1925,
-                     https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html
-                     (Stand 2022-11-15), PID:
+                     https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-07-01.html
+                     (Stand 2022-11-21), PID:
                      http://hdl.handle.net/21.11115/0000-000C-13E3-E. </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -4768,6 +4757,222 @@
                               <li><a href="entry__1931-10-14.html">Mittwoch, 14. Oktober 1931</a></li>
                               <li><a href="entry__1931-10-16.html">Freitag, 16. Oktober 1931</a></li>
                            </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91229">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Passo della MendolaItalien <a href="pmb91229.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91229/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/3173592/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.41667, 11.2
+                                                        L.marker([46.41667, 11.2]).addTo(mymap)
+                                                        .bindPopup("<b>Passo della Mendola</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb91265">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">MolvenoItalien <a href="pmb91265.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/91265/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/3173203/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.14238, 10.963
+                                                        L.marker([46.14238, 10.963]).addTo(mymap)
+                                                        .bindPopup("<b>Molveno</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb50">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">WienÖsterreich <a href="pmb50.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb50" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Wien" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/50/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://d-nb.info/gnd/4066009-6" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white">GND</span></a> <a href="https://sws.geonames.org/2761369/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.2066, 16.37341
+                                                        L.marker([48.2066, 16.37341]).addTo(mymap)
+                                                        .bindPopup("<b>Wien</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb954">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Trient <a href="pmb954.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb954" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb954.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Trient" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/954/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/3165243/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.06787, 11.12108
+                                                        L.marker([46.06787, 11.12108]).addTo(mymap)
+                                                        .bindPopup("<b>Trient</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb40260">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">BozenItalien <a href="pmb40260.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40260" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://de.wikipedia.org/wiki/Bozen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/6937/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://d-nb.info/gnd/4007901-6" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white">GND</span></a> <a href="https://sws.geonames.org/3181913/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.49067, 11.33982
+                                                        L.marker([46.49067, 11.33982]).addTo(mymap)
+                                                        .bindPopup("<b>Bozen</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb988">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Seis am Schlern <a href="pmb988.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb988" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb988.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Seis am Schlern" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/988/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://sws.geonames.org/3166483/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white">geoNames</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    46.54133, 11.55868
+                                                        L.marker([46.54133, 11.55868]).addTo(mymap)
+                                                        .bindPopup("<b>Seis am Schlern</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>
