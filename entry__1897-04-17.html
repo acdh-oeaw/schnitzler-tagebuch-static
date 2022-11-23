@@ -70,9 +70,9 @@
                </div>
                <div class="card-body-normalertext" data-index="true">
                   
-                  <div id="div__8">
+                  <div id="div__9">
                      
-                     <p id="p__7">17/4 Vm. Panthéon, <a data-toggle="modal" data-target="#pmb91179" style="color:black">Luxembourg</a>; Abd. Gymnase: <a data-toggle="modal" data-target="#person_16111" style="color:black">Hermant</a>, 
+                     <p id="p__8">17/4 Vm. <a data-toggle="modal" data-target="#pmb118491" style="color:black">Panthéon</a>, <a data-toggle="modal" data-target="#pmb91179" style="color:black">Luxembourg</a>; Abd. Gymnase: <a data-toggle="modal" data-target="#person_16111" style="color:black">Hermant</a>, 
                         Carrière. (<a data-toggle="modal" data-target="#person_16412" style="color:black">Huguenet</a>, <a data-toggle="modal" data-target="#person_18467" style="color:black">Noblet</a>.)</p>
                      </div>
                   </div>
@@ -112,6 +112,7 @@
                            <div class="row">
                               <div class="col-md-4">
                                  <ul>
+                                    <li><a href="pmb118491.html">Panthéon</a></li>
                                     <li><a href="pmb91179.html">Jardin du Luxembourg</a></li>
                                  </ul>
                               </div>
@@ -132,7 +133,7 @@
                   <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale
                      Edition, ,
                      https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-17.html
-                     (Stand 2022-11-22), PID:
+                     (Stand 2022-11-23), PID:
                      http://hdl.handle.net/21.11115/0000-000B-EC4C-7. </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -244,6 +245,40 @@
                         <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled">
                               <li><a href="entry__1897-04-17.html">Samstag, 17. April 1897</a></li>
                            </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb118491">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">PanthéonParis <a href="pmb118491.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions"></div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.84673, 2.34646
+                                                        L.marker([48.84673, 2.34646]).addTo(mymap)
+                                                        .bindPopup("<b>Panthéon</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>

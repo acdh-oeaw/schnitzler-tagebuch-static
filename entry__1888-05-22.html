@@ -70,9 +70,9 @@
                </div>
                <div class="card-body-normalertext" data-index="true">
                   
-                  <div id="div__5">
+                  <div id="div__6">
                      
-                     <p id="p__4">22/5 Dinstag. <a data-toggle="modal" data-target="#pmb182" style="color:black">Paris</a>. Pantheon, Louvre, Bastille. Abends nach 
+                     <p id="p__5">22/5 Dinstag. <a data-toggle="modal" data-target="#pmb182" style="color:black">Paris</a>. <a data-toggle="modal" data-target="#pmb118491" style="color:black">Pantheon</a>, Louvre, Bastille. Abends nach 
                         <a data-toggle="modal" data-target="#pmb224" style="color:black">London</a>. Seefahrt. Ankunft</p>
                      </div>
                   </div>
@@ -98,6 +98,7 @@
                               <div class="col-md-4">
                                  <ul>
                                     <li><a href="pmb182.html">Paris</a></li>
+                                    <li><a href="pmb118491.html">Panthéon</a></li>
                                     <li><a href="pmb224.html">London</a></li>
                                  </ul>
                               </div>
@@ -118,7 +119,7 @@
                   <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale
                      Edition, ,
                      https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-05-22.html
-                     (Stand 2022-11-22), PID:
+                     (Stand 2022-11-23), PID:
                      http://hdl.handle.net/21.11115/0000-000B-E042-D. </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -178,6 +179,40 @@
                                                     48.85341, 2.3488
                                                         L.marker([48.85341, 2.3488]).addTo(mymap)
                                                         .bindPopup("<b>Paris</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb118491">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">PanthéonParis <a href="pmb118491.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions"></div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.84673, 2.34646
+                                                        L.marker([48.84673, 2.34646]).addTo(mymap)
+                                                        .bindPopup("<b>Panthéon</b>").openPopup();
                                                 </script><div class="card">
                               <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
                               </div>
