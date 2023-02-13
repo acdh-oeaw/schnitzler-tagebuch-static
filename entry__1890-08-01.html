@@ -74,7 +74,7 @@
                   <div id="div__9">
                      
                      <p id="p__8">1. Freitag. <a data-toggle="modal" data-target="#pmb92111" style="color:black">Wü.</a> ― <a data-toggle="modal" data-target="#pmb50" style="color:black">Wien</a>.― Häuslicher Skandal. <a data-toggle="modal" data-target="#pmb50" style="color:black">Wien</a> ― <a data-toggle="modal" data-target="#pmb91057" style="color:black">Korneuburg</a> ― 
-                        <a data-toggle="modal" data-target="#pmb92111" style="color:black">Wü.</a> ― Wald. Der hypnotisirte Pauxl. Mond. <a data-toggle="modal" data-target="pmb50530" style="color:black">Landstraße</a> (1). Brücke.―</p>
+                        <a data-toggle="modal" data-target="#pmb92111" style="color:black">Wü.</a> ― Wald. Der hypnotisirte Pauxl. Mond. <a data-toggle="modal" data-target="#pmb50530" style="color:black">Landstraße</a> (1). Brücke.―</p>
                      </div>
                   </div>
                <div class="card-footer text-muted">
@@ -101,6 +101,7 @@
                                     <li><a href="pmb50.html">Wien</a></li>
                                     <li><a href="pmb91057.html">Korneuburg</a></li>
                                     <li><a href="pmb92111.html">Würnitz</a></li>
+                                    <li><a href="pmb50530.html">Landstraßer Hauptstraße</a></li>
                                  </ul>
                               </div>
                               <div id="mapid" style="height: 400px;" class="col-md-8"></div>
@@ -120,7 +121,7 @@
                   <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale
                      Edition, ,
                      https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-08-01.html
-                     (Stand 2022-12-07), PID:
+                     (Stand 2023-02-13), PID:
                      http://hdl.handle.net/21.11115/0000-000B-E2F6-0. </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -252,6 +253,42 @@
                                                     48.41667, 16.41667
                                                         L.marker([48.41667, 16.41667]).addTo(mymap)
                                                         .bindPopup("<b>Würnitz</b>").openPopup();
+                                                </script><div class="card">
+                              <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb50530">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Landstraßer HauptstraßeIII., Landstraße <a href="pmb50530.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                        <div class="card-body-index">
+                           <div id="mentions">
+                              <p class="buttonreihe"><a href="https://kraus.wienbibliothek.at/register/orte/pmb50530" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white">Rechtsakten</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/50530/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> </p>
+                           </div>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.20574, 16.38566
+                                                        L.marker([48.20574, 16.38566]).addTo(mymap)
+                                                        .bindPopup("<b>Landstraßer Hauptstraße</b>").openPopup();
                                                 </script><div class="card">
                               <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
                               </div>
