@@ -87,7 +87,7 @@
                      
                      <p id="p__15">Mit einem Ingenieur, <a data-toggle="modal" data-target="#person_13113" style="color:black">Ali Adnan</a>, den der Händler uns vorstellt; 
                         <a data-toggle="modal" data-target="#place_813d0e7ec4d911bc32d0b7af7317314b" style="color:black">französisch</a> und <a data-toggle="modal" data-target="#place_09c438e63455e3e1b3deabe65fdbc087" style="color:black">deutsch</a> sprechend, liebenswürdig zur Galatabrücke; 
-                        auf altem Schiff Prinzen-Inseln, hinüber <a data-toggle="modal" data-target="#pmb91034" style="color:black">Kleinasien</a>, Bahn <a data-toggle="modal" data-target="#pmb92271" style="color:black">Hamria</a> …, 
+                        auf altem Schiff Prinzen-Inseln, hinüber <a data-toggle="modal" data-target="#pmb91034" style="color:black">Kleinasien</a>, Bahn <a data-toggle="modal" data-target="#pmb142321" style="color:black">Hamria</a> …, 
                         zurück Galata;― dann nach <a data-toggle="modal" data-target="#pmb91449" style="color:black">Pera</a>; wir essen mit dem Ingenieur im Rest. 
                         Turque (<a data-toggle="modal" data-target="#place_3e59557b630aba415b2b473b86a70e73" style="color:black">russ.</a>-<a data-toggle="modal" data-target="#place_e44c305fc1653b47bf5e9ffcbccb4e28" style="color:black">türkisch</a>) Tänze von <a data-toggle="modal" data-target="#place_3878bf3d5c49a933098e07a8d8bad7d5" style="color:black">russischen</a> Emigranten und 
                         Emigrantinnen.</p>
@@ -139,7 +139,7 @@
                                     <li><a href="pmb966.html">Istanbul</a></li>
                                     <li><a href="pmb90386.html">Bosporus</a></li>
                                     <li><a href="pmb91034.html">Anatolia</a></li>
-                                    <li><a href="pmb92271.html">Hamria</a></li>
+                                    <li><a href="pmb142321.html">Haydarpaşa</a></li>
                                     <li><a href="pmb91449.html">Beyoğlu</a></li>
                                  </ul>
                               </div>
@@ -160,7 +160,7 @@
                   <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale
                      Edition, ,
                      https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-23.html
-                     (Stand 2023-02-13), PID:
+                     (Stand 2023-02-23), PID:
                      http://hdl.handle.net/21.11115/0000-000C-17E5-8. </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -2108,11 +2108,11 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb92271">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb142321">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Hamria <a href="pmb92271.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">HaydarpaşaTürkei <a href="pmb142321.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
                      <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
@@ -2120,7 +2120,20 @@
                            <div id="mentions">
                               <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/92271/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> </p>
                            </div>
-                           <div class="card">
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    41.00388, 29.013
+                                                        L.marker([41.00388, 29.013]).addTo(mymap)
+                                                        .bindPopup("<b>Haydarpaşa</b>").openPopup();
+                                                </script><div class="card">
                               <div id="mentions" class="mt-2"><span class="infodesc mr-2">Erwähnt am</span><ul class="list-unstyled"></ul>
                               </div>
                            </div>
