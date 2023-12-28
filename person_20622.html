@@ -48,8 +48,7 @@
                     _paq.push([ 'setSiteId', '101']);
                     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-                })();</script></head>
-   <body class="page">
+                })();</script></head><script src="./js/highcharts-persons-occurences.js"></script><script src="https://code.highcharts.com/highcharts.js"></script><script src="https://code.highcharts.com/highcharts-more.js"></script><script src="https://code.highcharts.com/modules/data.js"></script><script src="https://code.highcharts.com/modules/exporting.js"></script><body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/project-logo.svg" class="img-fluid" alt="Schnitzler Tagebuch" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -74,11 +73,20 @@
                <div class="card-header">
                   <h2 align="center">Hippolyte Taine <span class="lebensdaten">(21. 4. 1828 Vouziers – 5. 3. 1893 Paris)</span></h2>
                </div>
-               <div xmlns:df="http://example.com/df" class="card-body-index">
-                  <div id="mentions">
+               <div xmlns:df="http://example.com/df" class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20622.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div id="mentions">
                      <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12913.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white">Briefe</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12913.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12913.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp53911" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Hippolyte Taine" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12913/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white">PMB</span></a> <a href="https://d-nb.info/gnd/11862055X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white">GND</span></a> </p>
                   </div>
                   <p><i>Philosoph, Geschichtsschreiber</i></p>
+                  <div id="container" style="width:100%; height:400px; min-width:750px"></div>
                   <div class="werke"></div>
                   <div id="mentions" class="mt-2">
                      <legend>Erwähnt am</legend>
