@@ -224,11 +224,12 @@ nochmals. Stelle meine Bedingungen.</p>
                   <sex value="male"/>
                   <occupation key="154">Philosoph/Philosophin</occupation>
                   <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118550969</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16193</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5088.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5088/</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1713470</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kurt_Hildebrandt</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16193.html</idno>
+                  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5088.html</idno>
                </person>
                <person xml:id="person_18863">
                   <persName>
@@ -258,8 +259,8 @@ nochmals. Stelle meine Bedingungen.</p>
                   </death>
                   <sex value="female"/>
                   <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18863</idno>
                   <idno type="URL" subtype="gnd">https://d-nb.info/gnd/13950916X</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18863.html</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12435.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12435/</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12435.html</idno>
@@ -268,38 +269,44 @@ nochmals. Stelle meine Bedingungen.</p>
                   <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12435.html</idno>
                   <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12435.html</idno>
                   <listEvent>
-                     <event key="35418" when-iso="1931-02-14">
+                     <event key="59292" when-iso="1897-03-28">
                         <desc n="1370">teilgenommen an</desc>
-                        <label>Uraufführung von Der Gang zum Weiher, 14.2.1931</label>
-                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35418/</idno>
+                        <label>Lesung von Hirschfeld, Hofmannsthal, Schnitzler und Bahr, 28.3.1897</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59292/</idno>
                      </event>
                      <event key="35439" when-iso="1929-12-21">
                         <desc n="1370">teilgenommen an</desc>
                         <label>Uraufführung von Im Spiel der Sommerlüfte, 21.12.1929</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35439/</idno>
                      </event>
-                     <event key="59292" when-iso="1897-03-28">
+                     <event key="35418" when-iso="1931-02-14">
                         <desc n="1370">teilgenommen an</desc>
-                        <label>Lesung von Hirschfeld, Hofmannsthal, Schnitzler und Bahr, 28.3.1897</label>
-                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59292/</idno>
+                        <label>Uraufführung von Der Gang zum Weiher, 14.2.1931</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35418/</idno>
                      </event>
                   </listEvent>
-                  <listBibl>
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                     <bibl type="collections" n="18">Schnitzler Interviews</bibl>
-                  </listBibl>
+                  <figure>
+                     <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pollaczek%2C%20Klara%20Katharina.jpg"/>
+                  </figure>
                </person>
                <person xml:id="person_18291">
                   <persName>
                      <forename>Emil</forename>
                      <surname>Müller</surname>
                   </persName>
+                  <persName type="legacy-name-merge">Müller, Emil</persName>
                   <birth>
                      <date when-iso="1886-01-17">17.01.1886</date>
                      <settlement key="45215">
                         <placeName type="pref">Borysław</placeName>
                         <location>
                            <geo>51,84772 20,10183</geo>
+                        </location>
+                     </settlement>
+                     <settlement key="95643">
+                        <placeName type="pref">Borislaw</placeName>
+                        <location>
+                           <geo>49,28672 23,432379</geo>
                         </location>
                      </settlement>
                   </birth>
@@ -311,50 +318,58 @@ nochmals. Stelle meine Bedingungen.</p>
                            <geo>51,50094 -0,19175</geo>
                         </location>
                      </settlement>
+                     <settlement key="224">
+                        <placeName type="pref">London</placeName>
+                        <location>
+                           <geo>51,50853 -0,12574</geo>
+                        </location>
+                     </settlement>
                   </death>
-                  
+                  <sex value="male"/>
                   <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                   <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
                   <occupation key="346">Filmproduzent/Filmproduzentin</occupation>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18291</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18291.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21705/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149187/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1336572</idno>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1037831640</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emil_M%C3%BCller-Sturmheim</idno>
+                  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149187.html</idno>
+                  <listBibl>
+                     <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  </listBibl>
                </person>
                </listPerson><listBibl><bibl xml:id="pmb35745">
                   <title type="main">Aphoristisches</title>
                   <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+                  <date>None</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35745/</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35745.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </note>
-                  <note type="work_kind">Textsammlung &gt;&gt; Aphorismensammlung</note>
+                  <note type="work_kind">Aphorismensammlung</note>
                </bibl>
                <bibl xml:id="pmb29853">
                   <title type="main">Lieutenant Gustl. Novelle</title>
-                  <title type="werk_bibliografische-angabe">Arthur Schnitzler: Lieutenant Gustl. In: Neue Freie Presse, Nr. 13053, 25. 12. 1900, S. 34–41</title>
-                  <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</title>
+                  <title type="werk_bibliografische-angabe">Arthur Schnitzler: Lieutenant Gustl. In: Neue Freie Presse, Nr. 13053, 25. 12. 1900, Morgenblatt, S. 34–41</title>
+                  <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34</title>
                   <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                   <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
                   <date>1900-12-25</date>
                   <idno type="URL">https://asaf.com/S.04.02.39</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1821658</idno>
                   <idno type="URL">https://theadok.at/work/31187</idno>
-                  <idno type="URL" subtype="exemplar">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29853.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29853/</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29853.html</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29853.html</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leutnant_Gustl</idno>
                   <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb29853.html</idno>
-                  <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                     <bibl type="collections" n="18">Schnitzler Interviews</bibl>
-                  </note>
                   <note type="work_kind">Novelle</note>
                </bibl>
                <bibl xml:id="pmb80698">
                   <title type="main">Sklaven der Roulette</title>
                   <author ref="pmb18262" role="hat-geschaffen">Higgin, Howard</author>
+                  <date>None</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/80698/</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80698.html</idno>
                   <note type="work_kind">Film</note>
@@ -362,6 +377,7 @@ nochmals. Stelle meine Bedingungen.</p>
                <bibl xml:id="pmb78348">
                   <title type="main">Wagner und Nietzsche</title>
                   <author ref="pmb5088" role="hat-geschaffen">Hildebrandt, Kurt</author>
+                  <date>None</date>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/78348/</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb78348.html</idno>
                   <note type="work_kind">Studie</note>

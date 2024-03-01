@@ -216,7 +216,7 @@
                      </settlement>
                   </death>
                   <sex value="female"/>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15178</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15178.html</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb16560.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16560/</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb16560.html</idno>
@@ -227,9 +227,6 @@
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49365/</idno>
                      </event>
                   </listEvent>
-                  <listBibl>
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
-                  </listBibl>
                </person>
                <person xml:id="person_16517">
                   <persName>
@@ -238,6 +235,7 @@
                   </persName>
                   <persName type="person_geburtsname_nachname">Kohner</persName>
                   <persName type="namensvariante">Cohner</persName>
+                  <persName type="legacy-name-merge">Jarno, Josef</persName>
                   <persName type="legacy-name-merge">Jarno, Josef</persName>
                   <birth>
                      <date when-iso="1865-08-24">24.08.1865</date>
@@ -263,7 +261,7 @@
                   <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116653981</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2601.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2601/</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16517</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16517.html</idno>
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2601.html</idno>
                   <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb2601</idno>
                   <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47098</idno>
@@ -271,6 +269,9 @@
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86314</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Jarno</idno>
                   <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2601.html</idno>
+                  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2601.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160663/</idno>
+                  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2601</idno>
                   <affiliation notBefore-iso="1893-01-01" when-iso="1893-07-02" notAfter-iso="1893-12-31">
                      <term key="1182">arbeitet für</term>
                      <orgName key="42649">Saisontheater Ischl</orgName>
@@ -288,15 +289,15 @@
                      <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb39689.html</idno>
                   </affiliation>
                   <listEvent>
+                     <event key="63396" when-iso="1893-03-29">
+                        <desc n="1256">ist Arbeitskraft bei</desc>
+                        <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die Statue des Kommandeurs), 29.3.1893</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63396/</idno>
+                     </event>
                      <event key="35284" when-iso="1893-07-14">
                         <desc n="1256">ist Arbeitskraft bei</desc>
                         <label>Uraufführung von Abschiedssouper, 14.7.1893</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35284/</idno>
-                     </event>
-                     <event key="35113" when-iso="1904-12-12">
-                        <desc n="1256">ist Arbeitskraft bei</desc>
-                        <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
-                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                      </event>
                      <event key="35382" when-iso="1898-10-08">
                         <desc n="1370">teilgenommen an</desc>
@@ -308,34 +309,47 @@
                         <label>Einakterabend (Bagatelle; Er, sie und er; Abschied vom Regiment, Abschiedssouper), 23.2.1900</label>
                         <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63002/</idno>
                      </event>
-                     <event key="63396" when-iso="1893-03-29">
+                     <event key="143820" when-iso="1900-04-15">
+                        <desc n="1370">teilgenommen an</desc>
+                        <label>Bankett für Ludwig Speidel, 15.4.1900</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143820/</idno>
+                     </event>
+                     <event key="35113" when-iso="1904-12-12">
                         <desc n="1256">ist Arbeitskraft bei</desc>
-                        <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die Statue des Kommandeurs), 29.3.1893</label>
-                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63396/</idno>
+                        <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
+                        <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                      </event>
                   </listEvent>
                   <listBibl>
                      <bibl type="collections" n="5">legalkraus</bibl>
                      <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                      <bibl type="collections" n="12">Fackel</bibl>
-                     <bibl type="collections" n="18">Schnitzler Interviews</bibl>
+                     <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                   </listBibl>
+                  <note type="references"> </note>
+                  <figure>
+                     <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef%20Jarno%201901%20Scolik.jpg"/>
+                  </figure>
                </person>
                </listPerson><listBibl><bibl xml:id="pmb32340">
                   <title type="main">Aschermittwoch. Schwank</title>
                   <title type="legacy-name-merge">Aschermittwoch</title>
+                  <title type="legacy-name-merge">Aschermittwoch</title>
                   <author ref="pmb2601" role="hat-geschaffen">Jarno, Josef</author>
-                  <author ref="pmb28671" role="hat-geschaffen">Fischer, Hanns</author>
+                  <author ref="pmb16275" role="hat-geschaffen">Fischer, Hanns Friedrich</author>
                   <date notBefore-iso="1897-01-01" when-iso="1897-07-02">1897</date>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32340.html</idno>
                   <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32342.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32340/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32342/</idno>
                   <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32340.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/163641/</idno>
+                  <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb32340</idno>
                   <note type="collections">
-                     <bibl type="collections" n="3">Manuell angelegt</bibl>
+                     <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                   </note>
                   <note type="work_kind">Drama</note>
+                  <note type="references"> </note>
                </bibl>
                </listBibl></back></text>
 </TEI>
