@@ -75,7 +75,7 @@
                   <h1 align="center">Gremsmühlen</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/90765/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2917712/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,33 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    54.16348, 10.54822
-                                                        L.marker([54.16348, 10.54822]).addTo(mymap)
-                                                        .bindPopup("<b>Gremsmühlen</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Dienstag, 29. August 1922 <a href="entry__1922-08-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 8. September 1922 <a href="entry__1922-09-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 11. September 1922 <a href="entry__1922-09-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 15. September 1922 <a href="entry__1922-09-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 21. September 1922 <a href="entry__1922-09-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 29. September 1922 <a href="entry__1922-09-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 5. Oktober 1922 <a href="entry__1922-10-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 3. September 1924 <a href="entry__1924-09-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. Januar 1925 <a href="entry__1925-01-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        54.16348, 10.54822
+                        L.marker([54.16348, 10.54822]).addTo(mymap)
+                        .bindPopup("<b>Gremsmühlen</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

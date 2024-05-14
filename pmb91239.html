@@ -75,7 +75,7 @@
                   <h1 align="center">Michaelerberg</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/91239/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2600997/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,79 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.24523, 16.28916
-                                                        L.marker([48.24523, 16.28916]).addTo(mymap)
-                                                        .bindPopup("<b>Michaelerberg</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Donnerstag, 18. August 1904 <a href="entry__1904-08-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 19. Oktober 1904 <a href="entry__1904-10-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 8. April 1906 <a href="entry__1906-04-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 23. Oktober 1906 <a href="entry__1906-10-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 5. November 1906 <a href="entry__1906-11-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 2. Oktober 1910 <a href="entry__1910-10-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 23. Oktober 1910 <a href="entry__1910-10-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 27. November 1910 <a href="entry__1910-11-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 6. Juni 1912 <a href="entry__1912-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. Dezember 1913 <a href="entry__1913-12-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 19. Juli 1917 <a href="entry__1917-07-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 25. Juli 1917 <a href="entry__1917-07-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 11. August 1917 <a href="entry__1917-08-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 25. August 1917 <a href="entry__1917-08-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 17. Januar 1918 <a href="entry__1918-01-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 25. März 1918 <a href="entry__1918-03-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 28. März 1918 <a href="entry__1918-03-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 18. Mai 1918 <a href="entry__1918-05-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 6. Juni 1918 <a href="entry__1918-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 11. Juli 1918 <a href="entry__1918-07-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 12. Juli 1918 <a href="entry__1918-07-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. August 1918 <a href="entry__1918-08-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 19. September 1918 <a href="entry__1918-09-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 3. Oktober 1918 <a href="entry__1918-10-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 18. Oktober 1918 <a href="entry__1918-10-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. Januar 1919 <a href="entry__1919-01-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 8. März 1919 <a href="entry__1919-03-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 24. Mai 1919 <a href="entry__1919-05-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. Juli 1919 <a href="entry__1919-07-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 14. Juli 1919 <a href="entry__1919-07-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. September 1919 <a href="entry__1919-09-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. März 1920 <a href="entry__1920-03-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 3. April 1920 <a href="entry__1920-04-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. April 1920 <a href="entry__1920-04-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. April 1920 <a href="entry__1920-04-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 3. Oktober 1920 <a href="entry__1920-10-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 2. Februar 1921 <a href="entry__1921-02-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 8. Juni 1921 <a href="entry__1921-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 10. Juli 1921 <a href="entry__1921-07-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 15. Juli 1921 <a href="entry__1921-07-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. September 1921 <a href="entry__1921-09-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 20. November 1921 <a href="entry__1921-11-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Dezember 1921 <a href="entry__1921-12-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. Dezember 1921 <a href="entry__1921-12-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 15. Januar 1922 <a href="entry__1922-01-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 22. Mai 1922 <a href="entry__1922-05-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. Juni 1922 <a href="entry__1922-06-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 2. Juli 1922 <a href="entry__1922-07-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 27. März 1923 <a href="entry__1923-03-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 11. Juni 1924 <a href="entry__1924-06-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 1. März 1925 <a href="entry__1925-03-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. Juni 1925 <a href="entry__1925-06-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Juni 1925 <a href="entry__1925-06-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 31. März 1926 <a href="entry__1926-03-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. November 1926 <a href="entry__1926-11-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.24523, 16.28916
+                        L.marker([48.24523, 16.28916]).addTo(mymap)
+                        .bindPopup("<b>Michaelerberg</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

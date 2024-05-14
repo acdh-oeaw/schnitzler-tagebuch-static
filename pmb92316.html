@@ -75,7 +75,7 @@
                   <h1 align="center">Kaasgraben</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/92316/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> 
@@ -107,42 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.253174, 16.332896
-                                                        L.marker([48.253174, 16.332896]).addTo(mymap)
-                                                        .bindPopup("<b>Kaasgraben</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 24. März 1913 <a href="entry__1913-03-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. Januar 1914 <a href="entry__1914-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. Oktober 1914 <a href="entry__1914-10-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. Februar 1915 <a href="entry__1915-02-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 29. April 1917 <a href="entry__1917-04-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. August 1918 <a href="entry__1918-08-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 18. August 1918 <a href="entry__1918-08-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 25. August 1918 <a href="entry__1918-08-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 27. Juli 1919 <a href="entry__1919-07-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 3. August 1919 <a href="entry__1919-08-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 31. August 1919 <a href="entry__1919-08-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 25. Januar 1920 <a href="entry__1920-01-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 28. November 1922 <a href="entry__1922-11-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 30. Dezember 1923 <a href="entry__1923-12-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 24. Juli 1925 <a href="entry__1925-07-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 19. Juni 1927 <a href="entry__1927-06-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 19. November 1928 <a href="entry__1928-11-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 4. Juli 1931 <a href="entry__1931-07-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.253174, 16.332896
+                        L.marker([48.253174, 16.332896]).addTo(mymap)
+                        .bindPopup("<b>Kaasgraben</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

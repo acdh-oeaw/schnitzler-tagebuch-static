@@ -75,7 +75,7 @@
                   <h1 align="center">Bozen</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40260.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://de.wikipedia.org/wiki/Bozen" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q6526" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/6937/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4007901-6" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/3181913/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,88 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    46.49067, 11.33982
-                                                        L.marker([46.49067, 11.33982]).addTo(mymap)
-                                                        .bindPopup("<b>Bozen</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Freitag, 11. August 1882 <a href="entry__1882-08-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. August 1882 <a href="entry__1882-08-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 13. April 1886 <a href="entry__1886-04-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 12. September 1892 <a href="entry__1892-09-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. August 1899 <a href="entry__1899-08-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. August 1899 <a href="entry__1899-08-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 30. August 1900 <a href="entry__1900-08-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 22. Juli 1901 <a href="entry__1901-07-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 12. August 1901 <a href="entry__1901-08-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 13. August 1901 <a href="entry__1901-08-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. August 1901 <a href="entry__1901-08-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Juni 1903 <a href="entry__1903-06-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 15. Juni 1903 <a href="entry__1903-06-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 13. August 1903 <a href="entry__1903-08-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 14. August 1903 <a href="entry__1903-08-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 5. August 1907 <a href="entry__1907-08-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 31. August 1907 <a href="entry__1907-08-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 9. September 1907 <a href="entry__1907-09-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 11. September 1907 <a href="entry__1907-09-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 30. April 1908 <a href="entry__1908-04-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 1. Mai 1908 <a href="entry__1908-05-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 2. September 1908 <a href="entry__1908-09-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 5. September 1908 <a href="entry__1908-09-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. September 1908 <a href="entry__1908-09-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 2. Mai 1910 <a href="entry__1910-05-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 25. April 1911 <a href="entry__1911-04-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 21. Mai 1912 <a href="entry__1912-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 22. Mai 1912 <a href="entry__1912-05-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 12. Oktober 1916 <a href="entry__1916-10-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 14. Mai 1917 <a href="entry__1917-05-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 27. September 1919 <a href="entry__1919-09-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 26. Juli 1920 <a href="entry__1920-07-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 1. Oktober 1923 <a href="entry__1923-10-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. Juni 1925 <a href="entry__1925-06-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. Juni 1925 <a href="entry__1925-06-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 27. Juni 1925 <a href="entry__1925-06-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. Juni 1925 <a href="entry__1925-06-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 29. Juni 1925 <a href="entry__1925-06-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 30. Juni 1925 <a href="entry__1925-06-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 1. Juli 1925 <a href="entry__1925-07-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 2. Juli 1925 <a href="entry__1925-07-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 3. Juli 1925 <a href="entry__1925-07-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 20. Juli 1925 <a href="entry__1925-07-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 6. August 1925 <a href="entry__1925-08-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 11. August 1925 <a href="entry__1925-08-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 15. August 1925 <a href="entry__1925-08-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. August 1925 <a href="entry__1925-08-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 17. August 1925 <a href="entry__1925-08-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 9. September 1925 <a href="entry__1925-09-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 21. November 1925 <a href="entry__1925-11-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 12. August 1927 <a href="entry__1927-08-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 15. August 1927 <a href="entry__1927-08-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 16. August 1927 <a href="entry__1927-08-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 17. August 1927 <a href="entry__1927-08-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. August 1927 <a href="entry__1927-08-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 19. August 1927 <a href="entry__1927-08-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 22. August 1927 <a href="entry__1927-08-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 23. August 1927 <a href="entry__1927-08-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 24. August 1927 <a href="entry__1927-08-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. August 1927 <a href="entry__1927-08-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 27. September 1928 <a href="entry__1928-09-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. Oktober 1928 <a href="entry__1928-10-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Juli 1929 <a href="entry__1929-07-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 15. November 1930 <a href="entry__1930-11-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        46.49067, 11.33982
+                        L.marker([46.49067, 11.33982]).addTo(mymap)
+                        .bindPopup("<b>Bozen</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

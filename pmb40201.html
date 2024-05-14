@@ -75,7 +75,7 @@
                   <h1 align="center">Brunn am Gebirge</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Brunn_am_Gebirge" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q871405" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/40201/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4420575-2" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/2781321/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,41 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.10917, 16.29204
-                                                        L.marker([48.10917, 16.29204]).addTo(mymap)
-                                                        .bindPopup("<b>Brunn am Gebirge</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Samstag, 6. Juni 1891 <a href="entry__1891-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. Juni 1891 <a href="entry__1891-06-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 15. Juni 1891 <a href="entry__1891-06-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 16. Juni 1891 <a href="entry__1891-06-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. Juni 1891 <a href="entry__1891-06-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. Juni 1891 <a href="entry__1891-06-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 17. Juli 1891 <a href="entry__1891-07-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 9. August 1891 <a href="entry__1891-08-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 22. August 1891 <a href="entry__1891-08-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. September 1891 <a href="entry__1891-09-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. Juni 1893 <a href="entry__1893-06-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 25. Juni 1893 <a href="entry__1893-06-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 25. April 1896 <a href="entry__1896-04-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 23. Mai 1903 <a href="entry__1903-05-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. Juni 1903 <a href="entry__1903-06-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 6. August 1903 <a href="entry__1903-08-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 10. April 1919 <a href="entry__1919-04-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.10917, 16.29204
+                        L.marker([48.10917, 16.29204]).addTo(mymap)
+                        .bindPopup("<b>Brunn am Gebirge</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

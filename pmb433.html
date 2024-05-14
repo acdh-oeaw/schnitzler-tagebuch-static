@@ -75,7 +75,7 @@
                   <h1 align="center">Sankt Petersburg</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb433.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb433.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb433.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Sankt_Petersburg" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q656" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/433/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4267026-3" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/498817/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,43 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    59.93863, 30.31413
-                                                        L.marker([59.93863, 30.31413]).addTo(mymap)
-                                                        .bindPopup("<b>Sankt Petersburg</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Samstag, 7. September 1895 <a href="entry__1895-09-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 26. März 1896 <a href="entry__1896-03-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 26. Mai 1903 <a href="entry__1903-05-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 19. April 1904 <a href="entry__1904-04-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 13. Januar 1906 <a href="entry__1906-01-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. Januar 1906 <a href="entry__1906-01-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Februar 1906 <a href="entry__1906-02-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 21. Februar 1906 <a href="entry__1906-02-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 6. April 1906 <a href="entry__1906-04-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 21. Mai 1906 <a href="entry__1906-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 5. Juni 1907 <a href="entry__1907-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 20. Januar 1911 <a href="entry__1911-01-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 24. Juni 1911 <a href="entry__1911-06-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 15. Januar 1912 <a href="entry__1912-01-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 27. Februar 1914 <a href="entry__1914-02-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 19. April 1914 <a href="entry__1914-04-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 18. Januar 1919 <a href="entry__1919-01-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 6. August 1920 <a href="entry__1920-08-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 10. Oktober 1930 <a href="entry__1930-10-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        59.93863, 30.31413
+                        L.marker([59.93863, 30.31413]).addTo(mymap)
+                        .bindPopup("<b>Sankt Petersburg</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

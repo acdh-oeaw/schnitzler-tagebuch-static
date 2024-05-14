@@ -75,7 +75,7 @@
                   <h1 align="center">St. Pölten</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://kraus.wienbibliothek.at/register/orte/pmb49880" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/St._P%C3%B6lten" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q82500" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/2939/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4051622-2" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/2766429/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,35 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.2, 15.63333
-                                                        L.marker([48.2, 15.63333]).addTo(mymap)
-                                                        .bindPopup("<b>St. Pölten</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Dienstag, 11. April 1893 <a href="entry__1893-04-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 24. Mai 1894 <a href="entry__1894-05-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 13. April 1895 <a href="entry__1895-04-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 2. Juni 1895 <a href="entry__1895-06-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. Juni 1897 <a href="entry__1897-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. Juni 1897 <a href="entry__1897-06-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 29. April 1916 <a href="entry__1916-04-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 24. Februar 1918 <a href="entry__1918-02-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 5. Januar 1920 <a href="entry__1920-01-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 24. November 1922 <a href="entry__1922-11-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. Mai 1923 <a href="entry__1923-05-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.2, 15.63333
+                        L.marker([48.2, 15.63333]).addTo(mymap)
+                        .bindPopup("<b>St. Pölten</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

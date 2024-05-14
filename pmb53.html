@@ -75,7 +75,7 @@
                   <h1 align="center">III., Landstraße</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb53.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb53.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb53.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb53" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/53/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2773040/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,33 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.19811, 16.39482
-                                                        L.marker([48.19811, 16.39482]).addTo(mymap)
-                                                        .bindPopup("<b>III., Landstraße</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 2. Juni 1890 <a href="entry__1890-06-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 22. April 1891 <a href="entry__1891-04-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 25. Mai 1891 <a href="entry__1891-05-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 19. September 1891 <a href="entry__1891-09-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Mai 1893 <a href="entry__1893-05-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 18. Februar 1895 <a href="entry__1895-02-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 4. April 1907 <a href="entry__1907-04-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 17. November 1913 <a href="entry__1913-11-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 6. September 1928 <a href="entry__1928-09-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.19811, 16.39482
+                        L.marker([48.19811, 16.39482]).addTo(mymap)
+                        .bindPopup("<b>III., Landstraße</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

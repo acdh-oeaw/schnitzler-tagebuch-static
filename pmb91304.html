@@ -75,7 +75,7 @@
                   <h1 align="center">Moscow</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/91304/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/524901/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,48 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    55.75222, 37.61556
-                                                        L.marker([55.75222, 37.61556]).addTo(mymap)
-                                                        .bindPopup("<b>Moscow</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Donnerstag, 30. Oktober 1902 <a href="entry__1902-10-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 31. Oktober 1904 <a href="entry__1904-10-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 22. April 1905 <a href="entry__1905-04-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 16. März 1906 <a href="entry__1906-03-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 9. Oktober 1906 <a href="entry__1906-10-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 21. Oktober 1908 <a href="entry__1908-10-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. März 1909 <a href="entry__1909-03-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 3. Mai 1910 <a href="entry__1910-05-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 10. Juni 1910 <a href="entry__1910-06-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 2. November 1910 <a href="entry__1910-11-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 24. Oktober 1911 <a href="entry__1911-10-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 7. November 1913 <a href="entry__1913-11-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 21. Oktober 1919 <a href="entry__1919-10-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 23. Februar 1921 <a href="entry__1921-02-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 8. April 1921 <a href="entry__1921-04-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 17. April 1921 <a href="entry__1921-04-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 1. November 1921 <a href="entry__1921-11-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 4. Mai 1922 <a href="entry__1922-05-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 22. Dezember 1923 <a href="entry__1923-12-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 5. Juni 1926 <a href="entry__1926-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 17. Mai 1927 <a href="entry__1927-05-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 15. Juni 1927 <a href="entry__1927-06-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 3. Dezember 1927 <a href="entry__1927-12-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 15. Mai 1928 <a href="entry__1928-05-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        55.75222, 37.61556
+                        L.marker([55.75222, 37.61556]).addTo(mymap)
+                        .bindPopup("<b>Moscow</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

@@ -75,7 +75,7 @@
                   <h1 align="center">Edlach</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb470.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb470.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb470.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Edlach_an_der_Rax" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q106938523" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/470/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2780428/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,80 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.69255, 15.80915
-                                                        L.marker([47.69255, 15.80915]).addTo(mymap)
-                                                        .bindPopup("<b>Edlach</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 19. Juni 1899 <a href="entry__1899-06-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 20. Juni 1899 <a href="entry__1899-06-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 28. Februar 1900 <a href="entry__1900-02-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 11. November 1901 <a href="entry__1901-11-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 7. Juli 1904 <a href="entry__1904-07-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 18. Juli 1904 <a href="entry__1904-07-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. August 1904 <a href="entry__1904-08-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 8. Juli 1905 <a href="entry__1905-07-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 11. Juli 1905 <a href="entry__1905-07-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 24. September 1908 <a href="entry__1908-09-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 25. September 1908 <a href="entry__1908-09-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 6. Oktober 1908 <a href="entry__1908-10-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 7. Oktober 1908 <a href="entry__1908-10-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 10. Mai 1909 <a href="entry__1909-05-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 11. Mai 1909 <a href="entry__1909-05-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 12. Mai 1909 <a href="entry__1909-05-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 21. Juni 1909 <a href="entry__1909-06-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 30. Juni 1909 <a href="entry__1909-06-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 6. Juli 1909 <a href="entry__1909-07-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 10. Juli 1909 <a href="entry__1909-07-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 15. Juli 1909 <a href="entry__1909-07-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 28. Juli 1909 <a href="entry__1909-07-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 6. August 1909 <a href="entry__1909-08-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 7. August 1909 <a href="entry__1909-08-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 21. August 1909 <a href="entry__1909-08-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 22. August 1910 <a href="entry__1910-08-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 16. August 1919 <a href="entry__1919-08-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 10. September 1919 <a href="entry__1919-09-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 11. September 1919 <a href="entry__1919-09-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. April 1920 <a href="entry__1920-04-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 14. August 1920 <a href="entry__1920-08-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 9. Februar 1923 <a href="entry__1923-02-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. Februar 1923 <a href="entry__1923-02-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 15. Februar 1923 <a href="entry__1923-02-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 19. Februar 1923 <a href="entry__1923-02-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 20. Februar 1923 <a href="entry__1923-02-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 21. Februar 1923 <a href="entry__1923-02-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 22. Februar 1923 <a href="entry__1923-02-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 23. Februar 1923 <a href="entry__1923-02-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 4. April 1923 <a href="entry__1923-04-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 10. Oktober 1923 <a href="entry__1923-10-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 10. Februar 1925 <a href="entry__1925-02-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. Februar 1926 <a href="entry__1926-02-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. Februar 1926 <a href="entry__1926-02-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 7. Januar 1927 <a href="entry__1927-01-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 9. Februar 1927 <a href="entry__1927-02-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. Februar 1927 <a href="entry__1927-02-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. Februar 1927 <a href="entry__1927-02-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 14. Februar 1927 <a href="entry__1927-02-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 20. April 1927 <a href="entry__1927-04-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 5. Juni 1927 <a href="entry__1927-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 25. Mai 1928 <a href="entry__1928-05-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 10. Juni 1929 <a href="entry__1929-06-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 14. April 1930 <a href="entry__1930-04-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 25. April 1930 <a href="entry__1930-04-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 29. April 1931 <a href="entry__1931-04-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        47.69255, 15.80915
+                        L.marker([47.69255, 15.80915]).addTo(mymap)
+                        .bindPopup("<b>Edlach</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

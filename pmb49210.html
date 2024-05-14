@@ -75,7 +75,7 @@
                   <h1 align="center">Steinriegl</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb289.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/289/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2764412/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,49 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.26667, 16.23333
-                                                        L.marker([48.26667, 16.23333]).addTo(mymap)
-                                                        .bindPopup("<b>Steinriegl</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Samstag, 25. Januar 1896 <a href="entry__1896-01-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 4. Juni 1900 <a href="entry__1900-06-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 30. September 1900 <a href="entry__1900-09-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 29. September 1901 <a href="entry__1901-09-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 22. Juli 1903 <a href="entry__1903-07-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. Oktober 1904 <a href="entry__1904-10-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 7. September 1909 <a href="entry__1909-09-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 8. Juli 1917 <a href="entry__1917-07-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 25. September 1921 <a href="entry__1921-09-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 2. Januar 1923 <a href="entry__1923-01-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 5. April 1926 <a href="entry__1926-04-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. Juni 1926 <a href="entry__1926-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 20. Juni 1926 <a href="entry__1926-06-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. August 1927 <a href="entry__1927-08-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 29. Juni 1928 <a href="entry__1928-06-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 3. August 1928 <a href="entry__1928-08-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. August 1928 <a href="entry__1928-08-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. April 1929 <a href="entry__1929-04-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 26. Mai 1929 <a href="entry__1929-05-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 9. Juni 1929 <a href="entry__1929-06-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Juli 1929 <a href="entry__1929-07-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. August 1929 <a href="entry__1929-08-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. Oktober 1929 <a href="entry__1929-10-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 3. Mai 1931 <a href="entry__1931-05-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 24. Mai 1931 <a href="entry__1931-05-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.26667, 16.23333
+                        L.marker([48.26667, 16.23333]).addTo(mymap)
+                        .bindPopup("<b>Steinriegl</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

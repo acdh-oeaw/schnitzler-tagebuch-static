@@ -75,7 +75,7 @@
                   <h1 align="center">Monte Carlo</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5862.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/5862/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2992741/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,40 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    43.73976, 7.42732
-                                                        L.marker([43.73976, 7.42732]).addTo(mymap)
-                                                        .bindPopup("<b>Monte Carlo</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Mittwoch, 27. März 1901 <a href="entry__1901-03-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 25. Februar 1905 <a href="entry__1905-02-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 26. Februar 1905 <a href="entry__1905-02-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 6. März 1905 <a href="entry__1905-03-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 25. Februar 1908 <a href="entry__1908-02-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 13. März 1908 <a href="entry__1908-03-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 17. April 1911 <a href="entry__1911-04-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 18. April 1911 <a href="entry__1911-04-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 20. April 1911 <a href="entry__1911-04-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 23. April 1911 <a href="entry__1911-04-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 23. Oktober 1912 <a href="entry__1912-10-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 8. Januar 1913 <a href="entry__1913-01-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 9. Januar 1913 <a href="entry__1913-01-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 25. Oktober 1927 <a href="entry__1927-10-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. Oktober 1928 <a href="entry__1928-10-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 13. Dezember 1928 <a href="entry__1928-12-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        43.73976, 7.42732
+                        L.marker([43.73976, 7.42732]).addTo(mymap)
+                        .bindPopup("<b>Monte Carlo</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

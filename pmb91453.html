@@ -75,7 +75,7 @@
                   <h1 align="center">Perneck</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/91453/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2769084/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,32 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.68972, 13.64618
-                                                        L.marker([47.68972, 13.64618]).addTo(mymap)
-                                                        .bindPopup("<b>Perneck</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 30. August 1897 <a href="entry__1897-08-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 25. August 1914 <a href="entry__1914-08-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 29. August 1914 <a href="entry__1914-08-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 31. Juli 1915 <a href="entry__1915-07-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 12. August 1915 <a href="entry__1915-08-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 14. August 1915 <a href="entry__1915-08-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 26. August 1915 <a href="entry__1915-08-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 29. Mai 1916 <a href="entry__1916-05-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        47.68972, 13.64618
+                        L.marker([47.68972, 13.64618]).addTo(mymap)
+                        .bindPopup("<b>Perneck</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

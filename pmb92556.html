@@ -75,7 +75,7 @@
                   <h1 align="center">Streitberger</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/92556/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> 
@@ -107,44 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.209873, 16.375574
-                                                        L.marker([48.209873, 16.375574]).addTo(mymap)
-                                                        .bindPopup("<b>Streitberger</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Sonntag, 10. Januar 1886 <a href="entry__1886-01-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. November 1888 <a href="entry__1888-11-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 18. November 1889 <a href="entry__1889-11-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 5. Dezember 1889 <a href="entry__1889-12-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. Mai 1890 <a href="entry__1890-05-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 9. Oktober 1890 <a href="entry__1890-10-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 10. Oktober 1890 <a href="entry__1890-10-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. Oktober 1890 <a href="entry__1890-10-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 15. Oktober 1890 <a href="entry__1890-10-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 17. Oktober 1890 <a href="entry__1890-10-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 23. Oktober 1890 <a href="entry__1890-10-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 24. Oktober 1890 <a href="entry__1890-10-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 26. Oktober 1890 <a href="entry__1890-10-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. November 1890 <a href="entry__1890-11-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 4. Dezember 1890 <a href="entry__1890-12-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 5. Dezember 1890 <a href="entry__1890-12-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 16. Dezember 1890 <a href="entry__1890-12-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. Dezember 1890 <a href="entry__1890-12-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. Dezember 1890 <a href="entry__1890-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. Januar 1894 <a href="entry__1894-01-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.209873, 16.375574
+                        L.marker([48.209873, 16.375574]).addTo(mymap)
+                        .bindPopup("<b>Streitberger</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

@@ -75,7 +75,7 @@
                   <h1 align="center">Spanien</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb388.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb388.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Spanien" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q29" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/388/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://www.geonames.org/2510769" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,37 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    40.0, -4.0
-                                                        L.marker([40.0, -4.0]).addTo(mymap)
-                                                        .bindPopup("<b>Spanien</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Donnerstag, 29. April 1880 <a href="entry__1880-04-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 16. März 1904 <a href="entry__1904-03-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 19. Dezember 1906 <a href="entry__1906-12-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 29. Februar 1908 <a href="entry__1908-02-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 8. Januar 1909 <a href="entry__1909-01-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Februar 1917 <a href="entry__1917-02-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 30. Januar 1919 <a href="entry__1919-01-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 28. Juli 1919 <a href="entry__1919-07-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 29. September 1919 <a href="entry__1919-09-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 15. März 1921 <a href="entry__1921-03-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. Mai 1923 <a href="entry__1923-05-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 30. Dezember 1924 <a href="entry__1924-12-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 21. Februar 1927 <a href="entry__1927-02-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        40.0, -4.0
+                        L.marker([40.0, -4.0]).addTo(mymap)
+                        .bindPopup("<b>Spanien</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

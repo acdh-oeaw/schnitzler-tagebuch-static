@@ -75,7 +75,7 @@
                   <h1 align="center">Hohe Warte</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/92292/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> 
@@ -107,84 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.248422, 16.355191
-                                                        L.marker([48.248422, 16.355191]).addTo(mymap)
-                                                        .bindPopup("<b>Hohe Warte</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Dienstag, 14. August 1883 <a href="entry__1883-08-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. Januar 1903 <a href="entry__1903-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 24. Oktober 1904 <a href="entry__1904-10-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 22. Januar 1905 <a href="entry__1905-01-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 11. Februar 1905 <a href="entry__1905-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 29. März 1905 <a href="entry__1905-03-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 7. April 1905 <a href="entry__1905-04-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 1. April 1906 <a href="entry__1906-04-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 8. Juni 1907 <a href="entry__1907-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. April 1908 <a href="entry__1908-04-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 27. Dezember 1908 <a href="entry__1908-12-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 1. Januar 1913 <a href="entry__1913-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 24. März 1913 <a href="entry__1913-03-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 27. Mai 1913 <a href="entry__1913-05-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 14. Juni 1913 <a href="entry__1913-06-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 23. Juni 1913 <a href="entry__1913-06-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 6. Dezember 1913 <a href="entry__1913-12-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 8. Dezember 1913 <a href="entry__1913-12-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. Januar 1914 <a href="entry__1914-01-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Oktober 1914 <a href="entry__1914-10-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. Oktober 1914 <a href="entry__1914-10-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 21. Mai 1915 <a href="entry__1915-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 30. November 1915 <a href="entry__1915-11-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 9. Januar 1916 <a href="entry__1916-01-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 17. März 1916 <a href="entry__1916-03-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 4. Mai 1916 <a href="entry__1916-05-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Oktober 1917 <a href="entry__1917-10-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 1. Januar 1918 <a href="entry__1918-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 29. Juni 1918 <a href="entry__1918-06-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 6. Januar 1919 <a href="entry__1919-01-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 25. März 1919 <a href="entry__1919-03-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 14. Dezember 1919 <a href="entry__1919-12-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 20. Februar 1921 <a href="entry__1921-02-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 26. Mai 1921 <a href="entry__1921-05-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. Oktober 1921 <a href="entry__1921-10-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 5. Februar 1922 <a href="entry__1922-02-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 23. Mai 1922 <a href="entry__1922-05-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. Mai 1922 <a href="entry__1922-05-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 15. September 1923 <a href="entry__1923-09-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. Oktober 1923 <a href="entry__1923-10-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 29. November 1923 <a href="entry__1923-11-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 9. Dezember 1923 <a href="entry__1923-12-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 26. Dezember 1923 <a href="entry__1923-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 17. Februar 1924 <a href="entry__1924-02-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 5. März 1924 <a href="entry__1924-03-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 20. April 1924 <a href="entry__1924-04-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. Juli 1924 <a href="entry__1924-07-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 6. Juni 1925 <a href="entry__1925-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 26. Juni 1926 <a href="entry__1926-06-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 19. September 1926 <a href="entry__1926-09-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 22. Januar 1928 <a href="entry__1928-01-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 24. März 1928 <a href="entry__1928-03-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 8. Februar 1929 <a href="entry__1929-02-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 31. März 1929 <a href="entry__1929-03-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. April 1929 <a href="entry__1929-04-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. Februar 1930 <a href="entry__1930-02-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. Mai 1930 <a href="entry__1930-05-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 15. Juni 1931 <a href="entry__1931-06-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 30. August 1931 <a href="entry__1931-08-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 15. September 1931 <a href="entry__1931-09-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.248422, 16.355191
+                        L.marker([48.248422, 16.355191]).addTo(mymap)
+                        .bindPopup("<b>Hohe Warte</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

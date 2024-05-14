@@ -75,7 +75,7 @@
                   <h1 align="center">Brünn</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb833.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb833.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb833" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Br%C3%BCnn" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q14960" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/833/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4008456-5" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/3078610/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,44 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    49.19522, 16.60796
-                                                        L.marker([49.19522, 16.60796]).addTo(mymap)
-                                                        .bindPopup("<b>Brünn</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Donnerstag, 26. Februar 1891 <a href="entry__1891-02-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 29. März 1891 <a href="entry__1891-03-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 3. April 1891 <a href="entry__1891-04-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 22. April 1891 <a href="entry__1891-04-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 29. April 1891 <a href="entry__1891-04-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 21. Mai 1891 <a href="entry__1891-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 11. April 1902 <a href="entry__1902-04-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 19. Oktober 1903 <a href="entry__1903-10-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 20. Oktober 1903 <a href="entry__1903-10-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 6. Juni 1910 <a href="entry__1910-06-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 12. Januar 1911 <a href="entry__1911-01-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 21. Januar 1911 <a href="entry__1911-01-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. Februar 1911 <a href="entry__1911-02-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 15. Juni 1912 <a href="entry__1912-06-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 8. Dezember 1915 <a href="entry__1915-12-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 30. November 1921 <a href="entry__1921-11-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 29. Dezember 1921 <a href="entry__1921-12-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 25. Oktober 1922 <a href="entry__1922-10-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 18. Juni 1924 <a href="entry__1924-06-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 8. August 1924 <a href="entry__1924-08-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        49.19522, 16.60796
+                        L.marker([49.19522, 16.60796]).addTo(mymap)
+                        .bindPopup("<b>Brünn</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

@@ -75,7 +75,7 @@
                   <h1 align="center">Ronacher</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb19.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb19.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Ronacher" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q1244587" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/19/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> 
@@ -107,69 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.205139, 16.375
-                                                        L.marker([48.205139, 16.375]).addTo(mymap)
-                                                        .bindPopup("<b>Ronacher</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Mittwoch, 1. August 1883 <a href="entry__1883-08-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 10. September 1883 <a href="entry__1883-09-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 28. März 1884 <a href="entry__1884-03-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 5. Oktober 1888 <a href="entry__1888-10-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. Dezember 1888 <a href="entry__1888-12-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. Januar 1889 <a href="entry__1889-01-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 20. März 1889 <a href="entry__1889-03-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 30. August 1889 <a href="entry__1889-08-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 9. November 1889 <a href="entry__1889-11-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 26. November 1889 <a href="entry__1889-11-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 11. Februar 1890 <a href="entry__1890-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 24. Juni 1890 <a href="entry__1890-06-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 30. Juli 1890 <a href="entry__1890-07-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 14. November 1890 <a href="entry__1890-11-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 2. Mai 1892 <a href="entry__1892-05-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 21. Oktober 1892 <a href="entry__1892-10-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 22. April 1893 <a href="entry__1893-04-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 18. Dezember 1893 <a href="entry__1893-12-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 7. November 1894 <a href="entry__1894-11-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 4. Dezember 1894 <a href="entry__1894-12-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 22. Januar 1895 <a href="entry__1895-01-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 11. Februar 1895 <a href="entry__1895-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 12. Februar 1895 <a href="entry__1895-02-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 8. Juni 1895 <a href="entry__1895-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 26. September 1895 <a href="entry__1895-09-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 17. Oktober 1895 <a href="entry__1895-10-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 12. Dezember 1895 <a href="entry__1895-12-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 2. März 1896 <a href="entry__1896-03-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 21. März 1896 <a href="entry__1896-03-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 3. April 1897 <a href="entry__1897-04-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 13. November 1897 <a href="entry__1897-11-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 21. Dezember 1897 <a href="entry__1897-12-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 12. März 1900 <a href="entry__1900-03-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 13. November 1900 <a href="entry__1900-11-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 25. Mai 1903 <a href="entry__1903-05-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 21. September 1903 <a href="entry__1903-09-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 27. September 1905 <a href="entry__1905-09-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 2. Januar 1907 <a href="entry__1907-01-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 2. April 1908 <a href="entry__1908-04-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 4. September 1914 <a href="entry__1914-09-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 15. Oktober 1923 <a href="entry__1923-10-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 27. März 1926 <a href="entry__1926-03-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 23. September 1930 <a href="entry__1930-09-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Januar 1931 <a href="entry__1931-01-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 28. April 1931 <a href="entry__1931-04-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.205139, 16.375
+                        L.marker([48.205139, 16.375]).addTo(mymap)
+                        .bindPopup("<b>Ronacher</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

@@ -75,7 +75,7 @@
                   <h1 align="center">Tirol</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb423.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb423.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb423" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Tirol_(Bundesland)" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q42880" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/423/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2763586/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,38 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.25, 11.33333
-                                                        L.marker([47.25, 11.33333]).addTo(mymap)
-                                                        .bindPopup("<b>Tirol</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Donnerstag, 10. August 1882 <a href="entry__1882-08-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 26. August 1895 <a href="entry__1895-08-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 11. August 1904 <a href="entry__1904-08-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 15. Januar 1907 <a href="entry__1907-01-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. Juni 1908 <a href="entry__1908-06-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 4. Juli 1908 <a href="entry__1908-07-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 21. April 1909 <a href="entry__1909-04-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 24. Dezember 1909 <a href="entry__1909-12-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 5. August 1912 <a href="entry__1912-08-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 5. Juni 1914 <a href="entry__1914-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 4. November 1918 <a href="entry__1918-11-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 7. November 1918 <a href="entry__1918-11-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 28. März 1920 <a href="entry__1920-03-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 1. August 1928 <a href="entry__1928-08-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        47.25, 11.33333
+                        L.marker([47.25, 11.33333]).addTo(mymap)
+                        .bindPopup("<b>Tirol</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

@@ -75,7 +75,7 @@
                   <h1 align="center">Gentzgasse</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb40694.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb40694" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://www.geschichtewiki.wien.gv.at/Gentzgasse" target="_blank"><span class="badge rounded-pill" style="background-color: #6F6938; color: white; margin-top: 4px;">Wien Geschichte Wiki</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/40694/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> 
@@ -107,38 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.228096, 16.337917
-                                                        L.marker([48.228096, 16.337917]).addTo(mymap)
-                                                        .bindPopup("<b>Gentzgasse</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 24. November 1902 <a href="entry__1902-11-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 11. Dezember 1902 <a href="entry__1902-12-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. Januar 1903 <a href="entry__1903-01-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 19. Februar 1903 <a href="entry__1903-02-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 22. März 1903 <a href="entry__1903-03-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 22. April 1903 <a href="entry__1903-04-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 21. Mai 1903 <a href="entry__1903-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 16. Juni 1903 <a href="entry__1903-06-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 30. Juni 1903 <a href="entry__1903-06-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 2. Juli 1903 <a href="entry__1903-07-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 26. August 1903 <a href="entry__1903-08-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 17. Juli 1910 <a href="entry__1910-07-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 25. April 1913 <a href="entry__1913-04-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 26. Juni 1919 <a href="entry__1919-06-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.228096, 16.337917
+                        L.marker([48.228096, 16.337917]).addTo(mymap)
+                        .bindPopup("<b>Gentzgasse</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

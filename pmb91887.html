@@ -75,7 +75,7 @@
                   <h1 align="center">Thalheim bei Wels</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/91887/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2763742/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,57 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.15, 14.03333
-                                                        L.marker([48.15, 14.03333]).addTo(mymap)
-                                                        .bindPopup("<b>Thalheim bei Wels</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 21. April 1930 <a href="entry__1930-04-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 17. Mai 1930 <a href="entry__1930-05-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 19. Mai 1930 <a href="entry__1930-05-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 22. Mai 1930 <a href="entry__1930-05-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 24. Mai 1930 <a href="entry__1930-05-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 30. Mai 1930 <a href="entry__1930-05-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 1. Juni 1930 <a href="entry__1930-06-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 3. Juni 1930 <a href="entry__1930-06-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 13. Juni 1930 <a href="entry__1930-06-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 17. Juli 1930 <a href="entry__1930-07-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 11. August 1930 <a href="entry__1930-08-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 16. August 1930 <a href="entry__1930-08-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 20. August 1930 <a href="entry__1930-08-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 22. August 1930 <a href="entry__1930-08-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 23. August 1930 <a href="entry__1930-08-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 10. September 1930 <a href="entry__1930-09-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 12. September 1930 <a href="entry__1930-09-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 13. September 1930 <a href="entry__1930-09-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 23. November 1930 <a href="entry__1930-11-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 1. April 1931 <a href="entry__1931-04-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 5. April 1931 <a href="entry__1931-04-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 31. Mai 1931 <a href="entry__1931-05-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 27. Juni 1931 <a href="entry__1931-06-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 4. Juli 1931 <a href="entry__1931-07-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 7. Juli 1931 <a href="entry__1931-07-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 11. Juli 1931 <a href="entry__1931-07-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 1. August 1931 <a href="entry__1931-08-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 2. August 1931 <a href="entry__1931-08-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 15. August 1931 <a href="entry__1931-08-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 27. August 1931 <a href="entry__1931-08-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 28. August 1931 <a href="entry__1931-08-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 31. August 1931 <a href="entry__1931-08-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. September 1931 <a href="entry__1931-09-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.15, 14.03333
+                        L.marker([48.15, 14.03333]).addTo(mymap)
+                        .bindPopup("<b>Thalheim bei Wels</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

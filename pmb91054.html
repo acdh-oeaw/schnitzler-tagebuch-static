@@ -75,7 +75,7 @@
                   <h1 align="center">Königssee</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/91054/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://sws.geonames.org/2885777/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,37 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    47.55567, 12.97802
-                                                        L.marker([47.55567, 12.97802]).addTo(mymap)
-                                                        .bindPopup("<b>Königssee</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 11. Juli 1881 <a href="entry__1881-07-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 12. Juli 1881 <a href="entry__1881-07-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 20. August 1895 <a href="entry__1895-08-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 22. August 1895 <a href="entry__1895-08-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 14. Juni 1901 <a href="entry__1901-06-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 17. März 1912 <a href="entry__1912-03-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 23. November 1915 <a href="entry__1915-11-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. August 1922 <a href="entry__1922-08-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 21. August 1922 <a href="entry__1922-08-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 29. August 1922 <a href="entry__1922-08-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 9. September 1922 <a href="entry__1922-09-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 10. September 1922 <a href="entry__1922-09-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 11. September 1922 <a href="entry__1922-09-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        47.55567, 12.97802
+                        L.marker([47.55567, 12.97802]).addTo(mymap)
+                        .bindPopup("<b>Königssee</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>

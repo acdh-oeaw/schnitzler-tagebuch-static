@@ -75,7 +75,7 @@
                   <h1 align="center">Paris</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:mam="whatever" xmlns:df="http://example.com/df" class="container-fluid">
+                  <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb182.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb182.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb182" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Paris" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q90" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/182/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4044660-8" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/2988507/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
@@ -107,235 +107,21 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.85341, 2.3488
-                                                        L.marker([48.85341, 2.3488]).addTo(mymap)
-                                                        .bindPopup("<b>Paris</b>").openPopup();
-                                                </script><div class="card">
-                           <div id="mentions" class="mt-2">
-                              <legend>Erwähnt am</legend>
-                              <ul class="list-unstyled">
-                                 <li>Montag, 12. Juli 1880 <a href="entry__1880-07-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 4. Januar 1882 <a href="entry__1882-01-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 5. März 1882 <a href="entry__1882-03-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 27. März 1882 <a href="entry__1882-03-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 31. März 1885 <a href="entry__1885-03-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 20. Mai 1888 <a href="entry__1888-05-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 21. Mai 1888 <a href="entry__1888-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 22. Mai 1888 <a href="entry__1888-05-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 20. September 1888 <a href="entry__1888-09-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 31. Dezember 1891 <a href="entry__1891-12-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. April 1896 <a href="entry__1896-04-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 26. Juli 1896 <a href="entry__1896-07-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 6. September 1896 <a href="entry__1896-09-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 4. November 1896 <a href="entry__1896-11-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 12. April 1897 <a href="entry__1897-04-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 19. Mai 1897 <a href="entry__1897-05-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 8. Juni 1897 <a href="entry__1897-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 16. Juli 1897 <a href="entry__1897-07-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 14. August 1897 <a href="entry__1897-08-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 5. Januar 1898 <a href="entry__1898-01-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 7. Februar 1900 <a href="entry__1900-02-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 20. Mai 1900 <a href="entry__1900-05-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 28. Juni 1902 <a href="entry__1902-06-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 9. Juli 1902 <a href="entry__1902-07-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. Juni 1903 <a href="entry__1903-06-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 9. November 1903 <a href="entry__1903-11-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 11. Februar 1904 <a href="entry__1904-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 20. April 1904 <a href="entry__1904-04-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 3. September 1904 <a href="entry__1904-09-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 11. November 1904 <a href="entry__1904-11-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 9. Januar 1905 <a href="entry__1905-01-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 20. April 1905 <a href="entry__1905-04-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 8. Mai 1905 <a href="entry__1905-05-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 5. Juni 1905 <a href="entry__1905-06-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 3. Februar 1906 <a href="entry__1906-02-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. Februar 1906 <a href="entry__1906-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 28. Juli 1906 <a href="entry__1906-07-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 25. Oktober 1906 <a href="entry__1906-10-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 7. Dezember 1906 <a href="entry__1906-12-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 1. April 1907 <a href="entry__1907-04-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 9. April 1907 <a href="entry__1907-04-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. April 1907 <a href="entry__1907-04-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 11. Mai 1907 <a href="entry__1907-05-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 17. Mai 1907 <a href="entry__1907-05-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 10. März 1908 <a href="entry__1908-03-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 2. März 1909 <a href="entry__1909-03-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 15. April 1909 <a href="entry__1909-04-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 6. Juli 1909 <a href="entry__1909-07-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 31. Januar 1910 <a href="entry__1910-01-31.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 4. Februar 1910 <a href="entry__1910-02-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 24. Februar 1910 <a href="entry__1910-02-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 5. März 1910 <a href="entry__1910-03-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 15. Mai 1910 <a href="entry__1910-05-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 29. Mai 1910 <a href="entry__1910-05-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 8. August 1910 <a href="entry__1910-08-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 10. Dezember 1910 <a href="entry__1910-12-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 20. März 1911 <a href="entry__1911-03-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 11. Juni 1911 <a href="entry__1911-06-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 13. Juni 1911 <a href="entry__1911-06-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 17. Juni 1911 <a href="entry__1911-06-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 20. Juni 1911 <a href="entry__1911-06-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 5. Juli 1911 <a href="entry__1911-07-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 4. April 1912 <a href="entry__1912-04-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 9. Dezember 1912 <a href="entry__1912-12-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. September 1913 <a href="entry__1913-09-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 23. Oktober 1913 <a href="entry__1913-10-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 12. Dezember 1913 <a href="entry__1913-12-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 24. Dezember 1913 <a href="entry__1913-12-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 10. September 1914 <a href="entry__1914-09-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 13. September 1914 <a href="entry__1914-09-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 17. September 1914 <a href="entry__1914-09-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 26. September 1914 <a href="entry__1914-09-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 16. Dezember 1915 <a href="entry__1915-12-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Februar 1917 <a href="entry__1917-02-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 29. Januar 1918 <a href="entry__1918-01-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 25. März 1918 <a href="entry__1918-03-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 24. September 1918 <a href="entry__1918-09-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 23. Juni 1919 <a href="entry__1919-06-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 9. Oktober 1919 <a href="entry__1919-10-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 15. Juni 1920 <a href="entry__1920-06-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. Juli 1920 <a href="entry__1920-07-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 20. Juli 1920 <a href="entry__1920-07-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 24. Oktober 1920 <a href="entry__1920-10-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 29. Oktober 1920 <a href="entry__1920-10-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 18. Dezember 1920 <a href="entry__1920-12-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 1. Februar 1921 <a href="entry__1921-02-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 26. März 1921 <a href="entry__1921-03-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 21. Mai 1921 <a href="entry__1921-05-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 7. Juli 1921 <a href="entry__1921-07-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 20. Juli 1921 <a href="entry__1921-07-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 27. Juli 1921 <a href="entry__1921-07-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 14. Oktober 1921 <a href="entry__1921-10-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 27. November 1921 <a href="entry__1921-11-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 11. Februar 1922 <a href="entry__1922-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 15. Februar 1922 <a href="entry__1922-02-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 18. März 1922 <a href="entry__1922-03-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 16. April 1922 <a href="entry__1922-04-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 25. Juni 1922 <a href="entry__1922-06-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 12. Juli 1922 <a href="entry__1922-07-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 6. Dezember 1922 <a href="entry__1922-12-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. Januar 1923 <a href="entry__1923-01-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. Februar 1923 <a href="entry__1923-02-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 8. April 1923 <a href="entry__1923-04-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 20. Juli 1923 <a href="entry__1923-07-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. November 1923 <a href="entry__1923-11-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 15. Februar 1924 <a href="entry__1924-02-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 1. April 1924 <a href="entry__1924-04-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. April 1924 <a href="entry__1924-04-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 9. Mai 1924 <a href="entry__1924-05-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 20. Juni 1924 <a href="entry__1924-06-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 24. August 1924 <a href="entry__1924-08-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 24. September 1924 <a href="entry__1924-09-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 1. Oktober 1924 <a href="entry__1924-10-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 23. Dezember 1924 <a href="entry__1924-12-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 4. Februar 1925 <a href="entry__1925-02-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 11. Februar 1925 <a href="entry__1925-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 29. Mai 1925 <a href="entry__1925-05-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 4. Dezember 1925 <a href="entry__1925-12-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 12. Dezember 1925 <a href="entry__1925-12-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 14. Dezember 1925 <a href="entry__1925-12-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 15. Dezember 1925 <a href="entry__1925-12-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 16. Dezember 1925 <a href="entry__1925-12-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 12. Februar 1926 <a href="entry__1926-02-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 17. Februar 1926 <a href="entry__1926-02-17.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 21. Februar 1926 <a href="entry__1926-02-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 11. März 1926 <a href="entry__1926-03-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 18. März 1926 <a href="entry__1926-03-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 4. Juni 1926 <a href="entry__1926-06-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 8. Juni 1926 <a href="entry__1926-06-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 26. November 1926 <a href="entry__1926-11-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 4. Mai 1927 <a href="entry__1927-05-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 6. Mai 1927 <a href="entry__1927-05-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 18. Mai 1927 <a href="entry__1927-05-18.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 22. Mai 1927 <a href="entry__1927-05-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 29. Juli 1927 <a href="entry__1927-07-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 25. September 1927 <a href="entry__1927-09-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 27. September 1927 <a href="entry__1927-09-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 2. Oktober 1927 <a href="entry__1927-10-02.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 4. Oktober 1927 <a href="entry__1927-10-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 24. Oktober 1927 <a href="entry__1927-10-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 3. November 1927 <a href="entry__1927-11-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 6. Dezember 1927 <a href="entry__1927-12-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 7. Januar 1928 <a href="entry__1928-01-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 7. Mai 1928 <a href="entry__1928-05-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 30. Juni 1928 <a href="entry__1928-06-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 30. Oktober 1928 <a href="entry__1928-10-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 4. November 1928 <a href="entry__1928-11-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. November 1928 <a href="entry__1928-11-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 10. Dezember 1928 <a href="entry__1928-12-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 16. Januar 1929 <a href="entry__1929-01-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 4. Februar 1929 <a href="entry__1929-02-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 21. Februar 1929 <a href="entry__1929-02-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 4. Juli 1929 <a href="entry__1929-07-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 1. September 1929 <a href="entry__1929-09-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 9. Dezember 1929 <a href="entry__1929-12-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 22. Dezember 1929 <a href="entry__1929-12-22.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 26. Dezember 1929 <a href="entry__1929-12-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 3. Januar 1930 <a href="entry__1930-01-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 7. Januar 1930 <a href="entry__1930-01-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 8. Januar 1930 <a href="entry__1930-01-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 9. Januar 1930 <a href="entry__1930-01-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 11. Januar 1930 <a href="entry__1930-01-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 12. Januar 1930 <a href="entry__1930-01-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 13. Januar 1930 <a href="entry__1930-01-13.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 14. Januar 1930 <a href="entry__1930-01-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 15. Januar 1930 <a href="entry__1930-01-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 16. Januar 1930 <a href="entry__1930-01-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 20. Januar 1930 <a href="entry__1930-01-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 24. Januar 1930 <a href="entry__1930-01-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 25. Januar 1930 <a href="entry__1930-01-25.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 28. Januar 1930 <a href="entry__1930-01-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 29. Januar 1930 <a href="entry__1930-01-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 4. Februar 1930 <a href="entry__1930-02-04.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 12. März 1930 <a href="entry__1930-03-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 1. Mai 1930 <a href="entry__1930-05-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 3. Mai 1930 <a href="entry__1930-05-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 6. Mai 1930 <a href="entry__1930-05-06.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 8. Mai 1930 <a href="entry__1930-05-08.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 9. Mai 1930 <a href="entry__1930-05-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 10. Mai 1930 <a href="entry__1930-05-10.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. Mai 1930 <a href="entry__1930-05-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 20. Juni 1930 <a href="entry__1930-06-20.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 24. September 1930 <a href="entry__1930-09-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 27. September 1930 <a href="entry__1930-09-27.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 29. September 1930 <a href="entry__1930-09-29.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 24. Oktober 1930 <a href="entry__1930-10-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 26. Oktober 1930 <a href="entry__1930-10-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 7. Dezember 1930 <a href="entry__1930-12-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 19. Dezember 1930 <a href="entry__1930-12-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 14. Januar 1931 <a href="entry__1931-01-14.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 23. Januar 1931 <a href="entry__1931-01-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 28. Januar 1931 <a href="entry__1931-01-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 30. Januar 1931 <a href="entry__1931-01-30.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 1. Februar 1931 <a href="entry__1931-02-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 5. Februar 1931 <a href="entry__1931-02-05.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 7. Februar 1931 <a href="entry__1931-02-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 9. Februar 1931 <a href="entry__1931-02-09.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Mittwoch, 11. Februar 1931 <a href="entry__1931-02-11.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 12. Februar 1931 <a href="entry__1931-02-12.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 15. Februar 1931 <a href="entry__1931-02-15.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Donnerstag, 19. Februar 1931 <a href="entry__1931-02-19.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 24. Februar 1931 <a href="entry__1931-02-24.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 7. März 1931 <a href="entry__1931-03-07.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 23. März 1931 <a href="entry__1931-03-23.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Freitag, 3. April 1931 <a href="entry__1931-04-03.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 28. April 1931 <a href="entry__1931-04-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 16. Mai 1931 <a href="entry__1931-05-16.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Sonntag, 21. Juni 1931 <a href="entry__1931-06-21.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Dienstag, 1. September 1931 <a href="entry__1931-09-01.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Samstag, 26. September 1931 <a href="entry__1931-09-26.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Montag, 28. September 1931 <a href="entry__1931-09-28.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul>
-                           </div>
-                        </div>
+                        
+                        var mymap = L.map('mapid').setView([50, 12], 5);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                        maxZoom: 18,
+                        zIndex: 1
+                        }).addTo(mymap);
+                        48.85341, 2.3488
+                        L.marker([48.85341, 2.3488]).addTo(mymap)
+                        .bindPopup("<b>Paris</b>").openPopup();
+                    </script><div class="card"></div>
+                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                              <legend>Erwähnungen</legend>
+                              <ul></ul></span></div>
                      </div>
                   </div>
                </div>
