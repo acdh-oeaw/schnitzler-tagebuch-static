@@ -73,8 +73,16 @@
                   <h2 align="center">Moriz Neumann <span class="lebensdaten">(5. 1. 1871 Trencsin – 1942 Vernichtungslager Treblinka)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18420.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Bankangestellter</i></p>
                      </div>
                      <div id="mentions">

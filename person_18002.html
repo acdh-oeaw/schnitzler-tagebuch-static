@@ -73,8 +73,16 @@
                   <h2 align="center">Maximilian I. <span class="lebensdaten">(1459 – 1519)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18002.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Kaiser/Kaiserin, Kurfürst/Kurfürstin</i></p>

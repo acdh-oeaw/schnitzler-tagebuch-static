@@ -73,8 +73,16 @@
                   <h2 align="center">Hugo Glaser <span class="lebensdaten">(13. 10. 1881 Wien – 10. 12. 1976 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15458.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Mediziner, Journalist</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Igor F. Strawinsky <span class="lebensdaten">(17. 6. 1882 Lomonosov – 6. 4. 1971 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20512.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist, Dirigent</i></p>
                      </div>
                      <div id="mentions">

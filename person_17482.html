@@ -73,8 +73,16 @@
                   <h2 align="center">Cesare Levi <span class="lebensdaten">(1874 Triest – 18. 7. 1926 Sand in Taufers)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17482.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist, Übersetzer, Theaterkritiker</i></p>
                      </div>
                      <div id="mentions">

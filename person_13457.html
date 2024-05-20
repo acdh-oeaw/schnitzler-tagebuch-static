@@ -73,8 +73,16 @@
                   <h2 align="center">Albert Bassermann <span class="lebensdaten">(7. 9. 1867 Mannheim – 15. 5. 1952 Atlantischer Ozean)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13457.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Foreign%20Correspondent%20trailer%2020%20Basserman.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

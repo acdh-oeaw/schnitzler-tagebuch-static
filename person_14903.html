@@ -73,8 +73,16 @@
                   <h2 align="center">Sári Fedák <span class="lebensdaten">(27. 9. 1879 Berehove – 5. 5. 1954 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14903.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fed%C3%A1k%20S%C3%A1ri-002.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Reisiger <span class="lebensdaten">(22. 10. 1884 Breslau – 29. 4. 1968 Garmisch-Partenkirchen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19164.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Übersetzer</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Georg Herwegh <span class="lebensdaten">(31. 5. 1817 Stuttgart – 7. 4. 1875 Lichtental)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16142.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Herwegh%2C%20Georg.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

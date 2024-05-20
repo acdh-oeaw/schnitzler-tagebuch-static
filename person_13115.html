@@ -73,8 +73,16 @@
                   <h2 align="center">Aloys von Aehrenthal-Lexa <span class="lebensdaten">(27. 9. 1854 Groß-Skal – 17. 2. 1912 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13115.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Politiker, Diplomat, Außenminister</i></p>
                      </div>

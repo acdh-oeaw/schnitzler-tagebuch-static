@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Stekel <span class="lebensdaten">(18. 3. 1868 Boyany – 25. 7. 1940 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20392.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Psychoanalytiker</i></p>
                      </div>

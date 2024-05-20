@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Bodmer <span class="lebensdaten">(15. 9. 1863 Zürich – 18. 9. 1948 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13824.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Veranstaltungsorganisator, Germanist</i></p>
                      </div>

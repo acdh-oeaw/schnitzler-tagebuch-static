@@ -73,8 +73,16 @@
                   <h2 align="center">Carlo Goldoni <span class="lebensdaten">(25. 2. 1707 Venedig – 6. 2. 1793 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15532.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alessandro%20Longhi%20-%20Ritratto%20di%20Carlo%20Goldoni%20%28c%201757%29%20Ca%20Goldoni%20Venezia.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

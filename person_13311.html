@@ -73,8 +73,16 @@
                   <h2 align="center">August Wilhelm <span class="lebensdaten">(29. 1. 1887 Potsdam – 25. 3. 1949 Stuttgart)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13311.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Prinz/Prinzessin, Soldat/Soldatin</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Irene von Korper-Marienwert <span class="lebensdaten">(28. 4. 1860 Ptuj – 16. 7. 1945 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17061.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Baumann</p>
                      </div>
                      <div id="mentions">

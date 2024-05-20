@@ -73,8 +73,16 @@
                   <h2 align="center">Salome Goldman <span class="lebensdaten">(30. 5. 1870 Płock – 1942.06 Konzentrationslager Theresienstadt)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15524.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Pädagogin</i></p>
                      </div>

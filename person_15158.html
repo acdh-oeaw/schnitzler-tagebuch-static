@@ -73,8 +73,16 @@
                   <h2 align="center">W. Fred <span class="lebensdaten">(29. 6. 1879 Wien – 23. 10. 1922 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15158.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Alfred Wechsler</p>
                         <p class="personenname"></p>
                         <p class="personenname">Pseudonym W. Fred</p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Leopold von Hofmann <span class="lebensdaten">(4. 5. 1822 Wien – 24. 10. 1885 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16286.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Generalintendant</i></p>
                      </div>
                      <div id="mentions">

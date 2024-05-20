@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz Rosenthal <span class="lebensdaten">(17. 12. 1862 Lviv – 3. 9. 1946 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19394.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moriz%20Rosenthal%201.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

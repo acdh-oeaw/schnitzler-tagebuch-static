@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Dusch <span class="lebensdaten">(27. 11. 1864 Salzburg – 19. 12. 1924 Bad Ischl)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14570.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Konditor</i></p>
                      </div>
                      <div id="mentions">

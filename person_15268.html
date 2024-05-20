@@ -73,8 +73,16 @@
                   <h2 align="center">Jacques Fröhlich <span class="lebensdaten">(24. 1. 1855 Prostějov – 2. 11. 1910 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15268.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kaufmann</i></p>
                      </div>
                      <div id="mentions">

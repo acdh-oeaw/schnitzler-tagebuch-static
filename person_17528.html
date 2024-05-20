@@ -73,8 +73,16 @@
                   <h2 align="center">Hedwig von Liechtenstein <span class="lebensdaten">(1846 Ściegnica – 17. 5. 1921)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17528.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Stein</p>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin</i></p>

@@ -73,8 +73,16 @@
                   <h2 align="center">El Greco <span class="lebensdaten">(1541 Iraklio – 1614 Toledo)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15631.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Domínikos Theotokópoulos</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Margarethe Fränkel <span class="lebensdaten">(25. 10. 1880 Wien – 21. 7. 1939)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15102.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geschieden von Frey</p>
                      </div>
                      <div id="mentions">

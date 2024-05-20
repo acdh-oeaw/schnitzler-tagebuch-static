@@ -73,8 +73,16 @@
                   <h2 align="center">Charlotte Ehrenstein <span class="lebensdaten">(21. 4. 1867 Vrádište – 2. 2. 1941 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14645.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Neuer</p>
                      </div>
                      <div id="mentions">

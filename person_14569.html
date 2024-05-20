@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Duru <span class="lebensdaten">(1829 Paris – 29. 12. 1889 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14569.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Librettist</i></p>
                      </div>

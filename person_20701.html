@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Thetter <span class="lebensdaten">(17. 4. 1882 Wien – 26. 1. 1957 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20701.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Magnetiseur, Beamter</i></p>
                      </div>
                      <div id="mentions">

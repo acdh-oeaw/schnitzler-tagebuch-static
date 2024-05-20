@@ -73,8 +73,16 @@
                   <h2 align="center">Clarisse Campbell <span class="lebensdaten">(24. 3. 1880 Melbourne – 6. 5. 1942 Melbourne)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19521.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Tänzerin</i></p>
                      </div>

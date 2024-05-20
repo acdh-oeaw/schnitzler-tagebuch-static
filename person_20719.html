@@ -73,8 +73,16 @@
                   <h2 align="center">Adrienne Thomas <span class="lebensdaten">(24. 6. 1897 Saint Avold – 7. 11. 1980 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20719.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Strauch</p>
                         <p><i>Schriftstellerin</i></p>
                      </div>

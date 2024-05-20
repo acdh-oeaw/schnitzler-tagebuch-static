@@ -73,8 +73,16 @@
                   <h2 align="center">Svend Borberg <span class="lebensdaten">(8. 4. 1888 Kopenhagen – 1947)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13871.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrett%20av%20den%20danske%20dramatikeren%20og%20litteraturkritikeren%20Svend%20Borberg%2C%201939%20-%20no-nb%20digifoto%2020160607%2000003%20bldsa%20BB%202538.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Jean François Raffaelli <span class="lebensdaten">(20. 4. 1850 Paris – 29. 2. 1924 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19032.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Maler</i></p>
                      </div>

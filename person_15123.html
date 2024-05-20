@@ -73,8 +73,16 @@
                   <h2 align="center">Eugen Frank <span class="lebensdaten">(14. 4. 1876 Wünschendorf – 7. 1. 1942 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15123.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Krauspe</p>
                         <p><i>Schauspieler</i></p>
                      </div>

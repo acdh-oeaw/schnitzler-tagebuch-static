@@ -73,8 +73,16 @@
                   <h2 align="center">Noëmi Hoffmann <span class="lebensdaten">(1880 – 1972)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20959.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Hoffmann</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

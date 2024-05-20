@@ -73,8 +73,16 @@
                   <h2 align="center">Carl Platen <span class="lebensdaten">(6. 3. 1877 Halle an der Saale – 4. 7. 1952 Weimar)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18828.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schauspieler, Sänger, Kameramann</i></p>
                      </div>

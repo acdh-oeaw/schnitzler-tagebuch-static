@@ -73,8 +73,16 @@
                   <h2 align="center">Walter Kirchhoff <span class="lebensdaten">(17. 3. 1879 Berlin – 26. 3. 1951 Wiesbaden)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16849.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kirchhoff-walter-der-k%C3%B6lschen-boor-in-eisen-VI-grosses-konzert-17-maerz-1917-koeln-1917-s05.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

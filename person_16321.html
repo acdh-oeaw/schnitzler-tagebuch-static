@@ -73,8 +73,16 @@
                   <h2 align="center">Anna Holitscher <span class="lebensdaten">(6. 5. 1864 Wien – 1942 Vernichtungslager Treblinka)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16321.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Rufname Annie</p>
                         <p class="personenname"></p>
                      </div>

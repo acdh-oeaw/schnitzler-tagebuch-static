@@ -73,8 +73,16 @@
                   <h2 align="center">Johannes Guter <span class="lebensdaten">(25. 4. 1882 Riga – 1967)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15762.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler</i></p>
                      </div>
                      <div id="mentions">

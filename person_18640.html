@@ -73,8 +73,16 @@
                   <h2 align="center">Amleto Palermi <span class="lebensdaten">(11. 7. 1889 Rom – 20. 4. 1941 Rom)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18640.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Regisseur</i></p>
                      </div>

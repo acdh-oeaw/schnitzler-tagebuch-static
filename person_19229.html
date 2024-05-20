@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Ribarz <span class="lebensdaten">(30. 5. 1848 Wien – 12. 11. 1904 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19229.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rudolf%20Ribarz2.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

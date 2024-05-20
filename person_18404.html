@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Neuhaus <span class="lebensdaten">(6. 6. 1881 Wien – 20. 7. 1969 Perchtoldsdorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18404.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Volksbildner</i></p>
                      </div>
                      <div id="mentions">

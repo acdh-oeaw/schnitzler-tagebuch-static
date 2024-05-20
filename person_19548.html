@@ -73,8 +73,16 @@
                   <h2 align="center">Arthur Salz <span class="lebensdaten">(31. 12. 1881 Stod – 10. 8. 1963 Worthington)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19548.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Soziologe, Nationalökonom</i></p>
                      </div>
                      <div id="mentions">

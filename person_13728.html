@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Bilhaud <span class="lebensdaten">(31. 12. 1854 Allichamps – 8. 1. 1932)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13728.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller</i></p>
                      </div>
                      <div id="mentions">

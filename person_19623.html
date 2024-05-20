@@ -73,8 +73,16 @@
                   <h2 align="center">Wladimir Schamberg <span class="lebensdaten">(14. 5. 1869 Prag – 1930? Vereinigte Staaten von Amerika (USA))</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19623.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Ferdinand Vladimír Šamberk</p>
                         <p class="personenname"></p>
                         <p><i>Schauspieler</i></p>

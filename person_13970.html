@@ -73,8 +73,16 @@
                   <h2 align="center">Hermine Brevée <span class="lebensdaten">(8. 10. 1906 Oosterbeek – 15. 10. 1990 Rotterdam)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13970.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">Rufname Miki</p>
                         <p class="personenname">Rufname Miek</p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Hermann Goetz <span class="lebensdaten">(17. 12. 1840 Kaliningrad – 3. 12. 1876 Hottingen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15505.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist, Pianist, Organist</i></p>
                      </div>

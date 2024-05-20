@@ -73,8 +73,16 @@
                   <h2 align="center">Louis Moskovicz-Zemplen <span class="lebensdaten">(12. 11. 1838 Miskolc – 15. 12. 1893 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18271.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kaufmann</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Hermann Schmidt <span class="lebensdaten">(5. 3. 1810 Berlin – 10. 10. 1846 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19762.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist</i></p>
                      </div>
                      <div id="mentions">

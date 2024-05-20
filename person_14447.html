@@ -73,8 +73,16 @@
                   <h2 align="center">Marlene Dietrich <span class="lebensdaten">(27. 12. 1901 Berlin – 6. 5. 1992 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14447.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marlene%20Dietrich%20in%20No%20Highway%20%281951%29%20%28Cropped%29.png" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">David Ewen <span class="lebensdaten">(26. 11. 1907 Lviv – 28. 12. 1985 Miami)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14828.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist</i></p>
                      </div>
                      <div id="mentions">

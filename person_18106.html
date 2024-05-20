@@ -73,8 +73,16 @@
                   <h2 align="center">Nicolas Chorier <span class="lebensdaten">(1. 9. 1612 Vienne – 14. 8. 1692 Grenoble)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18106.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Rechtsanwalt, Historiker</i></p>
                      </div>

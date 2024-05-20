@@ -73,8 +73,16 @@
                   <h2 align="center">Franziska von Reventlow <span class="lebensdaten">(18. 5. 1871 Husum – 25. 7. 1918 Locarno)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19216.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fanny%20Gr%C3%A4fin%20zu%20Reventlow.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

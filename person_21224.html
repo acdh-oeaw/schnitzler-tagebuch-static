@@ -73,8 +73,16 @@
                   <h2 align="center">Emilie Franziska Wellesz <span class="lebensdaten">(8. 1. 1889 Wien – 13. 6. 1987 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21224.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Stross</p>
                         <p class="personenname">geboren Stroß</p>
                         <p class="personenname">Rufname Emmy</p>

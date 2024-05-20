@@ -73,8 +73,16 @@
                   <h2 align="center">Gabriel Beer-Hofmann <span class="lebensdaten">(9. 1. 1901 Wien – 24. 3. 1971 St Albans)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13547.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Marlowe Gabriel</p>
                         <p class="personenname">Rufname Bubi</p>
                         <p class="personenname"></p>

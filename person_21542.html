@@ -73,8 +73,16 @@
                   <h2 align="center">Stefan Żeromski <span class="lebensdaten">(14. 10. 1864 Strawczyn – 20. 11. 1925 Warschau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21542.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portret%20Stefana%20%C5%BBeromskiego.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

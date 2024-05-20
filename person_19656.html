@@ -73,8 +73,16 @@
                   <h2 align="center">August Schestag <span class="lebensdaten">(14. 6. 1870 Wien – 3. 11. 1939 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19656.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Museumsleiter, Kunsthistoriker</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Fredric Fradkin <span class="lebensdaten">(2. 4. 1892 Troy – 3. 10. 1963 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15093.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Violinist</i></p>
                      </div>
                      <div id="mentions">

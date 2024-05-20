@@ -73,8 +73,16 @@
                   <h2 align="center">Nathan Straus <span class="lebensdaten">(31. 1. 1848 Ottersberg – 11. 1. 1931 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20489.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nathan%20Straus%2C%20half-length%20portrait%2C%20facing%20left%20LCCN96503939.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

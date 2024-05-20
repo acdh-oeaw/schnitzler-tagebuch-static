@@ -73,8 +73,16 @@
                   <h2 align="center">William Prescott <span class="lebensdaten">(4. 5. 1796 Salem – 28. 1. 1859 Boston (Massachusetts))</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18957.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William%20Hickling%20Prescott%20by%20Southworth%20" alt="Image" width="200px;"></img></figure>
                         </div>

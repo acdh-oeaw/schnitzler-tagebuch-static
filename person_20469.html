@@ -73,8 +73,16 @@
                   <h2 align="center">Siegfried von Strakosch-Feldringen <span class="lebensdaten">(19. 5. 1867 Brünn – 19. 4. 1933 Opatija)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20469.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Industrieller, Unternehmer, Agrarwissenschaftler</i></p>
                      </div>

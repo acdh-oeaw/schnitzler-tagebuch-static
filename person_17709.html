@@ -73,8 +73,16 @@
                   <h2 align="center">Fanny Lubelsky <span class="lebensdaten">(4. 5. 1868 Wien – 10.5.1942)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17709.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">Rufname Ferry</p>
                      </div>

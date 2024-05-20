@@ -73,8 +73,16 @@
                   <h2 align="center">Carl Kraus <span class="lebensdaten">(19. 10. 1865 Brandýs nad Labem – 21. 8. 1923 Reichenau an der Rax)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17105.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner, Sanatoriumsleiter</i></p>
                      </div>
                      <div id="mentions">

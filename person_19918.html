@@ -73,8 +73,16 @@
                   <h2 align="center">Max von Schürer-Waldheim <span class="lebensdaten">(10. 9. 1860 XIX., Döbling – 16. 9. 1942 Wörgl)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19918.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Mediziner, Apotheker</i></p>
                      </div>

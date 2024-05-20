@@ -73,8 +73,16 @@
                   <h2 align="center">Hugo Botstiber <span class="lebensdaten">(21. 4. 1875 Wien – 15. 1. 1941 Shrewsbury)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13891.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hugo%20Botstiber%20%281875%E2%80%931941%29%201927%20%C2%A9%20Georg%20Fayer%20%281892%E2%80%931950%29%20OeNB%2010449642.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

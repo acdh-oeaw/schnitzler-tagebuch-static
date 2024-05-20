@@ -73,8 +73,16 @@
                   <h2 align="center">Josef Hassreiter <span class="lebensdaten">(30. 12. 1845 Wien – 8. 2. 1940 Mauer)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15965.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph%20Ha%C3%9Freiter%20%281845%E2%80%931940%29%201918.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

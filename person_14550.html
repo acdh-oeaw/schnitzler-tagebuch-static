@@ -73,8 +73,16 @@
                   <h2 align="center">Louise Dumont <span class="lebensdaten">(22. 2. 1862 Köln – 16. 5. 1932 Düsseldorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14550.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D0%9B%D1%83%D0%B8%D0%B7%D0%B0%20%D0%94%D1%8E%D0%BC%D0%BE%D0%BD.png" alt="Image" width="200px;"></img></figure>
                         </div>

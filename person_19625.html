@@ -73,8 +73,16 @@
                   <h2 align="center">Vera Schapira <span class="lebensdaten">(10. 2. 1888 Wien – 16. 4. 1930 Bremen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19625.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Valerie Helene Schapira</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

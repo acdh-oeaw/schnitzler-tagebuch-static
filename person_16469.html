@@ -73,8 +73,16 @@
                   <h2 align="center">Lucy von Jacobi <span class="lebensdaten">(8. 9. 1887 Wien – 24. 4. 1956 Locarno)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16469.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Goldberg</p>
                         <p class="personenname"></p>
                         <p><i>Schriftstellerin, Dramaturgin, Übersetzerin</i></p>

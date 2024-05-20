@@ -73,8 +73,16 @@
                   <h2 align="center">Johann Bernhard Fischer von Erlach <span class="lebensdaten">(20. 7. 1656 Graz – 5. 4. 1723 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15011.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann%20Bernhard%20Fischer%20von%20Erlach%20by%20%C3%81d%C3%A1m%20M%C3%A1nyoki.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

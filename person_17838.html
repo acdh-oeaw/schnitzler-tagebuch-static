@@ -73,8 +73,16 @@
                   <h2 align="center">Thomas Mann <span class="lebensdaten">(6. 6. 1875 Lübeck – 12. 8. 1955 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17838.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thomas%20Mann%201929.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Helene Fränkel <span class="lebensdaten">(12. 1. 1856 Dresden – 8. 1. 1921 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15100.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Raudnitz</p>
                      </div>
                      <div id="mentions">

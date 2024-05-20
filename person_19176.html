@@ -73,8 +73,16 @@
                   <h2 align="center">Hans von Reitzes <span class="lebensdaten">(27. 12. 1877 Wien – 29. 7. 1935 Siófok)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19176.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Bankier</i></p>
                      </div>
                      <div id="mentions">

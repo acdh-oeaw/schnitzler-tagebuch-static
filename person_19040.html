@@ -73,8 +73,16 @@
                   <h2 align="center">Esther Ralston <span class="lebensdaten">(17. 9. 1902 Bar Harbor – 14. 1. 1994 Ventura)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19040.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Filmschauspielerin</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Adele Sandrock <span class="lebensdaten">(19. 8. 1863 Rotterdam – 30. 8. 1937 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19564.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adele%20Sandrock%20%28Sport%20und%20Salon%201900%29.png" alt="Image" width="200px;"></img></figure>
                         </div>

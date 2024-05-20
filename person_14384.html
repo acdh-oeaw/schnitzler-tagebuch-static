@@ -73,8 +73,16 @@
                   <h2 align="center">Robert Dehne <span class="lebensdaten">(30. 11. 1876 Wien – 18. 2. 1936 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14384.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Pädiater</i></p>
                      </div>
                      <div id="mentions">

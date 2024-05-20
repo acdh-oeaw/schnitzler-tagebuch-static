@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Töpfer <span class="lebensdaten">(6. 11. 1887 Urfahr-Umgebung – 9. 7. 1921 Linz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20763.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kunsthändler</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Fritz Bondy <span class="lebensdaten">(18. 4. 1888 Prag – 24. 5. 1980 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13861.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Regisseur</i></p>
                      </div>

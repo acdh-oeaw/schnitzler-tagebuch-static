@@ -73,8 +73,16 @@
                   <h2 align="center">Lena Amsel <span class="lebensdaten">(27. 7. 1898 Łódź – 2. 11. 1929 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13185.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lena%20Amsel%20zu%20ihrem%20j%C3%BCngsten%20Tanzabend%201918%20Franz%20X.%20Setzer.png" alt="Image" width="200px;"></img></figure>
                         </div>

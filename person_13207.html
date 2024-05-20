@@ -73,8 +73,16 @@
                   <h2 align="center">Max von Anhauch <span class="lebensdaten">(13. 3. 1863 Storozhynets’ – 24. 6. 1945 Timișoara)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13207.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Industrieller</i></p>
                      </div>
                      <div id="mentions">

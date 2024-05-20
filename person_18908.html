@@ -73,8 +73,16 @@
                   <h2 align="center">David de Sola Pool <span class="lebensdaten">(16. 5. 1885 London – 1. 12. 1970 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18908.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rabbiner</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz Horowitz <span class="lebensdaten">(23. 10. 1866 Iași – 7. 5. 1932 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16384.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Pianist</i></p>
                      </div>
                      <div id="mentions">

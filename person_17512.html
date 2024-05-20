@@ -73,8 +73,16 @@
                   <h2 align="center">Jonas Lie <span class="lebensdaten">(6. 11. 1833 Hokksund – 5. 7. 1908 Stavern)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17512.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jonas%20Lie%20%28engraving%20by%20H%20P%20Hansen%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

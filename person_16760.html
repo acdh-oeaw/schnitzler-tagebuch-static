@@ -73,8 +73,16 @@
                   <h2 align="center">Robert Katscher <span class="lebensdaten">(20. 4. 1894 Wien – 23. 2. 1942 Hollywood)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16760.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Komponist</i></p>
                      </div>
                      <div id="mentions">

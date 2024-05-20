@@ -73,8 +73,16 @@
                   <h2 align="center">Emilio? Broglio <span class="lebensdaten">(13. 2. 1814 Mailand – 21. 2. 1892 Rom)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13993.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Publizist</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Georg von Sachsen-Meiningen <span class="lebensdaten">(2. 4. 1826 Meiningen – 25. 6. 1914 Bad Wildungen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19514.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Theaterleiter</i></p>

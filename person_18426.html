@@ -73,8 +73,16 @@
                   <h2 align="center">Gilbert Otto Neumann-Hofer <span class="lebensdaten">(4. 2. 1857 Bol’shiye Berezhki – 14. 4. 1941 Detmold)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18426.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Kritiker, Theaterleiter</i></p>
                      </div>

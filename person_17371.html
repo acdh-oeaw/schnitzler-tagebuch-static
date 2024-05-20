@@ -73,8 +73,16 @@
                   <h2 align="center">Simon Lawner <span class="lebensdaten">(1844 Lipnik Górny – Juli 1896?)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17371.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Versicherungsbeamter</i></p>
                      </div>
                      <div id="mentions">

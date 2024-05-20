@@ -73,8 +73,16 @@
                   <h2 align="center">Louis Gillet <span class="lebensdaten">(11. 12. 1876 Paris – 1943 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15430.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis%20Gillet%20%281876%E2%80%931943%29.png" alt="Image" width="200px;"></img></figure>
                         </div>

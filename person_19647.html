@@ -73,8 +73,16 @@
                   <h2 align="center">Joseph von Schenk <span class="lebensdaten">(23. 8. 1858 Tarnopol – 16. 4. 1944 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19647.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rechtswissenschaftler</i></p>
                      </div>
                      <div id="mentions">

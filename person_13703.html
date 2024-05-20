@@ -73,8 +73,16 @@
                   <h2 align="center">Liddy Beyer <span class="lebensdaten">(22. 9. 1884 Bockau – 1. 12. 1950 Wittenau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13703.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geschieden Hegewald</p>
                         <p class="personenname">geboren Genau</p>
                         <p><i>Filmproduzentin</i></p>

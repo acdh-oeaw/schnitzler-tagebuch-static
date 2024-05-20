@@ -73,8 +73,16 @@
                   <h2 align="center">Eleonore Tressler <span class="lebensdaten">(25. 2. 1892 Graz – 11. 12. 1952 Salzburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20802.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Keil von Bündten</p>
                      </div>
                      <div id="mentions">

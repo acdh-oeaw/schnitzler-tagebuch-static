@@ -73,8 +73,16 @@
                   <h2 align="center">Josef Ruederer <span class="lebensdaten">(15. 10. 1861 München – 20. 10. 1915 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19462.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lovis%20Corinth%20Portr%C3%A4t%20des%20Dichters%20Josef%20Ruederer%201904.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

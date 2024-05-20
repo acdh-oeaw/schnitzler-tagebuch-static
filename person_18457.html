@@ -73,8 +73,16 @@
                   <h2 align="center">Einar Nilson <span class="lebensdaten">(21. 2. 1881 Kristiansand – 20. 4. 1964 Hollywood)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18457.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist</i></p>
                      </div>
                      <div id="mentions">

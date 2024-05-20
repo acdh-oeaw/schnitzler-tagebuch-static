@@ -73,8 +73,16 @@
                   <h2 align="center">Leopoldine Wertheimer <span class="lebensdaten">(3. 3. 1868 Wien – 23. 1. 1951 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21261.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Szika</p>
                      </div>
                      <div id="mentions">

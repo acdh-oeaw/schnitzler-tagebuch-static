@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelmine Maria Walter <span class="lebensdaten">(20. 9. 1859 Wien – 25. 7. 1901 Schloß Ottensheim)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18179.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Sängerin, Sopranistin, Opernsängerin</i></p>
                      </div>

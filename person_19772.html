@@ -73,8 +73,16 @@
                   <h2 align="center">Walter Schmidt-Hässler <span class="lebensdaten">(1. 7. 1864 Leipzig – 4. 12. 1923 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19772.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Regisseur, Schauspieler, Drehbuchautor, Filmregisseur</i></p>
                      </div>

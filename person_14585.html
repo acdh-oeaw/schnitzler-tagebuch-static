@@ -73,8 +73,16 @@
                   <h2 align="center">Anthonis van Dyck <span class="lebensdaten">(22. 3. 1599 Antwerpen – 9. 12. 1641 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14585.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Maler, Grafiker, Radierer, Künstler</i></p>

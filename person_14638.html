@@ -73,8 +73,16 @@
                   <h2 align="center">Ernestine-Esther Ehrenpreis <span class="lebensdaten">(7. 6. 1877 Lviv – 7. 8. 1969 Stockholm)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14638.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Haskler</p>
                      </div>
                      <div id="mentions">

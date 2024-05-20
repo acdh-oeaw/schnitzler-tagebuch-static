@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Adler <span class="lebensdaten">(7. 2. 1870 Wien – 28. 5. 1937 Aberdeen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13092.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/AlfredAdler.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

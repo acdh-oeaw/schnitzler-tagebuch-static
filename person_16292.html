@@ -73,8 +73,16 @@
                   <h2 align="center">Gertrude von Hofmannsthal <span class="lebensdaten">(16. 3. 1880 Wien – 9. 11. 1959 Paddington)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16292.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/1_portrait-von-gerty-von-hofmannsthal-mit-brosche-und-perlenkette-71161.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Bertha Brevée <span class="lebensdaten">(14. 10. 1883 Sint-Maartensdijk – 6. 5. 1953 Taormina)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13969.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Copijn</p>
                         <p class="personenname"></p>
                         <p class="personenname">Rufname Berthe</p>

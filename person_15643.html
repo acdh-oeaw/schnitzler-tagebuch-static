@@ -73,8 +73,16 @@
                   <h2 align="center">Leo Greiner <span class="lebensdaten">(1. 4. 1876 Brünn – 22. 8. 1928 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15643.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Verlagslektor</i></p>
                      </div>
                      <div id="mentions">

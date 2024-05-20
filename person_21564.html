@@ -73,8 +73,16 @@
                   <h2 align="center">Christiane Zimmer <span class="lebensdaten">(14. 5. 1902 Rodaun – 5. 1. 1987 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21564.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren von Hofmannsthal</p>
                         <p class="personenname"></p>

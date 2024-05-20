@@ -73,8 +73,16 @@
                   <h2 align="center">Edmund Pietrkowski <span class="lebensdaten">(18. 12. 1872 Poznan – 20. 9. 1936 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18793.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rechtswissenschaftler</i></p>
                      </div>
                      <div id="mentions">

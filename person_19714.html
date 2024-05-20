@@ -73,8 +73,16 @@
                   <h2 align="center">August Wilhelm von Schlegel <span class="lebensdaten">(5. 9. 1767 Hannover – 12. 5. 1845 Bonn)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19714.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Kritiker, Übersetzer, Philologe, Literaturwissenschaftler, Orientalist, Librettist, Hochschullehrer</i></p>

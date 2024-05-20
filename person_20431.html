@@ -73,8 +73,16 @@
                   <h2 align="center">Marie Stiasny <span class="lebensdaten">(23. 8. 1887 Wien – 20. 8. 1958 Buenos Aires)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20431.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Sekretärin</i></p>
                      </div>
                      <div id="mentions">

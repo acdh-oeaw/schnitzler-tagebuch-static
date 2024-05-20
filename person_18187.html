@@ -73,8 +73,16 @@
                   <h2 align="center">Johann Michael Waissnix <span class="lebensdaten">(19. 7. 1855 Reichenau an der Rax – 1908 Reichenau an der Rax)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18187.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                      </div>
                      <div id="mentions">

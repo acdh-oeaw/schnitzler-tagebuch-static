@@ -73,8 +73,16 @@
                   <h2 align="center">Edgar Allan Poe <span class="lebensdaten">(19. 1. 1809 Boston (Massachusetts) – 7. 10. 1849 Baltimore)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18839.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edgar%20Allan%20Poe%2C%20circa%201849%2C%20restored%2C%20squared%20off.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Johann Gottlieb Fichte <span class="lebensdaten">(19. 5. 1762 Rammenau – 2. 1. 1814 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14975.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann%20Gottlieb%20Fichte%20by%20Friedrich%20Bury.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

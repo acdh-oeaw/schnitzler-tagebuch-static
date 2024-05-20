@@ -73,8 +73,16 @@
                   <h2 align="center">Peter Dorner <span class="lebensdaten">(17. 2. 1857 Welsberg-Taisten – 1. 4. 1931 Welsberg-Taisten)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14495.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schmied, Kunsthandwerker, Kunstschmied</i></p>
                      </div>

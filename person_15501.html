@@ -73,8 +73,16 @@
                   <h2 align="center">Ottilie von Goethe <span class="lebensdaten">(31. 10. 1796 – 26. 10. 1872)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15501.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ottilie%20von%20Goethe.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

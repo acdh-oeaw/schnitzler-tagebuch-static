@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst Ludwig (Hessen-Darmstadt) <span class="lebensdaten">(25. 11. 1868 Darmstadt – 9. 10. 1937 Schloss Wolfsgarten)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14799.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernst%20Ludwig%20von%20Hessen%201905%20Foto%20Jacob%20Hilsdorf.jpeg" alt="Image" width="200px;"></img></figure>
                         </div>

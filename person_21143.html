@@ -73,8 +73,16 @@
                   <h2 align="center">Friedrich von Weichs-Glon <span class="lebensdaten">(16. 11. 1858 Schloß Walchen – 21. 4. 1938 Strassengel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21143.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Ministerialbeamter</i></p>
                      </div>
                      <div id="mentions">

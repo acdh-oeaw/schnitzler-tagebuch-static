@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz Broda <span class="lebensdaten">(23. 3. 1842 Dresden – 16. 9. 1910 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13988.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler</i></p>
                      </div>
                      <div id="mentions">

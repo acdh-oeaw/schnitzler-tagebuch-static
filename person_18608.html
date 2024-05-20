@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Ottenheimer <span class="lebensdaten">(11. 3. 1873 Stuttgart – 28. 9. 1951 Darmstadt)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18608.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist</i></p>
                      </div>
                      <div id="mentions">

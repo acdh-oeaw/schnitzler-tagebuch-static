@@ -73,8 +73,16 @@
                   <h2 align="center">Pedro Calderón de la Barca <span class="lebensdaten">(17. 1. 1600 Madrid – 25. 5. 1681 Madrid)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14115.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Primera%20parte%20de%20comedias%20verdaderas%20portrait%20detail.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

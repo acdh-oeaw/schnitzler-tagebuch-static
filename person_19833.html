@@ -73,8 +73,16 @@
                   <h2 align="center">Rosalie Schnitzler <span class="lebensdaten">(1812/1813 Kaposvár – 8. 11. 1878 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19833.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Klein</p>
                      </div>
                      <div id="mentions">

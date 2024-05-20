@@ -73,8 +73,16 @@
                   <h2 align="center">Severin von Jaroszynski <span class="lebensdaten">(20. 12. 1789 Podolien – 30. 8. 1827 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16519.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Raubmörder</i></p>
                      </div>
                      <div id="mentions">

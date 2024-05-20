@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Kirchsteiger <span class="lebensdaten">(21. 10. 1852 Eberschwang – 5. 5. 1932 Aigen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16851.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Priester, Pfarrer</i></p>
                      </div>

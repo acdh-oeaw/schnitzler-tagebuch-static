@@ -73,8 +73,16 @@
                   <h2 align="center">Helene Caroline von Sizzo-Noris <span class="lebensdaten">(14. 4. 1883 Wien – 20. 4. 1934 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20148.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Traeger-Rhonhof</p>
                      </div>
                      <div id="mentions">

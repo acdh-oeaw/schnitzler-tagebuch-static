@@ -73,8 +73,16 @@
                   <h2 align="center">Gustav Maran <span class="lebensdaten">(8. 1. 1854 Wien – 18. 5. 1917 Sulz im Wienerwald)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17849.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Maran%20wenige%20Wochen%20vor%20seinem%20Tode%201917%20Charles%20Scolik.png" alt="Image" width="200px;"></img></figure>
                         </div>

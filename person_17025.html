@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Konrath <span class="lebensdaten">(14. 5. 1888 Innsbruck – 22. 4. 1981 Bad Ischl)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17025.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist, Dirigent</i></p>
                      </div>
                      <div id="mentions">

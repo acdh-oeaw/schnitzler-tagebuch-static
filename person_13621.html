@@ -73,8 +73,16 @@
                   <h2 align="center">Josefa? Berg <span class="lebensdaten">(18. 8. 1899 Wien – 18. 12. 1946 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13621.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler</i></p>
                      </div>
                      <div id="mentions">

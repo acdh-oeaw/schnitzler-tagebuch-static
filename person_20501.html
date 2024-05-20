@@ -73,8 +73,16 @@
                   <h2 align="center">Emil Strauss <span class="lebensdaten">(31. 1. 1866 Pforzheim – 10. 8. 1960 Freiburg im Breisgau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20501.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portr%C3%A4t%20Emil%20Strau%C3%9F%20von%20Ernst%20W%C3%BCrtenberger.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

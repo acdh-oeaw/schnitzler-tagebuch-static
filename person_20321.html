@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig? Stahl <span class="lebensdaten">(4. 4. 1856 Brünn – 25. 8. 1908 Blankenberge)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20321.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Regisseur, Schauspieler</i></p>

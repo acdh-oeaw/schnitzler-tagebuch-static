@@ -73,8 +73,16 @@
                   <h2 align="center">Lilli Petri <span class="lebensdaten">(10. 8. 1864 Köln – 20. 9. 1915 Baden bei Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18733.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Amelie Peterson</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

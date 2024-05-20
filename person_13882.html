@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander P. Borodin <span class="lebensdaten">(12. 11. 1833 Sankt Petersburg – 27. 2. 1887 Sankt Petersburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13882.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist, Chemiker, Arzt</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Martin Spörr <span class="lebensdaten">(16. 10. 1866 Wilten – 4. 9. 1937 Gallspach)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20288.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Martin%20Sp%C3%B6rr%20%281866%E2%80%931937%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

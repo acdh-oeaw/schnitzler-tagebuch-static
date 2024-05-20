@@ -73,8 +73,16 @@
                   <h2 align="center">Carl Seelig <span class="lebensdaten">(11. 5. 1894 Zürich – 15. 2. 1962 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20016.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Übersetzer</i></p>
                      </div>
                      <div id="mentions">

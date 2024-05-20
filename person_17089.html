@@ -73,8 +73,16 @@
                   <h2 align="center">Friedrich Krammer <span class="lebensdaten">(17. 11. 1870 Langenlois – 29. 9. 1929 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17089.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Finanzbeamter</i></p>
                      </div>
                      <div id="mentions">

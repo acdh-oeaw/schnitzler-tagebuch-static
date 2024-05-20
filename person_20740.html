@@ -73,8 +73,16 @@
                   <h2 align="center">Anton? Tichy <span class="lebensdaten">(16. 12. 1851 Wokowice – 23. 10. 1929 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20740.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Beamter</i></p>
                      </div>
                      <div id="mentions">

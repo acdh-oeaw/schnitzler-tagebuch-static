@@ -73,8 +73,16 @@
                   <h2 align="center">Lee Simonson <span class="lebensdaten">(26. 6. 1888 New York City – 23. 1. 1967 Yonkers)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20124.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theaterleiter, Maler, Bühnenbildner</i></p>
                      </div>
                      <div id="mentions">

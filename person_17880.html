@@ -73,8 +73,16 @@
                   <h2 align="center">Maria Theresia von Österreich <span class="lebensdaten">(13. 5. 1717 Wien – 29. 11. 1780 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17880.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kaiserin%20Maria%20Theresia%20%28HRR%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

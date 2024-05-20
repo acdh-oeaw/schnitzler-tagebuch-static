@@ -73,8 +73,16 @@
                   <h2 align="center">Julius Grevenberg <span class="lebensdaten">(1. 2. 1853 – 10. 11. 1927 Graz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15653.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Theaterleiter, Schauspieler, Theaterdirektor</i></p>
                      </div>

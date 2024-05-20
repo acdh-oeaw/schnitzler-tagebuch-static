@@ -73,8 +73,16 @@
                   <h2 align="center">Richard de Crignis <span class="lebensdaten">(2. 8. 1888 München – 15. 5. 1974 Garmisch-Partenkirchen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14298.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Augenarzt</i></p>
                      </div>
                      <div id="mentions">

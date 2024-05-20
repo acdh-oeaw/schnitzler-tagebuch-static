@@ -73,8 +73,16 @@
                   <h2 align="center">Moriz Szeps <span class="lebensdaten">(4. 11. 1834 Busk – 9. 8. 1902 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20606.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moriz%20Szeps%2C%20Chefredacteur%20des%20%E2%80%9ENeuen%20Wiener%20Tagblatt%E2%80%9C%201880%20Kl%C3%AD%C4%8D.png" alt="Image" width="200px;"></img></figure>
                         </div>

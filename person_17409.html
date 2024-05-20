@@ -73,8 +73,16 @@
                   <h2 align="center">Gilbert Lehner <span class="lebensdaten">(14. 3. 1844 Lviv – 3. 12. 1923 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17409.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Bühnenbildner</i></p>
                      </div>

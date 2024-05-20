@@ -73,8 +73,16 @@
                   <h2 align="center">Stefanie von Weiss-Wellenstein <span class="lebensdaten">(19. 12. 1866 – 28. 12. 1928)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21210.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Feinberg</p>
                      </div>
                      <div id="mentions">

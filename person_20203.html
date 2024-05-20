@@ -73,8 +73,16 @@
                   <h2 align="center">Adele von Sonnenthal <span class="lebensdaten">(24. 12. 1871 Wien – 10.4.1954 Los Angeles)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20203.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Koritschoner</p>
                         <p class="personenname">Rufname Lili</p>
                      </div>

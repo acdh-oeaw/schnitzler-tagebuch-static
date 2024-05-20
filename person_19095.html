@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Ferdinand Redlich <span class="lebensdaten">(11. 2. 1903 Wien – 27. 11. 1968 Manchester)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19095.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Musiker</i></p>
                      </div>

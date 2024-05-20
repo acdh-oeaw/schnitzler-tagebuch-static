@@ -73,8 +73,16 @@
                   <h2 align="center">Philipp von Gomperz <span class="lebensdaten">(4. 4. 1860 Wien – 3. 12. 1948 Montreux)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15565.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Industrieller</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Franz Reinhard <span class="lebensdaten">(28. 5. 1874 Maria Enzersdorf – 15. 9. 1939 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19148.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Versicherungsbeamter</i></p>
                      </div>
                      <div id="mentions">

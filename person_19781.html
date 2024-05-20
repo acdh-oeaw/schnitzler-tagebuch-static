@@ -73,8 +73,16 @@
                   <h2 align="center">Otto Schmöle <span class="lebensdaten">(23. 2. 1890 Frankfurt am Main – 12. 4. 1968 Mondsee)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19781.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler</i></p>
                      </div>
                      <div id="mentions">

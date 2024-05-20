@@ -73,8 +73,16 @@
                   <h2 align="center">Wanda Rotter <span class="lebensdaten">(27. 6. 1905 Wien – 5. 8. 1982 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19437.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Wanda Rotha</p>
                         <p class="personenname">geschieden Štěpánek</p>
                         <p class="personenname"></p>

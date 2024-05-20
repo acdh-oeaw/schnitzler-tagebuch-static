@@ -73,8 +73,16 @@
                   <h2 align="center">Konstantin von Economo <span class="lebensdaten">(21. 8. 1876 Galilee – 21. 10. 1931 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14613.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Neurologe, Arzt</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Émile Lutz <span class="lebensdaten">(8. 4. 1868 Saint-Étienne-du-Rouvray – 18. 1. 1940 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17744.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Übersetzer, Dichter</i></p>
                      </div>
                      <div id="mentions">

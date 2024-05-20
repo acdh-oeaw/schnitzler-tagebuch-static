@@ -73,8 +73,16 @@
                   <h2 align="center">Conrad Hansen <span class="lebensdaten">(24. 11. 1906 Lippstadt – 22. 6. 2002 Hamburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15906.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Pianist</i></p>
                      </div>
                      <div id="mentions">

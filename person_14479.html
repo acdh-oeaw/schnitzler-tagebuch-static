@@ -73,8 +73,16 @@
                   <h2 align="center">Donatello <span class="lebensdaten">(um 1368 Florenz – 13. 12. 1466 Florenz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14479.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Donato di Niccolò di Betto Bardi</p>
                         <p class="personenname"></p>
                         <p><i>Bildhauer</i></p>

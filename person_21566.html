@@ -73,8 +73,16 @@
                   <h2 align="center">Heinrich Zimmer <span class="lebensdaten">(6. 12. 1890 Greifswald – 20. 3. 1943 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21566.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Heinrich%20Zimmer%201933.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Adolf Eisler <span class="lebensdaten">(21. 7. 1877 Olomouc – 5. 12. 1945 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14692.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Sekretär</i></p>
                      </div>
                      <div id="mentions">

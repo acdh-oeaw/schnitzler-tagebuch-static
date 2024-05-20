@@ -73,8 +73,16 @@
                   <h2 align="center">Charles Spencer Chaplin <span class="lebensdaten">(16. 4. 1889 London – 24. 12. 1977 Vevey)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14179.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Regisseur, Schauspieler, Komponist, Musiker, Filmproduzent, Komiker</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Otto Ernst Hesse <span class="lebensdaten">(20. 1. 1891 Jeßnitz – 16. 5. 1946 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16172.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hesse-otto-ernst-in-50-jahre-ullstein-1877-1927-berlin-ullstein-1927-s271.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

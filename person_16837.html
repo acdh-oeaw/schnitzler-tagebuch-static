@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Kienzl <span class="lebensdaten">(17. 1. 1857 Waizenkirchen – 3. 10. 1941 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16837.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm%20Kienzl%20by%20Friedrich%20Bruckmann%20%28before%201898%29%20-%20Archivio%20Storico%20Ricordi%20ICON010547%20B.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

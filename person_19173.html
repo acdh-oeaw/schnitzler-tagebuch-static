@@ -73,8 +73,16 @@
                   <h2 align="center">Karl Johann Reithofer <span class="lebensdaten">(29. 9. 1899 Wien – 13. 7. 1974 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19173.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Beamter</i></p>
                      </div>
                      <div id="mentions">

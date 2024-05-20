@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz? Güdemann <span class="lebensdaten">(18. 2. 1835 Hildesheim – 5. 8. 1918 Baden bei Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15727.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Historiker, Rabbiner</i></p>
                      </div>

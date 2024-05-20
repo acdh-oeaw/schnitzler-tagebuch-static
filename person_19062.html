@@ -73,8 +73,16 @@
                   <h2 align="center">Hermann Rasch <span class="lebensdaten">(11. 10. 1859 Nienburg an der Weser – 16. 5. 1935 Aue)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19062.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Beamter</i></p>
                      </div>
                      <div id="mentions">

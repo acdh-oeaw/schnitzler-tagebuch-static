@@ -73,8 +73,16 @@
                   <h2 align="center">Lydia Lipkovska <span class="lebensdaten">(10. 5. 1884 Babyn – 22. 1. 1955 Beirut)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17578.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Sängerin</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Franz Elbogen <span class="lebensdaten">(14. 5. 1889 Wien – 14. 1. 1943 Washington)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14712.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller</i></p>
                      </div>
                      <div id="mentions">

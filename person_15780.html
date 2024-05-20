@@ -73,8 +73,16 @@
                   <h2 align="center">Carl Guttmann <span class="lebensdaten">(1843? – 7. 11. 1911 Politischer Bezirk Graz-Umgebung)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15780.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Industrieller</i></p>
                      </div>

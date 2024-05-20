@@ -73,8 +73,16 @@
                   <h2 align="center">Emil Rameau <span class="lebensdaten">(13. 8. 1878 Berlin – 9. 9. 1957 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19042.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Theaterleiter, Schauspieler</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst Jakob Renz <span class="lebensdaten">(18. 5. 1815 Böckingen – 1892 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19194.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Artist, Zirkusdirektor</i></p>
                      </div>
                      <div id="mentions">

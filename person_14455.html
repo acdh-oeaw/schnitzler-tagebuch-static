@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Dillmann <span class="lebensdaten">(1878 – 1951)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14455.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Musikkritiker</i></p>
                      </div>
                      <div id="mentions">

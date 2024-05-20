@@ -73,8 +73,16 @@
                   <h2 align="center">Adolphe Bélot <span class="lebensdaten">(6. 11. 1829 Point à Pitre – 18. 12. 1890 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13575.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Belot%2C%20Adolphe%2C%20par%20Etienne%20Carjat%2C%20BNF%20Gallica.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

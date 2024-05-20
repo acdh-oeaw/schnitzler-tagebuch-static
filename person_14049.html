@@ -73,8 +73,16 @@
                   <h2 align="center">Bernhard von Bülow <span class="lebensdaten">(3. 5. 1849 Klein Flottbek – 28. 10. 1929 Rom)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14049.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bundesarchiv%20Bild%20146-2004-0098A%2C%20Bernhard%20von%20B%C3%BClow%20%28cropped%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

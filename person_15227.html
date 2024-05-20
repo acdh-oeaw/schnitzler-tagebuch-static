@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Friedmann <span class="lebensdaten">(26. 10. 1845 Frankfurt am Main – 13. 2. 1923 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15227.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfred%20Friedmann%20%281845-1923%29.png" alt="Image" width="200px;"></img></figure>
                         </div>

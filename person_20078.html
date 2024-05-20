@@ -73,8 +73,16 @@
                   <h2 align="center">William Shakespeare <span class="lebensdaten">(23.4.1564? Stratford-upon-Avon – 3. 5. 1616 Stratford-upon-Avon)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20078.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

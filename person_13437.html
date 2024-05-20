@@ -73,8 +73,16 @@
                   <h2 align="center">Agathe Barsescu <span class="lebensdaten">(9. 9. 1861 Bukarest – 21. 11. 1939 Bukarest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13437.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin, Sängerin</i></p>
                      </div>

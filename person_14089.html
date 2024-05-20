@@ -73,8 +73,16 @@
                   <h2 align="center">Erhard Buschbeck <span class="lebensdaten">(6. 1. 1889 Salzburg – 2. 9. 1960 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14089.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Erhard%20Buschbeck%20%281889%E2%80%931960%29%20%C2%A9%20Max%20Fenichel%20%281885%E2%80%931942%29%20OeNB%2020062639.png" alt="Image" width="200px;"></img></figure>
                         </div>

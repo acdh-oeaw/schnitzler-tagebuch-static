@@ -73,8 +73,16 @@
                   <h2 align="center">Camill Hoffmann <span class="lebensdaten">(31. 10. 1878 Kolín – 1. 10. 1944 Konzentrationslager Auschwitz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16270.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>

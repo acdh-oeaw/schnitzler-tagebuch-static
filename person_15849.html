@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Hahn <span class="lebensdaten">(22. 3. 1815 Dresden – 20. 10. 1889 Schöneberg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15849.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller</i></p>
                      </div>
                      <div id="mentions">

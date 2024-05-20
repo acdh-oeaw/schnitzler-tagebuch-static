@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Schäfer <span class="lebensdaten">(20. 1. 1868 Ottrau – 19. 1. 1952 Überlingen am Ried)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19605.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Publizist</i></p>
                      </div>
                      <div id="mentions">

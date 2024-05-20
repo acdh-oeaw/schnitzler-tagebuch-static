@@ -73,8 +73,16 @@
                   <h2 align="center">Erich Paul Stekel <span class="lebensdaten">(27. 6. 1898 Wien – 11. 2. 1978 Grenoble)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20390.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist, Dirigent, Musiker</i></p>
                      </div>

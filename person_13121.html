@@ -73,8 +73,16 @@
                   <h2 align="center">Pedro Antonio de Alarcón y Ariza <span class="lebensdaten">(10. 3. 1833 Guadix – 10. 7. 1891 Madrid)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13121.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pedro%20Antonio%20de%20Alarc%C3%B3n.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Georg? Braun <span class="lebensdaten">(15. 3. 1874 – 6. 3. 1925 Köpenick)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13930.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler, Sänger</i></p>
                      </div>
                      <div id="mentions">

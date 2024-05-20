@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Meyer-Förster <span class="lebensdaten">(12. 6. 1862 Hannover – 17. 3. 1934 Heringsdorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18127.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm%20Meyer-F%C3%B6rster%20-%20Stadsschouwburg%201904-1905%20%282%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Karl Albert Huber-Bellino <span class="lebensdaten">(5. 4. 1886 Basel – 14. 11. 1961 Basel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16402.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist, Rechtsanwalt</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Katharina Elisabeth Goethe <span class="lebensdaten">(19. 2. 1731 Frankfurt am Main – 13. 9. 1808 Frankfurt am Main)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15500.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Catharina%20Elisabeth%20Goethe%201776.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

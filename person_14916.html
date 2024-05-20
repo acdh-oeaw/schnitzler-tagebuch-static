@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Walther Fein <span class="lebensdaten">(1875 – 1. 5. 1933 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14916.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Regisseur, Filmproduzent, Drehbuchautor, Filmregisseur</i></p>
                      </div>

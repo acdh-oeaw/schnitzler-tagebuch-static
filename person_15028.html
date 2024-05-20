@@ -73,8 +73,16 @@
                   <h2 align="center">Edmond Fleg <span class="lebensdaten">(26. 11. 1874 Genf – 15. 10. 1963 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15028.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond%20Fleg%20-%20photo%20Henri%20Manuel.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Wjatscheslaw Konstantinowitsch von Plehwe <span class="lebensdaten">(20. 4. 1846 Meshchovsk – 28. 7. 1904 Sankt Petersburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18831.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Politiker</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Salomon David Steinberg <span class="lebensdaten">(25. 6. 1889 Luzern – 22. 10. 1965 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20362.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>
                      <div id="mentions">

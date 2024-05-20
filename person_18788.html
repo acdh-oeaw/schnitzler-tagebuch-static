@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Pieller <span class="lebensdaten">(30. 12. 1889 Wien – 9. 6. 1969 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18788.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gymnasiallehrer</i></p>
                      </div>
                      <div id="mentions">

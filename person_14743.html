@@ -73,8 +73,16 @@
                   <h2 align="center">Melanie Ender <span class="lebensdaten">(30. 3. 1852 Wien – 14. 11. 1927 Semmering)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14743.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Herberth</p>
                      </div>
                      <div id="mentions">

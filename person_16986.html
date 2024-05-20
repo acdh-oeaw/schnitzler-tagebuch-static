@@ -73,8 +73,16 @@
                   <h2 align="center">Max Köttgen <span class="lebensdaten">(1839 Langenberg – 1907 Krefeld)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16986.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Fabrikant</i></p>
                      </div>
                      <div id="mentions">

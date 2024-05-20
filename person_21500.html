@@ -73,8 +73,16 @@
                   <h2 align="center">Emanuel Ypsilanti <span class="lebensdaten">(30. 4. 1877 Paris – 17. 12. 1940 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21500.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gutsbesitzer, Diplomat</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Arthur Holz <span class="lebensdaten">(7. 8. 1876 Berlin – 4.11.1940 Hamburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16335.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Regisseur</i></p>
                      </div>

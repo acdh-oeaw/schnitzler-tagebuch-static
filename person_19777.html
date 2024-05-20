@@ -73,8 +73,16 @@
                   <h2 align="center">Robert Hans Schmitt <span class="lebensdaten">(7. 1. 1870 Wien – 10. 5. 1899 Mangali)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19777.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Maler, Geograf, Forschungsreisender, Bergsteiger</i></p>
                      </div>

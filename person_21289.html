@@ -73,8 +73,16 @@
                   <h2 align="center">William MacNeill Whistler <span class="lebensdaten">(22. 7. 1836 Lowell – 27. 2. 1900 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21289.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Laryngologe</i></p>
                      </div>
                      <div id="mentions">

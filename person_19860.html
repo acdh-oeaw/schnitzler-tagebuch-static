@@ -73,8 +73,16 @@
                   <h2 align="center">Arthur Johannes Scholz <span class="lebensdaten">(16. 11. 1883 Lviv – 3. 4. 1945 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19860.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist, Musikpädagoge, Dirigent</i></p>
                      </div>
                      <div id="mentions">

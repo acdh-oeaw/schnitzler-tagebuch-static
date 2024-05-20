@@ -73,8 +73,16 @@
                   <h2 align="center">Rudolf Stephan Hoffmann <span class="lebensdaten">(21. 8. 1878 Wien – 28. 10. 1938 Tel-Aviv)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16278.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner, Übersetzer, Komponist, Musikschriftsteller</i></p>
                      </div>
                      <div id="mentions">

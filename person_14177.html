@@ -73,8 +73,16 @@
                   <h2 align="center">Adrienne Chapiro <span class="lebensdaten">(8. 2. 1900 Salzburg – 10. 11. 1987 Cascais)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14177.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Junger</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

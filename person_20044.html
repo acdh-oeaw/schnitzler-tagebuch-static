@@ -73,8 +73,16 @@
                   <h2 align="center">Karl Seitz <span class="lebensdaten">(4. 9. 1869 Wien – 3. 2. 1950 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20044.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand%20Schmutzer%20-%20Karl%20Seitz%2C%201925.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

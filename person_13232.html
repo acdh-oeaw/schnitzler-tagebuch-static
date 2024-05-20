@@ -73,8 +73,16 @@
                   <h2 align="center">Karl Anton <span class="lebensdaten">(25. 10. 1898 Brünn – 12. 4. 1979 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13232.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Album%20representant%C5%AF%20v%C5%A1ech%20obor%C5%AF%20ve%C5%99ejn%C3%A9ho%20%C5%BEivota%20%C4%8Deskoslovensk%C3%A9ho%20-%201927%20-%20Karel%20Anton.png" alt="Image" width="200px;"></img></figure>
                         </div>

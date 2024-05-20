@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Herzog <span class="lebensdaten">(12. 1. 1884 Berlin – 18. 1. 1960 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16168.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Publizist</i></p>
                      </div>
                      <div id="mentions">

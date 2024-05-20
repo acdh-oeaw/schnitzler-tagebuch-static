@@ -73,8 +73,16 @@
                   <h2 align="center">Herbert Trau <span class="lebensdaten">(17. 9. 1886 Dresden – 5. 9. 1952 Zell am See)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20788.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theaterleiter</i></p>
                      </div>
                      <div id="mentions">

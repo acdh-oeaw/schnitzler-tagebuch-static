@@ -73,8 +73,16 @@
                   <h2 align="center">Jaroslav Kocián <span class="lebensdaten">(22. 2. 1883 Ústí nad Orlicí – 8. 3. 1950 Prag)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16953.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schauspieler, Komponist, Musiker, Violinist</i></p>
                      </div>

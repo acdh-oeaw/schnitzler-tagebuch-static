@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz von Schwind <span class="lebensdaten">(21. 1. 1804 Wien – 8. 2. 1871 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20003.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hanfstaengl%2C%20Franz%20-%20Moritz%20von%20Schwind%20%281804-1871%29%20%28Zeno%20Fotografie%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

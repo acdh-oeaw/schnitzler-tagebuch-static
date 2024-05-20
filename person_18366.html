@@ -73,8 +73,16 @@
                   <h2 align="center">Siegmund Natzler <span class="lebensdaten">(7. 9. 1862 Wien – 12. 8. 1913 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18366.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Siegmund%20Natzler%20%281862%E2%80%931913%29%20WRB.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

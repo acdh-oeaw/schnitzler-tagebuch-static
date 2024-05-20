@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Chiari <span class="lebensdaten">(4. 9. 1851 Wien – 6. 5. 1916 Straßburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14192.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Anatom, Pathologe</i></p>
                      </div>

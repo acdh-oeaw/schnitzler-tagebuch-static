@@ -73,8 +73,16 @@
                   <h2 align="center">Caroline von Schlegel <span class="lebensdaten">(2. 9. 1763 Göttingen – 7. 9. 1809 Maulbronn)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19715.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Michaelis</p>
                      </div>
                      <div id="mentions">

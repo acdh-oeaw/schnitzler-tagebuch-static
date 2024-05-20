@@ -73,8 +73,16 @@
                   <h2 align="center">Heinrich Dominik <span class="lebensdaten">(31. 8. 1882 Dolní Benešov – 3. 4. 1974 Köln)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14477.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller</i></p>
                      </div>
                      <div id="mentions">

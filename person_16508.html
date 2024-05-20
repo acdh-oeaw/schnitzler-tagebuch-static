@@ -73,8 +73,16 @@
                   <h2 align="center">Johan Gustaf Janson <span class="lebensdaten">(2. 8. 1866 Stockholm – 11. 9. 1913 Därstädes)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16508.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller</i></p>
                      </div>
                      <div id="mentions">

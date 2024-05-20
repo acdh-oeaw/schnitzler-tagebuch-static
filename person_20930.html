@@ -73,8 +73,16 @@
                   <h2 align="center">Rahel von Varnhagen-Ense <span class="lebensdaten">(26. 5. 1771 Berlin – 7. 3. 1833 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20930.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Levin</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

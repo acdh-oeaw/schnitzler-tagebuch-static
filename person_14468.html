@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig von Dóczi <span class="lebensdaten">(30. 11. 1845 Sopron – 30. 8. 1919 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14468.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Politiker, Journalist, Ministerialbeamter, Übersetzer, Diplomat, Ministerialrat, Dramatiker, Librettist</i></p>

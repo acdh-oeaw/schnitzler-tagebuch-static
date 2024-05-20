@@ -73,8 +73,16 @@
                   <h2 align="center">Ariel Bension <span class="lebensdaten">(7. 5. 1887 Jerusalem – 9. 11. 1932 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13605.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Philologe</i></p>
                      </div>
                      <div id="mentions">

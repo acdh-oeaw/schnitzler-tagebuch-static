@@ -73,8 +73,16 @@
                   <h2 align="center">Erna Fleischer <span class="lebensdaten">(23. 1. 1885 Wien – 11. 4. 1982 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15033.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Samuely</p>
                         <p class="personenname"></p>
                      </div>

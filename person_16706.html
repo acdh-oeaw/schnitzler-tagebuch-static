@@ -73,8 +73,16 @@
                   <h2 align="center">Adele Kapper <span class="lebensdaten">(25. 1. 1870 Wien – 1941 Vernichtungslager Maly Trostinez)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16706.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Cohn</p>
                         <p class="personenname"></p>
                      </div>

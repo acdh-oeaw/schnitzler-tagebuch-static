@@ -73,8 +73,16 @@
                   <h2 align="center">Alain René Lesage <span class="lebensdaten">(8. 5. 1668 Sarzeau – 17. 11. 1747 Boulogne-sur-Mer)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17468.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alain-Ren%C3%A9%20Lesage.png" alt="Image" width="200px;"></img></figure>
                         </div>

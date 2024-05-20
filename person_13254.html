@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Armont <span class="lebensdaten">(1874 Rostov-on-Don – 2. 3. 1943 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13254.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Dimitri Petrocchino</p>
                         <p><i>Drehbuchautor, Dramatiker</i></p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Ludmilla Tannenzapf <span class="lebensdaten">(23. 12. 1883 Wien – 20. 2. 1964 Bern)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17689.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftstellerin</i></p>
                      </div>

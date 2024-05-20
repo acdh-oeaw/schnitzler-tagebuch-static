@@ -73,8 +73,16 @@
                   <h2 align="center">Alfons Czibulka <span class="lebensdaten">(14. 5. 1842 Spišské Podhradie – 27. 10. 1894 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14333.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kapellmeister</i></p>
                      </div>
                      <div id="mentions">

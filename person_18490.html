@@ -73,8 +73,16 @@
                   <h2 align="center">Ermete Novelli <span class="lebensdaten">(5. 3. 1851 Lucca – 29. 1. 1919 Neapel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18490.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ermete%20Novelli%20Shylock.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

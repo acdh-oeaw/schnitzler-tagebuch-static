@@ -73,8 +73,16 @@
                   <h2 align="center">Elfriede Friedländer <span class="lebensdaten">(11. 12. 1895 Leipzig – 13. 3. 1961 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15220.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Eisler</p>
                         <p class="personenname">Pseudonym Fischer Ruth</p>
                         <p class="personenname"></p>

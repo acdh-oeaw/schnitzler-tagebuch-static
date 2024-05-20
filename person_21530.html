@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Zeitlin <span class="lebensdaten">(15. 7. 1872 Tiflis – 4. 3. 1946 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21530.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Bildhauer</i></p>
                      </div>
                      <div id="mentions">

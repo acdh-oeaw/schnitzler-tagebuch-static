@@ -73,8 +73,16 @@
                   <h2 align="center">Fritz Wittels <span class="lebensdaten">(14. 11. 1880 Wien – 16. 10. 1950 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21406.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Psychoanalytiker</i></p>
                      </div>

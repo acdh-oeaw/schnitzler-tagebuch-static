@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Swoboda <span class="lebensdaten">(31. 1. 1865 Seewalchen – 10. 10. 1928 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20595.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gymnasialdirektor</i></p>
                      </div>
                      <div id="mentions">

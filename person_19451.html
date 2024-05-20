@@ -73,8 +73,16 @@
                   <h2 align="center">Salo Rubinstein <span class="lebensdaten">(9. 10. 1851 Baja – 17. 1. 1923 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19451.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Buchhändler</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Bruno Kastner <span class="lebensdaten">(3. 1. 1890 Forst – 10. 6. 1932 Bad Kreuznach)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16752.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Filmschauspieler</i></p>
                      </div>
                      <div id="mentions">

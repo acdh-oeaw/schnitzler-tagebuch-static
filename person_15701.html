@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Grünewald <span class="lebensdaten">(17. 3. 1884 Wien – 1942 Konzentrationslager Auschwitz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15701.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Architekt</i></p>
                      </div>
                      <div id="mentions">

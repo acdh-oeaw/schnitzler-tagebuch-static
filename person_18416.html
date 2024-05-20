@@ -73,8 +73,16 @@
                   <h2 align="center">Franz Neumann <span class="lebensdaten">(16. 6. 1874 Přerov – 25. 2. 1929 Brünn)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18416.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Theaterleiter, Komponist, Dirigent</i></p>
                      </div>

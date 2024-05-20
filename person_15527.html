@@ -73,8 +73,16 @@
                   <h2 align="center">Franziska Goldmann <span class="lebensdaten">(29. 5. 1911 Berlin – 19. 8. 1963 Rio de Janeiro)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15527.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspielerin</i></p>
                      </div>
                      <div id="mentions">

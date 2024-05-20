@@ -73,8 +73,16 @@
                   <h2 align="center">Lillian Gish <span class="lebensdaten">(14. 10. 1896 Springfield – 28. 2. 1993 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15449.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Filmschauspielerin</i></p>
                      </div>
                      <div id="mentions">

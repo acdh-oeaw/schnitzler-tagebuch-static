@@ -73,8 +73,16 @@
                   <h2 align="center">Honoré de Balzac <span class="lebensdaten">(20. 5. 1799 Tours – 18. 8. 1850 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13396.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Honor%C3%A9%20de%20Balzac%20%281842%29%20detail.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

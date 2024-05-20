@@ -73,8 +73,16 @@
                   <h2 align="center">Hugo Kauder <span class="lebensdaten">(9. 6. 1888 Tovačov – 22. 7. 1972 Bussum)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16765.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Photo%20of%20HK%20holding%20flower.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

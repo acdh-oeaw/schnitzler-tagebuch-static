@@ -73,8 +73,16 @@
                   <h2 align="center">Harry Walden <span class="lebensdaten">(22. 10. 1875 Berlin – 4. 6. 1921 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21059.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Harry%20Walden%20by%20Rudolf%20D%C3%BChrkoop.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

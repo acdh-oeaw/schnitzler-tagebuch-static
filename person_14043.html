@@ -73,8 +73,16 @@
                   <h2 align="center">Dimitri Buchowetzki <span class="lebensdaten">(1895 – 1932)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14043.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler, Drehbuchautor</i></p>
                      </div>
                      <div id="mentions">

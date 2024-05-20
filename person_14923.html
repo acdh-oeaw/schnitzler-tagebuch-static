@@ -73,8 +73,16 @@
                   <h2 align="center">Leo Feld <span class="lebensdaten">(14. 2. 1869 Augsburg – 5. 9. 1924 Florenz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14923.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Leo Feld</p>
                         <p class="personenname">geboren Hirschfeld</p>
                         <p class="personenname"></p>

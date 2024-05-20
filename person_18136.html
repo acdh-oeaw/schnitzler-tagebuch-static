@@ -73,8 +73,16 @@
                   <h2 align="center">Andreas Albert Michaelis <span class="lebensdaten">(5. 5. 1904 Berlin – 5. 12. 1989 Zaandam)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18136.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Rufname Andy</p>
                         <p class="personenname"></p>
                      </div>

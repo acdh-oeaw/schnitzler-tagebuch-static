@@ -73,8 +73,16 @@
                   <h2 align="center">Rosa von Andrasffy <span class="lebensdaten">(24. 5. 1843 Wien – 20. 4. 1917 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13194.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Erl</p>
                         <p><i>Gesangspädagogin</i></p>
                      </div>

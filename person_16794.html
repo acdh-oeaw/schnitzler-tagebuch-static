@@ -73,8 +73,16 @@
                   <h2 align="center">Gottfried Keller <span class="lebensdaten">(19. 7. 1819 Zürich – 16. 7. 1890 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16794.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Unknown%20Photographer%20Gottfried%20Keller%201870.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -23809,10 +23809,10 @@
          <div class="footer-imprint-bar hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"> © Copyright OEAW | <a href="imprint.html">Impressum</a></div><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script><script src="js/listStopProp.js"></script><script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet"></link><script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"></script><script src="tabulator-js/config.js"></script><script>
             var table = new Tabulator("#tabulator-table", {
             pagination:"local",       //paginate the data
-            paginationSize:25,         //allow 25 rows per page of data
+            paginationSize:50,         //allow 25 rows per page of data
             paginationCounter:"rows", //display count of paginated rows in footer
             movableColumns:true,
-            initialSort:[{column:"verfasser:in", dir:"asc"}, 
+            initialSort:[{column:"verfasser:in", dir:"asc"}, {column:"name", dir:"asc"},
             {column:"titel", dir:"asc"}],
             langs:{
             "de-de":{ //German language definition

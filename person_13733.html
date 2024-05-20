@@ -73,8 +73,16 @@
                   <h2 align="center">Helene Binder <span class="lebensdaten">(23. 5. 1865 Peciu Nou – 11. 3. 1960 Willesden)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13733.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Herz</p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Mayo Wadler <span class="lebensdaten">(5. 10. 1895 New York City – 8. 7. 1976)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21008.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Waldo Mayo</p>
                         <p><i>Violinist</i></p>
                      </div>

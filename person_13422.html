@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Giulio Barrili <span class="lebensdaten">(14. 12. 1836 Savona – 14. 8. 1908 Carcare)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13422.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>
                      <div id="mentions">

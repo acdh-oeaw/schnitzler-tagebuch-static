@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Horst Meyer <span class="lebensdaten">(17. 3. 1853 Chernyakhovsk – 6. 10. 1939 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18116.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans%20Horst%20Meyer%20in%20Wien%20etwa%201930.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

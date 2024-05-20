@@ -73,8 +73,16 @@
                   <h2 align="center">Clara Heine <span class="lebensdaten">(28. 11. 1879 Berlin – 1946)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19019.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Rabitow</p>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin</i></p>

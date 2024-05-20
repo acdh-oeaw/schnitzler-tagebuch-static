@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Arnold Schwer <span class="lebensdaten">(18. 5. 1856 Wien – 19. 7. 1931 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20000.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Politiker, Journalist, Herausgeber</i></p>
                      </div>

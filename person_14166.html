@@ -73,8 +73,16 @@
                   <h2 align="center">Benvenuto Cellini <span class="lebensdaten">(3. 11. 1500 Florenz – 13. 2. 1571 Florenz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14166.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cellini%2C%20Benvenuto%20%C3%96NB.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

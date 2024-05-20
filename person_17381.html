@@ -73,8 +73,16 @@
                   <h2 align="center">Bart Antonij van der Leck <span class="lebensdaten">(26. 11. 1876 Utrecht – 13. 11. 1958 Blaricum)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17381.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Maler, Keramiker, Lithograf</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">William Richard Gowers <span class="lebensdaten">(20. 3. 1845 London – 4. 5. 1915 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15599.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Neurologe</i></p>
                      </div>
                      <div id="mentions">

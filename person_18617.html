@@ -73,8 +73,16 @@
                   <h2 align="center">Thomas Otway <span class="lebensdaten">(3. 3. 1652 Trotton – 16. 4. 1685 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18617.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/William%20Blake%20-%20Thomas%20Otway%20-%20Manchester%20City%20Gallery%20-%20Tempera%20on%20canvas%20c%201800.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Albert Lotz-Lüscher <span class="lebensdaten">(21. 1. 1875 Basel – 2. 9. 1952 Riehen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17700.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Francesco Tamagno <span class="lebensdaten">(28. 12. 1850 Turin – 31. 8. 1905 Varese)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20630.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Sänger, Musiker</i></p>
                      </div>

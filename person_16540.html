@@ -73,8 +73,16 @@
                   <h2 align="center">Max Jentsch <span class="lebensdaten">(5. 8. 1855 Ziesar – 1918.11 Stendal)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16540.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist, Pianist, Geometer</i></p>
                      </div>
                      <div id="mentions">

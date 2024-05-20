@@ -73,8 +73,16 @@
                   <h2 align="center">Edmund Lang <span class="lebensdaten">(12. 11. 1860 Wien – 6. 4. 1918 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21641.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rechtswissenschaftler</i></p>
                      </div>
                      <div id="mentions">

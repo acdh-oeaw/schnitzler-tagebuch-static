@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Ehrenstein <span class="lebensdaten">(29. 3. 1857 Skalice – 29. 5. 1925 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14644.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Kassier</i></p>
                      </div>

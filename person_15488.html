@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Gnirs <span class="lebensdaten">(18. 1. 1873 Žatec – 10. 12. 1938 Loket)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15488.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Historiker, Archäologe, Kunsthistoriker, Konservator</i></p>
                      </div>

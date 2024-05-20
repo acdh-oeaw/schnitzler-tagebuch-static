@@ -73,8 +73,16 @@
                   <h2 align="center">Edmond Huot de Goncourt <span class="lebensdaten">(26. 5. 1822 Nancy – 16. 7. 1896 Draveil)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15567.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edmond%20de%20Goncourt%20by%20Nadar%20c1877.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

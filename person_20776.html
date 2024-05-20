@@ -73,8 +73,16 @@
                   <h2 align="center">Oskar Tonello <span class="lebensdaten">(29. 3. 1881 Wien – 14. 12. 1942 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20776.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Restaurantbesitzer</i></p>
                      </div>
                      <div id="mentions">

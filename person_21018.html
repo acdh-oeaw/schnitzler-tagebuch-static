@@ -73,8 +73,16 @@
                   <h2 align="center">Frieda Wagen <span class="lebensdaten">(16. 8. 1868 – 4. 6. 1921 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21018.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspielerin</i></p>
                      </div>
                      <div id="mentions">

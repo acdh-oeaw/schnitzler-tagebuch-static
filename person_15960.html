@@ -73,8 +73,16 @@
                   <h2 align="center">Karl von Hasenauer <span class="lebensdaten">(20. 7. 1833 Wien – 4. 1. 1894 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15960.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karl-von-Hasenauer-1880-2.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

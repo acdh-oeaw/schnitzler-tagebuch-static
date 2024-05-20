@@ -73,8 +73,16 @@
                   <h2 align="center">Elmer Rice <span class="lebensdaten">(28. 9. 1892 New York City – 8. 5. 1967 Southampton)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19232.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Elmer%20Rice2.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

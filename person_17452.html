@@ -73,8 +73,16 @@
                   <h2 align="center">Leonardo da Vinci <span class="lebensdaten">(15. 4. 1452 Vinci – 2. 5. 1519 Schloss Clos Lucé)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17452.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesco%20Melzi%20-%20Portrait%20of%20Leonardo.png" alt="Image" width="200px;"></img></figure>
                         </div>

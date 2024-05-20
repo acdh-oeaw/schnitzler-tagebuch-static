@@ -73,8 +73,16 @@
                   <h2 align="center">Charles Joseph von Ligne <span class="lebensdaten">(23. 5. 1735 Brüssel – 13. 12. 1814 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17542.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Grassi%20-%20Charles-Joseph%20de%20Ligne%20-%20Wallace%20Collection%20.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

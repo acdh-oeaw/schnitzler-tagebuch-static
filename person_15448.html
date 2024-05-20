@@ -73,8 +73,16 @@
                   <h2 align="center">Gisela von Österreich <span class="lebensdaten">(12. 7. 1856 Laxenburg – 27. 7. 1932 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15448.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rudolf%20Krziwanek%20-%20Gisela%2C%20Ezherzogin%20von%20%C3%96sterreich%20-%2002%20%282%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

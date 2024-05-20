@@ -73,8 +73,16 @@
                   <h2 align="center">Alexandre père Dumas <span class="lebensdaten">(24. 7. 1802 Villers-Cotterêts – 5. 12. 1870 Puys)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14547.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexander%20Dumas%20p%C3%A8re%20par%20Nadar%20-%20Google%20Art%20Project.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Johann Ress <span class="lebensdaten">(8. 8. 1839 Frankfurt am Main – 6. 12. 1916 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19197.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gesangspädagoge</i></p>
                      </div>
                      <div id="mentions">

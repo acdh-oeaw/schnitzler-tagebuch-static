@@ -73,8 +73,16 @@
                   <h2 align="center">Léo Délibes <span class="lebensdaten">(21. 2. 1836 Saint-Germain-du-Val – 16. 1. 1891 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14399.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist</i></p>
                      </div>

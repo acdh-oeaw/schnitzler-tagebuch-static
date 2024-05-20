@@ -73,8 +73,16 @@
                   <h2 align="center">Anna Bock <span class="lebensdaten">(26. 11. 1869 Prag – 23. 2. 1940 Mödling)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13814.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin</i></p>
                      </div>

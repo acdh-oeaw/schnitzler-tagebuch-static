@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig Back <span class="lebensdaten">(6. 8. 1864 Prostějov – 20. 11. 1937 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13363.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kaufmann</i></p>
                      </div>
                      <div id="mentions">

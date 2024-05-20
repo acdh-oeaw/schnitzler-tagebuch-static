@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Lorenz <span class="lebensdaten">(26. 3. 1873 Wien – 17. 12. 1934 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17685.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Chirurg</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Felix Cleve <span class="lebensdaten">(8. 2. 1890 Wien – 1.1.1985 Los Angeles)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14242.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Löwy</p>
                         <p><i>Journalist, Altphilologe</i></p>
                      </div>

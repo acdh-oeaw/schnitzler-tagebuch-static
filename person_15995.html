@@ -73,8 +73,16 @@
                   <h2 align="center">Witold? Hausner <span class="lebensdaten">(15. 12. 1852 Lviv – 24. 4. 1925 Krakau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15995.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Ministerialbeamter</i></p>
                      </div>
                      <div id="mentions">

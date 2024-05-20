@@ -73,8 +73,16 @@
                   <h2 align="center">Viktor Thumser <span class="lebensdaten">(10. 6. 1857 Znaim – 27. 10. 1928 Graz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20732.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gymnasialdirektor</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Clara Samuely <span class="lebensdaten">(21. 7. 1858 Wien – 21. 6. 1925 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19558.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Friedländer</p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Jean Jaurès <span class="lebensdaten">(3. 9. 1859 Castres – 31. 7. 1914 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16521.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean%20Jaur%C3%A8s%2C%201904%2C%20par%20Nadar.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

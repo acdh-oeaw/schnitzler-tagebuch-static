@@ -73,8 +73,16 @@
                   <h2 align="center">Emilie Sgal <span class="lebensdaten">(7. 5. 1871 Wien – 3.12.1938 Den Haag)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20075.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Speyer</p>
                      </div>
                      <div id="mentions">

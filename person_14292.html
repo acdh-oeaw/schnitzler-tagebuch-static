@@ -73,8 +73,16 @@
                   <h2 align="center">Jean-François de Couperin <span class="lebensdaten">(10. 11. 1668 Paris – 12. 9. 1733 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14292.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Ludin-Schnurrenberger <span class="lebensdaten">(7. 1. 1872 Thusis – 24. 11. 1937 Männedorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17721.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schulleiter</i></p>
                      </div>
                      <div id="mentions">

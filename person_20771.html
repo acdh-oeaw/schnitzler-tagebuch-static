@@ -73,8 +73,16 @@
                   <h2 align="center">Alexei N. Tolstoi <span class="lebensdaten">(10. 1. 1883 Nikolayevsk-on-Amur – 23. 2. 1945 Moskau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20771.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ANTolstoy.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

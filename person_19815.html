@@ -73,8 +73,16 @@
                   <h2 align="center">Ignaz Schnitzer <span class="lebensdaten">(4. 12. 1839 Ratzersdorf – 18. 6. 1921 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19815.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Journalist, Übersetzer, Drehbuchautor, Librettist</i></p>
                      </div>

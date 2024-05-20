@@ -73,8 +73,16 @@
                   <h2 align="center">Henri de Régnier <span class="lebensdaten">(28. 12. 1864 Honfleur – 23. 5. 1936 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19106.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henri%20de%20R%C3%A9gnier-1917.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

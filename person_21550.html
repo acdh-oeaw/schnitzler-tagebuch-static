@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Ziegler <span class="lebensdaten">(9. 5. 1879 Karlsruhe – 25. 12. 1961 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21550.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans%20Ziegler%20Brustbild%20Profil.png" alt="Image" width="200px;"></img></figure>
                         </div>

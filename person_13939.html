@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Brauner <span class="lebensdaten">(21. 10. 1871 Odessa – 1937 Istanbul)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13939.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Александр Матвеевич Браунер</p>
                         <p class="personenname"></p>

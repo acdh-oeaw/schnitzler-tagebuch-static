@@ -73,8 +73,16 @@
                   <h2 align="center">Irene Schlemmer-Ambros <span class="lebensdaten">(15. 11. 1853 Prag – 29. 9. 1943 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19723.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gesangspädagogin</i></p>
                      </div>
                      <div id="mentions">

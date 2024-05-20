@@ -73,8 +73,16 @@
                   <h2 align="center">Max Anton Heck <span class="lebensdaten">(29. 5. 1883 Basel – 14. 12. 1961 Bern)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16016.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Optiker</i></p>
                      </div>
                      <div id="mentions">

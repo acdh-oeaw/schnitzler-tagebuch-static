@@ -73,8 +73,16 @@
                   <h2 align="center">Olga von Dirsztay <span class="lebensdaten">(19. 11. 1883 – 16. 1. 1962 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14461.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Berger</p>
                         <p><i>Tänzerin</i></p>
                      </div>

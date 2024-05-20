@@ -73,8 +73,16 @@
                   <h2 align="center">Nolly von Seemann-Treuenwart <span class="lebensdaten">(17. 10. 1888 Wien – 30. 5. 1944 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20019.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Morawitz</p>
                      </div>
                      <div id="mentions">

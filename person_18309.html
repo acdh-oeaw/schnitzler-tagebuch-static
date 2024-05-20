@@ -73,8 +73,16 @@
                   <h2 align="center">Wenzel Müller <span class="lebensdaten">(26. 9. 1767 Trnava – 3. 8. 1835 Baden bei Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18309.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist, Kapellmeister</i></p>
                      </div>

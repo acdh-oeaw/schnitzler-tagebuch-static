@@ -73,8 +73,16 @@
                   <h2 align="center">Oskar Benjamin Frankl <span class="lebensdaten">(18. 1. 1881 Kroměříž – 1955.12 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15142.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Pädagoge, Direktor</i></p>
                      </div>
                      <div id="mentions">

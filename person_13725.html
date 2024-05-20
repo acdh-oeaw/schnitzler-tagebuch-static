@@ -73,8 +73,16 @@
                   <h2 align="center">Margaretha Elisabeth Bienz <span class="lebensdaten">(4. 3. 1881 Basel – 15. 12. 1937 Genf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13725.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalistin</i></p>
                      </div>
                      <div id="mentions">

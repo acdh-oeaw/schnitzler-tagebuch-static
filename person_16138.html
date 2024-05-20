@@ -73,8 +73,16 @@
                   <h2 align="center">Elvira Leontine Hervay von Kirchberg <span class="lebensdaten">(18. 7. 1860 Poznan – nach 1929)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16138.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Bellachini</p>
                         <p class="personenname">Rufname Tamara</p>
                         <p class="personenname"></p>

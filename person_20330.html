@@ -73,8 +73,16 @@
                   <h2 align="center">Friedrich Gottlieb Stapß <span class="lebensdaten">(14. 3. 1792 Naumburg – 16. 10. 1809 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20330.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Freiheitskämpfer</i></p>
                      </div>
                      <div id="mentions">

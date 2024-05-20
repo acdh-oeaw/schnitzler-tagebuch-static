@@ -73,8 +73,16 @@
                   <h2 align="center">Morris Gest <span class="lebensdaten">(17. 1. 1881 Vilnius – 16. 5. 1942 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15409.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theateragent</i></p>
                      </div>
                      <div id="mentions">

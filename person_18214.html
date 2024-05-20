@@ -73,8 +73,16 @@
                   <h2 align="center">Molière <span class="lebensdaten">(14. 1. 1622 Paris – 17. 2. 1673 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18214.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre%20Mignard%20-%20Portrait%20de%20Jean-Baptiste%20Poquelin%20dit%20Moli%C3%A8re%20%281622-1673%29%20-%20Google%20Art%20Project%20%28cropped%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

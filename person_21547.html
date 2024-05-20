@@ -73,8 +73,16 @@
                   <h2 align="center">Alice Ziegler <span class="lebensdaten">(5. 1. 1880 Prag – Dezember 1943 Konzentrationslager Auschwitz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21547.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Bondy</p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Édouard Dujardin <span class="lebensdaten">(10. 10. 1861 Saint-Gervais-la-Forêt – 31. 10. 1949 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14542.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%C3%89douard%20Dujardin%20by%20Vallotton.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

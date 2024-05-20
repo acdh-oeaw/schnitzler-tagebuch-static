@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Rée <span class="lebensdaten">(21. 11. 1849 Neu Bartelshagen – 28. 10. 1901 Celerina)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19100.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nietzsche%20paul-ree%20lou-von-salome188.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

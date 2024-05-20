@@ -73,8 +73,16 @@
                   <h2 align="center">Julius Wahle <span class="lebensdaten">(15. 2. 1861 Wien – 1930)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21043.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Die%20Wissenschaftler%20des%20Goethe-%20und%20Schiller-Archivs%2C%20um%201918%20%28Julius%20Wahle%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Ivan Mosjoukine <span class="lebensdaten">(26. 9. 1887 Penza – 17. 1. 1939 Neuilly-sur-Seine)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18268.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Filmschauspieler</i></p>
                      </div>
                      <div id="mentions">

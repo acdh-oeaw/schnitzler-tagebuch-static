@@ -73,8 +73,16 @@
                   <h2 align="center">Stephan von Kamare <span class="lebensdaten">(22. 6. 1885 – 7. 4. 1945 Hadersdorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16673.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Industrieller</i></p>

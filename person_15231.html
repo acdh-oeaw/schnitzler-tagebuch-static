@@ -73,8 +73,16 @@
                   <h2 align="center">Max Friedmann <span class="lebensdaten">(14. 4. 1864 Reşiţa – 23. 8. 1936 Bad Ischl)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15231.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adams-Max%20Friedmann-1908.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

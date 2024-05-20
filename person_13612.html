@@ -73,8 +73,16 @@
                   <h2 align="center">Leopold von Berchtold <span class="lebensdaten">(18. 4. 1863 Wien – 21. 11. 1942 Peresznye)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13612.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bundesarchiv%20Bild%20183-2004-1110-500%2C%20Leopold%20Graf%20Berchtold.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

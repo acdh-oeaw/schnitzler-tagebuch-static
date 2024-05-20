@@ -73,8 +73,16 @@
                   <h2 align="center">Kurt von Mutzenbecher <span class="lebensdaten">(18. 11. 1866 Hamburg – 7. 10. 1938 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18338.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theaterleiter, Beamter</i></p>
                      </div>
                      <div id="mentions">

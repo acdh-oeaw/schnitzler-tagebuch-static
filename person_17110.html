@@ -73,8 +73,16 @@
                   <h2 align="center">Lili Kraus <span class="lebensdaten">(4. 3. 1905 Budapest – 6. 11. 1986 Asheville)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17110.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Pianistin, Musikerin</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Adolph Sigmund Oko <span class="lebensdaten">(1883 Kharkiv – 3. 10. 1944 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18539.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Philosoph</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Cornelius Petrus van Rossem <span class="lebensdaten">(21. 4. 1885 Rotterdam – 31. 12. 1934 Huis ter Heide)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19401.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Kritiker, Rechtsanwalt</i></p>
                      </div>
                      <div id="mentions">

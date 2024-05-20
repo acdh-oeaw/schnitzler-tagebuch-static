@@ -73,8 +73,16 @@
                   <h2 align="center">Moses Maimonides <span class="lebensdaten">(30. 3. 1135 Cordova – 13. 12. 1204 Kairo)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17793.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner, Philosoph</i></p>
                      </div>
                      <div id="mentions">

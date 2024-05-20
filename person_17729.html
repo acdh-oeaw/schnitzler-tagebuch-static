@@ -73,8 +73,16 @@
                   <h2 align="center">Axel Lübbe <span class="lebensdaten">(18. 12. 1880 Litwinki (Nidzica) – 15. 12. 1963 Schöneiche)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17729.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Übersetzer</i></p>
                      </div>
                      <div id="mentions">

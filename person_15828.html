@@ -73,8 +73,16 @@
                   <h2 align="center">Josef Franz von Habsburg-Lothringen <span class="lebensdaten">(28. 3. 1895 Brünn – 25. 9. 1957 Carcavelos)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15828.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rechtswissenschaftler</i></p>
                      </div>
                      <div id="mentions">

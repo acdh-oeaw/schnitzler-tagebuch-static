@@ -73,8 +73,16 @@
                   <h2 align="center">Max Halbe <span class="lebensdaten">(4. 10. 1865 Gmina Suchy Dąb – 30. 11. 1944 Neuötting)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15859.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Halbe%20Max.JPG" alt="Image" width="200px;"></img></figure>
                         </div>

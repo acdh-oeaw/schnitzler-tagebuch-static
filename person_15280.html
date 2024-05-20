@@ -73,8 +73,16 @@
                   <h2 align="center">Moriz Fuchs <span class="lebensdaten">(27. 9. 1860 Wien – 10. 5. 1934 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15280.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist</i></p>
                      </div>
                      <div id="mentions">

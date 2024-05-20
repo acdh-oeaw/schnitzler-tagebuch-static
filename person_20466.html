@@ -73,8 +73,16 @@
                   <h2 align="center">Franz Georg Strafella <span class="lebensdaten">(3. 3. 1891 Ptuj – 26. 2. 1968 Graz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20466.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rechtswissenschaftler, Generaldirektor</i></p>
                      </div>
                      <div id="mentions">

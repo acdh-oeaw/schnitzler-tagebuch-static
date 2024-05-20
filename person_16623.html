@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred? Kadisch <span class="lebensdaten">(19. 6. 1859 Wien – 14. 3. 1930 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16623.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Beamter</i></p>
                      </div>
                      <div id="mentions">

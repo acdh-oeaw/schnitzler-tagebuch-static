@@ -73,8 +73,16 @@
                   <h2 align="center">Louis Pasteur <span class="lebensdaten">(27. 12. 1822 Dôle – 28. 9. 1895 Marnes-la-Coquette)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18669.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis%20Pasteur%20%281822%20-%201895%29%2C%20microbiologist%20and%20chemist%20Wellcome%20V0026980.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

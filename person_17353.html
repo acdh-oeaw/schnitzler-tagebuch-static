@@ -73,8 +73,16 @@
                   <h2 align="center">Gabriele Gisela Latzko <span class="lebensdaten">(3. 9. 1867 Wien – 7. 2. 1948 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17353.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Scharf</p>
                      </div>
                      <div id="mentions">

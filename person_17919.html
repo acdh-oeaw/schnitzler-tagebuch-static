@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Marmorek <span class="lebensdaten">(19. 2. 1865 Nielnica – 12. 7. 1923 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17919.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Bakteriologe</i></p>
                      </div>

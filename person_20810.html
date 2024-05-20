@@ -73,8 +73,16 @@
                   <h2 align="center">Friedrich Gustav Triesch <span class="lebensdaten">(16. 6. 1845 Wien – 24. 5. 1907 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20810.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto%20Friedrich%20Portrait%20of%20Friedrich%20Gustav%20Triesch%201897.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

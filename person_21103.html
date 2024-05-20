@@ -73,8 +73,16 @@
                   <h2 align="center">Armin Wassermann <span class="lebensdaten">(27. 6. 1887 Fürth – 13. 9. 1916 Schlacht an der Somme)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21103.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Schauspieler</i></p>
                      </div>
                      <div id="mentions">

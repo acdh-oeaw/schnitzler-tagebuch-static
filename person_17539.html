@@ -73,8 +73,16 @@
                   <h2 align="center">Silvia Lieser <span class="lebensdaten">(16. 11. 1868 Frankfurt am Main – 20. 6. 1938 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17539.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Steinhardt</p>
                      </div>
                      <div id="mentions">

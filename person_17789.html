@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Mahn <span class="lebensdaten">(16. 10. 1867 Malchin – 3. 5. 1927)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17789.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist, Kritiker</i></p>
                      </div>
                      <div id="mentions">

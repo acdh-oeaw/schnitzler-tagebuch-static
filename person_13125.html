@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Albers <span class="lebensdaten">(22. 9. 1891 Hamburg – 24. 7. 1960 Kempfenhausen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13125.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bundesarchiv%20Bild%20102-00586A%2C%20Hans%20Albers%2C%20Ausschnitt.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

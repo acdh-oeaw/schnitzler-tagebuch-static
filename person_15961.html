@@ -73,8 +73,16 @@
                   <h2 align="center">Walter Hasenclever <span class="lebensdaten">(8. 7. 1890 Aachen – 15. 8. 1940 Les Milles)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15961.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walter%20Hasenclever%20by%20Hugo%20Erfurth%2C%201917.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

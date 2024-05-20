@@ -73,8 +73,16 @@
                   <h2 align="center">Heinrich Teweles <span class="lebensdaten">(13. 11. 1856 Prag – 9. 8. 1927 Prein an der Rax)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20682.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Heinrich%20Teweles%20-%20playwright%2C%20writer%20and%20theater%20director.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

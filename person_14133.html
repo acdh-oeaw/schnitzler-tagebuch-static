@@ -73,8 +73,16 @@
                   <h2 align="center">François Rupert Carabin <span class="lebensdaten">(27. 3. 1862 Saverne – 1932 Straßburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14133.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Bildhauer</i></p>
                      </div>

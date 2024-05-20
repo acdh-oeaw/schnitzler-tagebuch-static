@@ -73,8 +73,16 @@
                   <h2 align="center">Theodor von Budberg <span class="lebensdaten">(19. 11. 1851 Berlin – 23. 2. 1916 Madrid)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14045.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Diplomat</i></p>
                      </div>

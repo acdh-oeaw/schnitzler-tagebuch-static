@@ -73,8 +73,16 @@
                   <h2 align="center">Hermine Zuckerkandl <span class="lebensdaten">(16. 5. 1902 Wien – 11. 5. 2000 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21599.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Rufname Minnie</p>
                         <p class="personenname"></p>
                      </div>

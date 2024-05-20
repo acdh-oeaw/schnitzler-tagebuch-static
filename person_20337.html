@@ -73,8 +73,16 @@
                   <h2 align="center">Ottokar Stauf von der March <span class="lebensdaten">(29. 8. 1868 Olomouc – 12. 3. 1941 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20337.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Method Chalupka</p>
                         <p><i>Schriftsteller, Journalist</i></p>

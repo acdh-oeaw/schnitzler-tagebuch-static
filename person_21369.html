@@ -73,8 +73,16 @@
                   <h2 align="center">Johann Winkler <span class="lebensdaten">(1881 – 27. 9. 1950 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21369.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Finanzbeamter</i></p>
                      </div>
                      <div id="mentions">

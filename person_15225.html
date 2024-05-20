@@ -73,8 +73,16 @@
                   <h2 align="center">Ignaz Friedman <span class="lebensdaten">(14. 2. 1882 Podgórze – 26. 1. 1948 Sydney)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15225.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Komponist, Pianist</i></p>
                      </div>

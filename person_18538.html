@@ -73,8 +73,16 @@
                   <h2 align="center">Kakuzo Okakura <span class="lebensdaten">(1862 Yokohama – 1913 Akakura)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18538.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Maler</i></p>
                      </div>
                      <div id="mentions">

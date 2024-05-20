@@ -73,8 +73,16 @@
                   <h2 align="center">Miguel de Cervantes Saavedra <span class="lebensdaten">(29. 9. 1547 Alcalá de Henares – 22. 4. 1616 Madrid)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14169.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cervantes%20J%C3%A1uregui.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

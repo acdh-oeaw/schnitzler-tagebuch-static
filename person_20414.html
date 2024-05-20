@@ -73,8 +73,16 @@
                   <h2 align="center">Hugo Stern <span class="lebensdaten">(21. 4. 1875 Prag – 7. 7. 1941 Nizza)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20414.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Laryngologe, Arzt, Hals-Nasen-Ohren-Arzt</i></p>
                      </div>

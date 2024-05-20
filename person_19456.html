@@ -73,8 +73,16 @@
                   <h2 align="center">Emma Aloisia Rudolf <span class="lebensdaten">(11. 5. 1875 Wien – 30. 7. 1953 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19456.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Täubele</p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Felix Huguenet <span class="lebensdaten">(1858 Lyon – 19. 11. 1926)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16412.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspieler</i></p>
                      </div>
                      <div id="mentions">

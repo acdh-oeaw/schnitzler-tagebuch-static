@@ -73,8 +73,16 @@
                   <h2 align="center">August Karl von Dönhoff <span class="lebensdaten">(26. 1. 1845 Frankfurt am Main – 9. 9. 1920 Kamenka)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14471.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Diplomat</i></p>
                      </div>
                      <div id="mentions">

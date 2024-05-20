@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Keller <span class="lebensdaten">(6. 7. 1873 Arnsdorf – 20. 8. 1932 Breslau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16799.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul%20Keller%202.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

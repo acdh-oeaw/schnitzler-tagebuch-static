@@ -73,8 +73,16 @@
                   <h2 align="center">Mathilda Hollitscher <span class="lebensdaten">(1887 Wien – 1978 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16328.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Freud</p>
                      </div>
                      <div id="mentions">

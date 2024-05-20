@@ -73,8 +73,16 @@
                   <h2 align="center">Camillo Castiglioni <span class="lebensdaten">(22. 10. 1879 Triest – 19. 12. 1957 Rom)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14158.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Industrieller, Bankier</i></p>
                      </div>
                      <div id="mentions">

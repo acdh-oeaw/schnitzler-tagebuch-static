@@ -73,8 +73,16 @@
                   <h2 align="center">Alban Berg <span class="lebensdaten">(9. 2. 1885 Wien – 24. 12. 1935 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13618.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Alban_Berg_%281885–1935%29_~1930_©_Max_Fenichel_%281885–1942%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

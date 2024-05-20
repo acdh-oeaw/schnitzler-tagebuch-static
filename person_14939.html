@@ -73,8 +73,16 @@
                   <h2 align="center">Richard Fellner <span class="lebensdaten">(13. 1. 1861 Wien – 17. 7. 1910 Bad Gleichenberg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14939.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Kritiker, Regisseur, Dramaturg</i></p>
                      </div>

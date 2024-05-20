@@ -73,8 +73,16 @@
                   <h2 align="center">Heinz Rühmann <span class="lebensdaten">(7. 3. 1902 Essen – 3. 10. 1994 Aufkirchen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19463.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fotothek%20df%20roe-neg%200000039%20002%20Heinz%20R%C3%BChmann%20am%20PKW%20crop.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

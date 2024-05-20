@@ -73,8 +73,16 @@
                   <h2 align="center">Ferdinand Gross <span class="lebensdaten">(8. 4. 1849 Wien – 21. 12. 1900 Kaltenleutgeben)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15678.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>

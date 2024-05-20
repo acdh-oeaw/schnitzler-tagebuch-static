@@ -73,8 +73,16 @@
                   <h2 align="center">Ernesto Rossi <span class="lebensdaten">(27. 3. 1827 Livorno – 4. 6. 1896 Pescara)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19404.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Schauspieler</i></p>

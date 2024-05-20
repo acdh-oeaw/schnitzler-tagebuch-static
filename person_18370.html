@@ -73,8 +73,16 @@
                   <h2 align="center">Josephine Nebauer <span class="lebensdaten">(14. 6. 1870 München – 24. 1. 1917 Hannover)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18370.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin</i></p>
                      </div>

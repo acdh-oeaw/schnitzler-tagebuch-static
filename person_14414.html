@@ -73,8 +73,16 @@
                   <h2 align="center">Camille Desmoulins <span class="lebensdaten">(2. 3. 1760 Guise – 5. 4. 1794 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14414.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Camille%2520Desmoulins%252C%2520Mus%25C3%25A9e%2520Carnavalet.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

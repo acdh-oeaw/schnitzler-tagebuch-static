@@ -73,8 +73,16 @@
                   <h2 align="center">Joseph Modl <span class="lebensdaten">(18. 3. 1863 Wien – 1. 3. 1915 Karlsbad)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18200.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Sänger, Komponist, Gesangskomiker, Autor</i></p>
                      </div>

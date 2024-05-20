@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Lange Kielland <span class="lebensdaten">(8. 2. 1849 Stavanger – 6. 4. 1906 Bergen (Norwegen))</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16835.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexander%20Kielland%20by%20Emil%20Hohlenberg%20%28cropped%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Otto Franz Jahn <span class="lebensdaten">(20. 8. 1876 Wien – 12. 1. 1929 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16493.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Lehrer</i></p>
                      </div>
                      <div id="mentions">

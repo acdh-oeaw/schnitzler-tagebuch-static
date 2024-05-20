@@ -73,8 +73,16 @@
                   <h2 align="center">Heinrich von Korff <span class="lebensdaten">(5. 6. 1868 Wien – 18. 8. 1938 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17047.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Schmiesing von Korff</p>
                         <p><i>Journalist</i></p>
                      </div>

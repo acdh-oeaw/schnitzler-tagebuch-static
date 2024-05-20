@@ -73,8 +73,16 @@
                   <h2 align="center">Arthur Hellmer <span class="lebensdaten">(29. 6. 1880 Domašov – 12. 1. 1961 Hamburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16075.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Ehrlich</p>
                         <p><i>Theaterleiter, Schauspieler</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Erich Engel <span class="lebensdaten">(14. 2. 1891 Hamburg – 10. 5. 1966 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14752.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Erich%20Engel%20Bundesarchiv%20Bild%20183-93752-0002%2C%20Berlin%2C%20AdK-Plenartagung%282%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

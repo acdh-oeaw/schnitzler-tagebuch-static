@@ -73,8 +73,16 @@
                   <h2 align="center">Henri Berény <span class="lebensdaten">(1. 1. 1871 Košice – 22. 3. 1932 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13616.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait%20de%20Henri%20B%C3%A9r%C3%A9ny%20-%20Archives%20nationales.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

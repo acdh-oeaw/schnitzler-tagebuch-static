@@ -73,8 +73,16 @@
                   <h2 align="center">Francis de Croisset <span class="lebensdaten">(28. 1. 1877 Brüssel – 8. 11. 1937 Neuilly-sur-Seine)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14300.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Franz Wiener</p>
                         <p class="personenname"></p>

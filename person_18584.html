@@ -73,8 +73,16 @@
                   <h2 align="center">Norbert von Ortner-Rodenstätt <span class="lebensdaten">(10. 8. 1865 Linz – 1. 3. 1935 Salzburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18584.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Mediziner, Internist, Kardiologe</i></p>
                      </div>

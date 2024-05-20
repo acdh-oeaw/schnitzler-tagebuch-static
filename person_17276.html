@@ -73,8 +73,16 @@
                   <h2 align="center">Adele Landesberger <span class="lebensdaten">(6. 6. 1872 Wien – 4. 10. 1933 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17276.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Stoerk</p>
                      </div>
                      <div id="mentions">

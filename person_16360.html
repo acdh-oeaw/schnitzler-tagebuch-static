@@ -73,8 +73,16 @@
                   <h2 align="center">Cäcilie Horn <span class="lebensdaten">(1. 9. 1839 Wien – 28. 11. 1914 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16360.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Ratzersdorfer</p>
                         <p class="personenname">Rufname Cecile</p>
                      </div>

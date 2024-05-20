@@ -73,8 +73,16 @@
                   <h2 align="center">Lotte Anninger <span class="lebensdaten">(12. 9. 1905 Wien – 26. 10. 1990 Alameda)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13218.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Arthur Schurig <span class="lebensdaten">(24. 4. 1870 Dresden – 16. 2. 1929 Dresden)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19946.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Übersetzer</i></p>
                      </div>
                      <div id="mentions">

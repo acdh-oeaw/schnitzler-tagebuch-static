@@ -73,8 +73,16 @@
                   <h2 align="center">Max Neufeld <span class="lebensdaten">(13. 2. 1887 Guntersdorf – 1967.12.03? Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18401.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max%20Neufeld%20%281887%E2%80%931967%29%20um%201918.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

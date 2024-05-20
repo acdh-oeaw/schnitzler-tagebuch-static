@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Romako <span class="lebensdaten">(20. 10. 1834 Atzgersdorf – 8. 3. 1889 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19339.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Maler, Künstler</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Korvin <span class="lebensdaten">(21. 11. 1860 Trnava – 11. 7. 1933 Neustift)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17064.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner</i></p>
                      </div>
                      <div id="mentions">

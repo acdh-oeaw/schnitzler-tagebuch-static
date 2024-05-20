@@ -73,8 +73,16 @@
                   <h2 align="center">Helene Migerka <span class="lebensdaten">(13. 9. 1867 Brünn – 26. 3. 1928 Graz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18155.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftstellerin</i></p>
                      </div>

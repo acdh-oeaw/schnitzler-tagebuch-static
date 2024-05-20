@@ -73,8 +73,16 @@
                   <h2 align="center">Pierre Bourdeille de Brantôme <span class="lebensdaten">(1540? Périgord – 15. 7. 1614 Brantôme)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13927.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre%20de%20Bourdeille%2C%20dit%20Brant%C3%B4me%20%28v.%201540-1614%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

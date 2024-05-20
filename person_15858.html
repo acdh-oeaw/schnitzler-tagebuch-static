@@ -73,8 +73,16 @@
                   <h2 align="center">Luise Halbe <span class="lebensdaten">(14.7.1867 Kreischau – 24.3.1957)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15858.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Heck</p>
                         <p><i>Schriftstellerin</i></p>
                      </div>

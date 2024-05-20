@@ -73,8 +73,16 @@
                   <h2 align="center">Otmar Müller <span class="lebensdaten">(29. 7. 1864 Ritschka – 23. 12. 1937)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18304.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Gymnasiallehrer, Mönch</i></p>
                      </div>

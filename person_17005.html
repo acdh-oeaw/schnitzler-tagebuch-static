@@ -73,8 +73,16 @@
                   <h2 align="center">Sophie Kolisch <span class="lebensdaten">(1841? – 13. 11. 1912 Hodonín)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17005.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Industrielle</i></p>
                      </div>
                      <div id="mentions">

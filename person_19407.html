@@ -73,8 +73,16 @@
                   <h2 align="center">Medardo Rosso <span class="lebensdaten">(20. 6. 1858 Turin – 31. 3. 1928 Mailand)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19407.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Bildhauer</i></p>
                      </div>
                      <div id="mentions">

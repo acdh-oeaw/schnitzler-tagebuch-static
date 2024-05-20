@@ -73,8 +73,16 @@
                   <h2 align="center">Anton S. Arensky <span class="lebensdaten">(11. 8. 1861 Nischni Nowgorod – 25. 2. 1906 Zelenogorsk)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13245.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist, Dirigent</i></p>
                      </div>
                      <div id="mentions">

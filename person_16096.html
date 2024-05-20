@@ -73,8 +73,16 @@
                   <h2 align="center">Max Henze <span class="lebensdaten">(26. 1. 1871 Mózgowo – 25. 11. 1903 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16096.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Starorypinski</p>
                         <p class="personenname">Rufname Max</p>
                         <p><i>Journalist, Schauspieler</i></p>

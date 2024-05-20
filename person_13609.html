@@ -73,8 +73,16 @@
                   <h2 align="center">László Beöthy <span class="lebensdaten">(13. 4. 1873 Budapest – 7. 5. 1931 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13609.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theaterleiter, Regisseur</i></p>
                      </div>
                      <div id="mentions">

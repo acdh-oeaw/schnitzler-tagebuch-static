@@ -73,8 +73,16 @@
                   <h2 align="center">Henrik Ibsen <span class="lebensdaten">(20. 3. 1828 Skien – 23. 5. 1906 Oslo)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16432.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ibsen%20by%20Olrik.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

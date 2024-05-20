@@ -73,8 +73,16 @@
                   <h2 align="center">Christiane von Thun-Hohenstein-Salm-Reifferscheidt <span class="lebensdaten">(12. 6. 1859 Doksy – 6. 8. 1935 Prag)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20737.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Kristiana von Waldstein</p>
                         <p class="personenname"></p>

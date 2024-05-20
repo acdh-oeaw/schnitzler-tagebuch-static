@@ -73,8 +73,16 @@
                   <h2 align="center">Lothar Wallerstein <span class="lebensdaten">(6. 11. 1882 Prag – 12. 11. 1949 New Orleans)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21071.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Richard%20Strauss%20and%20Lothar%20Wallerstein%20April%208%201932.png" alt="Image" width="200px;"></img></figure>
                         </div>

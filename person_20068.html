@@ -73,8 +73,16 @@
                   <h2 align="center">Franz Servaes <span class="lebensdaten">(17. 6. 1862 Köln – 14. 7. 1947 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20068.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Journalist, Kritiker</i></p>
                      </div>

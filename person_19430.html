@@ -73,8 +73,16 @@
                   <h2 align="center">Albert Salomon von Rothschild <span class="lebensdaten">(29. 10. 1844 Wien – 11. 2. 1911 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19430.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Albert%20von%20Rothschild%20photographed%20by%20Emil%20Rabending.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

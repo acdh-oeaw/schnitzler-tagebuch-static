@@ -73,8 +73,16 @@
                   <h2 align="center">Vincent van Gogh <span class="lebensdaten">(30. 3. 1853 Zundert – 29. 7. 1890 Auvers-sur-Oise)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15509.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vincent%20van%20Gogh%20-%20Self-Portrait%20-%20Google%20Art%20Project%20%28454045%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

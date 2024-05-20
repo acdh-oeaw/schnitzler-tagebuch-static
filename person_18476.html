@@ -73,8 +73,16 @@
                   <h2 align="center">Jacob Christian? Normann <span class="lebensdaten">(2. 9. 1877 Kopenhagen – 19. 3. 1958 Kopenhagen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18476.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Dramaturg</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Werner Wolff <span class="lebensdaten">(2. 10. 1883 Berlin – 23. 11. 1961 Rüschlikon)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21451.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kapellmeister</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Zita Habsburg-Lothringen <span class="lebensdaten">(9. 5. 1892 Camaiore – 14. 3. 1989 Zizers)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21571.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Bourbon-Parma</p>
                         <p class="personenname">geboren von Bourbon-Parma</p>
                         <p class="personenname"></p>

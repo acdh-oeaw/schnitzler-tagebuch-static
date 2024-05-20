@@ -73,8 +73,16 @@
                   <h2 align="center">Otto Hinnerk <span class="lebensdaten">(7. 7. 1870 Rostock – 7. 4. 1941 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16207.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Hinrichsen</p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Mediziner</i></p>

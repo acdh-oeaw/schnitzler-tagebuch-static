@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Nossig <span class="lebensdaten">(18. 4. 1863 Lviv – 22. 2. 1943 Warschau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18483.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Journalist, Publizist</i></p>
                      </div>

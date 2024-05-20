@@ -73,8 +73,16 @@
                   <h2 align="center">Adolph L’Arronge <span class="lebensdaten">(8. 3. 1838 Hamburg – 25. 5. 1908 Kreuzlingen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17331.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf%20L%27Arronge%20by%20Erwin%20Raupp.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

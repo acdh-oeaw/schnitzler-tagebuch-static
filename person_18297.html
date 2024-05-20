@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Müller <span class="lebensdaten">(25. 10. 1882 Brünn – 8. 3. 1950 Einigen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18297.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Müller-Einigen</p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Rechtswissenschaftler, Regisseur, Drehbuchautor</i></p>

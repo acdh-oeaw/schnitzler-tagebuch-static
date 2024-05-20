@@ -73,8 +73,16 @@
                   <h2 align="center">Carl Diener <span class="lebensdaten">(11. 12. 1862 Wien – 6. 1. 1928 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14444.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hofrat%20Professor%20Dr.%20Karl%20Diener%201922%20J.%20Harkanyi.png" alt="Image" width="200px;"></img></figure>
                         </div>

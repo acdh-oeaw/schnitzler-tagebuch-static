@@ -73,8 +73,16 @@
                   <h2 align="center">Julia Rabelbauer <span class="lebensdaten">(6. 12. 1874 Genf – 4. 1. 1959 Steyr)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19017.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Sprachlehrerin</i></p>
                      </div>
                      <div id="mentions">

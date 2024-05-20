@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst Theodor Amadeus Hoffmann <span class="lebensdaten">(24. 1. 1776 Kaliningrad – 25. 6. 1822 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16272.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/E.%20T.%20A.%20Hoffmann%2C%20autorretrato.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Frederik Willem van Eeden <span class="lebensdaten">(3. 4. 1860 Haarlem – 16. 6. 1932 Bussum)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14624.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Frederik%20van%20Eeden%20foto%201895.png" alt="Image" width="200px;"></img></figure>
                         </div>

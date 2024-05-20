@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig Stein <span class="lebensdaten">(7. 6. 1864 Námestovo – 8.9.1942 Vernichtungslager Kulmhof)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20352.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Internist, Sanatoriumsleiter, Neurologe, Arzt</i></p>
                      </div>

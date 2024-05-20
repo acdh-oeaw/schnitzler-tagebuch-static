@@ -73,8 +73,16 @@
                   <h2 align="center">Vaclav Nijinski <span class="lebensdaten">(29. 12. 1889 Kiew – 8. 4. 1950 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18452.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Tänzer</i></p>
                      </div>

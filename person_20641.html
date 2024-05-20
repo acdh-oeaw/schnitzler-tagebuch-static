@@ -73,8 +73,16 @@
                   <h2 align="center">Richard Tauber <span class="lebensdaten">(16. 5. 1891 Linz – 8. 1. 1948 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20641.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tauber%20LCCN2014714361.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

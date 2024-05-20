@@ -73,8 +73,16 @@
                   <h2 align="center">Georg Wilhelm Pabst <span class="lebensdaten">(27. 8. 1885 Roudnice nad Labem – 29. 5. 1967 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18632.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/G.W.%20Pabst%20crop%20from%20Pabst%20Prejean%201931.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

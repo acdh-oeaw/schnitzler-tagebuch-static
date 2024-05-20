@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst von Bergmann <span class="lebensdaten">(16. 12. 1836 Riga – 25. 3. 1907 Wiesbaden)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13640.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernst%20von%20Bergmann%201.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

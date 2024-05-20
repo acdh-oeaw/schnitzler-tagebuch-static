@@ -73,8 +73,16 @@
                   <h2 align="center">Elisabeth Steinrück <span class="lebensdaten">(19. 11. 1885 – 7. 4. 1920 Partenkirchen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20386.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Rufname Liesl</p>
                         <p class="personenname">geboren Gussmann</p>
                         <p class="personenname"></p>

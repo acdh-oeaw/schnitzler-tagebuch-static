@@ -73,8 +73,16 @@
                   <h2 align="center">Leopold Müller <span class="lebensdaten">(5. 9. 1848 Neuleiningen – 25. 5. 1912 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18302.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Theaterleiter, Sänger, Theatersekretär, Theateragent, Theaterdirektor</i></p>

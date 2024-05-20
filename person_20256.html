@@ -73,8 +73,16 @@
                   <h2 align="center">Edgar von Spiegl-Thurnsee <span class="lebensdaten">(1. 5. 1839 Steingrub – 29. 6. 1908 Gainfarn)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20256.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Vereinspräsident, Zeitungsverleger</i></p>
                      </div>

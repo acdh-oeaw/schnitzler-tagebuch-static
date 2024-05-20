@@ -73,8 +73,16 @@
                   <h2 align="center">Henriette Estelle Epstein <span class="lebensdaten">(19. 8. 1885 La Chartre-sur-le-Loir – 25. 7. 1967 Riom)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14771.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Chateau</p>
                      </div>
                      <div id="mentions">

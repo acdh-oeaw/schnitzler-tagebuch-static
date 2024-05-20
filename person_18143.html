@@ -73,8 +73,16 @@
                   <h2 align="center">Thomas Valentin Michaelis <span class="lebensdaten">(12. 2. 1908 Berlin – 5. 7. 1985 Palo Alto)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18143.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Patentanwalt</i></p>
                      </div>

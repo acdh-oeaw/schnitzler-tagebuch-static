@@ -73,8 +73,16 @@
                   <h2 align="center">Eugen Diederichs <span class="lebensdaten">(22. 6. 1867 Löbitz – 2. 9. 1930 Jena)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14442.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Diederichs%2CEugen%201867-1930.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

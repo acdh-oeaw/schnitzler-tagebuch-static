@@ -73,8 +73,16 @@
                   <h2 align="center">Adolf Oswald von Dubsky-Třembomyslic <span class="lebensdaten">(30. 6. 1878 Athen – 16. 11. 1953 Wasserburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14531.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Diplomat</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Manuel Schnitzer <span class="lebensdaten">(14. 2. 1861 Andrichan – 11. 4. 1941 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19816.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Z. Chrestin</p>
                         <p class="personenname">Pseudonym Hans Balduin</p>
                         <p class="personenname">Pseudonym M. Nuél</p>

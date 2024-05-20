@@ -73,8 +73,16 @@
                   <h2 align="center">Ino Kubo <span class="lebensdaten">(26. 12. 1874 Fukushima – 12. 11. 1939 Tokyo)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17157.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Laryngologe</i></p>
                      </div>
                      <div id="mentions">

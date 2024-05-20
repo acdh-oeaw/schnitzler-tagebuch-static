@@ -73,8 +73,16 @@
                   <h2 align="center">Marie Epstein <span class="lebensdaten">(6. 4. 1880 Wien – 3. 1. 1953 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14778.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Hudetz</p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Rückauf <span class="lebensdaten">(13. 3. 1855 Prag – 19. 9. 1903 Schloss Alterlaa)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19460.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton%20R%C3%BCckauf%20%281855%E2%80%931903%29.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

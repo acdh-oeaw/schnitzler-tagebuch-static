@@ -73,8 +73,16 @@
                   <h2 align="center">Christiane von Klein-Wisenberg <span class="lebensdaten">(24. 9. 1899 Wien – 1987)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16898.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Clauser</p>
                      </div>
                      <div id="mentions">

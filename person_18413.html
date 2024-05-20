@@ -73,8 +73,16 @@
                   <h2 align="center">Angelo Neumann <span class="lebensdaten">(18. 8. 1838 Stupava – 20. 12. 1910 Prag)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18413.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%D7%90%D7%A0%D7%92%27%D7%9C%D7%95%20%D7%A0%D7%95%D7%99%D7%9E%D7%9F.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

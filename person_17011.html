@@ -73,8 +73,16 @@
                   <h2 align="center">M. Kolloden <span class="lebensdaten">(2. 9. 1847 Gmina Ostrzeszów – 25. 11. 1924 Krems)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17011.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Alexander Konstantin von Mitschka-Collanden</p>
                         <p><i>Schriftsteller, Dramaturg, Landwirt</i></p>

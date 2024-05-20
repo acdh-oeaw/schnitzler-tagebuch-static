@@ -73,8 +73,16 @@
                   <h2 align="center">Elisabeth Antheil <span class="lebensdaten">(29. 7. 1902 Gödöllő – 12. 9. 1978 Hollywood)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13225.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Marcus</p>
                         <p class="personenname">Rufname Böske</p>
                      </div>

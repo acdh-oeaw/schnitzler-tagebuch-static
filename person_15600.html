@@ -73,8 +73,16 @@
                   <h2 align="center">Francisco de Goya <span class="lebensdaten">(30. 3. 1746 Fuendetodos – 16. 4. 1828 Bordeaux)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15600.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vicente%20L%C3%B3pez%20Porta%C3%B1a%20-%20el%20pintor%20Francisco%20de%20Goya.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Richard Mayr <span class="lebensdaten">(18. 10. 1877 Henndorf am Wallersee – 1. 12. 1935 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18030.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Sänger, Musiker, Bassist</i></p>

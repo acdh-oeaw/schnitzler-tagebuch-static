@@ -73,8 +73,16 @@
                   <h2 align="center">Jacob Julius Fleck <span class="lebensdaten">(18. 11. 1881 Wien – 19. 9. 1953 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15026.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Regisseur, Filmproduzent, Drehbuchautor</i></p>
                      </div>

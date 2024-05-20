@@ -73,8 +73,16 @@
                   <h2 align="center">Gertrud Eysoldt <span class="lebensdaten">(30. 11. 1870 Pirna – 5. 1. 1955 Ohlstadt)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14840.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eysoldt-Gedenktafel%20Pirna.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

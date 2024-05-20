@@ -73,8 +73,16 @@
                   <h2 align="center">Theodor Däubler <span class="lebensdaten">(17. 8. 1876 Triest – 13. 6. 1934 Saint Blasien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14343.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hugo%20Erfurth%20-%20Portrait%20Theodor%20D%C3%A4ubler%2C%201921.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

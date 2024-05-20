@@ -73,8 +73,16 @@
                   <h2 align="center">Marie von Trauttmansdorff-Weinsberg <span class="lebensdaten">(8. 6. 1896 Wossow – 13. 12. 1945 Pettenbach)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20792.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Schwarzenberg</p>
                      </div>
                      <div id="mentions">

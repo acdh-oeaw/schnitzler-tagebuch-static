@@ -73,8 +73,16 @@
                   <h2 align="center">Novalis <span class="lebensdaten">(2. 5. 1772 Schloss Oberwiederstedt – 25. 3. 1801 Weißenfels)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18488.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Georg Philipp Friedrich Leopold von Hardenberg</p>
                         <p class="personenname"></p>

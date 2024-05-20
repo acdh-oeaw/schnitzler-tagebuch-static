@@ -73,8 +73,16 @@
                   <h2 align="center">Gustav Adolf Wilhelm <span class="lebensdaten">(10. 9. 1864 Tetschen-Liebwerd – 10. 8. 1950 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21340.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Philologe, Archäologe</i></p>
                      </div>
                      <div id="mentions">

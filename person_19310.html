@@ -73,8 +73,16 @@
                   <h2 align="center">Helge Rode <span class="lebensdaten">(16. 10. 1870 Kopenhagen – 23. 3. 1937 Frederiksberg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19310.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Helge%20Rode%20by%20Elfelt%20" alt="Image" width="200px;"></img></figure>
                         </div>

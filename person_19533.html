@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Salkind <span class="lebensdaten">(29. 3. 1887 Wien – 4. 9. 1940 Konzentrationslager Dachau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19533.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Voltaire <span class="lebensdaten">(21. 11. 1694 Paris – 30. 5. 1778 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20987.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicolas%20de%20Largilli%C3%A8re%20-%20Portrait%20de%20Voltaire%20%281694-1778%29%20en%201718%20-%20P208%20-%20Mus%C3%A9e%20Carnavalet%20-%202.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">James Burton Pond <span class="lebensdaten">(25. 12. 1889 New York City – 4. 3. 1961 San Miguel de Allende)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18907.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Agent, Verleger</i></p>
                      </div>
                      <div id="mentions">

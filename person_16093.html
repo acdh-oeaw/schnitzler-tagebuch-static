@@ -73,8 +73,16 @@
                   <h2 align="center">Agnes Henningsen <span class="lebensdaten">(18. 11. 1868 Gut Skovsbo – 21. 4. 1962 Kopenhagen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16093.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Agnes%20Henningsen%20by%20Frederik%20Riise.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

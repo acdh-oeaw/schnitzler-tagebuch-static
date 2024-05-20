@@ -73,8 +73,16 @@
                   <h2 align="center">Oscar Fried <span class="lebensdaten">(1. 8. 1871 Berlin – 5. 7. 1941 Moskau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15204.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Komponist, Dirigent, Arrangeur</i></p>

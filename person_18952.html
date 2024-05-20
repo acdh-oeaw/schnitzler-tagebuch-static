@@ -73,8 +73,16 @@
                   <h2 align="center">Milena Preindlsberger <span class="lebensdaten">(28. 12. 1863 Wien – 20. 1. 1927 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18952.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Milena%20Mrazovi%C4%87.png" alt="Image" width="200px;"></img></figure>
                         </div>

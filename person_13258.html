@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst Arndt <span class="lebensdaten">(3. 2. 1861 Magdeburg – 23. 9. 1942 Konzentrationslager Theresienstadt)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13258.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Regisseur, Schauspieler, Filmschauspieler</i></p>

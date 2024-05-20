@@ -73,8 +73,16 @@
                   <h2 align="center">Marja Fjodorovna Andrejewna-Gorki <span class="lebensdaten">(4. 7. 1868 Sankt Petersburg – 8. 12. 1953 Moskau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13199.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Yurkovskaya</p>
                         <p><i>Schauspielerin</i></p>
                      </div>

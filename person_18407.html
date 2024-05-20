@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander Wilhelm Neuman <span class="lebensdaten">(3. 5. 1860 Wien – 6. 5. 1936 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18407.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Neumann</p>
                         <p><i>Redakteur, Kaufmann</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Robert Lenk <span class="lebensdaten">(29. 12. 1842 – 21. 8. 1915)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17436.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Industrieller</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Ernestine von Spitzmüller-Harmersbach <span class="lebensdaten">(7. 11. 1862 Stara Gradiška – 6. 2. 1947 Velden am Wörthersee)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20287.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Schneller-Mohrthal</p>
                      </div>
                      <div id="mentions">

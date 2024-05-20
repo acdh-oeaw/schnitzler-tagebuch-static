@@ -73,8 +73,16 @@
                   <h2 align="center">Christiane von Goethe <span class="lebensdaten">(1. 6. 1765 Weimar – 6. 6. 1816 Weimar)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15498.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Goethe%20Christiane%20Vulpius%40Goethe-Museum%20Frankfurt%20a.M.20170819.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

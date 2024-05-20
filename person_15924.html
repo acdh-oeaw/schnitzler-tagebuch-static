@@ -73,8 +73,16 @@
                   <h2 align="center">Bruno Hardt-Warden <span class="lebensdaten">(31. 8. 1883 Drachenburg – 21. 7. 1954 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15924.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Kabarettist, Librettist</i></p>
                      </div>

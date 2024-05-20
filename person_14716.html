@@ -73,8 +73,16 @@
                   <h2 align="center">David Elias <span class="lebensdaten">(20. 10. 1836 Nitra – 19. 11. 1896 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14716.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner</i></p>
                      </div>
                      <div id="mentions">

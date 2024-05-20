@@ -73,8 +73,16 @@
                   <h2 align="center">George Weller <span class="lebensdaten">(13. 7. 1907 Boston (Massachusetts) – 12. 12. 2002 Pennsylvania)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21222.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Regisseur</i></p>
                      </div>
                      <div id="mentions">

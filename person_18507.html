@@ -73,8 +73,16 @@
                   <h2 align="center">Max Obal <span class="lebensdaten">(4. 9. 1881 Brzeg – 17. 5. 1949 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18507.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Sroke</p>
                         <p><i>Schauspieler</i></p>
                      </div>

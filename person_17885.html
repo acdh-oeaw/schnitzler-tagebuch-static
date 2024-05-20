@@ -73,8 +73,16 @@
                   <h2 align="center">Marie Louise <span class="lebensdaten">(12. 12. 1791 Wien – 17. 12. 1847 Parma)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17885.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Kaiser/Kaiserin, Herzog/Herzogin</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Johann Konrad Friederich <span class="lebensdaten">(1789 – 1858)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15245.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Karl F. Fröhlich</p>
                         <p class="personenname">Pseudonym Carl Strahlheim</p>
                         <p class="personenname">Pseudonym Konrad F. Strahlheim</p>

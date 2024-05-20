@@ -73,8 +73,16 @@
                   <h2 align="center">Rebeka Markbreiter <span class="lebensdaten">(1854 – 16. 3. 1927)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17910.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Lackenbacher</p>
                      </div>
                      <div id="mentions">

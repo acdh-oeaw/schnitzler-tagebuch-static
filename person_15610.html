@@ -73,8 +73,16 @@
                   <h2 align="center">Franz Gräffer <span class="lebensdaten">(6. 1. 1785 Wien – 8. 10. 1852 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15610.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Buchhändler</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Georg Jarno <span class="lebensdaten">(3. 6. 1868 Budapest – 25. 5. 1920 Breslau)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16516.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist, Kapellmeister</i></p>
                      </div>
                      <div id="mentions">

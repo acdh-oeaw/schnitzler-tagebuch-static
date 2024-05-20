@@ -73,8 +73,16 @@
                   <h2 align="center">Abraham Sonne <span class="lebensdaten">(13. 9. 1883 Przemyśl – 29. 3. 1950 Hod HaSharon)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20200.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

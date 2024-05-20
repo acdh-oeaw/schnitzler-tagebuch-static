@@ -73,8 +73,16 @@
                   <h2 align="center">Karl Ludwig Schröder <span class="lebensdaten">(1877 Zerbst – 23. 9. 1940 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19893.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Dramaturg</i></p>
                      </div>

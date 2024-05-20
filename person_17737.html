@@ -73,8 +73,16 @@
                   <h2 align="center">Georg von Lukács <span class="lebensdaten">(13. 4. 1885 Budapest – 4. 6. 1971 Budapest)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17737.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Luk%C3%A1cs%20Gy%C3%B6rgy.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

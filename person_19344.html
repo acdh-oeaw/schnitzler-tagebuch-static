@@ -73,8 +73,16 @@
                   <h2 align="center">Félicien Rops <span class="lebensdaten">(7. 7. 1833 Namur – 23. 8. 1898 Corbeil-Essonnes)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19344.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait%20of%20Felicien%20Rops%20LACMA%20M.84.243.343.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

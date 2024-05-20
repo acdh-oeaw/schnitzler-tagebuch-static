@@ -73,8 +73,16 @@
                   <h2 align="center">Carl Rössler <span class="lebensdaten">(25. 5. 1864 Wien – 16. 2. 1948 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19326.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Reßner</p>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller</i></p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Lou Andreas-Salomé <span class="lebensdaten">(12. 2. 1861 Sankt Petersburg – 5. 2. 1937 Göttingen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13196.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lou%20Andreas-Salom%C3%A9%20-%20Foto%20Atelier%20Elvira.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

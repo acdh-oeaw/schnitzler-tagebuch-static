@@ -73,8 +73,16 @@
                   <h2 align="center">Johanna Aschner <span class="lebensdaten">(23. 2. 1904 – 9. 2. 1970 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13280.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren König</p>
                      </div>
                      <div id="mentions">

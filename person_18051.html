@@ -73,8 +73,16 @@
                   <h2 align="center">Valdemar Meisen <span class="lebensdaten">(20. 7. 1878 Randers – 18. 4. 1934 Kopenhagen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18051.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Mediziner, Chirurg, Sanatoriumsleiter</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Anton Maria Girardi <span class="lebensdaten">(27. 8. 1899 Bad Ischl – 19. 11. 1961 Hamburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15443.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Schauspieler</i></p>
                      </div>
                      <div id="mentions">

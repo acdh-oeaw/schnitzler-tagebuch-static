@@ -73,8 +73,16 @@
                   <h2 align="center">Ferry Bératon <span class="lebensdaten">(6. 12. 1859 Wien – 11. 2. 1900 Venedig)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13611.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferry%20B%C3%A9raton%201900%20Wiener%20Bilder.png" alt="Image" width="200px;"></img></figure>
                         </div>

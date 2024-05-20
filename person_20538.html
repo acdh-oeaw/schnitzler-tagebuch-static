@@ -73,8 +73,16 @@
                   <h2 align="center">Oskar Strnad <span class="lebensdaten">(26. 10. 1879 Wien – 3. 9. 1935 Bad Aussee)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20538.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Oskar%20Strnad%20%281879%E2%80%931935%29%201931%20%C2%A9%20Ludwig%20Schwab%20%28~1900%E2%80%931939%29%20OeNB%208076468.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

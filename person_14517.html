@@ -73,8 +73,16 @@
                   <h2 align="center">Annette von Droste-Hülshoff <span class="lebensdaten">(10. 1. 1797 Burg Hülshoff – 24. 5. 1848 Meersburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14517.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Annette%20von%20Droste-Huelshoff%20-%201845.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

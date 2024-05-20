@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Schlesinger <span class="lebensdaten">(6. 6. 1869 – 18. 9. 1947 Grenoble)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19727.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Mediziner</i></p>
                      </div>

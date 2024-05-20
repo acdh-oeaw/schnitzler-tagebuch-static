@@ -73,8 +73,16 @@
                   <h2 align="center">Philipp Halsmann <span class="lebensdaten">(2. 5. 1906 Riga – 25. 6. 1979 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15876.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Fotograf, Student</i></p>
                      </div>

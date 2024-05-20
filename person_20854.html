@@ -73,8 +73,16 @@
                   <h2 align="center">Sophie von Uhde-Drechsel <span class="lebensdaten">(13. 8. 1886 München – 7. 8. 1956 Murnau am Staffelsee)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20854.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geschieden Drechsel</p>
                         <p class="personenname"></p>
                      </div>

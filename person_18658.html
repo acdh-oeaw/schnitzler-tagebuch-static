@@ -73,8 +73,16 @@
                   <h2 align="center">Julius Pap <span class="lebensdaten">(9. 1. 1868 Wien – 1918)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18658.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist</i></p>
                      </div>
                      <div id="mentions">

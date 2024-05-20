@@ -73,8 +73,16 @@
                   <h2 align="center">Pjotr F. Jakubovič <span class="lebensdaten">(3. 11. 1860 Zimogor'ye – 30. 3. 1911 Sankt Petersburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18058.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Übersetzer</i></p>
                      </div>

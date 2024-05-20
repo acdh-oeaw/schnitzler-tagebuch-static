@@ -73,8 +73,16 @@
                   <h2 align="center">Margit Ornstein <span class="lebensdaten">(10. 5. 1877 Wien – 1942 Vernichtungslager Treblinka)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18580.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Loewy</p>
                      </div>
                      <div id="mentions">

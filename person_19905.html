@@ -73,8 +73,16 @@
                   <h2 align="center">Clementine von Schuch <span class="lebensdaten">(12. 2. 1853 Wien – 8. 6. 1932 Kötzschenbroda)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19905.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Proska</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Dieterle <span class="lebensdaten">(15. 7. 1893 Ludwigshafen am Rhein – 8. 12. 1972 Ottobrunn)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14445.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm%20%28William%29%20Dieterle%20by%20Alexander%20Binder%2C%20c.%201928.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

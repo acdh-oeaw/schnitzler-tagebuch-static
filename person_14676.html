@@ -73,8 +73,16 @@
                   <h2 align="center">Anton von Eiselsberg <span class="lebensdaten">(31. 7. 1860 Steinhaus – 25. 10. 1939 St. Valentin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14676.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prof.%20Dr.%20Baron%20Eiselsberg%201917%20L.%20Grillich.png" alt="Image" width="200px;"></img></figure>
                         </div>

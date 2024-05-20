@@ -73,8 +73,16 @@
                   <h2 align="center">Wanda Zifferer <span class="lebensdaten">(3. 1. 1889 – 24. 3. 1958)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21560.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Rosner</p>
                      </div>
                      <div id="mentions">

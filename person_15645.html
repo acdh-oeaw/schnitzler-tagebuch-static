@@ -73,8 +73,16 @@
                   <h2 align="center">Richard Grelling <span class="lebensdaten">(11. 6. 1853 Berlin – 15. 1. 1929 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15645.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Rechtsanwalt, Publizist, Pazifist</i></p>
                      </div>
                      <div id="mentions">

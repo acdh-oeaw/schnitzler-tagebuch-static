@@ -73,8 +73,16 @@
                   <h2 align="center">Cajo Perisič <span class="lebensdaten">(22. 4. 1864 Split – 1934.07.?)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18715.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Beamter</i></p>
                      </div>
                      <div id="mentions">

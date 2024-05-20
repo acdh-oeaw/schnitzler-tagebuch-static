@@ -73,8 +73,16 @@
                   <h2 align="center">Pauline von Metternich-Sándor <span class="lebensdaten">(26. 2. 1836 Wien – 28. 9. 1921 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18097.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pauline%20S%C3%A1ndor%2C%20Princess%20Metternich%2C%20by%20Franz%20Xavier%20Winterhalter.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

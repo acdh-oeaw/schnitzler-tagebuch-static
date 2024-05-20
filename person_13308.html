@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Aufricht-Ruda <span class="lebensdaten">(3. 1. 1899 Ruda Śląska – 29. 9. 1969 Sacramento)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13308.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Aufricht</p>
                         <p><i>Schriftsteller</i></p>
                      </div>

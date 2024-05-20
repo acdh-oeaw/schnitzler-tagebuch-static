@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Ginzkey <span class="lebensdaten">(26. 10. 1856 Vratislavice nad Nisou – 29. 4. 1934 Vratislavice nad Nisou)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15437.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Politiker, Industrieller</i></p>
                      </div>
                      <div id="mentions">

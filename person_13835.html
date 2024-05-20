@@ -73,8 +73,16 @@
                   <h2 align="center">Margarete Böhme <span class="lebensdaten">(8. 5. 1867 Husum – 1939 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13835.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Feddersen</p>
                      </div>
                      <div id="mentions">

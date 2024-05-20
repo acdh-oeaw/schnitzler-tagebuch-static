@@ -73,8 +73,16 @@
                   <h2 align="center">Walter Singer <span class="lebensdaten">(28. 9. 1883 Hamburg – 24. 5. 1956 Stockholm)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20140.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist, Kaufmann</i></p>
                      </div>
                      <div id="mentions">

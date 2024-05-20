@@ -73,8 +73,16 @@
                   <h2 align="center">Jan Brandt-Buys <span class="lebensdaten">(12. 9. 1868 Zutphen – 8. 12. 1933 Salzburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13923.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Komponist</i></p>
                      </div>
                      <div id="mentions">

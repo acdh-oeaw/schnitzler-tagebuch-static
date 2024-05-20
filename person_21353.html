@@ -73,8 +73,16 @@
                   <h2 align="center">Hugo Willheim <span class="lebensdaten">(22. 11. 1880 Brünn – 18. 2. 1915 Przemyśl)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21353.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Rechtsanwalt</i></p>
                      </div>
                      <div id="mentions">

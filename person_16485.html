@@ -73,8 +73,16 @@
                   <h2 align="center">Grete Jacques <span class="lebensdaten">(23. 1. 1885 Wien – 23. 10. 1965 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16485.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Samuely</p>
                         <p><i>Schreiberin</i></p>
                      </div>

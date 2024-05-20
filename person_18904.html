@@ -73,8 +73,16 @@
                   <h2 align="center">Marco Polo <span class="lebensdaten">(1254 Venedig – 8. 1. 1324 Venedig)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18904.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Forschungsreisender</i></p>
                      </div>
                      <div id="mentions">

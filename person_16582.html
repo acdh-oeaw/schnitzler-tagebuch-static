@@ -73,8 +73,16 @@
                   <h2 align="center">Egon von Jordan <span class="lebensdaten">(19. 3. 1902 Duchcov – 27. 12. 1978 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16582.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stammersdorfer%20Zentralfriedhof%20-%20Egon%20von%20Jordan.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

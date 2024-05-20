@@ -73,8 +73,16 @@
                   <h2 align="center">Karl May <span class="lebensdaten">(25. 2. 1842 Hohenstein-Ernstthal – 31. 3. 1912 Radebeul)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18006.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karl%20May%20edit.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

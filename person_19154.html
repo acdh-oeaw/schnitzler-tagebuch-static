@@ -73,8 +73,16 @@
                   <h2 align="center">Max Reinhardt <span class="lebensdaten">(9. 9. 1873 Baden bei Wien – 30. 10. 1943 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19154.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max%20Reinhardt.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

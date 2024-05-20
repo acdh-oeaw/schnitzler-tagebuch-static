@@ -73,8 +73,16 @@
                   <h2 align="center">Werner Krauss <span class="lebensdaten">(23. 6. 1884 Gestungshausen – 20. 10. 1959 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17120.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Werner%20Krauss.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">André Antoine <span class="lebensdaten">(31. 1. 1858 Limoges – 23. 10. 1943 Le Pouliguen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13228.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Andr%C3%A9%20Antoine%20actor.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

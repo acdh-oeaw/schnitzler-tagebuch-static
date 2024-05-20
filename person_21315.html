@@ -73,8 +73,16 @@
                   <h2 align="center">Lazar Wiesner <span class="lebensdaten">(8. 1. 1863 Nižná Myšľa – 20. 11. 1935 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21315.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Religionslehrer</i></p>
                      </div>
                      <div id="mentions">

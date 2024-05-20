@@ -73,8 +73,16 @@
                   <h2 align="center">Franz von Matsch <span class="lebensdaten">(16. 9. 1861 Wien – 4. 10. 1942 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17972.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Maler, Künstler</i></p>
                      </div>

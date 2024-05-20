@@ -73,8 +73,16 @@
                   <h2 align="center">Gustaf Linden <span class="lebensdaten">(10. 11. 1875 Malmö – 19. 3. 1936 Stockholm)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17567.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theaterleiter, Regisseur</i></p>
                      </div>
                      <div id="mentions">

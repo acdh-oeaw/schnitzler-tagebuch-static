@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst von Hold <span class="lebensdaten">(8. 11. 1889 Wien – 24. 12. 1942 Konzentrationslager Oranienburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16317.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Verwaltungssekretär</i></p>
                      </div>
                      <div id="mentions">

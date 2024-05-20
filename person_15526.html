@@ -73,8 +73,16 @@
                   <h2 align="center">Eva Marie Goldmann <span class="lebensdaten">(27. 10. 1877 Wien – 2. 11. 1937 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15526.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geschieden Kobler</p>
                         <p class="personenname">geboren Eva Marie Fränkel</p>

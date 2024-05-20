@@ -73,8 +73,16 @@
                   <h2 align="center">Alexander I. von Bulgarien <span class="lebensdaten">(5. 4. 1857 Verona – 17. 11. 1893 Graz)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15938.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexander%20I%20of%20Bulgaria%20by%20Dimitar%20Karastoyanov.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

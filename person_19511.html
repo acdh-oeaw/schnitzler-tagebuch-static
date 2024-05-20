@@ -73,8 +73,16 @@
                   <h2 align="center">Luise von Sachsen <span class="lebensdaten">(2. 3. 1870 Salzburg – 23. 3. 1947 Brüssel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19511.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Erzherzogin, Kronprinzessin, Prinzessin</i></p>
                      </div>

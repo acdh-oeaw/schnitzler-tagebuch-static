@@ -73,8 +73,16 @@
                   <h2 align="center">Stephen S. Wise <span class="lebensdaten">(17. 3. 1874 Budapest – 19. 4. 1949 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21395.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Politiker, Zionist, Rabbiner</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Irma Hoffmeister <span class="lebensdaten">(25. 3. 1869 Pribislavec – 7.12.1940?)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16281.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Hotelbesitzerin</i></p>
                      </div>
                      <div id="mentions">

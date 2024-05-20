@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Brehm <span class="lebensdaten">(2. 2. 1829 Renthendorf – 11. 11. 1884 Renthendorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13945.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfred%20Edmund%20Brehm%20from%20Familj-Journalen1885.png" alt="Image" width="200px;"></img></figure>
                         </div>

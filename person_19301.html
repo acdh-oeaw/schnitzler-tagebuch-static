@@ -73,8 +73,16 @@
                   <h2 align="center">Elsa Robertson <span class="lebensdaten">(1893 – 1972)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19301.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Swenson</p>
                         <p><i>Heilgymnastin</i></p>
                      </div>

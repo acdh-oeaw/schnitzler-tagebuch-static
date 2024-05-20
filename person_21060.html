@@ -73,8 +73,16 @@
                   <h2 align="center">Ferdinand Georg Waldmüller <span class="lebensdaten">(15. 1. 1793 Wien – 23. 8. 1865 Hinterbrühl)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21060.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand-Georg-Waldm%C3%BCller-1828.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

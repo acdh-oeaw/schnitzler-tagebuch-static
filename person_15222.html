@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig Friedlaender <span class="lebensdaten">(16. 7. 1824 Kaliningrad – 16. 12. 1909 Straßburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15222.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig%20Friedl%C3%A4nder%20-%20Imagines%20philologorum.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

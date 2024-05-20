@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig Adler <span class="lebensdaten">(7. 11. 1876 Wien – 8. 8. 1958 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13103.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig%20Adler%20%281876%E2%80%931958%29%201927%20%C2%A9%20Georg%20Fayer%20%281892%E2%80%931950%29%20OeNB%2010450649.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

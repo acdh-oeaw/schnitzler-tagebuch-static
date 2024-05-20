@@ -73,8 +73,16 @@
                   <h2 align="center">Leopold Kupelwieser <span class="lebensdaten">(1. 4. 1876 Weißkischlitz – 21. 8. 1943 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17205.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Rufname Lony</p>
                      </div>
                      <div id="mentions">

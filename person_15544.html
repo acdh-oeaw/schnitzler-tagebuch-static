@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst Goldschmidt <span class="lebensdaten">(1. 12. 1887 Wien – 18. 2. 1954 London)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15544.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Buchhändler</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Louis D. Brandeis <span class="lebensdaten">(13. 11. 1856 Louisville – 5. 10. 1941 Washington)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13917.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Rechtswissenschaftler, Richter, Jurist</i></p>
                      </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Sigmund Ehrlich <span class="lebensdaten">(23. 12. 1852 Velký Beranov – 12. 2. 1932 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14656.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>Journalist, Rechtsanwalt, Wirtschaftsjournalist, Jurist</i></p>

@@ -73,8 +73,16 @@
                   <h2 align="center">Burghard Breitner <span class="lebensdaten">(10. 6. 1884 Mattsee – 28. 3. 1956 Innsbruck)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13952.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/BurghardBreitnerStiftsmuseumMattsee.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

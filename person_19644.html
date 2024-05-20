@@ -73,8 +73,16 @@
                   <h2 align="center">Juri A. Scheljabuschki <span class="lebensdaten">(1888 – 1955)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19644.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Kameramann</i></p>
                      </div>
                      <div id="mentions">

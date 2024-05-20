@@ -73,8 +73,16 @@
                   <h2 align="center">Ludwig XIV. <span class="lebensdaten">(5. 9. 1638 Saint-Germain-en-Laye – 1. 9. 1715 Versailles)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17724.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname"></p>
                         <p><i>König/Königin</i></p>

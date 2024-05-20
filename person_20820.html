@@ -73,8 +73,16 @@
                   <h2 align="center">Wilhelm Trübner <span class="lebensdaten">(3. 2. 1851 Heidelberg – 21. 12. 1917 Karlsruhe)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20820.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wilhelm%20Tr%C3%BCbner%20Selbstbildnis%20mit%20Hut.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

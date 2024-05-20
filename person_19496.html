@@ -73,8 +73,16 @@
                   <h2 align="center">Leopold von Sacher-Masoch <span class="lebensdaten">(27. 1. 1836 Lviv – 9. 3. 1895 Lindheim)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19496.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold%20von%20Sacher-Masoch%2C%20portrait%203.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Lackenbacher <span class="lebensdaten">(7. 8. 1885 Wien – 24. 2. 1963)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17243.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gymnasiallehrer</i></p>
                      </div>
                      <div id="mentions">

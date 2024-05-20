@@ -73,8 +73,16 @@
                   <h2 align="center">Lilly Hertz <span class="lebensdaten">(1892? – 28. 3. 1948 Guadalajara)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16135.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Dorn</p>
                         <p><i>Sängerin</i></p>
                      </div>

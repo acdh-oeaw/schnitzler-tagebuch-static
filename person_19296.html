@@ -73,8 +73,16 @@
                   <h2 align="center">Richard Robert <span class="lebensdaten">(25. 3. 1861 Wien – 1. 2. 1924 Kaltenleutgeben)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19296.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Robert Spitzer</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

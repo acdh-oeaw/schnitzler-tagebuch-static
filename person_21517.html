@@ -73,8 +73,16 @@
                   <h2 align="center">Julius Zappert <span class="lebensdaten">(2. 4. 1867 Prag – 1941 Eton)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21517.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Pädiater</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Heinrich Waage <span class="lebensdaten">(27. 9. 1848 Lviv – 2. 10. 1914 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20999.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Güterverwalter</i></p>
                      </div>
                      <div id="mentions">

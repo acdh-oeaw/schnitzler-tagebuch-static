@@ -73,8 +73,16 @@
                   <h2 align="center">Pieter d. Ä. Brueghel <span class="lebensdaten">(1525/1530 Breda – 5. 9. 1569 Brüssel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14009.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pieter%20Bruegel%20the%20Elder%20-%20The%20Painter%20and%20the%20Buyer%2C%20ca.%201566%20-%20Google%20Art%20Project.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

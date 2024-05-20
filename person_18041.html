@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Meid <span class="lebensdaten">(3. 6. 1883 Pforzheim – 6. 1. 1957 Ludwigsburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18041.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Maler, Radierer, Illustrator</i></p>
                      </div>
                      <div id="mentions">

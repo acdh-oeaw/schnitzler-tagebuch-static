@@ -73,8 +73,16 @@
                   <h2 align="center">Bruno Dagobert von Frankl-Hochwart <span class="lebensdaten">(5. 3. 1860 Wien – 1. 5. 1943 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15143.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Bahnbeamter</i></p>
                      </div>
                      <div id="mentions">

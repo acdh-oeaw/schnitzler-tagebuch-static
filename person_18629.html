@@ -73,8 +73,16 @@
                   <h2 align="center">Katharine P. </h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div></div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18629.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div></div>
                      <div id="mentions">
                         <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/entity/22291/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> 
                            <div xmlns:tei="http://www.tei-c.org/ns/1.0" class="modal fade modal-sm" id="Mikrofilme" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Mikrofilme" aria-hidden="true" data-bs-backdrop="true">

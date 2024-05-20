@@ -73,8 +73,16 @@
                   <h2 align="center">Anna Lisa Andersson <span class="lebensdaten">(3. 6. 1873 Stockholm – 10. 3. 1958 Stockholm)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13191.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftstellerin, Journalistin</i></p>
                      </div>
                      <div id="mentions">

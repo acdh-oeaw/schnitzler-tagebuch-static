@@ -73,8 +73,16 @@
                   <h2 align="center">Albert Wassermann <span class="lebensdaten">(4. 12. 1901 Wien – 2. 10. 1971 Aarsele)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21102.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Chemiker</i></p>
                      </div>
                      <div id="mentions">

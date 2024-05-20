@@ -73,8 +73,16 @@
                   <h2 align="center">Leo Herrmann <span class="lebensdaten">(15. 3. 1888 Lanškroun – 10. 9. 1951 Giv‘atayim)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16121.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist</i></p>
                      </div>
                      <div id="mentions">

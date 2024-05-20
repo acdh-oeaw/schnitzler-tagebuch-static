@@ -73,8 +73,16 @@
                   <h2 align="center">Paul Kohner <span class="lebensdaten">(29. 5. 1902 Teplice – 16. 3. 1988 Los Angeles)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16997.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Filmagent</i></p>
                      </div>
                      <div id="mentions">

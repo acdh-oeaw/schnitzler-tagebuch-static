@@ -73,8 +73,16 @@
                   <h2 align="center">Theophile von Bodisco <span class="lebensdaten">(15. 3. 1873 Tallinn – 1950? Bad Schachen)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13823.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Wistinghausen</p>
                         <p><i>Schriftstellerin</i></p>
                      </div>

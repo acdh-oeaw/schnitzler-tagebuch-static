@@ -73,8 +73,16 @@
                   <h2 align="center">Moriz Reichenfeld <span class="lebensdaten">(30. 11. 1862 Wien – 12. 1. 1940 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19124.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Bankdirektor</i></p>
                      </div>
                      <div id="mentions">

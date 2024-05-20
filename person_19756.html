@@ -73,8 +73,16 @@
                   <h2 align="center">Paula Schmidl <span class="lebensdaten">(13. 10. 1874 Wien – 24. 9. 1966 Jerusalem)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19756.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p class="personenname">geboren Lucie Paula Speyer</p>
                      </div>

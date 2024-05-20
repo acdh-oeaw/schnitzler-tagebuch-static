@@ -73,8 +73,16 @@
                   <h2 align="center">Alois Weinert <span class="lebensdaten">(11. 5. 1875 Bezdružice – 5. 9. 1945 Prag)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21169.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Rufname Louis</p>
                         <p class="personenname">Pseudonym Louis Weinert-Wilton</p>
                         <p class="personenname"></p>

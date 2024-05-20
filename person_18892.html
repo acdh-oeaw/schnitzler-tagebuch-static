@@ -73,8 +73,16 @@
                   <h2 align="center">Robert Pollak <span class="lebensdaten">(18. 1. 1880 Wien – 1962.09 Kalifornien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18892.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Violinist</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Gabriele von Winterstein <span class="lebensdaten">(21. 4. 1860 Terezín – 31. 3. 1937 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21389.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Joelson</p>
                      </div>
                      <div id="mentions">

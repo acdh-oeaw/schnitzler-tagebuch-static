@@ -73,8 +73,16 @@
                   <h2 align="center">Friederike Strisower <span class="lebensdaten">(31. 5. 1854 Wien – 13. 12. 1922)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20535.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Brüll</p>
                         <p class="personenname">Rufname Riki</p>
                         <p class="personenname"></p>

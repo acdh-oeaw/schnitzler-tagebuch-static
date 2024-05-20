@@ -73,8 +73,16 @@
                   <h2 align="center">Josef Wimmer <span class="lebensdaten">(23. 1. 1834 Wien – 9. 12. 1903 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21360.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>
                      <div id="mentions">

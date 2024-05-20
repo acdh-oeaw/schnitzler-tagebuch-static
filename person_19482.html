@@ -73,8 +73,16 @@
                   <h2 align="center">Klementine von Ružičić <span class="lebensdaten">(8. 7. 1884 Bratislava – 28. 12. 1971 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19482.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren von Wydenbruck</p>
                      </div>
                      <div id="mentions">

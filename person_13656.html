@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz Bermann <span class="lebensdaten">(16. 3. 1823 Wien – 1. 6. 1895 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13656.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>
                      <div id="mentions">

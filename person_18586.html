@@ -73,8 +73,16 @@
                   <h2 align="center">Luise Osborne <span class="lebensdaten">(1883 Mainz – 1968 Brè)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18586.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Wolf</p>
                         <p><i>Fotografin</i></p>
                      </div>

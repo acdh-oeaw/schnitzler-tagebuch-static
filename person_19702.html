@@ -73,8 +73,16 @@
                   <h2 align="center">Emil Jakob Schindler <span class="lebensdaten">(27. 4. 1842 Wien – 9. 8. 1892 Westerland)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19702.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emil%20Jakob%20Schindler%20Portr%C3%A4t.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

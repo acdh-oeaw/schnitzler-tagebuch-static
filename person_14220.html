@@ -73,8 +73,16 @@
                   <h2 align="center">Maximilian Claar <span class="lebensdaten">(1. 10. 1873 Prag – 14. 11. 1938 Neapel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14220.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Journalist, Publizist</i></p>
                      </div>
                      <div id="mentions">

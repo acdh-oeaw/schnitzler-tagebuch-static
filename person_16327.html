@@ -73,8 +73,16 @@
                   <h2 align="center">Hans Holländer <span class="lebensdaten">(6. 10. 1899 Břeclav – August 1986 Teignmouth)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16327.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Musikwissenschaftler</i></p>
                      </div>

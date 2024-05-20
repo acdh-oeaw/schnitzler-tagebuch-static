@@ -73,8 +73,16 @@
                   <h2 align="center">Jolande Jacobi <span class="lebensdaten">(25. 3. 1890 Budapest – 1. 4. 1973 Zürich)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16468.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Székács</p>
                         <p><i>Vereinspräsidentin, Psychotherapeutin</i></p>
                      </div>

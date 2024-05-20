@@ -73,8 +73,16 @@
                   <h2 align="center">Pamela Wedekind <span class="lebensdaten">(12. 12. 1906 Berlin – 9. 4. 1986 Ambach)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_21127.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geschieden Sternheim</p>
                         <p class="personenname"></p>
                         <p class="personenname"></p>

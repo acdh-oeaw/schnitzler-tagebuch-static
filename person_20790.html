@@ -73,8 +73,16 @@
                   <h2 align="center">Heinrich Traut <span class="lebensdaten">(27. 5. 1857 Krefeld – 31. 5. 1940 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20790.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Fotograf</i></p>
                      </div>
                      <div id="mentions">

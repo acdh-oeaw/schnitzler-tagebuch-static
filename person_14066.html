@@ -73,8 +73,16 @@
                   <h2 align="center">Jacob Burckhardt <span class="lebensdaten">(25. 5. 1818 Basel – 8. 8. 1897 Basel)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14066.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ETH-BIB-Burckhardt%2C%20Jakob%20%281818-1897%29-Portrait-Portr%2000053.tif" alt="Image" width="200px;"></img></figure>
                         </div>

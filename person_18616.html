@@ -73,8 +73,16 @@
                   <h2 align="center">Max Otto <span class="lebensdaten">(3. 5. 1849 Bohuslavice nad Úpou – 8. 7. 1918 Landwehr)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18616.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schauspiellehrer</i></p>
                      </div>
                      <div id="mentions">

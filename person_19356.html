@@ -73,8 +73,16 @@
                   <h2 align="center">Erwin Rosen <span class="lebensdaten">(7. 6. 1876 Karlsruhe – 21. 2. 1923 Hamburg)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_19356.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller</i></p>
                      </div>

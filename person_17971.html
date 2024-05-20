@@ -73,8 +73,16 @@
                   <h2 align="center">Ferdinand Matras <span class="lebensdaten">(24. 9. 1878 České Budějovice – 24. 2. 1955)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17971.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Schriftsteller, Journalist</i></p>
                      </div>
                      <div id="mentions">

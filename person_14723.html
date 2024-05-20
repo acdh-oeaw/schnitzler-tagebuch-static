@@ -73,8 +73,16 @@
                   <h2 align="center">Havelock Ellis <span class="lebensdaten">(2. 2. 1859 Croydon – 8. 7. 1939 Hintlesham)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14723.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait%20of%20Havelock%20Ellis%20%281859-1939%29%2C%20Psychologist%20and%20Biologist%20%282575987702%29%20crop.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

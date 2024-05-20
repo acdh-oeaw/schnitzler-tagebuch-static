@@ -73,8 +73,16 @@
                   <h2 align="center">Ella Frankfurter <span class="lebensdaten">(2. 2. 1873 Budapest – 5. 10. 1957 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15135.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Guttmann</p>
                         <p class="personenname"></p>
                         <p><i>Malerin</i></p>

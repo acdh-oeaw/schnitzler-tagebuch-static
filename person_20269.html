@@ -73,8 +73,16 @@
                   <h2 align="center">Richard Spiro <span class="lebensdaten">(23. 7. 1869 Český Krumlov – 1. 4. 1938 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20269.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Gastroenterologe</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Moritz Stuckart <span class="lebensdaten">(27. 11. 1856 Dačice – 16. 11. 1919 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20549.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Polizeipräsident</i></p>
                      </div>
                      <div id="mentions">

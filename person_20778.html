@@ -73,8 +73,16 @@
                   <h2 align="center">Alfred Topolanski <span class="lebensdaten">(29. 6. 1861 Bratislava – 25. 8. 1960 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_20778.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Augenarzt</i></p>
                      </div>
                      <div id="mentions">

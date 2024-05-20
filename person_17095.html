@@ -73,8 +73,16 @@
                   <h2 align="center">Jozef Ignacy Kraszewski <span class="lebensdaten">(28. 7. 1812 Warschau – 19. 3. 1887 Genf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17095.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Maler, Historiker, Linguist, Künstler</i></p>
                      </div>

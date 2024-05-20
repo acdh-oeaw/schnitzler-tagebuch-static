@@ -73,8 +73,16 @@
                   <h2 align="center">Johanna Feizlmayr <span class="lebensdaten">(28. 10. 1880 Steyr – 6. 6. 1962 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14921.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Just</p>
                         <p><i>Hausangestellte</i></p>
                      </div>

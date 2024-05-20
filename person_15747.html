@@ -73,8 +73,16 @@
                   <h2 align="center">Sacha Guitry <span class="lebensdaten">(21. 1. 1885 Sankt Petersburg – 24. 7. 1957 Paris)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15747.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schriftsteller, Regisseur, Schauspieler, Drehbuchautor</i></p>
                      </div>

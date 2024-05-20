@@ -73,8 +73,16 @@
                   <h2 align="center">Maria Ley <span class="lebensdaten">(1. 8. 1898 Wien – 14. 10. 1999 New York City)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17497.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Tänzerin</i></p>
                      </div>
                      <div id="mentions">

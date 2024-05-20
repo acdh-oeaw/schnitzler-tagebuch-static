@@ -73,8 +73,16 @@
                   <h2 align="center">Elsa Engländer <span class="lebensdaten">(5. 7. 1870 Wien – 2. 5. 1938 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14759.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Engländer</p>
                         <p class="personenname"></p>
                      </div>

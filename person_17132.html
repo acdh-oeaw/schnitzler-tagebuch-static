@@ -73,8 +73,16 @@
                   <h2 align="center">Ernst Křenek <span class="lebensdaten">(23. 8. 1900 Wien – 23. 12. 1991 Palm Springs)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17132.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Komponist%20Ernst%20Krenek%201937.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

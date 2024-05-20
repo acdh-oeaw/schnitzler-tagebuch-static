@@ -73,8 +73,16 @@
                   <h2 align="center">Aurelie Haberfeld <span class="lebensdaten">(29. 6. 1883 Konskau – 10. 1. 1959 São Paulo)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15821.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Axter</p>
                         <p><i>Medizinerin</i></p>
                      </div>

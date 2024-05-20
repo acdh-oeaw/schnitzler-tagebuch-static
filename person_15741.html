@@ -73,8 +73,16 @@
                   <h2 align="center">Yvette Guilbert <span class="lebensdaten">(20. 1. 1865 Paris – 3. 2. 1944 Aix-en-Provence)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15741.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/YvetteGuilbert.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

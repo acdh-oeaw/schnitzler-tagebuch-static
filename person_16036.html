@@ -73,8 +73,16 @@
                   <h2 align="center">Emil Heilbut <span class="lebensdaten">(2. 4. 1861 Hamburg – 16. 2. 1921 Montreux)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_16036.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">Pseudonym Hermann Helferich</p>
                         <p class="personenname"></p>
                         <p><i>Journalist, Kunstschriftsteller, Sammler</i></p>

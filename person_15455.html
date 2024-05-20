@@ -73,8 +73,16 @@
                   <h2 align="center">Erika Glässner <span class="lebensdaten">(28. 2. 1896 Erfurt – 1951? Düsseldorf)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_15455.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin, Tänzerin, Filmschauspielerin</i></p>
                      </div>

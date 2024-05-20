@@ -73,8 +73,16 @@
                   <h2 align="center">Friederike Ergas <span class="lebensdaten">(30. 4. 1886 Wien – 15. 3. 1971 Diez)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_14784.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Schaffer</p>
                         <p class="personenname"></p>
                         <p><i>Schauspielerin</i></p>

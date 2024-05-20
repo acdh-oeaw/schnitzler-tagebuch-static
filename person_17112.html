@@ -73,8 +73,16 @@
                   <h2 align="center">Mathilde Kraus <span class="lebensdaten">(18. 7. 1852 Böhmen – 8. 11. 1935 Chicago)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17112.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Hirsch</p>
                      </div>
                      <div id="mentions">

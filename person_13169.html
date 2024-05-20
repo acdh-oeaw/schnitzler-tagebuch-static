@@ -73,8 +73,16 @@
                   <h2 align="center">Emma Altmann <span class="lebensdaten">(22. 10. 1849 Budapest – 31. 12. 1930 Wien)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_13169.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p class="personenname">geboren Strasser</p>
                      </div>
                      <div id="mentions">

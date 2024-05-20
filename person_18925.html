@@ -73,8 +73,16 @@
                   <h2 align="center">Jakob Elias Poritzky <span class="lebensdaten">(13. 1. 1876 Łomża – 1. 2. 1935 Berlin)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div class="WikimediaContainer">
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18925.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div class="WikimediaContainer">
                         <div class="WikimediaLeft-div">
                            <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Familie%20poritzky.jpg" alt="Image" width="200px;"></img></figure>
                         </div>

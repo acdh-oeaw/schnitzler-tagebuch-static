@@ -73,8 +73,16 @@
                   <h2 align="center">Adolf Lentner <span class="lebensdaten">(25. 7. 1851 München – 17. 1. 1932 München)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_17441.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Theatermaler</i></p>
                      </div>
                      <div id="mentions">

@@ -73,8 +73,16 @@
                   <h2 align="center">Robert Carl Porges <span class="lebensdaten">(21. 6. 1862 Olomouc – 15. 5. 1928 Sulz im Wienerwald)</span></h2>
                </div>
                <div class="card-body-index">
-                  <div class="card-body-index">
-                     <div>
+                  <div class="card-body-index"><script>
+                function getTitle() {
+                var title = 'tagebuch-vorkommen-jahr_person_18924.csv';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script><div>
                         <p><i>Chirurg, Sanatoriumsleiter</i></p>
                      </div>
                      <div id="mentions">
